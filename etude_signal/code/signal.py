@@ -84,7 +84,7 @@ def numeral_position(position, text, bool_normalize = True):
         num_line += 1
         total_text_words += len(sent.split())
     # print("taille du text du text trouver en haut   ", len(text.split()))
-    print("taille du text du text trouver en haut   ", text.split())
+    # print("taille du text du text trouver en haut   ", text.split())
     return position_word_span
 
 
@@ -117,12 +117,12 @@ with open(path_data+'dev-v1.1.json', 'r') as input:
                     if not(sentence_positionRelative in list_ans):
                         print("debut")
                         print("reponse attendu   ", answer['text'])
-                        print("pos", pos)
-                        print("lettre attendu   ", paragraph['context'][pos])
-                        print("taille du texte   ", len(text_parag_tokens))
-                        print("position   ", position_Word)
-                        print("reponse sorti   ", text_parag_tokens[position_Word-1])
-                        print("FIn")
+                        # print("pos", pos)
+                        # print("lettre attendu   ", paragraph['context'][pos])
+                        # print("taille du texte   ", len(text_parag_tokens))
+                        # print("position   ", position_Word)
+                        # print("reponse sorti   ", text_parag_tokens[position_Word-1])
+                        # print("FIn")
                         total_answer += 1
                         list_ans.append(sentence_positionRelative)
                         sentence_positionRelative = round(sentence_positionRelative, 1)
