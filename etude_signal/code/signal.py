@@ -100,7 +100,6 @@ def numeral_position(position, text, bool_normalize = True):
         if position <= taille: #si on a trouver la phrase
             taille_mot = taille - (len(sent) + 1)
             sent = sent.replace(" ", "#")
-            print(word_tokenize(sent))
             for word in word_tokenize(sent):
                 taille_mot += len(word)
                 if position <= taille_mot:
@@ -119,42 +118,43 @@ with open(path_data+'dev-v1.1.json', 'r') as input:
 
     for data in d['data']:
         for paragraph in data['paragraphs']:
-            text_parag_tokens_1 = sent_tokenize(paragraph['context'])
-            text_parag_tokens_1 = list(map(lambda s: s.split(), text_parag_tokens_1))
+            # text_parag_tokens_1 = sent_tokenize(paragraph['context'])
+            # text_parag_tokens_1 = list(map(lambda s: s.split(), text_parag_tokens_1))
             text_parag_tokens = []
-            for list_words in text_parag_tokens_1:
-                text_parag_tokens += list_words
+            # for list_words in text_parag_tokens_1:
+            #     text_parag_tokens += list_words
             # print(text_parag_tokens)
             for question in paragraph['qas']:
                 list_ans = []
                 for answer in question['answers']:
                     pos = answer['answer_start']
 
-                    total_text_char = 0
-                    do = True
-                    for word in paragraph['context'].split():
-                        total_text_char += len(word)+1
-                        if total_text_char > pos and do:
-                            do = False
-                    sentence_positionRelative = numeral_position(pos, paragraph['context'], True)
+                    # total_text_char = 0
+                    # do = True
+                    # for word in paragraph['context'].split():
+                    #     total_text_char += len(word)+1
+                    #     if total_text_char > pos and do:
+                    #         do = False
+                    # sentence_positionRelative = numeral_position(pos, paragraph['context'], True)
+                    print("reponse attendu   ", answer['text'])
                     position_Word = numeral_position(pos, paragraph['context'], True)
-                    if not(sentence_positionRelative in list_ans):
-                        print("debut")
-                        print("reponse attendu   ", answer['text'])
-                        # print("pos", pos)
-                        # print("lettre attendu   ", paragraph['context'][pos])
-                        # print("taille du texte   ", len(text_parag_tokens))
-                        # print("position   ", position_Word)
-                        # print("reponse sorti   ", text_parag_tokens[position_Word-1])
-                        # print("FIn")
-                        total_answer += 1
-                        list_ans.append(sentence_positionRelative)
-                        sentence_positionRelative = round(sentence_positionRelative, 1)
-                        # sentence_positionRelative = sentence_positionRelative
-                        if sentence_positionRelative in dict:
-                            dict[sentence_positionRelative] += 1
-                        else:
-                            dict[sentence_positionRelative] = 1
+                    # if not(sentence_positionRelative in list_ans):
+                    #     # print("debut")
+                    #     print("reponse attendu   ", answer['text'])
+                    #     # print("pos", pos)
+                    #     # print("lettre attendu   ", paragraph['context'][pos])
+                    #     # print("taille du texte   ", len(text_parag_tokens))
+                    #     # print("position   ", position_Word)
+                    #     # print("reponse sorti   ", text_parag_tokens[position_Word-1])
+                    #     # print("FIn")
+                    #     total_answer += 1
+                    #     list_ans.append(sentence_positionRelative)
+                    #     sentence_positionRelative = round(sentence_positionRelative, 1)
+                    #     # sentence_positionRelative = sentence_positionRelative
+                    #     if sentence_positionRelative in dict:
+                    #         dict[sentence_positionRelative] += 1
+                    #     else:
+                    #         dict[sentence_positionRelative] = 1
 
 
 
