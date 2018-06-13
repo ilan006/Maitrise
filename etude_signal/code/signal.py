@@ -13,6 +13,7 @@ path_dest = '../../data_perso/'
 
 sys.path.append("../../")
 from nltk import sent_tokenize
+from nltk import word_tokenize
 import operator
 
 dict = {}
@@ -43,7 +44,8 @@ n_param = 30
 def avg_sentence_vector(sentence, model: fastText, with_steming = with_steming_param):
     num_features = model.get_dimension()
     featureVec = np.zeros(num_features, dtype="float32")
-    words = sentence.split()
+    words = word_tokenize(sentence)
+    print(words)
     words = (list(map(ps.stem, words)) if with_steming else words)
     for word in words:
         featureVec = np.add(featureVec, model.get_word_vector(word))
@@ -54,38 +56,59 @@ def avg_sentence_vector(sentence, model: fastText, with_steming = with_steming_p
 def cosine_similarity(vec1, vec2):
     return np.dot(vec1, vec2) / (np.linalg.norm(vec1) * np.linalg.norm(vec2))
 
+# def numeral_position(position, text, bool_normalize = True):
+#     global len_final,nb_par
+#     total_text_words = 0
+#     tab_sent = sent_tokenize(text)
+#     taille = 0
+#     num_line = 1
+#     position_word_span = 0
+#     do = True
+#     num_phrase = 0
+#     nb_par +=1
+#     for sent in tab_sent:
+#         num_phrase += 1
+#         taille += len(sent) + 1
+#         if position <= taille and do: #si on a trouver la phrase
+#                 # print("fin")
+#                 # print(sent)
+#                 # print(position)
+#                 # print(len(text))
+#
+#             position_word_span = total_text_words + 1
+#             taille_mot = taille - (len(sent) + 1)
+#             for word in word_tokenize(sent):
+#                 if position <= taille_mot:
+#                     do = False
+#                     break
+#                 taille_mot += len(word) + 1
+#                 position_word_span += 1
+#         num_line += 1
+#         total_text_words += len(sent.split())
+#     # print("taille du text du text trouver en haut   ", len(text.split()))
+#     # print("taille du text du text trouver en haut   ", text.split())
+#     return position_word_span
+
+
+
 def numeral_position(position, text, bool_normalize = True):
-    global len_final,nb_par
-    total_text_words = 0
     tab_sent = sent_tokenize(text)
     taille = 0
-    num_line = 1
-    position_word_span = 0
-    do = True
-    num_phrase = 0
-    nb_par +=1
+    position_word_span = 1
     for sent in tab_sent:
-        num_phrase += 1
         taille += len(sent) + 1
-        if position <= taille and do: #si on a trouver la phrase
-                # print("fin")
-                # print(sent)
-                # print(position)
-                # print(len(text))
-
-            position_word_span = total_text_words + 1
+        if position <= taille: #si on a trouver la phrase
             taille_mot = taille - (len(sent) + 1)
-            for word in sent.split():
+            sent = sent.replace(" ", "#")
+            for word in word_tokenize(sent):
+                taille_mot += len(word)
                 if position <= taille_mot:
-                    do = False
-                    break
-                taille_mot += len(word) + 1
-                position_word_span += 1
-        num_line += 1
-        total_text_words += len(sent.split())
-    # print("taille du text du text trouver en haut   ", len(text.split()))
-    # print("taille du text du text trouver en haut   ", text.split())
-    return position_word_span
+                    print("mot correspondant", word)
+                    return position_word_span
+                if word != "#" :
+                    position_word_span += 1
+        else :
+            position_word_span += len(word_tokenize(sent))
 
 
 total_answer = 0
