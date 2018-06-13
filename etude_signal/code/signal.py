@@ -93,7 +93,7 @@ def cosine_similarity(vec1, vec2):
 
 def numeral_position(position, text, bool_normalize = True):
     tab_sent = sent_tokenize(text)
-    taille = 0
+    taille = -1
     position_word_span = 1
     for sent in tab_sent:
         taille += len(sent) + 1
@@ -106,7 +106,7 @@ def numeral_position(position, text, bool_normalize = True):
                 if position <= taille_mot:
                     print("mot correspondant", word)
                     return position_word_span
-                if word != "#" :
+                if word != "#":
                     position_word_span += 1
         else :
             position_word_span += len(word_tokenize(sent))
