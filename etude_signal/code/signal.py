@@ -101,6 +101,7 @@ def numeral_position(position, text, bool_normalize = True):
             taille_mot = taille - (len(sent) + 1)
             sent = sent.replace(" ", "#")
             for word in word_tokenize(sent):
+                print(word_tokenize(sent))
                 taille_mot += len(word)
                 if position <= taille_mot:
                     print("mot correspondant", word)
