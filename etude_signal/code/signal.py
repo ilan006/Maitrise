@@ -100,8 +100,8 @@ def numeral_position(position, text, bool_normalize = True):
         if position <= taille: #si on a trouver la phrase
             taille_mot = taille - (len(sent) + 1)
             sent = sent.replace(" ", "#")
+            print(word_tokenize(sent))
             for word in word_tokenize(sent):
-                print(word_tokenize(sent))
                 taille_mot += len(word)
                 if position <= taille_mot:
                     print("mot correspondant", word)
