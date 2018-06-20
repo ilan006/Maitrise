@@ -102,11 +102,18 @@ def numeral_position(position, text, bool_affichage = False):
             taille_mot = taille - (len(sent) + 1)
             if bool_affichage: print(taille_mot)
             sent = sent.replace(" ", "#")
+            # print("moooooooot#########################")
             diez_prec = False
             for word in word_tokenize(sent):
                 if word == "\'\'":
                     word ="\""
                 taille_mot += len(word)
+                # if bool_affichage:
+                #     print(word)
+                #     print(taille_mot)
+                #     print(position_word_span)
+
+
                 if position <= taille_mot:
                     # print("mot correspondant", word)
                     return position_word_span
