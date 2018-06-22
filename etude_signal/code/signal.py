@@ -144,7 +144,7 @@ with open(path_data+'dev-v1.1.json', 'r') as input:
                 for answer in question['answers']:
                     pos = answer['answer_start']
                     position_Word = numeral_position(pos, paragraph['context'])
-                    if (word_tokenize(answer['text'])[0]== word_tokenize(paragraph['context'])[position_Word]):
+                    if (word_tokenize(answer['text'])[0] == word_tokenize(paragraph['context'])[position_Word]):
                         pareil += 1
                         repondu = True
                         break
