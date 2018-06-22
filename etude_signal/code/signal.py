@@ -5,6 +5,7 @@ import numpy as np
 import json
 import sys
 import time
+import math
 from nltk import ngrams
 from nltk.stem import PorterStemmer
 ps = PorterStemmer()
@@ -45,7 +46,6 @@ def avg_sentence_vector(sentence, model: fastText, with_steming = with_steming_p
     num_features = model.get_dimension()
     featureVec = np.zeros(num_features, dtype="float32")
     words = word_tokenize(sentence)
-    print(words)
     words = (list(map(ps.stem, words)) if with_steming else words)
     for word in words:
         featureVec = np.add(featureVec, model.get_word_vector(word))
@@ -119,7 +119,7 @@ def numeral_position(position, text, bool_affichage = False):
         else:
             position_word_span += len(word_tokenize(sent))
 
-
+sim_moy = 0
 total_answer = 0
 with open(path_data+'dev-v1.1.json', 'r') as input:
     d = json.load(input)
@@ -147,12 +147,20 @@ with open(path_data+'dev-v1.1.json', 'r') as input:
                     if (word_tokenize(answer['text'])[0] == word_tokenize(paragraph['context'])[position_Word]):
                         pareil += 1
                         repondu = True
+                        vect_avg_question = avg_sentence_vector(question['question'], model)
+                        span = " ".join(word_tokenize(paragraph['context'])[position_Word-1:position_Word+1])
+                        vect_avg_span = avg_sentence_vector(span, model)
+                        # print(cosine_similarity(vect_avg_question,vect_avg_span))
+                        if not math.isnan(cosine_similarity(vect_avg_question,vect_avg_span)):
+                            sim_moy += cosine_similarity(vect_avg_question,vect_avg_span)
                         break
                 if not repondu:
                     diff += 1
 
 print(diff)
 print(pareil)
+sim_moy /= pareil
+print(sim_moy)
 
 print(time.time() - time0)
 # with open(path_dest+'data_Dev.json', 'w') as outfile:
