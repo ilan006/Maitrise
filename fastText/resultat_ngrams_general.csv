@@ -1,0 +1,175 @@
+n,value,class
+1,0.5050141911,sans repli
+2,0.6115421003,sans repli
+3,0.6887417219,sans repli
+4,0.7276253548,sans repli
+5,0.7497634816,sans repli
+6,0.7569536424,sans repli
+7,0.7636707663,sans repli
+8,0.76859035,sans repli
+9,0.7674550615,sans repli
+10,0.7620624409,sans repli
+11,0.7573320719,sans repli
+12,0.7467360454,sans repli
+13,0.7386944182,sans repli
+14,0.7295175024,sans repli
+15,0.717218543,sans repli
+16,0.7001892148,sans repli
+17,0.6857142857,sans repli
+18,0.664333018,sans repli
+19,0.643897824,sans repli
+20,0.6189214759,sans repli
+21,0.5999053926,sans repli
+22,0.5789025544,sans repli
+23,0.554115421,sans repli
+24,0.5344370861,sans repli
+25,0.5191106906,sans repli
+26,0.5024597919,sans repli
+27,0.4891201514,sans repli
+28,0.4722800378,sans repli
+29,0.4598864711,sans repli
+1,0.5050141911,repli phrase
+2,0.6115421003,repli phrase
+3,0.6887417219,repli phrase
+4,0.7276253548,repli phrase
+5,0.7496688742,repli phrase
+6,0.756859035,repli phrase
+7,0.7646168401,repli phrase
+8,0.7718070009,repli phrase
+9,0.7737937559,repli phrase
+10,0.7731315043,repli phrase
+11,0.7744560076,repli phrase
+12,0.7708609272,repli phrase
+13,0.7726584674,repli phrase
+14,0.7762535478,repli phrase
+15,0.7754966887,repli phrase
+16,0.7744560076,repli phrase
+17,0.775307474,repli phrase
+18,0.7736045412,repli phrase
+19,0.773320719,repli phrase
+20,0.7701986755,repli phrase
+21,0.7692526017,repli phrase
+22,0.7676442763,repli phrase
+23,0.765846736,repli phrase
+24,0.7640491958,repli phrase
+25,0.7637653737,repli phrase
+26,0.7628192999,repli phrase
+27,0.7604541154,repli phrase
+28,0.7607379376,repli phrase
+29,0.7618732261,repli phrase
+1,0.5050141911,repli_phrase_n_cos
+2,0.6112582781,repli_phrase_n_cos
+3,0.6843897824,repli_phrase_n_cos
+4,0.7278145695,repli_phrase_n_cos
+5,0.7497634816,repli_phrase_n_cos
+6,0.7595080416,repli_phrase_n_cos
+7,0.7671712394,repli_phrase_n_cos
+8,0.7758751183,repli_phrase_n_cos
+9,0.7768211921,repli_phrase_n_cos
+10,0.7807000946,repli_phrase_n_cos
+11,0.7831598865,repli_phrase_n_cos
+12,0.7850520341,repli_phrase_n_cos
+13,0.7861873226,repli_phrase_n_cos
+14,0.7874172185,repli_phrase_n_cos
+15,0.7892147588,repli_phrase_n_cos
+16,0.7900662252,repli_phrase_n_cos
+17,0.7895931883,repli_phrase_n_cos
+18,0.7911069063,repli_phrase_n_cos
+19,0.7907284768,repli_phrase_n_cos
+20,0.7899716178,repli_phrase_n_cos
+21,0.7902554399,repli_phrase_n_cos
+22,0.789782403,repli_phrase_n_cos
+23,0.7894985809,repli_phrase_n_cos
+24,0.7895931883,repli_phrase_n_cos
+25,0.7899716178,repli_phrase_n_cos
+26,0.7898770104,repli_phrase_n_cos
+27,0.7901608325,repli_phrase_n_cos
+28,0.7904446547,repli_phrase_n_cos
+29,0.7903500473,repli_phrase_n_cos
+1,0.4072847682,no_repli_dice
+2,0.5171239357,no_repli_dice
+3,0.6378429518,no_repli_dice
+4,0.6981078524,no_repli_dice
+5,0.7368022706,no_repli_dice
+6,0.7527909177,no_repli_dice
+7,0.7586565752,no_repli_dice
+8,0.7627246925,no_repli_dice
+9,0.7627246925,no_repli_dice
+10,0.7579943236,no_repli_dice
+11,0.7532639546,no_repli_dice
+12,0.7432355724,no_repli_dice
+13,0.7359508042,no_repli_dice
+14,0.7278145695,no_repli_dice
+15,0.7135288553,no_repli_dice
+16,0.6977294229,no_repli_dice
+17,0.6824976348,no_repli_dice
+18,0.6613055818,no_repli_dice
+19,0.6404919584,no_repli_dice
+20,0.6145695364,no_repli_dice
+21,0.5963103122,no_repli_dice
+22,0.5751182592,no_repli_dice
+23,0.5538315989,no_repli_dice
+24,0.5334910123,no_repli_dice
+25,0.5175969726,no_repli_dice
+26,0.5009460738,no_repli_dice
+27,0.4877010407,no_repli_dice
+28,0.4719016083,no_repli_dice
+29,0.4580889309,no_repli_dice
+1,0.4072847682,repli_phrase_dice
+2,0.5171239357,repli_phrase_dice
+3,0.6380321665,repli_phrase_dice
+4,0.6981078524,repli_phrase_dice
+5,0.7367076632,repli_phrase_dice
+6,0.7527909177,repli_phrase_dice
+7,0.759602649,repli_phrase_dice
+8,0.7660359508,repli_phrase_dice
+9,0.7688741722,repli_phrase_dice
+10,0.7688741722,repli_phrase_dice
+11,0.7702932829,repli_phrase_dice
+12,0.7669820246,repli_phrase_dice
+13,0.7690633869,repli_phrase_dice
+14,0.7728476821,repli_phrase_dice
+15,0.7707663198,repli_phrase_dice
+16,0.7711447493,repli_phrase_dice
+17,0.7701040681,repli_phrase_dice
+18,0.7684957427,repli_phrase_dice
+19,0.765846736,repli_phrase_dice
+20,0.7613055818,repli_phrase_dice
+21,0.7616840114,repli_phrase_dice
+22,0.760359508,repli_phrase_dice
+23,0.7611163671,repli_phrase_dice
+24,0.7587511826,repli_phrase_dice
+25,0.7578997162,repli_phrase_dice
+26,0.756102176,repli_phrase_dice
+27,0.7555345317,repli_phrase_dice
+28,0.7557237465,repli_phrase_dice
+29,0.7550614948,repli_phrase_dice
+1,0.7583727531,phrase_repli__n_cos
+2,0.7618732261,phrase_repli__n_cos
+3,0.7669820246,phrase_repli__n_cos
+4,0.773320719,phrase_repli__n_cos
+5,0.7761589404,phrase_repli__n_cos
+6,0.780037843,phrase_repli__n_cos
+7,0.7816461684,phrase_repli__n_cos
+8,0.7822138127,phrase_repli__n_cos
+9,0.7847682119,phrase_repli__n_cos
+10,0.7866603595,phrase_repli__n_cos
+11,0.7874172185,phrase_repli__n_cos
+12,0.7893093661,phrase_repli__n_cos
+13,0.7902554399,phrase_repli__n_cos
+14,0.789782403,phrase_repli__n_cos
+15,0.7916745506,phrase_repli__n_cos
+16,0.7914853359,phrase_repli__n_cos
+17,0.7919583728,phrase_repli__n_cos
+18,0.7924314096,phrase_repli__n_cos
+19,0.7919583728,phrase_repli__n_cos
+20,0.7912961211,phrase_repli__n_cos
+21,0.7909176916,phrase_repli__n_cos
+22,0.7905392621,phrase_repli__n_cos
+23,0.7901608325,phrase_repli__n_cos
+24,0.789782403,phrase_repli__n_cos
+25,0.7899716178,phrase_repli__n_cos
+26,0.7900662252,phrase_repli__n_cos
+27,0.7899716178,phrase_repli__n_cos
+28,0.7899716178,phrase_repli__n_cos
+29,0.7899716178,phrase_repli__n_cos
