@@ -148,7 +148,7 @@ with open(path_data+'dev-v1.1.json', 'r') as input:
                         pareil += 1
                         repondu = True
                         vect_avg_question = avg_sentence_vector(question['question'], model)
-                        span = " ".join(word_tokenize(paragraph['context'])[position_Word-1:position_Word+1])
+                        span = " ".join(word_tokenize(paragraph['context'])[position_Word-2:position_Word+1])
                         vect_avg_span = avg_sentence_vector(span, model)
                         # print(cosine_similarity(vect_avg_question,vect_avg_span))
                         if not math.isnan(cosine_similarity(vect_avg_question,vect_avg_span)):
