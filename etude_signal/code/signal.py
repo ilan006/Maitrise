@@ -1,6 +1,6 @@
 import fastText
-from nltk import sent_tokenize
-from gensim.models import Word2Vec
+#from nltk import sent_tokenize
+#from gensim.models import Word2Vec
 import numpy as np
 import json
 import sys
@@ -27,7 +27,7 @@ nb_par = 0
 
 
 
-model = fastText.load_model('../../wiki.simple/wiki.simple.bin')
+model = fastText.load_model('../../../Divers_Data_Maitrise/wiki.simple/wiki.simple.bin')
 #model = fastText.load_model('../embeding_perso_fastText/data_embeding.bin')
 #model = fastText.load_model('../embeding_perso_fastText/train_steam_embeding.bin')
 
