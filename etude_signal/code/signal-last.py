@@ -121,7 +121,7 @@ def numeral_position(position, text, bool_affichage = False):
 
 sim_moy = 0
 taille_elargissement = 10
-sim_moy = [0] * taille_elargissement
+sim_moy = [0.0] * taille_elargissement
 total_answer = 0
 with open(path_data+'dev-v1.1.json', 'r') as input:
     d = json.load(input)
