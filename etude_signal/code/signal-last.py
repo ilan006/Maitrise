@@ -123,8 +123,6 @@ sim_moy = 0
 taille_elargissement = 10
 sim_moy = [0.0] * taille_elargissement
 total_answer = 0
-for elargissement in range(taille_elargissement+1):
-
 
 with open(path_data+'dev-v1.1.json', 'r') as input:
     d = json.load(input)
