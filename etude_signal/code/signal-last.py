@@ -151,7 +151,8 @@ with open(path_data+'dev-v1.1.json', 'r') as input:
                         pareil += 1
                         repondu = True
                         vect_avg_question = avg_sentence_vector(question['question'], model)
-                        print(taille_elargissement)
+                        print("taillllllllllllllllllllllllllllllllllllle", taille_elargissement)
+                        time.sleep(5)
                         for elargissement in range(taille_elargissement+1):
                             print(elargissement)
                             # print(elargissement)
