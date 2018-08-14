@@ -124,7 +124,7 @@ taille_elargissement = 10
 sim_moy = [0.0] * taille_elargissement
 total_answer = 0
 for elargissement in range(taille_elargissement+1):
-    print(elargissement)
+
 
 with open(path_data+'dev-v1.1.json', 'r') as input:
     d = json.load(input)
@@ -154,6 +154,7 @@ with open(path_data+'dev-v1.1.json', 'r') as input:
                         repondu = True
                         vect_avg_question = avg_sentence_vector(question['question'], model)
                         for elargissement in range(taille_elargissement+1):
+                            print(elargissement)
                             # print(elargissement)
                             span = " ".join(word_tokenize(paragraph['context'])[position_Word-elargissement:position_Word+1])
                             vect_avg_span = avg_sentence_vector(span, model)
