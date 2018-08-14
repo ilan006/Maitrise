@@ -122,7 +122,6 @@ def numeral_position(position, text, bool_affichage = False):
 sim_moy = 0
 taille_elargissement = 10
 sim_moy = [0] * taille_elargissement
-print(sim_moy)
 total_answer = 0
 with open(path_data+'dev-v1.1.json', 'r') as input:
     d = json.load(input)
@@ -163,8 +162,9 @@ with open(path_data+'dev-v1.1.json', 'r') as input:
 
 print(diff)
 print(pareil)
-sim_moy /= pareil
-print(sim_moy)
+for elem in sim_moy:
+    # sim_moy[elargissement] /= pareil
+    print(elem/pareil)
 
 print(time.time() - time0)
 # with open(path_dest+'data_Dev.json', 'w') as outfile:
