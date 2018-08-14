@@ -164,7 +164,7 @@ print(diff)
 print(pareil)
 for elem in sim_moy:
     # sim_moy[elargissement] /= pareil
-    print(elem/pareil)
+    print(elem/float(pareil))
 
 print(time.time() - time0)
 # with open(path_dest+'data_Dev.json', 'w') as outfile:
