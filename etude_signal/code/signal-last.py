@@ -161,7 +161,7 @@ with open(path_data+'dev-v1.1.json', 'r') as input:
                             # print(cosine_similarity(vect_avg_question,vect_avg_span))
                             if not math.isnan(cosine_similarity(vect_avg_question,vect_avg_span)):
                                 sim_moy[elargissement] += cosine_similarity(vect_avg_question,vect_avg_span)
-                            break
+                        break
                         print("fin")
                         time.sleep(5)
                         # print(sim_moy)
