@@ -120,6 +120,9 @@ def numeral_position(position, text, bool_affichage = False):
             position_word_span += len(word_tokenize(sent))
 
 sim_moy = 0
+taille_elargissement = 10
+sim_moy = [0] * taille_elargissement
+print(sim_moy)
 total_answer = 0
 with open(path_data+'dev-v1.1.json', 'r') as input:
     d = json.load(input)
