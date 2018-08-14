@@ -151,7 +151,7 @@ with open(path_data+'dev-v1.1.json', 'r') as input:
                         pareil += 1
                         repondu = True
                         vect_avg_question = avg_sentence_vector(question['question'], model)
-                        print("taillllllllllllllllllllllllllllllllllllle", taille_elargissement)
+                        print("debut")
                         time.sleep(5)
                         for elargissement in range(taille_elargissement+1):
                             print(elargissement)
@@ -162,6 +162,8 @@ with open(path_data+'dev-v1.1.json', 'r') as input:
                             if not math.isnan(cosine_similarity(vect_avg_question,vect_avg_span)):
                                 sim_moy[elargissement] += cosine_similarity(vect_avg_question,vect_avg_span)
                             break
+                        print("fin")
+                        time.sleep(5)
                         # print(sim_moy)
                 if not repondu:
                     diff += 1
