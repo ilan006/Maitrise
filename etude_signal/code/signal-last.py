@@ -168,7 +168,7 @@ with open(path_data+'dev-v1.1.json', 'r') as input:
 
 
                 compteur_question+=1
-                if compteur_question == 2 :
+                if compteur_question == 3 :
                     break
                 else :
                     sim_moy = [0.0] * (taille_elargissement + 1)
