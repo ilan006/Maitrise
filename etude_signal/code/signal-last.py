@@ -164,6 +164,10 @@ with open(path_data+'dev-v1.1.json', 'r') as input:
                 if not repondu:
                     diff += 1
 
+                break
+            break
+        break
+
 print(diff)
 print(pareil)
 for elem in sim_moy:
