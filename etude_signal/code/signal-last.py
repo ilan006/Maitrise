@@ -152,10 +152,10 @@ with open(path_data+'dev-v1.1.json', 'r') as input:
                         pareil += 1
                         repondu = True
                         vect_avg_question = avg_sentence_vector(question['question'], model)
-                        for elargissement in range(taille_elargissement+1):
+                        for elargissement in range(0,taille_elargissement+1,2):
                             # print(elargissement)
-                            span = " ".join(word_tokenize(paragraph['context'])[position_Word-elargissement:position_Word-elargissement+1])
-                            # span = " ".join(word_tokenize(paragraph['context'])[position_Word + elargissement:position_Word + elargissement + 1])
+                            # span = " ".join(word_tokenize(paragraph['context'])[position_Word-elargissement:position_Word-elargissement+2])
+                            span = " ".join(word_tokenize(paragraph['context'])[position_Word + elargissement:position_Word + elargissement + 2])
                             # span = " ".join(word_tokenize(paragraph['context'])[position_Word - 10 :position_Word - 9])
                             vect_avg_span = avg_sentence_vector(span, model)
                             # print(cosine_similarity(vect_avg_question,vect_avg_span))
@@ -167,20 +167,20 @@ with open(path_data+'dev-v1.1.json', 'r') as input:
                     diff += 1
 
 
-                compteur_question+=1
-                if compteur_question == 4 :
-                    break
-                else :
-                    sim_moy = [0.0] * (taille_elargissement + 1)
-            break
-        break
+        #         compteur_question+=1
+        #         if compteur_question == 4 :
+        #             break
+        #         else :
+        #             sim_moy = [0.0] * (taille_elargissement + 1)
+        #     break
+        # break
 
 print(diff)
 print(pareil)
 for elem in sim_moy:
     # sim_moy[elargissement] /= pareil
-    # print(elem/float(pareil))
-    print(elem)
+    print(elem/float(pareil))
+    # print(elem)
 
 print(time.time() - time0)
 # with open(path_dest+'data_Dev.json', 'w') as outfile:
