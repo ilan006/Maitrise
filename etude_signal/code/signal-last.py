@@ -154,7 +154,7 @@ with open(path_data+'dev-v1.1.json', 'r') as input:
                         for elargissement in range(-10,11):
                             # print(elargissement)
                             span = " ".join(word_tokenize(paragraph['context'])[position_Word+elargissement:position_Word+elargissement+1])
-                            print(span)
+                            # print(span)
                             vect_avg_span = avg_sentence_vector(span, model)
                             # print(cosine_similarity(vect_avg_question,vect_avg_span))
                             if not math.isnan(cosine_similarity(vect_avg_question,vect_avg_span)):
