@@ -130,6 +130,7 @@ with open(path_data+'dev-v1.1.json', 'r') as input:
     pareil= 0
     diff= 0
     num_question = 0
+    compteur_question = 0
     for data in d['data']:
         for paragraph in data['paragraphs']:
             # text_parag_tokens_1 = sent_tokenize(paragraph['context'])
@@ -164,7 +165,12 @@ with open(path_data+'dev-v1.1.json', 'r') as input:
                 if not repondu:
                     diff += 1
 
-                break
+
+                compteur_question+=1
+                if compteur_question == 1 :
+                    break
+                else :
+                    sim_moy = [0.0] * (taille_elargissement + 1)
             break
         break
 
@@ -172,7 +178,8 @@ print(diff)
 print(pareil)
 for elem in sim_moy:
     # sim_moy[elargissement] /= pareil
-    print(elem/float(pareil))
+    # print(elem/float(pareil))
+    print(elem)
 
 print(time.time() - time0)
 # with open(path_dest+'data_Dev.json', 'w') as outfile:
