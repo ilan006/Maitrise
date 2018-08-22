@@ -120,7 +120,7 @@ def numeral_position(position, text, bool_affichage = False):
             position_word_span += len(word_tokenize(sent))
 
 sim_moy = 0
-taille_elargissement = 10
+taille_elargissement = 20
 sim_moy = [0.0] * (taille_elargissement+1)
 total_answer = 0
 
@@ -151,9 +151,10 @@ with open(path_data+'dev-v1.1.json', 'r') as input:
                         pareil += 1
                         repondu = True
                         vect_avg_question = avg_sentence_vector(question['question'], model)
-                        for elargissement in range(taille_elargissement+1):
+                        for elargissement in range(-10,11):
                             # print(elargissement)
-                            span = " ".join(word_tokenize(paragraph['context'])[position_Word:position_Word+elargissement+1])
+                            span = " ".join(word_tokenize(paragraph['context'])[position_Word+elargissement:position_Word+elargissement+1])
+                            print(span)
                             vect_avg_span = avg_sentence_vector(span, model)
                             # print(cosine_similarity(vect_avg_question,vect_avg_span))
                             if not math.isnan(cosine_similarity(vect_avg_question,vect_avg_span)):
