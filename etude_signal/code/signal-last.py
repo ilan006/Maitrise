@@ -152,10 +152,10 @@ with open(path_data+'dev-v1.1.json', 'r') as input:
                         pareil += 1
                         repondu = True
                         vect_avg_question = avg_sentence_vector(question['question'], model)
-                        for elargissement in range(0,taille_elargissement+1,2):
+                        for elargissement in range(0,taille_elargissement+1,3):
                             # print(elargissement)
-                            span = " ".join(word_tokenize(paragraph['context'])[position_Word-elargissement:position_Word-elargissement+2])
-                            # span = " ".join(word_tokenize(paragraph['context'])[position_Word + elargissement:position_Word + elargissement + 2])
+                            # span = " ".join(word_tokenize(paragraph['context'])[position_Word-elargissement:position_Word-elargissement+3])
+                            span = " ".join(word_tokenize(paragraph['context'])[position_Word + elargissement:position_Word + elargissement + 3])
                             # span = " ".join(word_tokenize(paragraph['context'])[position_Word - 10 :position_Word - 9])
                             vect_avg_span = avg_sentence_vector(span, model)
                             # print(cosine_similarity(vect_avg_question,vect_avg_span))
