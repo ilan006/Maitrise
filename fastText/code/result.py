@@ -1,12 +1,11 @@
 import fastText
+from nltk import sent_tokenize
 from gensim.models import Word2Vec
 import numpy as np
 import json
 import sys
 import time
 from nltk.stem import PorterStemmer
-from nltk import sent_tokenize
-from nltk import word_tokenize
 ps = PorterStemmer()
 
 model = fastText.load_model('../../../Divers_Data_Maitrise/wiki.simple/wiki.simple.bin')
@@ -42,7 +41,7 @@ def cosine_similarity(vec1, vec2):
 def avg_sentence_vector(sentence, model: fastText, with_steming = with_steming_param):
     num_features = model.get_dimension()
     featureVec = np.zeros(num_features, dtype="float32")
-    words = word_tokenize(sentence)
+    words = sentence.split()
     words = (list(map(ps.stem, words)) if with_steming else words)
     for word in words:
         featureVec = np.add(featureVec, model.get_word_vector(word))
