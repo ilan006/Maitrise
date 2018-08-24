@@ -9,12 +9,12 @@ from nltk import ngrams
 from nltk.stem import PorterStemmer
 ps = PorterStemmer()
 
-model = fastText.load_model('../wiki.simple/wiki.simple.bin')
+model = fastText.load_model('../../../Divers_Data_Maitrise/wiki.simple/wiki.simple.bin')
 #model = fastText.load_model('../embeding_perso_fastText/data_embeding.bin')
 #model = fastText.load_model('../embeding_perso_fastText/train_steam_embeding.bin')
 
-path_data = '../data/'
-path_dest = '../data_perso/'
+path_data = '../../../Data_Maitrise/data/'
+path_dest = '../../../Data_Maitrise/data_perso/'
 
 time1 = time.time()
 
