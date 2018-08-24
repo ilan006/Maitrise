@@ -8,12 +8,12 @@ import time
 from nltk.stem import PorterStemmer
 ps = PorterStemmer()
 
-model = fastText.load_model('../wiki.simple/wiki.simple.bin')
+model = fastText.load_model('../../Divers_Data_Maitrise/wiki.simple/wiki.simple.bin')
 #model = fastText.load_model('../embeding_perso_fastText/data_embeding.bin')
 #model = fastText.load_model('../embeding_perso_fastText/train_steam_embeding.bin')
 
-path_data = '../data/'
-path_dest = '../data_perso/'
+path_data = '../../Data_Maitrise/data/'
+path_dest = '../../Data_Maitrise/data_perso/'
 
 time1 = time.time()
 
@@ -60,6 +60,8 @@ with open(path_data + 'dev-v1.1.json', 'r') as input:
         for paragraph in data['paragraphs']:
             for question in paragraph['qas']:
                 num_quest += 1
+                if num_quest % 1000 == 0 :
+                    print(num_quest)
                 list_ans = []
                 list_ans = get_best_sentence(model, sent_tokenize(paragraph['context']), question['question'], k_best_sentences)
                 out_json[question['id']] = list_ans
