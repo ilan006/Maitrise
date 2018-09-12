@@ -1,0 +1,2 @@
+ 
+python3 evaluate/evaluate-v1.1.py ../Data_Maitrise/data/dev-v1.1.json Alignement/data_to_test/data_to_test.json

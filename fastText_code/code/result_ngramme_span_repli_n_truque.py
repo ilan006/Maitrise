@@ -9,7 +9,7 @@ from nltk import ngrams
 from nltk.stem import PorterStemmer
 ps = PorterStemmer()
 
-model = fastText.load_model('../wiki.simple/wiki.simple.bin')
+model = fastText.load_model('../../../Divers_Data_Maitrise/wiki.simple/wiki.simple.bin')
 #model = fastText.load_model('../embeding_perso_fastText/data_embeding.bin')
 #model = fastText.load_model('../embeding_perso_fastText/train_steam_embeding.bin')
 
