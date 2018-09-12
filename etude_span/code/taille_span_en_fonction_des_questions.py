@@ -1,7 +1,7 @@
 import json
 import sys
-path_data = '../../data/'
-path_dest = '../../data_perso/'
+path_data = '../../../Data_Maitrise/data/'
+path_dest = '../../../Data_Maitrise/data_perso/'
 
 sys.path.append("../../")
 from nltk import sent_tokenize
