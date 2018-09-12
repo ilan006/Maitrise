@@ -16,7 +16,7 @@ sys.path.append("../../")
 from nltk import sent_tokenize
 from nltk import word_tokenize
 import operator
-
+print("bonjour")
 dict = {}
 
 #programme qui retourne la position (en mots) du span relative dans le texte
