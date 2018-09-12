@@ -2,3 +2,6 @@
 *.iml
 */.idea/
 venv/*
+.python-version
+pyvenv.cfg
+env/*
