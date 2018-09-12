@@ -23,6 +23,7 @@ dict = {}
 dict_phrase_position = {}
 len_final = 0
 nb_par = 0
+print("bonjour")
 
 model = fastText.load_model('../../../Divers_Data_Maitrise/wiki.simple/wiki.simple.bin')
 #model = fastText.load_model('../embeding_perso_fastText/data_embeding.bin')
