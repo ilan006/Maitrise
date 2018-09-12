@@ -1,4 +1,4 @@
-import fasttext
+import fastText
 
 # Skipgram model
 model = fasttext.skipgram('data.txt', 'model')
