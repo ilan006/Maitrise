@@ -15,7 +15,6 @@ model = fastText.load_model('../../../Divers_Data_Maitrise/wiki.simple/wiki.simp
 
 path_data = '../data/'
 path_dest = '../data_test/'
-
 time0 = time.time()
 time1 = time.time()
 

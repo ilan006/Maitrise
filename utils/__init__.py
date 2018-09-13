@@ -1,1 +1,1 @@
-from .ClassifyQuestion import *
+from ClassifyQuestion import *
