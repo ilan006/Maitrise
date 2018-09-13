@@ -1,3 +1,6 @@
+import sys
+sys.path.insert(0, '../..')
+
 import fastText
 from nltk import sent_tokenize
 from gensim.models import Word2Vec
@@ -7,6 +10,8 @@ import sys
 import time
 from nltk.stem import PorterStemmer
 ps = PorterStemmer()
+
+import utils
 
 model = fastText.load_model('../../../Divers_Data_Maitrise/wiki.simple/wiki.simple.bin')
 #model = fastText.load_model('../embeding_perso_fastText/data_embeding.bin')
