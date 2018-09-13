@@ -62,6 +62,3 @@ def ClassifyQuestion(question):
         return 'Where?'
 
     return 'Other'
-
-question = "What is another form of precipitation besides drizzle, rain, snow, sleet and hail ? "
-print(ClassifyQuestion(question))
