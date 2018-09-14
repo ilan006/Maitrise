@@ -1,4 +1,5 @@
 import corenlp.client as c
+import subprocess
 client = c.CoreNLPClient(annotators="tokenize ssplit pos lemma parse".split())
 
 
@@ -62,3 +63,15 @@ def ClassifyQuestion(question):
         return 'Where?'
 
     return 'Other'
+question = "What is your name?"
+
+subprocess.Popen("java")
+
+
+
+
+# print(ClassifyQuestion(question))
+# print(ClassifyQuestion(question))
+# print(ClassifyQuestion(question))
+# print(ClassifyQuestion(question))
+
