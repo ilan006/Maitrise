@@ -16,7 +16,7 @@ from nltk.stem import PorterStemmer
 ps = PorterStemmer()
 
 #
-#Ce programme vise à faire un systeme temoins qui selectionne le dernier Np de la meilleure phrase  e la plus proche de la question.
+#Systeme temoin qui selectionne le dernier Np de la meilleure phrase e la plus proche de la question.
 #
 
 model = fastText.load_model('../../../Divers_Data_Maitrise/wiki.simple/wiki.simple.bin')

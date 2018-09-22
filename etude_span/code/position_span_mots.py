@@ -1,3 +1,7 @@
+'''
+programme qui retourne la position (en mots) du span relative dans le texte
+'''
+
 import json
 import sys
 import time
@@ -11,12 +15,19 @@ from nltk import word_tokenize
 
 dict = {}
 
-#programme qui retourne la position (en mots) du span relative dans le texte
-
 dict_phrase_position = {}
 len_final = 0
 nb_par = 0
+
+
 def numeral_position(position, text, bool_normalize = True):
+    '''
+    Fonction qui retourne la position (en mot) du span dans le texte
+    :param position: la position du span dans le texte en char
+    :param text: le paragraphe
+    :param bool_normalize: boolean pour que la position retournee soit relative par rapport a la taille du texte
+    :return: la position du span en mot
+    '''
     position_word_span = len(word_tokenize(text[:position])) +1
     total_text_words = len(word_tokenize(text))
     return position_word_span/ max(float(total_text_words) * bool_normalize,1.0)

@@ -49,7 +49,7 @@ def align(question,sentence):
         if not(sentence_word in questions_words):
             span += sentence_word +" "
     return span
-
+#
 
 grammar = ('''
     NP: {<DT>?<JJ>*<NN>} # NP
@@ -75,6 +75,10 @@ with open(path_data + 'dev-v1.1.json', 'r') as input:
                 best_phrase = sent_tokenize(paragraph['context'])[list_ans[0]-1]
                 list_words = word_tokenize(best_phrase)
                 out_json[question['id']] = align( question['question'], paragraph['context'] )
+
+                print(question['question'])
+                print(question['answers'])
+                time.sleep(5)
 with open(path_dest + 'data_toTest_Alignement.json', 'w') as outfile:
     json.dump(out_json, outfile)
 
@@ -85,4 +89,4 @@ print("temps :", time.time() - time1)
 
 question = "What is another  form   of precipitation besides drizzle, rain, snow, sleet and hail ? "
 sentence = "The  main forms of precipitation include  drizzle, rain, sleet, snow, graupel and hail"
-align(question,sentence)
+print(align(question,sentence))
