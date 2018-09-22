@@ -1,3 +1,7 @@
+'''
+programme qui retourne dans un fichier la distribution des tailles des span-reponses
+'''
+
 import json
 import sys
 path_data = '../../../Data_Maitrise/data/'

@@ -1,25 +1,30 @@
+'''
+programme qui retourne la position (en phrases) du span relative dans le texte
+'''
+
 import json
-import sys
-import time
 import operator
 path_data = '../../../Data_Maitrise/data/'
-path_dest = '../../../Data_Maitrise/data_perso/'
+path_dest = '../graph/'
 
-sys.path.append("../../")
 from nltk import sent_tokenize
-from nltk import word_tokenize
 
 dict = {}
-
-#programme qui retourne la position (en mots) du span relative dans le texte
 
 dict_phrase_position = {}
 len_final = 0
 nb_par = 0
-def numeral_position(position, text, bool_normalize = True):
+def numeral_sentence_position(position, text, bool_normalize = True):
+    '''
+    Fonction qui retourne la position (en phrase) du span dans le texte
+    :param position: la position du span dans le texte en char
+    :param text: le paragraphe
+    :param bool_normalize: boolean pour que la position retournee soit relative par rapport a la taille du texte
+    :return: la position du span (en phrases)
+    '''
     position_phrase_span = len(sent_tokenize(text[:position]))
     total_text_phrase = len(sent_tokenize(text))
-    return position_phrase_span/ float(total_text_phrase)
+    return position_phrase_span/ max(float(total_text_phrase) * bool_normalize, 1.0)
 
 
 total_answer = 0
@@ -39,7 +44,7 @@ with open(path_data+'dev-v1.1.json', 'r') as input:
                         total_text_char += len(word)+1
                         if total_text_char > pos and do:
                             do = False
-                    sentence_positionRelative = numeral_position(pos, paragraph['context'], True)
+                    sentence_positionRelative = numeral_sentence_position(pos, paragraph['context'], True)
                     if not(sentence_positionRelative in list_ans):
                         total_answer += 1
                         list_ans.append(sentence_positionRelative)
@@ -49,10 +54,9 @@ with open(path_data+'dev-v1.1.json', 'r') as input:
                         else:
                             dict[sentence_positionRelative] = 1
 
-print(len(dict))
 list_dict_trie = sorted(dict.items(), reverse=False, key=operator.itemgetter(0))
 
-with open('../position_span_phrases_dev.csv', 'w') as f:
+with open(path_dest + 'position_span_phrases_dev.csv', 'w') as f:
     item_str = "position relative"+","+"comptage relatif"+","+"comptage"+","+"class" + "\n"
     f.write(item_str)
     for item in list_dict_trie:
