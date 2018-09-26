@@ -1,5 +1,8 @@
+'''
+Ce programme vise à faire un systeme temoins qui selectionne le dernier Np des n meilleurs phrase
+'''
+
 import sys
-import random
 sys.path.append('../..')
 sys.path.append('../../utils/')
 from utils import *
@@ -7,21 +10,11 @@ from utils import *
 import fastText
 import nltk
 from nltk import sent_tokenize,word_tokenize
-# from gensim.models import Word2Vec
-import numpy as np
 import json
-import sys
 import time
-from nltk.stem import PorterStemmer
-ps = PorterStemmer()
 
-#
-#Ce programme vise à faire un systeme temoins qui selectionne le dernier Np des 5 meilleurs phrase
-#
 
 model = fastText.load_model('../../../Divers_Data_Maitrise/wiki.simple/wiki.simple.bin')
-#model = fastText.load_model('../embeding_perso_fastText/data_embeding.bin')
-#model = fastText.load_model('../embeding_perso_fastText/train_steam_embeding.bin')
 
 path_data = '../../../Data_Maitrise/data/'
 path_dest = '../data_to_test/'
@@ -33,10 +26,6 @@ time1 = time.time()
 with_steming_param = False
 k_best_sentences = 5
 
-
-
-def cosine_similarity(vec1, vec2):
-    return np.dot(vec1, vec2) / (np.linalg.norm(vec1) * np.linalg.norm(vec2))
 
 grammar = ('''
     NP: {<DT>?<JJ>*<NN>} # NP
@@ -69,11 +58,12 @@ with open(path_data + 'dev-v1.1.json', 'r') as input:
                     for subtree in tree.subtrees():
                         if (subtree.label() == "NP"):
                             span_test = [leave[0] for leave in subtree.leaves()]
-                            cosine_test = cosine_similarity(avg_sentence_vector(" ".join(span_test), model), avg_sentence_vector(question['question'], model))
-                            if best_cosine_sim < cosine_test:
-                                best_cosine_sim = cosine_test
-                                span = span_test
+                    cosine_test = cosine_similarity(avg_sentence_vector(" ".join(span_test), model), avg_sentence_vector(question['question'], model))
+                    if best_cosine_sim < cosine_test:
+                        best_cosine_sim = cosine_test
+                        span = span_test
                 out_json[question['id']] = ' '.join(span)
+
 
 with open(path_dest + 'data_toTest_System3.json', 'w') as outfile:
     json.dump(out_json, outfile)

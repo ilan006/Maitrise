@@ -1,5 +1,8 @@
+'''
+Systeme temoin qui selectionne le dernier Np de la meilleure phrase e la plus proche de la question.
+'''
+
 import sys
-import random
 sys.path.append('../..')
 sys.path.append('../../utils/')
 from utils import *
@@ -7,21 +10,10 @@ from utils import *
 import fastText
 import nltk
 from nltk import sent_tokenize,word_tokenize
-# from gensim.models import Word2Vec
-import numpy as np
 import json
-import sys
 import time
-from nltk.stem import PorterStemmer
-ps = PorterStemmer()
-
-#
-#Systeme temoin qui selectionne le dernier Np de la meilleure phrase e la plus proche de la question.
-#
 
 model = fastText.load_model('../../../Divers_Data_Maitrise/wiki.simple/wiki.simple.bin')
-#model = fastText.load_model('../embeding_perso_fastText/data_embeding.bin')
-#model = fastText.load_model('../embeding_perso_fastText/train_steam_embeding.bin')
 
 path_data = '../../../Data_Maitrise/data/'
 path_dest = '../data_to_test/'
@@ -29,14 +21,7 @@ path_dest = '../data_to_test/'
 
 time1 = time.time()
 
-
 with_steming_param = False
-k_best_sentences = 1
-
-
-
-def cosine_similarity(vec1, vec2):
-    return np.dot(vec1, vec2) / (np.linalg.norm(vec1) * np.linalg.norm(vec2))
 
 grammar = ('''
     NP: {<DT>?<JJ>*<NN>} # NP
@@ -58,7 +43,7 @@ with open(path_data + 'dev-v1.1.json', 'r') as input:
                 if num_quest % 1000 == 0 :
                     print(num_quest)
                 list_ans = []
-                list_ans = get_best_sentence(model, sent_tokenize(paragraph['context']), question['question'], k_best_sentences)
+                list_ans = get_best_sentence(model, sent_tokenize(paragraph['context']), question['question'], 1)
                 best_phrase = sent_tokenize(paragraph['context'])[list_ans[0]-1]
                 list_words = word_tokenize(best_phrase)
                 tagged = nltk.pos_tag(nltk.word_tokenize(best_phrase))
@@ -67,6 +52,7 @@ with open(path_data + 'dev-v1.1.json', 'r') as input:
                     if (subtree.label() == "NP"):
                         span = [leave[0] for leave in subtree.leaves()]
                 out_json[question['id']] = ' '.join(span)
+
 
 with open(path_dest + 'data_toTest_System2.json', 'w') as outfile:
     json.dump(out_json, outfile)
