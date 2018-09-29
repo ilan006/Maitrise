@@ -51,8 +51,8 @@ with open(path_data + 'dev-v1.1.json', 'r') as input:
         for paragraph in data['paragraphs']:
             for question in paragraph['qas']:
                 num_quest += 1
-                if num_quest % 1000 == 0 :
-                    print(num_quest)
+                # if num_quest % 1000 == 0 :
+                #     print(num_quest)
                 list_ans = []
                 list_ans = get_best_sentence(model, sent_tokenize(paragraph['context']), question['question'], k_best_sentences)
                 best_phrase = sent_tokenize(paragraph['context'])[list_ans[0]-1]
@@ -65,7 +65,10 @@ with open(path_data + 'dev-v1.1.json', 'r') as input:
                 # print("span retourné :   ", out_json[question['id']])
                 # print("reponses atendues :   ", question['answers'])
                 # print("    ")
+                if num_quest % 1000 == 0:
+                    print("Alignement_graph_bipartite(\"",question['question'],"\",\"", best_phrase, "\",", "0.10)")
                 # time.sleep(5)
+
 with open(path_dest + 'data_toTest_Alignement.json', 'w') as outfile:
     json.dump(out_json, outfile)
 
