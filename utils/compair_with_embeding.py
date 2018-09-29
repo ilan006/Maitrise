@@ -1,4 +1,4 @@
-from nltk import sent_tokenize
+from nltk import word_tokenize
 from gensim.models import Word2Vec
 import numpy as np
 import fastText
@@ -51,7 +51,7 @@ def cosine_similarity(vec1, vec2):
 def avg_sentence_vector(sentence, model: Word2Vec, with_steming=True):
     num_features = model.vector_size
     featureVec = np.zeros((num_features,), dtype="float32")
-    words = sentence.split()
+    words = word_tokenize(sentence)
     words = (list(map(ps.stem, words)) if with_steming else words)
     for word in words:
         if word in model.wv.vocab:
@@ -64,7 +64,7 @@ def avg_sentence_vector(sentence, model: Word2Vec, with_steming=True):
 def avg_sentence_vector(sentence, model: fastText, with_steming = False):
     num_features = model.get_dimension()
     featureVec = np.zeros(num_features, dtype="float32")
-    words = sentence.split()
+    words = word_tokenize(sentence)
     words = (list(map(ps.stem, words)) if with_steming else words)
     for word in words:
         featureVec = np.add(featureVec, model.get_word_vector(word))
