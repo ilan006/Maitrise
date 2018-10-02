@@ -1,0 +1,1 @@
+jupyter nbconvert --to pdf graph_bipartite.ipynb # conversion du jupyter notebook en PDF
