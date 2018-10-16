@@ -49,11 +49,36 @@ def align_question_sentence(question, sequence, lower_case_bool=True, born_min_a
     vects_words_question = list(map(model.get_word_vector, list_words_question))
     vects_words_sentence = list(map(model.get_word_vector, list_words_sequence))
 
-
-    edge = {} #Dictionnaire de similarité clef:[numero du mot dans la question , numero du mot dans la phrase], value : sim
+    edges = {} #Dictionnaire de similarité clef:[numero du mot dans la question , numero du mot dans la phrase], value : sim
+    edges_align =[]
+    bool_words_list_question = [False] * nb_words_question
+    bool_words_list_sequence = [False] * nb_words_sequence
+    list_spans = []
     for i in range(0, nb_words_question):  # mots de la question
         for j in range(0, nb_words_sequence):
-            edge[i,j] = cosine_similarity(vects_words_question[i], vects_words_sentence[i])
+            edges[i, j] = cosine_similarity(vects_words_question[i], vects_words_sentence[j])
+            edges_sorted = sorted(edges.items(), key=operator.itemgetter(1), reverse=True)
+    print(list(map(lambda x: x[0], edges_sorted)))
+    for elem in edges_sorted:
+        num_word_question = elem[0][0]
+        num_word_sequence = elem[0][1]
+        if not(bool_words_list_question[num_word_question]): #Si le mot de la question n'a pas deja ete aligne
+            edges_align.append(elem)
+            bool_words_list_question[num_word_question] = True
+            bool_words_list_sequence[num_word_sequence] = True
+
+    span = ""
+    for i in range(0, nb_words_sequence):
+        word_sequence = list_words_sequence[i]
+        if not (bool_words_list_sequence[i]):
+            span += word_sequence + " "
+            list_spans.append(word_sequence)
+            list_spans.append(span)
+        else:
+            span = ""
+    print(edges_sorted)
+    print(edges_align)
+    print(list_spans)
 
 # def align(question,sentence):
 #     span =""
