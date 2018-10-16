@@ -58,7 +58,6 @@ def align_question_sentence(question, sequence, lower_case_bool=True, born_min_a
         for j in range(0, nb_words_sequence):
             edges[i, j] = cosine_similarity(vects_words_question[i], vects_words_sentence[j])
             edges_sorted = sorted(edges.items(), key=operator.itemgetter(1), reverse=True)
-    print(list(map(lambda x: x[0], edges_sorted)))
     for elem in edges_sorted:
         num_word_question = elem[0][0]
         num_word_sequence = elem[0][1]
@@ -67,17 +66,15 @@ def align_question_sentence(question, sequence, lower_case_bool=True, born_min_a
             bool_words_list_question[num_word_question] = True
             bool_words_list_sequence[num_word_sequence] = True
 
-    span = ""
+    span = []
     for i in range(0, nb_words_sequence):
-        word_sequence = list_words_sequence[i]
+        word_sequence = list_words_sequence[i] #mot de la phrase etudie
         if not (bool_words_list_sequence[i]):
-            span += word_sequence + " "
-            list_spans.append(word_sequence)
-            list_spans.append(span)
+            span.append(word_sequence)
         else:
-            span = ""
-    print(edges_sorted)
-    print(edges_align)
+            if not (len(span) == 0):
+                list_spans.append(span)
+            span = []
     print(list_spans)
 
 # def align(question,sentence):
@@ -131,4 +128,4 @@ def align_question_sentence(question, sequence, lower_case_bool=True, born_min_a
 #
 # print("temps :", time.time() - time1)
 
-align_question_sentence("who are you?","I'm Ilan.")
+align_question_sentence("who are you?","I'm Ilan and you who are you.")
