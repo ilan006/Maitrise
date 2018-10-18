@@ -49,7 +49,7 @@ def align_question_sentence(question, sequence, lower_case_bool=True, born_min_a
     vects_words_question = list(map(model.get_word_vector, list_words_question))
     vects_words_sentence = list(map(model.get_word_vector, list_words_sequence))
 
-    edges = {} #Dictionnaire de similarité clef:[numero du mot dans la question , numero du mot dans la phrase], value : sim
+    edges = {} #Dictionnaire de similarité clef:[numero du mot dans la question , numero du mot dans la phrase], value : sim 2 mots de la question peuvent aligner sur le meme mot de la phrase
     edges_align =[]
     bool_words_list_question = [False] * nb_words_question
     bool_words_list_sequence = [False] * nb_words_sequence
@@ -57,7 +57,7 @@ def align_question_sentence(question, sequence, lower_case_bool=True, born_min_a
     for i in range(0, nb_words_question):  # mots de la question
         for j in range(0, nb_words_sequence):
             edges[i, j] = cosine_similarity(vects_words_question[i], vects_words_sentence[j])
-            edges_sorted = sorted(edges.items(), key=operator.itemgetter(1), reverse=True)
+    edges_sorted = sorted(edges.items(), key=operator.itemgetter(1), reverse=True)
     for elem in edges_sorted:
         num_word_question = elem[0][0]
         num_word_sequence = elem[0][1]
@@ -75,8 +75,10 @@ def align_question_sentence(question, sequence, lower_case_bool=True, born_min_a
             if not (len(span) == 0):
                 list_spans.append(span)
             span = []
+    if not (len(span) == 0):
+        list_spans.append(span)
     print(list_spans)
-
+align_question_sentence("who are you Ilan?","I'm Ilan and you who ilan  you  I'm jean and you are.")
 # def align(question,sentence):
 #     span =""
 #     questions_words = nltk.word_tokenize(question)
@@ -127,5 +129,3 @@ def align_question_sentence(question, sequence, lower_case_bool=True, born_min_a
 #
 #
 # print("temps :", time.time() - time1)
-
-align_question_sentence("who are you?","I'm Ilan and you who are you.")
