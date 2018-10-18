@@ -121,7 +121,7 @@ with open(path_data + 'dev-v1.1.json', 'r') as input:
                 #     print("Alignement_graph_bipartite(\"",question['question'],"\",\"", best_phrase, "\",", "2)")
                 #     time.sleep(5)
 
-with open(path_dest + 'data_toTest_Alignement.json', 'w') as outfile:
+with open(path_dest + 'data_toTest_System_alignement.json', 'w') as outfile:
     json.dump(out_json, outfile)
 
 
