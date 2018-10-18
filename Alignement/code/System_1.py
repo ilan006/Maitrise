@@ -40,7 +40,7 @@ with open(path_data + 'dev-v1.1.json', 'r') as input:
                     print(num_quest)
                 list_ans = []
                 list_ans = get_best_sentence(model, sent_tokenize(paragraph['context']), question['question'], k_best_sentences)
-                best_phrase = sent_tokenize(paragraph['context'])[list_ans[0]-1]
+                best_phrase = sent_tokenize(paragraph['context'])[list_ans[0]]
                 list_words = word_tokenize(best_phrase)
                 num_words = random.randrange(0, len(list_words)-taille_span+1)
                 span = list_words[num_words:num_words+taille_span]

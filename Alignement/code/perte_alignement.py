@@ -39,7 +39,7 @@ with open(path_dest + 'data_toTest_Alignement.json', 'r') as outfile:
                 if num_quest % 1000 == 0:
                     print(num_quest)
                 list_ans = get_best_sentence(model, sent_tokenize(paragraph['context']), question['question'], 1)
-                best_phrase = sent_tokenize(paragraph['context'])[list_ans[0] - 1]
+                best_phrase = sent_tokenize(paragraph['context'])[list_ans[0]]
                 for answer in question['answers']:
                     if (answer['text'] in best_phrase):
                         total_dedans_possible += 1

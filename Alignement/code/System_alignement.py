@@ -9,6 +9,7 @@ import operator
 
 import nltk
 from nltk import sent_tokenize,word_tokenize
+from nltk import ngrams
 import json
 import time
 from nltk.stem import PorterStemmer
@@ -35,7 +36,7 @@ k_best_sentences = 1
 with_steming = True
 
 
-def align_question_sentence(question, sequence, lower_case_bool=True, born_min_align = 0):
+def align_question_sentence(question, sequence, lower_case_bool=True, born_min_align = 0): # To do faire de manière recursive
     '''
     Fonction qui va aligner une question avec une phrase en prenant les cosine maximum tour a tour.
     '''
@@ -77,55 +78,51 @@ def align_question_sentence(question, sequence, lower_case_bool=True, born_min_a
             span = []
     if not (len(span) == 0):
         list_spans.append(span)
-    print(list_spans)
-align_question_sentence("who are you Ilan?","I'm Ilan and you who ilan  you  I'm jean and you are.")
-# def align(question,sentence):
-#     span =""
-#     questions_words = nltk.word_tokenize(question)
-#     # questions_words = (list(map(ps.stem, questions_words)) if with_steming else questions_words)
-#     sentence_words = nltk.word_tokenize(sentence)
-#     # sentence_words = (list(map(ps.stem, sentence_words)) if with_steming else sentence_words)
-#
-#
-#
-#     for sentence_word in sentence_words :
-#         if not(sentence_word in questions_words):
-#             span += sentence_word +" "
-#         else:
-#             questions_words.remove(sentence_word)
-#     return span
-#
-# out_json = {}
-# with open(path_data + 'dev-v1.1.json', 'r') as input:
-#     d = json.load(input)
-#     input.close()
-#
-#     num_quest = 1
-#     for data in d['data']:
-#         for paragraph in data['paragraphs']:
-#             for question in paragraph['qas']:
-#                 num_quest += 1
-#                 if num_quest % 1000 == 0 :
-#                     print(num_quest)
-#                 list_ans = []
-#                 list_ans = get_best_sentence(model, sent_tokenize(paragraph['context']), question['question'], k_best_sentences)
-#                 best_phrase = sent_tokenize(paragraph['context'])[list_ans[0]-1]
-#
-#                 list_words = word_tokenize(best_phrase)
-#                 out_json[question['id']] = align( question['question'], best_phrase)
-#
-#                 # print("question :   ", question['question'])
-#                 # print("meilleure phrase :   ",best_phrase)
-#                 # print("span retourné :   ", out_json[question['id']])
-#                 # print("reponses atendues :   ", question['answers'])
-#                 # print("    ")
-#                 # if num_quest % 200 == 0:
-#                 #     print("meilleure phrase :   ", best_phrase)
-#                 #     print("Alignement_graph_bipartite(\"",question['question'],"\",\"", best_phrase, "\",", "2)")
-#                 #     time.sleep(5)
-#
-# with open(path_dest + 'data_toTest_Alignement.json', 'w') as outfile:
-#     json.dump(out_json, outfile)
-#
-#
-# print("temps :", time.time() - time1)
+
+    list_final_spans = []
+    for span in list_spans:
+        for i in range(1,len(span)+1):
+            list_final_spans += list(ngrams(span,i))
+    return list(map(lambda x : ' '.join(x),list_final_spans))
+
+# print(list(map(lambda x : ' '.join(x),align_question_sentence("who are you Ilan?","I'm Ilan and you who ilan  you  I'm jean and you are."))))/
+
+
+out_json = {}
+with open(path_data + 'dev-v1.1.json', 'r') as input:
+    d = json.load(input)
+    input.close()
+
+    num_quest = 1
+    for data in d['data']:
+        for paragraph in data['paragraphs']:
+            for question in paragraph['qas']:
+                num_quest += 1
+                if num_quest % 1000 == 0 :
+                    print(num_quest)
+                list_spans = []
+                for sentence in sent_tokenize(paragraph['context']):
+                    list_spans += align_question_sentence(question['question'], sentence)
+                list_ans = []
+                # print("list",list_spans)
+                list_ans = get_best_sentence(model, list_spans, question['question'], k_best_sentences)
+                best_span = list_spans[list_ans[0]]
+
+                out_json[question['id']] = best_span
+                # print(best_span)
+
+                # print("question :   ", question['question'])
+                # print("meilleure phrase :   ",best_phrase)
+                # print("span retourné :   ", out_json[question['id']])
+                # print("reponses atendues :   ", question['answers'])
+                # print("    ")
+                # if num_quest % 200 == 0:
+                #     print("meilleure phrase :   ", best_phrase)
+                #     print("Alignement_graph_bipartite(\"",question['question'],"\",\"", best_phrase, "\",", "2)")
+                #     time.sleep(5)
+
+with open(path_dest + 'data_toTest_Alignement.json', 'w') as outfile:
+    json.dump(out_json, outfile)
+
+
+print("temps :", time.time() - time1)

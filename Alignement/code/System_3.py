@@ -48,7 +48,7 @@ with open(path_data + 'dev-v1.1.json', 'r') as input:
                     print(num_quest)
                 list_ans = []
                 list_ans = get_best_sentence(model, sent_tokenize(paragraph['context']), question['question'], k_best_sentences)
-                list_phrases = [sent_tokenize(paragraph['context'])[i-1] for i in list_ans]
+                list_phrases = [sent_tokenize(paragraph['context'])[i] for i in list_ans]
                 span=[]
                 best_cosine_sim = 0
                 for phrase in list_phrases:

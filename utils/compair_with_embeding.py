@@ -13,7 +13,7 @@ def get_best_sentence(model: Word2Vec, list_sentence, question, with_steming=Tru
     sim_best = 0.0
     vect_avg_question = avg_sentence_vector(question, model)
 
-    num_sentence = 1
+    num_sentence = 0
     for sentence in list_sentence:
         vect_avg_sentence = avg_sentence_vector(sentence, model, with_steming)
         similarity = cosine_similarity(vect_avg_question, vect_avg_sentence)
@@ -27,7 +27,7 @@ def get_best_sentence(model: Word2Vec, list_sentence, question, with_steming=Tru
 def get_best_sentence(model: fastText, list_sentence, question, k=1):
     dictionnary = {}
     vect_avg_question = avg_sentence_vector(question, model)
-    num_sentence = 1
+    num_sentence = 0
     for sentence in list_sentence:
         vect_avg_sentence = avg_sentence_vector(sentence, model)
         dictionnary[num_sentence] = cosine_similarity(vect_avg_question, vect_avg_sentence)

@@ -55,7 +55,7 @@ with open(path_data + 'dev-v1.1.json', 'r') as input:
                     print(num_quest)
                 list_ans = []
                 list_ans = get_best_sentence(model, sent_tokenize(paragraph['context']), question['question'], k_best_sentences)
-                best_phrase = sent_tokenize(paragraph['context'])[list_ans[0]-1]
+                best_phrase = sent_tokenize(paragraph['context'])[list_ans[0]]
 
                 list_words = word_tokenize(best_phrase)
                 out_json[question['id']] = align( question['question'], best_phrase)
