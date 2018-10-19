@@ -103,12 +103,16 @@ with open(path_data + 'dev-v1.1.json', 'r') as input:
                 list_spans = []
                 # for sentence in sent_tokenize(paragraph['context']):
                 #     list_spans += align_question_sentence(question['question'], sentence)
-                sentence = get_best_sentence(model, sent_tokenize(paragraph['context']), question['question'], k_best_sentences)
-                list_spans = align_question_sentence(question['question'], sentence)
+                list_ans = get_best_sentence(model, sent_tokenize(paragraph['context']), question['question'], k_best_sentences)
+                best_phrase = sent_tokenize(paragraph['context'])[list_ans[0]]
+                list_spans = align_question_sentence(question['question'], best_phrase)
                 list_ans = []
                 # print("list",list_spans)
                 list_ans = get_best_sentence(model, list_spans, question['question'], k_best_sentences)
-                best_span = list_spans[list_ans[0]]
+                try:
+                    best_span = list_spans[list_ans[0]]
+                except:
+                    best_span =""
 
                 out_json[question['id']] = best_span
                 # print(best_span)
