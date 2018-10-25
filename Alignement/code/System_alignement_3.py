@@ -34,7 +34,7 @@ with_steming_param = True
 k_best_sentences = 1
 
 with_steming = True
-born_min_align = 0.35
+born_min_align = 0.20
 
 def align_question_sentence(question, sequence, lower_case_bool=True, born_min_align = 0 , print_align = False): # To do faire de manière recursive
     '''
