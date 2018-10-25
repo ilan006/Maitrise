@@ -34,7 +34,7 @@ with_steming_param = True
 k_best_sentences = 1
 
 with_steming = True
-born_min_align = 0.25
+born_min_align = 0.35
 
 def align_question_sentence(question, sequence, lower_case_bool=True, born_min_align = 0 , print_align = False): # To do faire de manière recursive
     '''
@@ -145,7 +145,7 @@ with open(path_data + 'dev-v1.1.json', 'r') as input:
                 #     print("Alignement_graph_bipartite(\"",question['question'],"\",\"", best_phrase, "\",", "2)")
                 #     time.sleep(5)
 
-with open(path_dest + 'data_toTest_System_alignement3_'+born_min_align+'.json', 'w') as outfile:
+with open(path_dest + 'data_toTest_System_alignement3_'+str(born_min_align)+'.json', 'w') as outfile:
     json.dump(out_json, outfile)
 
 
