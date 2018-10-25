@@ -110,9 +110,9 @@ with open(path_data + 'dev-v1.1.json', 'r') as input:
             for question in paragraph['qas']:
                 num_quest += 1
                 print_bool = False
-                if num_quest % 100 == 0 :
+                if num_quest % 1000 == 0 :
                     print(num_quest)
-                    print_bool = True
+                    # print_bool = True
                 list_spans = []
                 # for sentence in sent_tokenize(paragraph['context']):
                 #     list_spans += align_question_sentence(question['question'], sentence)
@@ -143,7 +143,7 @@ with open(path_data + 'dev-v1.1.json', 'r') as input:
                 #     print("Alignement_graph_bipartite(\"",question['question'],"\",\"", best_phrase, "\",", "2)")
                 #     time.sleep(5)
 
-with open(path_dest + 'data_toTest_System_alignement_2.json', 'w') as outfile:
+with open(path_dest + 'data_toTest_System_alignement.json', 'w') as outfile:
     json.dump(out_json, outfile)
 
 
