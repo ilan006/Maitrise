@@ -62,7 +62,7 @@ def align_question_sentence(question, sequence, lower_case_bool=True, born_min_a
     for elem in edges_sorted:
         num_word_question = elem[0][0]
         num_word_sequence = elem[0][1]
-        if not(bool_words_list_question[num_word_question] and bool_words_list_sequence[num_word_sequence]): #Si le mot de la question n'a pas deja ete aligne
+        if not(bool_words_list_question[num_word_question] or bool_words_list_sequence[num_word_sequence]): #Si le mot de la question n'a pas deja ete aligne
             edges_align.append(elem)
             bool_words_list_question[num_word_question] = True
             bool_words_list_sequence[num_word_sequence] = True
