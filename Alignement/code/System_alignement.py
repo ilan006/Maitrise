@@ -36,7 +36,7 @@ k_best_sentences = 1
 with_steming = True
 
 
-def align_question_sentence(question, sequence, lower_case_bool=True, born_min_align = 0): # To do faire de manière recursive
+def align_question_sentence(question, sequence, lower_case_bool=True, born_min_align = 0 , print_align = False): # To do faire de manière recursive
     '''
     Fonction qui va aligner une question avec une phrase en prenant les cosine maximum tour a tour.
     '''
@@ -83,10 +83,21 @@ def align_question_sentence(question, sequence, lower_case_bool=True, born_min_a
     for span in list_spans:
         for i in range(1,len(span)+1):
             list_final_spans += list(ngrams(span,i))
+
+    if print_align: #on affiche l'alignement
+        # print(question)
+        # print(sequence)
+        # print(edges_align)
+
+        print("Alignement_graph_bipartite( \"" + question + "\",\"" + sequence + "\","+ str(edges_align) + ")")
+        print("affiche_table_cosine(\"" +question+ "\",\"" +sequence + "\")")
+        print("question=\"", question,"\"")
+        print("sequence=\"", sequence,"\"")
+        print("print(\"question = \", question)")
+        print("print(\"sequence = \",sequence)")
     return list(map(lambda x : ' '.join(x),list_final_spans))
 
 # print(list(map(lambda x : ' '.join(x),align_question_sentence("who are you Ilan?","I'm Ilan and you who ilan  you  I'm jean and you are."))))/
-
 
 out_json = {}
 with open(path_data + 'dev-v1.1.json', 'r') as input:
@@ -98,14 +109,16 @@ with open(path_data + 'dev-v1.1.json', 'r') as input:
         for paragraph in data['paragraphs']:
             for question in paragraph['qas']:
                 num_quest += 1
-                if num_quest % 1000 == 0 :
+                print_bool = False
+                if num_quest % 100 == 0 :
                     print(num_quest)
+                    print_bool = True
                 list_spans = []
                 # for sentence in sent_tokenize(paragraph['context']):
                 #     list_spans += align_question_sentence(question['question'], sentence)
                 list_ans = get_best_sentence(model, sent_tokenize(paragraph['context']), question['question'], k_best_sentences)
                 best_phrase = sent_tokenize(paragraph['context'])[list_ans[0]]
-                list_spans = align_question_sentence(question['question'], best_phrase)
+                list_spans = align_question_sentence(question['question'], best_phrase, print_align=print_bool)
                 list_ans = []
                 # print("list",list_spans)
                 list_ans = get_best_sentence(model, list_spans, question['question'], k_best_sentences)
@@ -115,6 +128,9 @@ with open(path_data + 'dev-v1.1.json', 'r') as input:
                     best_span =""
 
                 out_json[question['id']] = best_span
+                if print_bool :
+                    print("print(\"span output:", out_json[question['id']], "\")")
+                    print("print(\"reponses attendu:", question['answers'], "\")")
                 # print(best_span)
 
                 # print("question :   ", question['question'])
