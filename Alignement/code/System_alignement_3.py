@@ -34,7 +34,7 @@ with_steming_param = True
 k_best_sentences = 1
 
 with_steming = True
-born_min_align = 0.5
+born = 0.05
 
 def align_question_sentence(question, sequence, lower_case_bool=True, born_min_align = 0 , print_align = False): # To do faire de manière recursive
     '''
@@ -114,13 +114,13 @@ with open(path_data + 'dev-v1.1.json', 'r') as input:
                 print_bool = False
                 if num_quest % 1000 == 0 :
                     print(num_quest)
-                    # print_bool = True
+                    print_bool = True
                 list_spans = []
                 # for sentence in sent_tokenize(paragraph['context']):
                 #     list_spans += align_question_sentence(question['question'], sentence)
                 list_ans = get_best_sentence(model, sent_tokenize(paragraph['context']), question['question'], k_best_sentences)
                 best_phrase = sent_tokenize(paragraph['context'])[list_ans[0]]
-                list_spans = align_question_sentence(question['question'], best_phrase, born_min_align, print_align=print_bool)
+                list_spans = align_question_sentence(question['question'], best_phrase, born, print_align=print_bool)
                 list_ans = []
                 # print("list",list_spans)
                 list_ans = get_best_sentence(model, list_spans, question['question'], k_best_sentences)
@@ -145,7 +145,7 @@ with open(path_data + 'dev-v1.1.json', 'r') as input:
                 #     print("Alignement_graph_bipartite(\"",question['question'],"\",\"", best_phrase, "\",", "2)")
                 #     time.sleep(5)
 
-with open(path_dest + 'data_toTest_System_alignement3_'+str(born_min_align)+'.json', 'w') as outfile:
+with open(path_dest + 'data_toTest_System_alignement3_'+str(born)+'.json', 'w') as outfile:
     json.dump(out_json, outfile)
 
 
