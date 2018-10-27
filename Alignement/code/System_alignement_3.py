@@ -112,7 +112,7 @@ with open(path_data + 'dev-v1.1.json', 'r') as input:
             for question in paragraph['qas']:
                 num_quest += 1
                 print_bool = False
-                if num_quest % 1000 == 0 :
+                if num_quest % 10 == 0 :
                     print(num_quest)
                     print_bool = True
                 list_spans = []
