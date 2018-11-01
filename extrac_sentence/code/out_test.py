@@ -62,7 +62,7 @@ with open(path_dest + 'data.txt', 'w') as outfile:
                 # #     if not(sentence_position in list_ans) :
                 # #         list_ans.append(sentence_position)
                 # # list_ans = [21.0]
-                # out_json[question['id']] = list_ans
+                # out_json[question['id']] = list_ans #test
 
 #
 # with open(path_dest+'data_toTest.json', 'w') as outfile:
