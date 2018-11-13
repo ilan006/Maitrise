@@ -3,10 +3,11 @@ import sys
 path_data = '../../../Data_Maitrise/data/'
 path_dest = '../../../Data_Maitrise/data_txt/'
 
-sys.path.append("../../")
-
+sys.path.append('../..')
+sys.path.append('../../utils/')
+from utils.get_numeral_sentence import num_sentence
 from gensim.models import Word2Vec
-# from nltk import sent_tokenize
+from nltk import sent_tokenize
 # from utils.get_numeral_sentence import numeral_sentence
 # from utils.compair_with_embeding import get_best_sentence
 # import re
@@ -42,9 +43,17 @@ with open(path_dest + 'data.txt', 'w') as outfile:
     for data in d['data']:
         for paragraph in data['paragraphs']:
             for question in paragraph['qas']:
-                if (num_quest % 1000) == 0 : print(num_quest)
-                outfile.write("question " + str(question['id']) + "= " + question['question']+"\n")
-                num_quest += 1
+                list_ans = []
+                outfile.write("question " + str(question['id']) + " = " + question['question'] + "\n")
+                for answer in question['answers']:
+                    if (num_quest % 1000) == 0 : print(num_quest)
+                    pos = answer['answer_start']
+                    sentence_position = num_sentence(pos, paragraph['context'])
+                    if not (sentence_position in list_ans):
+                        list_ans.append(sentence_position)
+                        outfile.write("phrase " + str(question['id']) + " = " + sent_tokenize(paragraph['context'])[sentence_position]+ "\n")
+                        outfile.write("réponse " + str(question['id']) + " = " + answer["text"] + "\n")
+                        num_quest += 1
                 # list_ans = []
                 # list_ans = [get_best_sentence(model, map(normalize_answer,sent_tokenize(paragraph['context'])),normalize_answer(question['question']).split())]
                 # # for answer in question['answers']:
@@ -53,7 +62,7 @@ with open(path_dest + 'data.txt', 'w') as outfile:
                 # #     if not(sentence_position in list_ans) :
                 # #         list_ans.append(sentence_position)
                 # # list_ans = [21.0]
-                # out_json[question['id']] = list_ans
+                # out_json[question['id']] = list_ans #test
 
 #
 # with open(path_dest+'data_toTest.json', 'w') as outfile:

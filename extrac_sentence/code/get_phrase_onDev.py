@@ -1,3 +1,7 @@
+'''
+Programme qui vise à retrouver la phrase dans lequel le span réponse identifier a été extrait.
+'''
+
 import json
 import sys
 path_data = '../../data/'
