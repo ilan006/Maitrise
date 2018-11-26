@@ -8,6 +8,7 @@ sys.path.append('../../utils/')
 from utils.get_numeral_sentence import num_sentence
 from gensim.models import Word2Vec
 from nltk import sent_tokenize
+from nltk import sent_tokenize,word_tokenize
 # from utils.get_numeral_sentence import numeral_sentence
 # from utils.compair_with_embeding import get_best_sentence
 # import re

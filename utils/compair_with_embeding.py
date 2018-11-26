@@ -40,8 +40,6 @@ def get_best_sentence(model: fastText, list_sentence, question, k=1):
 
 
 
-
-
 # Fonction qui retourne la similarite cosinus
 def cosine_similarity(vec1, vec2):
     return np.dot(vec1, vec2) / (np.linalg.norm(vec1) * np.linalg.norm(vec2))
