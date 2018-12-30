@@ -60,7 +60,7 @@ with open(path_dest + 'position_span_phrases_dev.csv', 'w') as f:
     item_str = "position relative"+","+"comptage relatif"+","+"comptage"+","+"class" + "\n"
     f.write(item_str)
     for item in list_dict_trie:
-        item_str = str(round(max(item[0]-0.05,0.0),2))+"-"+str(round(min(item[0]+0.05,1.0),2))+","+ str(item[1] / float(total_answer))+","+ str(item[1] )+",1" + "\n"
+        item_str = str(round(max(item[0]-0.05,0.0),2))+"-" + str(round(min(item[0]+0.05,1.0),2))+","+ str(item[1] / float(total_answer))+","+ str(item[1] )+",1" + "\n"
         f.write(item_str)
 
 list_dict_trie = sorted(dict_phrase_position.items(), reverse=False, key=operator.itemgetter(0))
