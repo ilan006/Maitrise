@@ -1,5 +1,5 @@
 '''
-Programme qui vise à retrouver la phrase dans lequel le span réponse identifier a été extrait.
+Programme qui vise à réecrire les données pour retrouver les question et la phrase dans lequel le span réponse se trouve.
 '''
 
 import json

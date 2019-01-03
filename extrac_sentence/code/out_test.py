@@ -1,3 +1,6 @@
+'''
+programme qui va construire les data de maniere a avoir les question la reponse et la phrase dans laquelle la réponse a été trouver
+'''
 import json
 import sys
 path_data = '../../../Data_Maitrise/data/'
