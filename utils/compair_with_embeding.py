@@ -1,5 +1,5 @@
 from nltk import word_tokenize
-from gensim.models import Word2Vec
+# from gensim.models import Word2Vec
 import numpy as np
 import fastText
 from nltk.stem import PorterStemmer
@@ -8,20 +8,20 @@ ps = PorterStemmer()
 
 
 # Fonction qui va retourner le numero de la meilleure phrase
-def get_best_sentence(model: Word2Vec, list_sentence, question, with_steming=True):
-    num_best_sentence = 1
-    sim_best = 0.0
-    vect_avg_question = avg_sentence_vector(question, model)
-
-    num_sentence = 0
-    for sentence in list_sentence:
-        vect_avg_sentence = avg_sentence_vector(sentence, model, with_steming)
-        similarity = cosine_similarity(vect_avg_question, vect_avg_sentence)
-        if sim_best < similarity:
-            sim_best = similarity
-            num_best_sentence = num_sentence
-        num_sentence += 1
-    return num_best_sentence
+# def get_best_sentence(model: Word2Vec, list_sentence, question, with_steming=True):
+#     num_best_sentence = 1
+#     sim_best = 0.0
+#     vect_avg_question = avg_sentence_vector(question, model)
+#
+#     num_sentence = 0
+#     for sentence in list_sentence:
+#         vect_avg_sentence = avg_sentence_vector(sentence, model, with_steming)
+#         similarity = cosine_similarity(vect_avg_question, vect_avg_sentence)
+#         if sim_best < similarity:
+#             sim_best = similarity
+#             num_best_sentence = num_sentence
+#         num_sentence += 1
+#     return num_best_sentence
 
 
 def get_best_sentence(model: fastText, list_sentence, question, k=1):
