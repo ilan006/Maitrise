@@ -14,7 +14,8 @@ import time
 
 path_data = '../../../Data_Maitrise/data/'
 path_dest = '../../../Data_Maitrise/data_separée_par_question/'
-selected_data = "dev"
+# selected_data = "dev"
+selected_data = "train"
 type_question ='When / What year?'
 type_question_str = 'When'
 time1 = time.time()
@@ -22,7 +23,6 @@ time1 = time.time()
 
 out_json = {}
 
-#on recupere le numero de la phrase ncontenant le span
 num_quest = 0
 with open(path_data + selected_data + '-v1.1.json', 'r') as input:
     d = json.load(input)

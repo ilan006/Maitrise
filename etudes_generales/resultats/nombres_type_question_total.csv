@@ -1,0 +1,13 @@
+type de question,compte train,compte dev,compte total,compte realtif total
+Who?,9428,3976,13404,"0,137"
+What VB[*]?,9801,477,10278,"0,105"
+What / Which NN[*]?,34215,1072,35287,"0,359"
+When / What year?,8528,1185,9713,"0,099"
+How?,3399,325,3724,"0,038"
+What name / is called?,2820,943,3763,"0,038"
+How much / many?,5986,1367,7353,"0,075"
+Where?,3714,757,4471,"0,046"
+Other,9708,468,10176,"0,104"
+,,,,
+,,,,
+total,87599,,98169,1

@@ -1,10 +1,13 @@
-type de question,compte relatif,compte,
-Who?,9428,0.10762679939268713
-What VB[*]?,9801,0.11188483886802361
-What / Which NN[*]?,34215,0.3905866505325403
-When / What year?,8528,0.09735270950581627
-How?,3399,0.03880181280608226
-What name / is called?,2820,0.03219214831219534
-How much / many?,5986,0.06833411340312104
-Where?,3714,0.04239774426648706
-Other,9708,0.11082318291304695
+type de question,compte relatif,compte
+Who?,9428,0.108
+What VB[*]?,9801,0.112
+What / Which NN[*]?,34215,0.391
+When / What year?,8528,0.097
+How?,3399,0.039
+What name / is called?,2820,0.032
+How much / many?,5986,0.068
+Where?,3714,0.042
+Other,9708,0.111
+,,
+,,
+total,87599,1
