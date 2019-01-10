@@ -14,10 +14,14 @@ import time
 
 path_data = '../../../Data_Maitrise/data/'
 path_dest = '../../../Data_Maitrise/data_separée_par_question/'
-# selected_data = "dev"
-selected_data = "train"
-type_question ='When / What year?'
-type_question_str = 'When'
+
+selected_data = "dev"
+# selected_data = "train"
+
+# type_question ='When / What year?'
+type_question = 'How much / many?'
+type_question_str = 'How_much'
+
 time1 = time.time()
 
 
@@ -43,7 +47,7 @@ with open(path_data + selected_data + '-v1.1.json', 'r') as input:
                 list_answers = []
                 for answer in question['answers']:
                     pos = answer['answer_start']
-                    sentence_position = num_sentence(pos, paragraph['context'])
+                    sentence_position = num_sentence(pos, answer["text"], paragraph['context'])
                     if not(sentence_position in list_ans):
                         list_ans.append(sentence_position)
                         list_sentence_answer.append(sent_tokenize(paragraph['context'])[sentence_position])

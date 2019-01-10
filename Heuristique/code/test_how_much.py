@@ -16,8 +16,11 @@ import spacy
 path_data = '../../../Data_Maitrise/data_separée_par_question/'
 # path_dest = '../../../Data_Maitrise/data/'
 selected_data = "dev"
-type_question ='When / What year?'
-type_question_str = 'When'
+# selected_data = "train"
+
+type_question = 'How much / many?'
+type_question_str = 'How_much'
+
 time1 = time.time()
 nlp = spacy.load('en_core_web_sm')
 
