@@ -1,5 +1,5 @@
 '''
-programme qui va retourner la premiere date dans les phrases.
+Detection des spans réponse à l'aide des entité nommée
 '''
 
 import sys
@@ -18,8 +18,8 @@ path_data = '../../../Data_Maitrise/data_separée_par_question/'
 selected_data = "dev"
 # selected_data = "train"
 
-type_question = 'How much / many?'
-type_question_str = 'How_much'
+type_question = 'Where?'
+type_question_str = 'Where'
 
 time1 = time.time()
 nlp = spacy.load('en_core_web_sm')
@@ -47,7 +47,7 @@ with open(path_data + 'data_question_'+type_question_str+'_'+selected_data+'.jso
             exact_match_list = []
 
             for ent in nlp_sentence.ents:
-                if ent.label_ in ("MONEY","QUANTITY","PERCENT", "CARDINAL", "TIME","DATE"):
+                if ent.label_ in ("GPE","LOC","FAC","ORG"):
                     list_ent_data.append(ent.text)
                     # exact_match += metric_max_over_ground_truths(exact_match_score, ent.text, list_answers)
                     # f1 += metric_max_over_ground_truths(f1_score, ent.text, list_answers)
@@ -56,6 +56,11 @@ with open(path_data + 'data_question_'+type_question_str+'_'+selected_data+'.jso
 
             # print(list_ent_data, list_answers)
             if len(list_ent_data) == 0:
+                # print("reponse:   ", normalize_answer(answer) )
+                # print(sentence)
+                # for ent in nlp_sentence.ents:
+                #     print(ent.text , ent.label_)
+                # time.sleep(2)
                 total_sentence_without_answer += 1
                 test_answer_inside_sentence = False
                 for answer in list_answers:

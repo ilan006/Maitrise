@@ -1,5 +1,5 @@
 '''
-programme qui va retourner la premiere date dans les phrases.
+Detection des spans réponse à l'aide des entité nommée
 '''
 
 import sys

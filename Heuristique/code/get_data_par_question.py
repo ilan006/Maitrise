@@ -19,8 +19,8 @@ selected_data = "dev"
 # selected_data = "train"
 
 # type_question ='When / What year?'
-type_question = 'How much / many?'
-type_question_str = 'How_much'
+type_question = 'What name / is called?'
+type_question_str = 'What_name'
 
 time1 = time.time()
 
