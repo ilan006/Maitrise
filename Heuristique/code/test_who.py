@@ -1,6 +1,8 @@
 '''
 Detection des spans réponse à l'aide des entité nommée
 '''
+import os
+os.environ["CORENLP_HOME"] = "/usr/stanford-corenlp-full-2018-01-31/"
 
 import sys
 sys.path.append('../..')

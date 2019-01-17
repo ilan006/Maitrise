@@ -32,7 +32,7 @@ total_sentence_without_answer = 0
 with open(path_data + 'data_question_'+type_question_str+'_'+selected_data+'.json', 'r') as input:
     d = json.load(input)
     input.close()
-
+    list_ratio = []  # liste des rations de taille entitées / taille phrase
     for id in d:
         list_sentence_answer = d[id][0]
         list_answers = d[id][1]
@@ -71,7 +71,7 @@ with open(path_data + 'data_question_'+type_question_str+'_'+selected_data+'.jso
                     if normalize_answer(answer) in normalize_answer(concatenation_ent) :
                         total_answer_in_ent += 1
                         break
-
+                list_ratio.append(len(concatenation_ent) / float(len(sentence)))
                 # print(d[id][2])
                 # print(sentence)
                 # for ent in nlp_sentence.ents:
@@ -82,4 +82,5 @@ print(100.0 * exact_match / total_sentence,  100.0 * f1 / total_sentence)
 print(100.0 * total_sentence_without_answer / total_sentence)
 print(100.0 * total_impossible_to_find_answer / total_sentence)
 print(100.0 * total_answer_in_ent / total_sentence)
+print("ratio de la taille", 100.0 * np.mean(list_ratio))
 print("temps execution", time.time()-time1)
