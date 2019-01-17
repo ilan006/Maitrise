@@ -44,7 +44,7 @@ def get_best_sentence(model: fastText, list_sentence, question, k=1):
 def cosine_similarity(vec1, vec2):
     return np.dot(vec1, vec2) / (np.linalg.norm(vec1) * np.linalg.norm(vec2))
 
-
+#
 # Fonction qui retourne le vecteur moyen d'embeding d'une phrase
 def avg_sentence_vector(sentence, model: Word2Vec, with_steming=True):
     num_features = model.vector_size
