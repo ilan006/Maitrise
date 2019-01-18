@@ -17,13 +17,18 @@ def num_sentence(position, answer_text, text):
     else:
         if tab_sent[-1] in tab_all_sentences:
             # si la derniere phrase est complete on retourne la phrase suivante
-            retours =  len(tab_sent)
+            retours = len(tab_sent)
         else:
             retours = len(tab_sent)-1
-    if normalize_answer(answer_text) in normalize_answer(tab_all_sentences[retours]):
-        return retours
-    else :
-        return min(retours+1, len(tab_all_sentences)-1)
+
+    try :
+        if normalize_answer(answer_text) in normalize_answer(tab_all_sentences[retours]):
+            return retours
+        else :
+            return min(retours+1, len(tab_all_sentences)-1)
+    except:
+        print(retours , len(tab_all_sentences))
+        return 0
 
 
 

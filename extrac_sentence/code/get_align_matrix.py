@@ -1,5 +1,5 @@
 """
-Dans ce programme on va realiser la matrice de similarité entre la phrase contenant le spane réponse et la question.
+Dans ce programme on va realiser la matrice de similarité entre la phrase contenant le span réponse et la question.
 """
 import json
 import time
@@ -26,22 +26,7 @@ out_json = {}
 import fastText
 model = fastText.load_model('../../../Divers_Data_Maitrise/wiki.simple/wiki.simple.bin')
 
-def normalize_answer(s):
-    """Lower text and remove punctuation, articles and extra whitespace."""
-    def remove_articles(text):
-        return re.sub(r'\b(a|an|the)\b', ' ', text)
 
-    def white_space_fix(text):
-        return ' '.join(text.split())
-
-    def remove_punc(text):
-        exclude = set(string.punctuation)
-        return ''.join(ch for ch in text if ch not in exclude)
-
-    def lower(text):
-        return text.lower()
-
-    return white_space_fix(remove_articles(remove_punc(lower(s))))
 
 
 def affiche_table_cosine(question, sequence):
@@ -71,7 +56,7 @@ with open(path_data+'dev-v1.1.json', 'r') as input:
                 for answer in question['answers']:
                     if (num_quest % 100) == 0 : print(num_quest)
                     pos = answer['answer_start']
-                    sentence_position = num_sentence(pos, paragraph['context'])
+                    sentence_position = num_sentence(pos, paragraph['context'], answer['text'])
                     if not (sentence_position in list_ans):
                         phrase_str = (sent_tokenize(paragraph['context'])[sentence_position]).lower()
                         question_str = str(question['question']).lower()

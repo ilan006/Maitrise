@@ -22,7 +22,7 @@ selected_data = "dev"
 # type_question = 2 #'How much / many?'
 # type_question = 3 #'What name / is called?'
 # type_question = 4 #'Who?'
-# type_question = 5 #'When / What year?'
+type_question = 5 #'When / What year?'
 
 print("type de la question", type_question)
 print()
