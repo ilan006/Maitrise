@@ -14,34 +14,12 @@ import spacy
 
 
 path_data = '../../../Data_Maitrise/data_separée_par_question/'
-path_dest = '../data_results/'
+# path_dest = '../../../Data_Maitrise/data/'
 selected_data = "dev"
 # selected_data = "train"
 
-# type_question = 1 #'Where?'
-# type_question = 2 #'How much / many?'
-# type_question = 3 #'What name / is called?'
-# type_question = 4 #'Who?'
-type_question = 5 #'When / What year?'
-
-print("type de la question", type_question)
-print()
-if type_question == 1 :
-    type_question_str = 'Where'
-    interisting_entities = ("GPE", "LOC", "FAC", "ORG")
-elif type_question == 2 :
-    type_question_str = 'How_much'
-    interisting_entities = ("MONEY","QUANTITY","PERCENT", "CARDINAL", "TIME","DATE")
-elif type_question == 3:
-    type_question_str = 'What_name'
-    interisting_entities = ("PERSON","ORG","GPE","LOC","PRODUCT","EVENT","WORK_OF_ART","LAW","LANGUAGE")
-elif type_question == 4:
-    type_question_str = 'Who'
-    interisting_entities = ("PERSON","ORG","NORP","GPE","PRODUCT")
-elif type_question == 5:
-    type_question_str = 'When'
-    interisting_entities = ("TIME","DATE","EVENT")
-
+type_question = 'Where?'
+type_question_str = 'Where'
 time1 = time.time()
 nlp = spacy.load('en_core_web_sm')
 
@@ -57,7 +35,6 @@ with open(path_data + 'data_question_'+type_question_str+'_'+selected_data+'.jso
     for id in d:
         list_sentence_answer = d[id][0]
         list_answers = d[id][1]
-        question = d[id][2]
         for sentence in list_sentence_answer:
             total_sentence += 1
             # if total_sentence % 100 == 0:
@@ -69,20 +46,20 @@ with open(path_data + 'data_question_'+type_question_str+'_'+selected_data+'.jso
             exact_match_list = []
 
             for ent in nlp_sentence.ents:
-                if ent.label_ in interisting_entities:
+                if ent.label_ in ("GPE","LOC","FAC","ORG"):
                     list_ent_data.append(ent.text)
                     # exact_match += metric_max_over_ground_truths(exact_match_score, ent.text, list_answers)
                     # f1 += metric_max_over_ground_truths(f1_score, ent.text, list_answers)
                     exact_match_list.append(metric_max_over_ground_truths(exact_match_score, ent.text, list_answers))
                     f1_list.append(metric_max_over_ground_truths(f1_score, ent.text, list_answers))
 
+            # print(list_ent_data, list_answers)
             if len(list_ent_data) == 0:
                 # print("reponse:   ", normalize_answer(answer) )
-                # print(question)
                 # print(sentence)
-                # print(list_answers)
-                # time.sleep(3)
-                #
+                # for ent in nlp_sentence.ents:
+                #     print(ent.text , ent.label_)
+                # time.sleep(2)
                 total_sentence_without_answer += 1
                 test_answer_inside_sentence = False
                 for answer in list_answers:
