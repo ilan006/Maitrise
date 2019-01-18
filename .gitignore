@@ -6,4 +6,4 @@ venv/*
 pyvenv.cfg
 env/*
 var_env.py
-!data_results/
+!data_results/*
