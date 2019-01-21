@@ -27,8 +27,6 @@ import fastText
 model = fastText.load_model('../../../Divers_Data_Maitrise/wiki.simple/wiki.simple.bin')
 
 
-
-
 def affiche_table_cosine(question, sequence):
     list_words_question = word_tokenize(question)
     list_words_sequence = word_tokenize(sequence)
@@ -56,14 +54,15 @@ with open(path_data+'dev-v1.1.json', 'r') as input:
                 for answer in question['answers']:
                     if (num_quest % 100) == 0 : print(num_quest)
                     pos = answer['answer_start']
-                    sentence_position = num_sentence(pos, paragraph['context'], answer['text'])
+                    sentence_position = num_sentence(pos, answer["text"], paragraph['context'])
                     if not (sentence_position in list_ans):
                         phrase_str = (sent_tokenize(paragraph['context'])[sentence_position]).lower()
                         question_str = str(question['question']).lower()
                         list_ans.append(sentence_position)
                         A = affiche_table_cosine(question_str,phrase_str)
                         df = pd.DataFrame(A, index= word_tokenize(phrase_str), columns=word_tokenize(question_str))
-                        with open('test/df' + str(question['id']) + '.csv', 'a') as out_file:
+                        print(df)
+                        with open(path_dest + 'df' + str(question['id']) + '.csv', 'w') as out_file:
                             df.to_csv(out_file, index=True, header=True, sep=',')
                         num_quest += 1
 

@@ -1,5 +1,9 @@
+"""
+fonctions permettant de trouver la position des repponses dans le texte.
+"""
 from nltk import sent_tokenize
 from evaluate import *
+import time
 
 def num_sentence(position, answer_text, text):
     '''
@@ -27,7 +31,9 @@ def num_sentence(position, answer_text, text):
         else :
             return min(retours+1, len(tab_all_sentences)-1)
     except:
+        print("erreur de detection de phrase")
         print(retours , len(tab_all_sentences))
+        time.sleep(5)
         return 0
 
 
