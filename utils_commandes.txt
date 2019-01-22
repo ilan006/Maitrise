@@ -1,1 +1,2 @@
 jupyter nbconvert --to pdf graph_bipartite.ipynb # conversion du jupyter notebook en PDF
+java -mx4g -cp "*" edu.stanford.nlp.pipeline.StanfordCoreNLPServer -port 9000 -timeout 15000    #ouvrir un serveur CoreNlP le faire depuis le dossier stanfordCoreNLP
