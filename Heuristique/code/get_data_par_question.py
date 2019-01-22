@@ -22,6 +22,33 @@ selected_data = "dev"
 type_question = 'What name / is called?'
 type_question_str = 'What_name'
 
+
+# type_question = 1 #'Where?'
+# type_question = 2 #'How much / many?'
+# type_question = 3 #'What name / is called?'
+# type_question = 4 #'Who?'
+# type_question = 5 #'When / What year?'
+type_question = 2
+
+print("type de la question", type_question)
+print()
+if type_question == 1:
+    type_question = 'Where?'
+    type_question_str = 'Where'
+elif type_question == 2:
+    type_question = 'How much / many?'
+    type_question_str = 'How_much'
+elif type_question == 3:
+    type_question = 'What name / is called?'
+    type_question_str = 'What_name'
+elif type_question == 4:
+    type_question = 'Who?'
+    type_question_str = 'Who'
+elif type_question == 5:
+    type_question = 'When / What year?'
+    type_question_str = 'When'
+
+
 time1 = time.time()
 
 
@@ -57,3 +84,4 @@ with open(path_data + selected_data + '-v1.1.json', 'r') as input:
 
 with open(path_dest + 'data_question_'+type_question_str+'_'+selected_data+'.json', 'w') as outfile:
     json.dump(out_json, outfile)
+print(time.time() - time1)

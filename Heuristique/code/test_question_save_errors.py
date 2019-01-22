@@ -22,7 +22,8 @@ selected_data = "dev"
 # type_question = 2 #'How much / many?'
 # type_question = 3 #'What name / is called?'
 # type_question = 4 #'Who?'
-type_question = 5 #'When / What year?'
+# type_question = 5 #'When / What year?'
+type_question = 3
 
 print("type de la question", type_question)
 print()
@@ -31,10 +32,10 @@ if type_question == 1 :
     interisting_entities = ("GPE", "LOC", "FAC", "ORG")
 elif type_question == 2 :
     type_question_str = 'How_much'
-    interisting_entities = ("MONEY","QUANTITY","PERCENT", "CARDINAL", "TIME","DATE")
+    interisting_entities = ("MONEY","QUANTITY","PERCENT", "CARDINAL", "TIME","DATE", "ORDINAL")
 elif type_question == 3:
     type_question_str = 'What_name'
-    interisting_entities = ("PERSON","ORG","GPE","LOC","PRODUCT","EVENT","WORK_OF_ART","LAW","LANGUAGE")
+    interisting_entities = ("PERSON","ORG","GPE","LOC","PRODUCT","EVENT","WORK_OF_ART","LAW","LANGUAGE",'FAC')
 elif type_question == 4:
     type_question_str = 'Who'
     interisting_entities = ("PERSON","ORG","NORP","GPE","PRODUCT")

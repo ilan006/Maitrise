@@ -1,6 +1,9 @@
 import corenlp.client as c
 import corenlp
-
+import sys
+sys.path.append('./')
+sys.path.append('./utils/')
+from utils import *
 text = "Chris wrote a simple sentence that he parsed with Stanford CoreNLP."
 question = "When was the most recent Super Bowl hosted in the South Florida/Miami area?"
 
@@ -8,6 +11,7 @@ question = "When was the most recent Super Bowl hosted in the South Florida/Miam
 # variable $CORENLP_HOME that points to the unzipped directory.
 # The code below will launch StanfordCoreNLPServer in the background
 # and communicate with the server to annotate the sentence.
+
 with c.CoreNLPClient(annotators="tokenize pos lemma".split()) as client:
   ann = client.annotate(question)
   ann = client.annotate(text)
