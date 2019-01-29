@@ -1,8 +1,11 @@
 jupyter nbconvert --to pdf graph_bipartite.ipynb # conversion du jupyter notebook en PDF
 java -mx4g -cp "*" edu.stanford.nlp.pipeline.StanfordCoreNLPServer -port 9000 -timeout 15000    #ouvrir un serveur CoreNlP le faire depuis le dossier stanfordCoreNLP
 
-
+pyenv install -l  #affichage des versions disponible de python
 pyenv local -version #definir la version local souhaitée
 python3 -m venv . creation d'un environement venv depuis . (ici)
 pip freeze -l > requirements.txt #copie des versions de l'environement dans le fichier requierement
 pip install -r requirements.txt #instalation des librairies du fichier
+
+
+
