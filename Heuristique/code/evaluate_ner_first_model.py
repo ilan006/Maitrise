@@ -1,5 +1,5 @@
 '''
-On va mesurer les résultats obtenu avec un système detectant les groupe nominaux
+On va mesurer les résultats obtenu avec le système d'entitées nommées avec Scipy
 '''
 
 import sys
@@ -8,11 +8,8 @@ sys.path.append('../../utils/')
 from utils import *
 
 import json
-import sys
 import time
 import spacy
-import fastText
-import numpy as np
 import os
 file_name = os.path.basename(__file__)[:-3]
 
@@ -21,11 +18,10 @@ path_dest = '../data_results/'
 selected_data = "dev"
 # selected_data = "train"
 
-model_fastText = fastText.load_model('../../../Divers_Data_Maitrise/wiki.simple/wiki.simple.bin')
 
 ########################################################################################################
-file_name = file_name +'_embeding' + '.csv'
-description_file_str =  "Pour chaque question on retourne le groupe nominal le plus proche (cosine) de la question, on evalue le sorce d'exact match, f1 et le nombre d'entité inclu dans une des réponses"
+file_name = file_name + '_1.csv'
+description_file_str =  "Pour chaque question on retourne la premiere entité nommée du paragraphe, on evalue le score d'exact match, f1 et le nombre d'entité inclu dans une des réponses"
 ########################################################################################################
 
 def interesting_entities(type_question):
@@ -47,9 +43,9 @@ nlp = spacy.load('en_core_web_sm')
 
 
 list_type_question_interesting = ['Where?', 'How much / many?', 'What name / is called?', 'Who?', 'When / What year?']
-dict_type_question= {}
-for type_question in list_type_question_interesting :
-    dict_type_question[type_question] = [0, 0, 0, 0, 0 , 0, 0]
+dict_type_question = {}
+for type_question in list_type_question_interesting:
+    dict_type_question[type_question] = [0, 0, 0, 0, 0, 0, 0]
 num_quest = 0
 with open(path_data + selected_data + '-v1.1.json', 'r') as input:
     d = json.load(input)
@@ -60,8 +56,8 @@ with open(path_data + selected_data + '-v1.1.json', 'r') as input:
             for question in paragraph['qas']:
                 question_str = question['question']
                 type_question = ClassifyQuestion(question_str)
-                # if not type_question in list_type_question_interesting:
-                #     continue
+                if not type_question in list_type_question_interesting:
+                    continue
                 num_quest += 1
                 if num_quest % 100 == 0:
                     # print(dict_type_question)
@@ -70,8 +66,7 @@ with open(path_data + selected_data + '-v1.1.json', 'r') as input:
                     exact_match = f1 = moy_exact_match_all_types = moy_f1_all_types = moy_pred_in_ans_all_types = moy_loss_all_types = moy_one_of_pred_in_one_of_ans_all_types = moy_inverted_size_all_types = total_nb_questions = 0
 
                     with open(path_dest + file_name, 'w') as f:
-                        f.write(
-                            "Question ; nb_de_questions ; exact_match ; f1 ; pred_in_ans ; loss ; one_of_pred_in_one_of_ans; inverted_size " + "\n\n")
+                        f.write("Question ; nb_de_questions ; exact_match ; f1 ; pred_in_ans ; loss ; one_of_pred_in_one_of_ans; inverted_size " + "\n\n")
                         for key in dict_type_question:
                             exact_match = 100.0 * (dict_type_question[key][1] / dict_type_question[key][0])
                             f1 = 100.0 * dict_type_question[key][2] / dict_type_question[key][0]
@@ -102,27 +97,26 @@ with open(path_data + selected_data + '-v1.1.json', 'r') as input:
                                     str(moy_inverted_size_all_types / total_nb_questions))
                         item_str = " ; ".join(item_str) + "\n"
                         f.write(item_str)
-                    print('save')
+                        print('save')
+                        print("temps execution", time.time() - time1)
+
 
 
                 nlp_paragraph = nlp(paragraph['context'])
                 list_predictions_data = []
-                for ent in nlp_paragraph.noun_chunks:
-                    list_predictions_data.append(normalize_answer(ent.text))
+                for ent in nlp_paragraph.ents:
+                    if ent.label_ in interesting_entities(type_question):
+                        list_predictions_data.append(normalize_answer(ent.text))
+                        # break
                 try :
                     dict_type_question[type_question][0] += 1
                 except :
-                    dict_type_question[type_question] = [1, 0, 0, 0, 0 ,0, 0]  # nb de question observees, exact_match , f1 , loss, inverted_size
+                    dict_type_question[type_question] = [1, 0, 0, 0, 0, 0, 0]  # nb_de_questions ; exact_match ; f1 ; pred_in_ans ; loss ; one_of_pred_in_one_of_ans; inverted_size
 
                 if len(list_predictions_data) == 0:
                     continue
 
-
-                question_embeding = avg_sentence_vector(question_str, model_fastText, with_steming = False)
-                list_embedings_predictions = list(map(lambda x: avg_sentence_vector(x, model_fastText, with_steming = False), list_predictions_data))
-                list_cosine_embeding_question_ent = list(map(lambda x: abs(cosine_similarity(x,question_embeding )), list_embedings_predictions))
-                rank_of_prediction = np.argmax(list_cosine_embeding_question_ent)
-                prediction = list_predictions_data[rank_of_prediction]
+                prediction = list_predictions_data[0]
 
                 concatenation_predictions = ' '.join(list_predictions_data)
 
@@ -147,7 +141,7 @@ with open(path_dest + 'description.txt', 'a') as f:
 exact_match = f1 = moy_exact_match_all_types = moy_f1_all_types = moy_pred_in_ans_all_types = moy_loss_all_types = moy_one_of_pred_in_one_of_ans_all_types = moy_inverted_size_all_types = total_nb_questions = 0
 
 with open(path_dest + file_name, 'w') as f:
-    f.write("Question ; nb_de_questions ; exact_match ; f1 ; pred_in_ans ; loss ; one_of_pred_in_one_of_ans; inverted_size " + "\n\n")
+    f.write("Question ; nb_de_questions ; exact_match ; f1 ; pred_in_ans ; loss ; one_of_pred_in_one_of_ans; inverted_size " + "\n \n")
     for key in dict_type_question:
         exact_match = 100.0 * (dict_type_question[key][1] / dict_type_question[key][0])
         f1 = 100.0 * dict_type_question[key][2] / dict_type_question[key][0]
