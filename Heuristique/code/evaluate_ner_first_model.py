@@ -11,6 +11,7 @@ import json
 import time
 import spacy
 import os
+import score_class
 file_name = os.path.basename(__file__)[:-3]
 
 path_data = '../../../Data_Maitrise/data/'
@@ -135,7 +136,7 @@ with open(path_data + selected_data + '-v1.1.json', 'r') as input:
 
 
 with open(path_dest + 'description.txt', 'a') as f:
-    f.write(file_name+" : " + description_file_str + "\n")
+    f.write(file_name+" : " + description_file_str + "\n \n")
 
 
 exact_match = f1 = moy_exact_match_all_types = moy_f1_all_types = moy_pred_in_ans_all_types = moy_loss_all_types = moy_one_of_pred_in_one_of_ans_all_types = moy_inverted_size_all_types = total_nb_questions = 0
