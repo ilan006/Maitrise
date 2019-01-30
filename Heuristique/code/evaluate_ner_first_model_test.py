@@ -45,9 +45,6 @@ nlp = spacy.load('en_core_web_sm')
 score_model = Score()
 
 list_type_question_interesting = ['Where?', 'How much / many?', 'What name / is called?', 'Who?', 'When / What year?']
-dict_type_question = {}
-for type_question in list_type_question_interesting:
-    dict_type_question[type_question] = [0, 0, 0, 0, 0, 0, 0]
 num_quest = 0
 with open(path_data + selected_data + '-v1.1.json', 'r') as input:
     d = json.load(input)
@@ -65,20 +62,20 @@ with open(path_data + selected_data + '-v1.1.json', 'r') as input:
                     # print(dict_type_question)
                     print(num_quest)
 
-
+                    print(score_model.__str__())
                     with open(path_dest + file_name, 'w') as f:
                         f.write(score_model.__str__())
-                    print("save")
-                    print("temps execution", time.time() - time1)
 
 
 
                 nlp_paragraph = nlp(paragraph['context'])
                 list_predictions_data = []
+
                 for ent in nlp_paragraph.ents:
                     if ent.label_ in interesting_entities(type_question):
                         list_predictions_data.append(normalize_answer(ent.text))
-
+                if len(list_predictions_data) == 0:
+                    continue
                 prediction = list_predictions_data[0]
                 score_model.add_score(type_question, prediction, list_predictions_data,  question['answers'], float(len(paragraph['context'])))
 
@@ -86,7 +83,6 @@ with open(path_data + selected_data + '-v1.1.json', 'r') as input:
 
 with open(path_dest + 'description.txt', 'a') as f:
     f.write(file_name+" : " + description_file_str + "\n")
-
 
 
 with open(path_dest + file_name, 'w') as f:
