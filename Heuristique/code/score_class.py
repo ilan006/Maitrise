@@ -40,7 +40,6 @@ class Score:
             self.dict_resultats[type_question]['loss'] = 0.0 #aucune des réponse n'est inclus dans aucun élément de l'ensemble de prédictions
             self.dict_resultats[type_question]['one_of_pred_in_one_of_ans'] = 0.0 #une des prédiction se trouve dans une des réponse
             self.dict_resultats[type_question]['inverted_size'] = 0.0 # le ratio : taille de l'ensemble de prédictions / la taille du parragraphe
-
         if len(list_predictions) == 0:
             return
 

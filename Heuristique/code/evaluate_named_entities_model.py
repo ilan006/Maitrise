@@ -24,7 +24,7 @@ selected_data = "dev"
 model_fastText = fastText.load_model('../../../Divers_Data_Maitrise/wiki.simple/wiki.simple.bin')
 
 ########################################################################################################
-file_name = file_name +'_embeding' + '.csv'
+file_name = file_name +'firstPRG' + '.csv'
 description_file_str =  "Pour chaque question on retourne l'entité la plus proche (cosine) de la question, on evalue le sorce d'exact match, f1 et le nombre d'entité inclu dans une des réponses"
 ########################################################################################################
 
@@ -67,29 +67,30 @@ with open(path_data + selected_data + '-v1.1.json', 'r') as input:
                     # print(dict_type_question)
                     print(num_quest)
 
-                    # exact_match = f1 = moy_exact_match_all_types = moy_f1_all_types = moy_pred_in_ans_all_types = total_nb_questions = 0
-                    #
-                    # with open(path_dest + file_name, 'w') as f:
-                    #     f.write("Question ; nb_de_questions ; exact_match ; f1 ; pred_in_ans" + "\n")
-                    #     for key in dict_type_question:
-                    #         exact_match = 100.0 * (dict_type_question[key][1] / dict_type_question[key][0])
-                    #         f1 = 100.0 * dict_type_question[key][2] / dict_type_question[key][0]
-                    #         pred_in_ans = 100.0 * dict_type_question[key][3] / dict_type_question[key][0]
-                    #         moy_exact_match_all_types += exact_match * dict_type_question[key][0]
-                    #         moy_f1_all_types += f1 * dict_type_question[key][0]
-                    #         moy_pred_in_ans_all_types += pred_in_ans * dict_type_question[key][0]
-                    #         total_nb_questions += dict_type_question[key][0]
-                    #
-                    #         item_str = (
-                    #         key, str(dict_type_question[key][0]), str(exact_match), str(f1), str(pred_in_ans))
-                    #         item_str = " ; ".join(item_str) + "\n"
-                    #         f.write(item_str)
-                    #     item_str = ("MOYENNE TOUT TYPE", str(total_nb_questions),
-                    #                 str(moy_exact_match_all_types / total_nb_questions),
-                    #                 str(moy_f1_all_types / total_nb_questions),
-                    #                 str(moy_pred_in_ans_all_types / total_nb_questions))
-                    #     item_str = " ; ".join(item_str) + "\n"
-                    #     f.write(item_str)
+                    exact_match = f1 = moy_exact_match_all_types = moy_f1_all_types = moy_pred_in_ans_all_types = total_nb_questions = 0
+
+                    with open(path_dest + file_name, 'w') as f:
+                        f.write("Question ; nb_de_questions ; exact_match ; f1 ; pred_in_ans" + "\n")
+                        for key in dict_type_question:
+                            exact_match = 100.0 * (dict_type_question[key][1] / dict_type_question[key][0])
+                            f1 = 100.0 * dict_type_question[key][2] / dict_type_question[key][0]
+                            pred_in_ans = 100.0 * dict_type_question[key][3] / dict_type_question[key][0]
+                            moy_exact_match_all_types += exact_match * dict_type_question[key][0]
+                            moy_f1_all_types += f1 * dict_type_question[key][0]
+                            moy_pred_in_ans_all_types += pred_in_ans * dict_type_question[key][0]
+                            total_nb_questions += dict_type_question[key][0]
+
+                            item_str = (
+                            key, str(dict_type_question[key][0]), str(exact_match), str(f1), str(pred_in_ans))
+                            item_str = " ; ".join(item_str) + "\n"
+                            f.write(item_str)
+                        item_str = ("MOYENNE TOUT TYPE", str(total_nb_questions),
+                                    str(moy_exact_match_all_types / total_nb_questions),
+                                    str(moy_f1_all_types / total_nb_questions),
+                                    str(moy_pred_in_ans_all_types / total_nb_questions))
+                        item_str = " ; ".join(item_str) + "\n"
+                        f.write(item_str)
+                    print("temps execution", time.time() - time1)
 
                 nlp_paragraph = nlp(paragraph['context'])
                 list_ent_data = []
@@ -103,12 +104,12 @@ with open(path_data + selected_data + '-v1.1.json', 'r') as input:
                     continue
 
 
-                question_embeding = avg_sentence_vector(question_str, model_fastText, with_steming = False)
-                list_embedings_ent = list(map(lambda x: avg_sentence_vector(x, model_fastText, with_steming = False), list_ent_data))
-                list_cosine_embeding_question_ent = list(map(lambda x: abs(cosine_similarity(x,question_embeding )), list_embedings_ent))
-                rank_of_prediction = np.argmax(list_cosine_embeding_question_ent)
-                prediction = list_ent_data[rank_of_prediction]
-
+                # question_embeding = avg_sentence_vector(question_str, model_fastText, with_steming = False)
+                # list_embedings_ent = list(map(lambda x: avg_sentence_vector(x, model_fastText, with_steming = False), list_ent_data))
+                # list_cosine_embeding_question_ent = list(map(lambda x: abs(cosine_similarity(x,question_embeding )), list_embedings_ent))
+                # rank_of_prediction = np.argmax(list_cosine_embeding_question_ent)
+                # prediction = list_ent_data[rank_of_prediction]
+                prediction = list_ent_data[0]
 
 
 

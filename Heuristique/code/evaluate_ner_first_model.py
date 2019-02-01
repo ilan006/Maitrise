@@ -12,6 +12,7 @@ import time
 import spacy
 import os
 from score_class import *
+from utils_function import *
 from interesting_entities import *
 from segtok.segmenter import split_single
 
@@ -22,9 +23,9 @@ path_dest = '../data_results/'
 selected_data = "dev"
 # selected_data = "train"
 
-
+chosen_model = Function_prediction('first')
 ########################################################################################################
-file_name = file_name + '_1_sentences.csv'
+file_name = file_name + '_1_PRG.csv'
 description_file_str =  "Pour chaque question on retourne la premiere entité nommée du paragraphe, on evalue le score d'exact match, f1 et le nombre d'entité inclu dans une des réponses"
 ########################################################################################################
 
@@ -54,22 +55,19 @@ with open(path_data + selected_data + '-v1.1.json', 'r') as input:
                     with open(path_dest + file_name, 'w') as f:
                         f.write(score_model.__str__())
 
-                    print("temps execution", time.time() - time1)
                     print(num_quest)
-
-                    with open(path_dest + file_name, 'w') as f:
-                        f.write(score_model.__str__())
+                    print("temps execution", time.time() - time1)
 
                 nlp_paragraph = nlp(paragraph['context'])
-                sentences = [nlp(sent) for sent in split_single(paragraph['context'])]
                 list_predictions_data = []
-                for sent in sentences:
-                    for ent in sent.ents:
-                        if ent.label_ in interesting_entities(type_question):
-                            list_predictions_data.append(normalize_answer(ent.text))
-                if len(list_predictions_data) == 0:
-                    continue
-                prediction = list_predictions_data[0]
+                for ent in nlp_paragraph.ents:
+                    if ent.label_ in interesting_entities(type_question):
+                        list_predictions_data.append(normalize_answer(ent.text))
+
+                prediction = ''
+                if len(list_predictions_data) > 0:
+                    prediction = list_predictions_data[0]
+
                 score_model.add_score(type_question, prediction, list_predictions_data,  question['answers'], float(len(paragraph['context'])))
 
 
