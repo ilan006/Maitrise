@@ -43,7 +43,7 @@
 #     for entity in sentence.get_spans('ner'):
 #         print(entity.text)
 #         print(entity.tag)
-
+import torch
 
 from flair.embeddings import WordEmbeddings, FlairEmbeddings, DocumentPoolEmbeddings, Sentence
 
@@ -67,8 +67,10 @@ document_embeddings.embed(sentence)
 print(sentence.get_embedding())
 
 total = 0
+somme_tensors = torch.zeros(4196)
 for token in sentence:
-    total+=1
-    print(token.get_embedding())
+    total += 1
+    somme_tensors += token.get_embedding()
 
 print(total)
+print(somme_tensors/total)
