@@ -22,10 +22,15 @@ path_dest = '../data_results/'
 selected_data = "dev"
 # selected_data = "train"
 
-# chosen_model = Function_prediction('first', 'PRG_spacy')
-# chosen_model = Function_prediction('first', 'SENT_spacy')
-# chosen_model = Function_prediction('first', 'PRG_flair')
-chosen_model = Function_prediction('first', 'SENT_flair')
+# chosen_model = Function_prediction('first', 'ner_PRG_spacy')
+# chosen_model = Function_prediction('first', 'ner_SENT_spacy')
+# chosen_model = Function_prediction('first', 'ner_PRG_flair')
+# chosen_model = Function_prediction('first', 'ner_SENT_flair')
+# chosen_model = Function_prediction('random', 'ner_PRG_flair')
+# chosen_model = Function_prediction('random', 'ner_PRG_spacy')
+# chosen_model = Function_prediction('embeding', 'ner_PRG_spacy')
+# chosen_model = Function_prediction('first', 'NP_PRG_spacy')
+chosen_model = Function_prediction('first', 'NP_ner_PRG_spacy')
 ########################################################################################################
 file_name = file_name + '_' + chosen_model.get_type_method() + '_' + chosen_model.model + '.csv'
 description_file_str = chosen_model.get_description() +' '+ chosen_model.model_description
@@ -34,7 +39,6 @@ description_file_str = chosen_model.get_description() +' '+ chosen_model.model_d
 
 
 time1 = time.time()
-nlp = spacy.load('en_core_web_sm')
 
 score_model = Score()
 
@@ -49,7 +53,7 @@ with open(path_data + selected_data + '-v1.1.json', 'r') as input:
             for question in paragraph['qas']:
                 question_str = question['question']
                 type_question = ClassifyQuestion(question_str)
-                if not type_question in list_type_question_interesting:
+                if not chosen_model.interesting_question_test(type_question):
                     continue
                 num_quest += 1
                 if num_quest % 100 == 0:
@@ -61,7 +65,7 @@ with open(path_data + selected_data + '-v1.1.json', 'r') as input:
 
                 list_predictions_data = chosen_model.get_list_predictions(paragraph['context'], type_question)
 
-                prediction = chosen_model.predict(list_predictions_data)
+                prediction = chosen_model.predict(list_predictions_data,question_str)
 
                 score_model.add_score(type_question, prediction, list_predictions_data,  question['answers'], float(len(paragraph['context'])))
 

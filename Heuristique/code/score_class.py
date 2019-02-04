@@ -12,7 +12,7 @@ import time
 
 
 class Score:
-    list_keys = ['frequence', 'exact_match','f1','pred_in_ans', 'loss', 'one_of_pred_in_one_of_ans', 'inverted_size']
+    list_keys = ['frequence', 'exact_match','f1','pred_in_ans', 'loss', 'one_of_pred_in_one_of_ans', 'inverted_size', 'nb_preds', 'nb_preds_differentes']
 
     def __init__(self):
         self.dict_resultats = {} #dictionnaire contenant les resultats pour chacune des questions
@@ -40,6 +40,8 @@ class Score:
             self.dict_resultats[type_question]['loss'] = 0.0 #aucune des réponse n'est inclus dans aucun élément de l'ensemble de prédictions
             self.dict_resultats[type_question]['one_of_pred_in_one_of_ans'] = 0.0 #une des prédiction se trouve dans une des réponse
             self.dict_resultats[type_question]['inverted_size'] = 0.0 # le ratio : taille de l'ensemble de prédictions / la taille du parragraphe
+            self.dict_resultats[type_question]['nb_preds'] = 0.0  # le nombre total de prédiction
+            self.dict_resultats[type_question]['nb_preds_differentes'] = 0.0  # le nombre total de prédiction differentes
         if len(list_predictions) == 0:
             return
 
@@ -55,9 +57,11 @@ class Score:
         self.dict_resultats[type_question]['loss'] += 1 - max(list_ans_in_predictions)
         self.dict_resultats[type_question]['one_of_pred_in_one_of_ans'] += max(list_predictions_in_ans)
         self.dict_resultats[type_question]['inverted_size'] += len(concatenation_predictions) / float(len_paragraph)
+        self.dict_resultats[type_question]['nb_preds'] += len(list_predictions)
+        self.dict_resultats[type_question]['nb_preds_differentes'] += len(set(list_predictions))
 
     def get_average_score_total(self):
-        tab_averages = [0] * 7
+        tab_averages = [0] * len(Score.list_keys)
         for type_question in self.dict_resultats:
             list_results = self.get_average_score_for_type(type_question)
             freq = list_results[0]
@@ -68,7 +72,6 @@ class Score:
         return tab_averages
 
     def get_average_score_for_type(self, type_question):
-        tab_averages = [0] * 7
         freq = self.dict_resultats[type_question]['frequence']
-        list_results = [freq] + list(map(lambda key: 100.0 * self.dict_resultats[type_question][key] / freq, Score.list_keys[1:]))
+        list_results = [freq] + list(map(lambda key: 100.0 * self.dict_resultats[type_question][key] / freq, Score.list_keys[1:7])) + list(map(lambda key: self.dict_resultats[type_question][key] / freq, Score.list_keys[7:]))
         return list_results
