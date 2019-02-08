@@ -19,7 +19,7 @@ model_fastText = fastText.load_model('../../../Divers_Data_Maitrise/wiki.simple/
 
 class Function_prediction:
 #
-    available_methods = ['first', 'embeding', 'random']
+    available_methods = ['first', 'embeding', 'random','Qembeding']
     available_models = ['ner_PRG_spacy', 'ner_SENT_spacy','ner_PRG_flair', 'ner_SENT_flair' ]
     list_type_question_interesting = ['Where?', 'How much / many?', 'What name / is called?', 'Who?', 'When / What year?']
 
@@ -86,8 +86,11 @@ class Function_prediction:
         if len(list_predictions) == 0:
             return ''
         else:
-            question_embeding = avg_sentence_vector(question_str, model_fastText, with_steming=False)
-            list_embedings_ent = list(map(lambda x: avg_sentence_vector(x, model_fastText, with_steming = False), list_predictions))
+            question_embeding = get_fastText_embeding(question_str)
+            list_embedings_ent = list(map(lambda x: get_fastText_embeding(x), list_predictions))
+
+            # question_embeding = avg_sentence_vector(question_str, model_fastText, with_steming=False)
+            # list_embedings_ent = list(map(lambda x: avg_sentence_vector(x, model_fastText, with_steming = False), list_predictions))
             list_cosine_embeding_question_ent = list(map(lambda x: abs(cosine_similarity(x,question_embeding )), list_embedings_ent))
             rank_of_prediction = np.argmax(list_cosine_embeding_question_ent)
             return list_predictions[rank_of_prediction]
@@ -132,7 +135,7 @@ class Function_prediction:
         '''
         return toujours vrai
         '''
-        return type in Function_prediction.list_type_question_interesting
+        return type_question in Function_prediction.list_type_question_interesting
 
     def all_questions(type_question):
         '''
@@ -183,18 +186,18 @@ class Function_prediction:
     def model_ner_PRG_spacy(paragraph , type_question):
         nlp_paragraph = nlp_spacy(paragraph)
         list_predictions_data = []
-        for ent in nlp_paragraph.ents:
-            if ent.label_ in Function_prediction.interesting_entities(type_question):
-                list_predictions_data.append(normalize_answer(ent.text))
+        for entity in nlp_paragraph.ents:
+            if entity.label_ in Function_prediction.interesting_entities(type_question) and len(normalize_answer(entity.text)):
+                list_predictions_data.append(normalize_answer(entity.text))
         return list_predictions_data
 
     def model_ner_SENT_spacy(paragraph , type_question):
         sentences = [nlp_spacy(sent) for sent in split_single(paragraph)]
         list_predictions_data = []
         for sentence in sentences:
-            for ent in sentence.ents:
-                if ent.label_ in Function_prediction.interesting_entities(type_question):
-                    list_predictions_data.append(normalize_answer(ent.text))
+            for entity in sentence.ents:
+                if entity.label_ in Function_prediction.interesting_entities(type_question) and len(normalize_answer(entity.text)):
+                    list_predictions_data.append(normalize_answer(entity.text))
         return list_predictions_data
 
     def model_ner_PRG_flair(paragraph , type_question):
@@ -202,7 +205,7 @@ class Function_prediction:
         tagger.predict(sentence)
         list_predictions_data = []
         for entity in sentence.get_spans('ner'):
-            if entity.tag in Function_prediction.interesting_entities(type_question):
+            if entity.tag in Function_prediction.interesting_entities(type_question) and len(normalize_answer(entity.text)):
                 list_predictions_data.append(normalize_answer(entity.text))
         return list_predictions_data
 
@@ -212,7 +215,7 @@ class Function_prediction:
         list_predictions_data = []
         for sentence in sentences:
             for entity in sentence.get_spans('ner'):
-                if entity.tag in Function_prediction.interesting_entities(type_question):
+                if entity.tag in Function_prediction.interesting_entities(type_question) and len(normalize_answer(entity.text)):
                     list_predictions_data.append(normalize_answer(entity.text))
         return list_predictions_data
 
@@ -223,8 +226,9 @@ class Function_prediction:
         '''
         nlp_paragraph = nlp_spacy(paragraph)
         list_predictions_data = []
-        for ent in nlp_paragraph.noun_chunks:
-            list_predictions_data.append(normalize_answer(ent.text))
+        for entity in nlp_paragraph.noun_chunks:
+            if len(normalize_answer(entity.text)):
+                list_predictions_data.append(normalize_answer(entity.text))
         return list_predictions_data
 
 

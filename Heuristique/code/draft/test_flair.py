@@ -51,26 +51,33 @@ from flair.embeddings import WordEmbeddings, FlairEmbeddings, DocumentPoolEmbedd
 glove_embedding = WordEmbeddings('glove')
 flair_embedding_forward = FlairEmbeddings('news-forward')
 flair_embedding_backward = FlairEmbeddings('news-backward')
+fastText_embedding = WordEmbeddings('en-wiki')
 
 # initialize the document embeddings, mode = mean
-document_embeddings = DocumentPoolEmbeddings([glove_embedding,
-                                              flair_embedding_backward,
-                                              flair_embedding_forward])
+document_embeddings = DocumentPoolEmbeddings([fastText_embedding])
 
 # create an example sentence
 sentence = Sentence('The grass is green . And the sky is blue .')
-
+question_str='The grass is green . And the sky is blue .'
 # embed the sentence with our document embedding
 document_embeddings.embed(sentence)
 
 # now check out the embedded sentence.
 print(sentence.get_embedding())
+print(sentence.get_embedding().size())
+#
+# from utils import *
+# import fastText
+# model_fastText = fastText.load_model('../../../../Divers_Data_Maitrise/wiki.simple/wiki.simple.bin')
+# print(avg_sentence_vector(question_str, model_fastText, with_steming=False))
 
-total = 0
-somme_tensors = torch.zeros(4196)
-for token in sentence:
-    total += 1
-    somme_tensors += token.get_embedding()
-
-print(total)
-print(somme_tensors/total)
+#
+#
+# total = 0
+# somme_tensors = torch.zeros(4196)
+# for token in sentence:
+#     total += 1
+#     somme_tensors += token.get_embedding()
+#
+# print(total)
+# print(somme_tensors/total)

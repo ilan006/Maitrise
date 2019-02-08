@@ -1,7 +1,6 @@
 '''
 On va mesurer les résultats obtenu avec le système d'entitées nommées avec Scipy
 '''
-
 import sys
 sys.path.append('../..')
 sys.path.append('../../utils/')
@@ -9,11 +8,11 @@ from utils import *
 
 import json
 import time
+time1 = time.time()
 import spacy
 import os
 from score_class import *
 from utils_function import *
-
 
 file_name = os.path.basename(__file__)[:-3]
 
@@ -32,22 +31,22 @@ chosen_model = Function_prediction('embeding', 'ner_PRG_spacy')
 # chosen_model = Function_prediction('first', 'NP_PRG_spacy')
 # chosen_model = Function_prediction('first', 'NP_ner_PRG_spacy')
 ########################################################################################################
-file_name = file_name + '_' + chosen_model.get_type_method() + '_' + chosen_model.model + '1.csv'
+file_name = file_name + '_' + chosen_model.get_type_method() + '_' + chosen_model.model + '_flair.csv'
 description_file_str = chosen_model.get_description() +' '+ chosen_model.model_description
 ########################################################################################################
 
 
 
-time1 = time.time()
+
 
 score_model = Score()
 
 
 num_quest = 0
+print("temps execution", time.time()-time1)
 with open(path_data + selected_data + '-v1.1.json', 'r') as input:
     d = json.load(input)
     input.close()
-
     for data in d['data']:
         for paragraph in data['paragraphs']:
             for question in paragraph['qas']:
@@ -62,6 +61,11 @@ with open(path_data + selected_data + '-v1.1.json', 'r') as input:
 
                     print(num_quest)
                     print("temps execution", time.time() - time1)
+
+                print(question_str)
+                print(chosen_model.get_list_predictions(question_str, type_question))
+                print(Function_prediction.model_NP_ner_PRG_spacy(question_str, type_question))
+                time.sleep(1)
 
                 list_predictions_data = chosen_model.get_list_predictions(paragraph['context'], type_question)
 
