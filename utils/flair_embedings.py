@@ -10,13 +10,13 @@ fastText_embedding = WordEmbeddings('en-wiki')
 
 pool_embeddings = DocumentPoolEmbeddings([fastText_embedding])
 # pool_embeddings = DocumentPoolEmbeddings([flair_embedding_forward,flair_embedding_backward])
-def get_fastText_embeding(text_str):
-    '''
-    Fonction qui retourne l'embedding d'un
-    :param text_str: text a embeddé
-    :return: le vecteur d'embeding correspondant au text
-    '''
-    text = Sentence(text_str)
-    pool_embeddings.embed(text)
-    return text.get_embedding()
+# def get_fastText_embeding(text_str):
+#     '''
+#     Fonction qui retourne l'embedding d'un
+#     :param text_str: text a embeddé
+#     :return: le vecteur d'embeding correspondant au text
+#     '''
+#     text = Sentence(text_str)
+#     pool_embeddings.embed(text)
+#     return text.get_embedding()
 

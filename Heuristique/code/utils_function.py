@@ -10,6 +10,7 @@ from segtok.segmenter import split_single
 from flair.models import SequenceTagger
 from flair.data import Sentence
 tagger = SequenceTagger.load('ner-ontonotes')
+tagger_pos = SequenceTagger.load('pos')
 
 from utils import *
 
@@ -55,6 +56,22 @@ class Function_prediction:
             interisting_entities_list = ("TIME", "DATE", "EVENT")
         return interisting_entities_list
 
+
+    def reduce_Question(question):
+        '''
+        fonction qui va reduire la fonction au éléments les plus important l'aide de PoS
+        :param question: la question (string)
+        :return: les mots important de la question
+        '''
+        sentence = Sentence(normalize_answer(question))
+        # predict NER tags
+        tagger_pos.predict(sentence)
+        rest_of_question = ''
+        for entity in sentence.get_spans('pos'):
+            if entity.tag in ['.', 'WRB', 'WP', 'WDT', 'WP$']:
+                continue
+            rest_of_question += entity.text + ' '
+        return rest_of_question
 
     def get_first(list_predictions, *args):
         '''

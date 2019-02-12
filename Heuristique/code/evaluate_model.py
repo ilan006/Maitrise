@@ -13,11 +13,13 @@ import spacy
 import os
 from score_class import *
 from utils_function import *
+# from get_files_output import *
 
 file_name = os.path.basename(__file__)[:-3]
 
 path_data = '../../../Data_Maitrise/data/'
 path_dest = '../data_results/'
+# path_trace = '../traces/'
 selected_data = "dev"
 # selected_data = "train"
 
@@ -31,7 +33,7 @@ chosen_model = Function_prediction('embeding', 'ner_PRG_spacy')
 # chosen_model = Function_prediction('first', 'NP_PRG_spacy')
 # chosen_model = Function_prediction('first', 'NP_ner_PRG_spacy')
 ########################################################################################################
-file_name = file_name + '_' + chosen_model.get_type_method() + '_' + chosen_model.model + '_flair.csv'
+file_name = file_name + '_' + chosen_model.get_type_method() + '_' + chosen_model.model + '_1.csv'
 description_file_str = chosen_model.get_description() +' '+ chosen_model.model_description
 ########################################################################################################
 
@@ -40,10 +42,10 @@ description_file_str = chosen_model.get_description() +' '+ chosen_model.model_d
 
 
 score_model = Score()
-
+# clear_directory(path_trace)
 
 num_quest = 0
-print("temps execution", time.time()-time1)
+print("temps d'initialisation", time.time()-time1)
 with open(path_data + selected_data + '-v1.1.json', 'r') as input:
     d = json.load(input)
     input.close()
@@ -63,15 +65,20 @@ with open(path_data + selected_data + '-v1.1.json', 'r') as input:
                     print("temps execution", time.time() - time1)
 
                 print(question_str)
-                print(chosen_model.get_list_predictions(question_str, type_question))
-                print(Function_prediction.model_NP_ner_PRG_spacy(question_str, type_question))
-                time.sleep(1)
+                # print(chosen_model.get_list_predictions(question_str, type_question))
+                # reduce_question = Function_prediction.reduce_Question(question_str)
+                # print("----")
+                # print(Function_prediction.model_NP_ner_PRG_spacy(question_str, type_question))
+                # time.sleep(1)
+                text_to_evaluate = paragraph['context']
+                list_predictions_data = chosen_model.get_list_predictions(text_to_evaluate, type_question)
 
-                list_predictions_data = chosen_model.get_list_predictions(paragraph['context'], type_question)
+                prediction = chosen_model.predict(list_predictions_data, question_str)
 
-                prediction = chosen_model.predict(list_predictions_data,question_str)
+                score_model.add_score(type_question, prediction, list_predictions_data,  question['answers'], float(len(text_to_evaluate)))
+                # score_model.add_score(type_question, prediction, list_predictions_data,  reduce_question, float(len(paragraph['context'])))
+                # add_trace(path_trace, question, text_to_evaluate, list_predictions_data, prediction)
 
-                score_model.add_score(type_question, prediction, list_predictions_data,  question['answers'], float(len(paragraph['context'])))
 
 
 
