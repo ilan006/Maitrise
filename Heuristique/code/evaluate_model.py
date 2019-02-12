@@ -30,7 +30,7 @@ selected_data = "dev"
 chosen_model = Function_prediction('embeding', 'ner_PRG_spacy')
 # chosen_model = Function_prediction('first', 'NP_PRG_spacy')
 # chosen_model = Function_prediction('first', 'NP_ner_PRG_spacy')
-########################################################################################################
+########################«################################################################################
 file_name = file_name + '_' + chosen_model.get_type_method() + '_' + chosen_model.model + '_flair.csv'
 description_file_str = chosen_model.get_description() +' '+ chosen_model.model_description
 ########################################################################################################
