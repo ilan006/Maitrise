@@ -8,4 +8,7 @@ pip freeze -l > requirements.txt #copie des versions de l'environement dans le f
 pip install -r requirements.txt #instalation des librairies du fichier
 
 
+#flair modifier le path de data
+aller sur ...env/lib/python3.../site-packages/flair/file_utils.py et modifier 
+CACHE_ROOT = os.path.expanduser(os.path.join('/data/rali5/Tmp/elbazila', '.flair'))
 

@@ -7,3 +7,5 @@
 
 Instalation 
 https://github.com/facebookresearch/fastText#example-use-cases #fastText
+
+https://github.com/pyenv/pyenv/blob/master/README.md#understanding-path #pyenv
