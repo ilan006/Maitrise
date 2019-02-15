@@ -75,3 +75,15 @@ class Score:
         freq = self.dict_resultats[type_question]['frequence']
         list_results = [freq] + list(map(lambda key: 100.0 * self.dict_resultats[type_question][key] / freq, Score.list_keys[1:7])) + list(map(lambda key: self.dict_resultats[type_question][key] / freq, Score.list_keys[7:]))
         return list_results
+
+def get_loss(list_answers, list_predictions):
+    '''
+    return true si il est impossible de retrouver la réponse dans l'ensemble de predictions
+    :param self:
+    :return:
+    '''
+    if not len(list_predictions) :
+        return 1
+    ground_truths = list(map(lambda x: normalize_answer(x), list_answers))
+    list_ans_in_predictions = list(map(lambda x: max(list(map(lambda y: x in y, list_predictions))), ground_truths))
+    return 1 - max(list_ans_in_predictions)

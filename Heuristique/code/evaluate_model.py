@@ -13,13 +13,13 @@ import spacy
 import os
 from score_class import *
 from utils_function import *
-# from get_files_output import *
+from get_files_output import *
 
 file_name = os.path.basename(__file__)[:-3]
 
 path_data = '../../../Data_Maitrise/data/'
 path_dest = '../data_results/'
-# path_trace = '../traces/'
+path_trace = '../traces/'
 selected_data = "dev"
 # selected_data = "train"
 
@@ -38,7 +38,7 @@ description_file_str = chosen_model.get_description() +' '+ chosen_model.model_d
 ########################################################################################################
 
 score_model = Score()
-# clear_directory(path_trace)
+clear_directory(path_trace)
 
 num_quest = 0
 print("temps d'initialisation", time.time()-time1)
@@ -73,7 +73,9 @@ with open(path_data + selected_data + '-v1.1.json', 'r') as input:
 
                 score_model.add_score(type_question, prediction, list_predictions_data,  question['answers'], float(len(text_to_evaluate)))
                 # score_model.add_score(type_question, prediction, list_predictions_data,  reduce_question, float(len(paragraph['context'])))
-                # add_trace(path_trace, question, text_to_evaluate, list_predictions_data, prediction)
+
+                #on sauvegarde la trace de la question dans un fichier
+                add_trace(path_trace, question, text_to_evaluate, list_predictions_data, prediction)
 
 
 
