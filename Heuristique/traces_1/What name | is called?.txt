@@ -1,0 +1,354 @@
+QUESTION 56beace93aeaaa14008c91e2 = If Roman numerals were used, what would Super Bowl 50 have been called?
+   
+TEXT 56beace93aeaaa14008c91e2 = As this was the 50th Super Bowl, the league emphasized the "golden anniversary" with various gold-themed initiatives, as well as temporarily suspending the tradition of naming each Super Bowl game with Roman numerals (under which the game would have been known as "Super Bowl L"), so that the logo could prominently feature the Arabic numerals 50.
+   
+ANSWERS 56beace93aeaaa14008c91e2 = {'super bowl l', 'l'}
+   
+SET_PREDICTIONS 56beace93aeaaa14008c91e2 = ['50th super bowl', 'super bowl', 'roman', 'super bowl l', 'arabic', '50']
+   
+FINAL_PREDICTION 56beace93aeaaa14008c91e2 = super bowl l
+ 
+  
+------------------  
+   
+  
+QUESTION 56bf3c633aeaaa14008c9580 = What is the name of San Francisco's stadium when looked at as a possibility for Super Bowl 50?
+   
+TEXT 56bf3c633aeaaa14008c9580 = The league eventually narrowed the bids to three sites: New Orleans' Mercedes-Benz Superdome, Miami's Sun Life Stadium, and the San Francisco Bay Area's Levi's Stadium.
+   
+ANSWERS 56bf3c633aeaaa14008c9580 = {'levis stadium'}
+   
+SET_PREDICTIONS 56bf3c633aeaaa14008c9580 = ['three', 'new orleans', 'mercedesbenz superdome', 'miami', 'sun life stadium', 'san francisco bay areas', 'levis stadium']
+   
+FINAL_PREDICTION 56bf3c633aeaaa14008c9580 = sun life stadium
+ 
+  
+------------------  
+   
+  
+QUESTION 56bf3c633aeaaa14008c9581 = What was the name of New Orleans' superdome at the time that Super Bowl 50 took place?
+   
+TEXT 56bf3c633aeaaa14008c9581 = The league eventually narrowed the bids to three sites: New Orleans' Mercedes-Benz Superdome, Miami's Sun Life Stadium, and the San Francisco Bay Area's Levi's Stadium.
+   
+ANSWERS 56bf3c633aeaaa14008c9581 = {'mercedesbenz superdome'}
+   
+SET_PREDICTIONS 56bf3c633aeaaa14008c9581 = ['three', 'new orleans', 'mercedesbenz superdome', 'miami', 'sun life stadium', 'san francisco bay areas', 'levis stadium']
+   
+FINAL_PREDICTION 56bf3c633aeaaa14008c9581 = mercedesbenz superdome
+ 
+  
+------------------  
+   
+  
+QUESTION 56bf3c633aeaaa14008c9582 = What was the given name of Miami's stadium at the time of Super Bowl 50?
+   
+TEXT 56bf3c633aeaaa14008c9582 = The league eventually narrowed the bids to three sites: New Orleans' Mercedes-Benz Superdome, Miami's Sun Life Stadium, and the San Francisco Bay Area's Levi's Stadium.
+   
+ANSWERS 56bf3c633aeaaa14008c9582 = {'sun life stadium'}
+   
+SET_PREDICTIONS 56bf3c633aeaaa14008c9582 = ['three', 'new orleans', 'mercedesbenz superdome', 'miami', 'sun life stadium', 'san francisco bay areas', 'levis stadium']
+   
+FINAL_PREDICTION 56bf3c633aeaaa14008c9582 = sun life stadium
+ 
+  
+------------------  
+   
+  
+QUESTION 56d6ee6e0d65d21400198256 = What is the name of the stadium in Miami that was considered?
+   
+TEXT 56d6ee6e0d65d21400198256 = The league eventually narrowed the bids to three sites: New Orleans' Mercedes-Benz Superdome, Miami's Sun Life Stadium, and the San Francisco Bay Area's Levi's Stadium.
+   
+ANSWERS 56d6ee6e0d65d21400198256 = {'sun life stadium'}
+   
+SET_PREDICTIONS 56d6ee6e0d65d21400198256 = ['three', 'new orleans', 'mercedesbenz superdome', 'miami', 'sun life stadium', 'san francisco bay areas', 'levis stadium']
+   
+FINAL_PREDICTION 56d6ee6e0d65d21400198256 = sun life stadium
+ 
+  
+------------------  
+   
+  
+QUESTION 56d6ee6e0d65d21400198258 = What is the name of the stadium in San Francisco Bay Area?
+   
+TEXT 56d6ee6e0d65d21400198258 = The league eventually narrowed the bids to three sites: New Orleans' Mercedes-Benz Superdome, Miami's Sun Life Stadium, and the San Francisco Bay Area's Levi's Stadium.
+   
+ANSWERS 56d6ee6e0d65d21400198258 = {'levis stadium'}
+   
+SET_PREDICTIONS 56d6ee6e0d65d21400198258 = ['three', 'new orleans', 'mercedesbenz superdome', 'miami', 'sun life stadium', 'san francisco bay areas', 'levis stadium']
+   
+FINAL_PREDICTION 56d6ee6e0d65d21400198258 = san francisco bay areas
+ 
+  
+------------------  
+   
+  
+QUESTION 56d98db6dc89441400fdb554 = What is the name of the stadium where Super Bowl 50 was played?
+   
+TEXT 56d98db6dc89441400fdb554 = The league eventually narrowed the bids to three sites: New Orleans' Mercedes-Benz Superdome, Miami's Sun Life Stadium, and the San Francisco Bay Area's Levi's Stadium.
+   
+ANSWERS 56d98db6dc89441400fdb554 = {'levis stadium'}
+   
+SET_PREDICTIONS 56d98db6dc89441400fdb554 = ['three', 'new orleans', 'mercedesbenz superdome', 'miami', 'sun life stadium', 'san francisco bay areas', 'levis stadium']
+   
+FINAL_PREDICTION 56d98db6dc89441400fdb554 = sun life stadium
+ 
+  
+------------------  
+   
+  
+QUESTION 56d99179dc89441400fdb570 = Before Super Bowl 50, what was the coach's name that coached both teams for their last Super Bowl appearances?
+   
+TEXT 56d99179dc89441400fdb570 = Coincidentally, both teams were coached by John Fox in their last Super Bowl appearance prior to Super Bowl 50.
+   
+ANSWERS 56d99179dc89441400fdb570 = {'john fox'}
+   
+SET_PREDICTIONS 56d99179dc89441400fdb570 = ['john fox', 'super bowl', 'super bowl', '50']
+   
+FINAL_PREDICTION 56d99179dc89441400fdb570 = super bowl
+ 
+  
+------------------  
+   
+  
+QUESTION 56bf301c3aeaaa14008c954e = What is the name of the Bronco's head coach, who was hired after John Fox? 
+   
+TEXT 56bf301c3aeaaa14008c954e = Following their loss in the divisional round of the previous season's playoffs, the Denver Broncos underwent numerous coaching changes, including a mutual parting with head coach John Fox (who had won four divisional championships in his four years as Broncos head coach), and the hiring of Gary Kubiak as the new head coach.
+   
+ANSWERS 56bf301c3aeaaa14008c954e = {'gary kubiak', 'kubiak'}
+   
+SET_PREDICTIONS 56bf301c3aeaaa14008c954e = ['previous seasons', 'denver broncos', 'john fox', 'four', 'his four years', 'broncos', 'gary kubiak']
+   
+FINAL_PREDICTION 56bf301c3aeaaa14008c954e = his four years
+ 
+  
+------------------  
+   
+  
+QUESTION 56d9a0eadc89441400fdb640 = What is the name of the quarterback who was 38 in Super Bowl XXXIII?
+   
+TEXT 56d9a0eadc89441400fdb640 = The past record was held by John Elway, who led the Broncos to victory in Super Bowl XXXIII at age 38 and is currently Denver's Executive Vice President of Football Operations and General Manager.
+   
+ANSWERS 56d9a0eadc89441400fdb640 = {'elway', 'john elway'}
+   
+SET_PREDICTIONS 56d9a0eadc89441400fdb640 = ['john elway', 'broncos', 'super bowl xxxiii', 'age 38', 'denver', 'football operations']
+   
+FINAL_PREDICTION 56d9a0eadc89441400fdb640 = super bowl xxxiii
+ 
+  
+------------------  
+   
+  
+QUESTION 56bf49993aeaaa14008c95b6 = What was the name of the hotel the Panthers chose to stay in during Super Bowl 50?
+   
+TEXT 56bf49993aeaaa14008c95b6 = The Broncos practiced at Stanford University and stayed at the Santa Clara Marriott.
+   
+ANSWERS 56bf49993aeaaa14008c95b6 = {'marriott', 'san jose marriott', 'santa clara marriott'}
+   
+SET_PREDICTIONS 56bf49993aeaaa14008c95b6 = ['broncos', 'stanford university', 'santa clara marriott']
+   
+FINAL_PREDICTION 56bf49993aeaaa14008c95b6 = broncos
+ 
+  
+------------------  
+   
+  
+QUESTION 56bf53e73aeaaa14008c95ce = What was the name of the event at the The Embarcadero that was held prior to Super Bowl 50 to help show off some of the things that San Francisco has to offer?
+   
+TEXT 56bf53e73aeaaa14008c95ce = In addition, "Super Bowl City" opened on January 30 at Justin Herman Plaza on The Embarcadero, featuring games and activities that will highlight the Bay Area's technology, culinary creations, and cultural diversity.
+   
+ANSWERS 56bf53e73aeaaa14008c95ce = {'super bowl city'}
+   
+SET_PREDICTIONS 56bf53e73aeaaa14008c95ce = ['super bowl city', 'january 30', 'justin herman plaza', 'embarcadero', 'bay areas']
+   
+FINAL_PREDICTION 56bf53e73aeaaa14008c95ce = super bowl city
+ 
+  
+------------------  
+   
+  
+QUESTION 56bf57043aeaaa14008c95db = What was the name of the Media Day event for Super Bowl 50?
+   
+TEXT 56bf57043aeaaa14008c95db = The game's media day, which was typically held on the Tuesday afternoon prior to the game, was moved to the Monday evening and re-branded as Super Bowl Opening Night.
+   
+ANSWERS 56bf57043aeaaa14008c95db = {'super bowl opening night'}
+   
+SET_PREDICTIONS 56bf57043aeaaa14008c95db = ['tuesday', 'afternoon', 'monday', 'evening', 'super bowl opening night']
+   
+FINAL_PREDICTION 56bf57043aeaaa14008c95db = super bowl opening night
+ 
+  
+------------------  
+   
+  
+QUESTION 56bf57043aeaaa14008c95dc = What is the name of the property where the media event was held for Super Bowl 50?
+   
+TEXT 56bf57043aeaaa14008c95dc = The event was held on February 1, 2016 at SAP Center in San Jose.
+   
+ANSWERS 56bf57043aeaaa14008c95dc = {'sap center'}
+   
+SET_PREDICTIONS 56bf57043aeaaa14008c95dc = ['february 1 2016', 'sap center', 'san jose']
+   
+FINAL_PREDICTION 56bf57043aeaaa14008c95dc = sap center
+ 
+  
+------------------  
+   
+  
+QUESTION 56d71bd80d65d21400198360 = What new name was given to the media day?
+   
+TEXT 56d71bd80d65d21400198360 = The game's media day, which was typically held on the Tuesday afternoon prior to the game, was moved to the Monday evening and re-branded as Super Bowl Opening Night.
+   
+ANSWERS 56d71bd80d65d21400198360 = {'super bowl opening night'}
+   
+SET_PREDICTIONS 56d71bd80d65d21400198360 = ['tuesday', 'afternoon', 'monday', 'evening', 'super bowl opening night']
+   
+FINAL_PREDICTION 56d71bd80d65d21400198360 = super bowl opening night
+ 
+  
+------------------  
+   
+  
+QUESTION 56d9b4ebdc89441400fdb709 = What was media day called for Super Bowl 50?
+   
+TEXT 56d9b4ebdc89441400fdb709 = The game's media day, which was typically held on the Tuesday afternoon prior to the game, was moved to the Monday evening and re-branded as Super Bowl Opening Night.
+   
+ANSWERS 56d9b4ebdc89441400fdb709 = {'super bowl opening night'}
+   
+SET_PREDICTIONS 56d9b4ebdc89441400fdb709 = ['tuesday', 'afternoon', 'monday', 'evening', 'super bowl opening night']
+   
+FINAL_PREDICTION 56d9b4ebdc89441400fdb709 = super bowl opening night
+ 
+  
+------------------  
+   
+  
+QUESTION 56bebe873aeaaa14008c933f = What is the name of the program that provides contracting work to local companies?
+   
+TEXT 56bebe873aeaaa14008c933f = For the first time, the Super Bowl 50 Host Committee and the NFL have openly sought disabled veteran and lesbian, gay, bisexual and transgender-owned businesses in Business Connect, the Super Bowl program that provides local companies with contracting opportunities in and around the Super Bowl.
+   
+ANSWERS 56bebe873aeaaa14008c933f = {'business connect'}
+   
+SET_PREDICTIONS 56bebe873aeaaa14008c933f = ['first', 'super bowl', 'host committee', 'nfl', 'business connect', 'super bowl', 'super bowl']
+   
+FINAL_PREDICTION 56bebe873aeaaa14008c933f = business connect
+ 
+  
+------------------  
+   
+  
+QUESTION 56d9b5ffdc89441400fdb720 = What is the name of the service that gets local businesses contract chances with the Super Bowl?
+   
+TEXT 56d9b5ffdc89441400fdb720 = For the first time, the Super Bowl 50 Host Committee and the NFL have openly sought disabled veteran and lesbian, gay, bisexual and transgender-owned businesses in Business Connect, the Super Bowl program that provides local companies with contracting opportunities in and around the Super Bowl.
+   
+ANSWERS 56d9b5ffdc89441400fdb720 = {'business connect'}
+   
+SET_PREDICTIONS 56d9b5ffdc89441400fdb720 = ['first', 'super bowl', 'host committee', 'nfl', 'business connect', 'super bowl', 'super bowl']
+   
+FINAL_PREDICTION 56d9b5ffdc89441400fdb720 = business connect
+ 
+  
+------------------  
+   
+  
+ERROR 56bebec43aeaaa14008c934a
+QUESTION 56bebec43aeaaa14008c934a = What is the name of the Host Committee's charitable initiative?
+   
+TEXT 56bebec43aeaaa14008c934a = The committee created the 50 fund as its philanthropic initiative and focuses on providing grants to aid with youth development, community investment and sustainable environments.
+   
+ANSWERS 56bebec43aeaaa14008c934a = {'50 fund'}
+   
+SET_PREDICTIONS 56bebec43aeaaa14008c934a = ['50']
+   
+FINAL_PREDICTION 56bebec43aeaaa14008c934a = 50
+ 
+  
+------------------  
+   
+  
+ERROR 56bf5abc3aeaaa14008c95ea
+QUESTION 56bf5abc3aeaaa14008c95ea = What was the name of the fund setup to help with investing in the community? 
+   
+TEXT 56bf5abc3aeaaa14008c95ea = The committee created the 50 fund as its philanthropic initiative and focuses on providing grants to aid with youth development, community investment and sustainable environments.
+   
+ANSWERS 56bf5abc3aeaaa14008c95ea = {'50 fund'}
+   
+SET_PREDICTIONS 56bf5abc3aeaaa14008c95ea = ['50']
+   
+FINAL_PREDICTION 56bf5abc3aeaaa14008c95ea = 50
+ 
+  
+------------------  
+   
+  
+ERROR 56d71d150d65d21400198370
+QUESTION 56d71d150d65d21400198370 = What is the name of the fund that focuses on youth, community and sustainable environments?
+   
+TEXT 56d71d150d65d21400198370 = The committee created the 50 fund as its philanthropic initiative and focuses on providing grants to aid with youth development, community investment and sustainable environments.
+   
+ANSWERS 56d71d150d65d21400198370 = {'50 fund'}
+   
+SET_PREDICTIONS 56d71d150d65d21400198370 = ['50']
+   
+FINAL_PREDICTION 56d71d150d65d21400198370 = 50
+ 
+  
+------------------  
+   
+  
+ERROR 56d9b6a3dc89441400fdb730
+QUESTION 56d9b6a3dc89441400fdb730 = What was the name of the work to give grants for youth development and other things?
+   
+TEXT 56d9b6a3dc89441400fdb730 = The committee created the 50 fund as its philanthropic initiative and focuses on providing grants to aid with youth development, community investment and sustainable environments.
+   
+ANSWERS 56d9b6a3dc89441400fdb730 = {'50 fund'}
+   
+SET_PREDICTIONS 56d9b6a3dc89441400fdb730 = ['50']
+   
+FINAL_PREDICTION 56d9b6a3dc89441400fdb730 = 50
+ 
+  
+------------------  
+   
+  
+QUESTION 56bf5b933aeaaa14008c95ed = What is the name of the trophy given to anyone who plays on the winning team in a Super Bowl?
+   
+TEXT 56bf5b933aeaaa14008c95ed = In addition to the Vince Lombardi Trophy that all Super Bowl champions receive, the winner of Super Bowl 50 will also receive a large, 18-karat gold-plated "50".
+   
+ANSWERS 56bf5b933aeaaa14008c95ed = {'vince lombardi trophy'}
+   
+SET_PREDICTIONS 56bf5b933aeaaa14008c95ed = ['vince lombardi trophy', 'super bowl', 'super bowl', '50', '18karat', '50']
+   
+FINAL_PREDICTION 56bf5b933aeaaa14008c95ed = vince lombardi trophy
+ 
+  
+------------------  
+   
+  
+QUESTION 56d71d9d0d65d21400198374 = What is the name of the trophy that all Super Bowl winners receive?
+   
+TEXT 56d71d9d0d65d21400198374 = In addition to the Vince Lombardi Trophy that all Super Bowl champions receive, the winner of Super Bowl 50 will also receive a large, 18-karat gold-plated "50".
+   
+ANSWERS 56d71d9d0d65d21400198374 = {'vince lombardi trophy'}
+   
+SET_PREDICTIONS 56d71d9d0d65d21400198374 = ['vince lombardi trophy', 'super bowl', 'super bowl', '50', '18karat', '50']
+   
+FINAL_PREDICTION 56d71d9d0d65d21400198374 = super bowl
+ 
+  
+------------------  
+   
+  
+QUESTION 56bf6e7a3aeaaa14008c961f = What was the domain name of the site that streamed the Super Bowl 50 game? 
+   
+TEXT 56bf6e7a3aeaaa14008c961f = CBS provided digital streams of the game via CBSSports.com, and the CBS Sports apps on tablets, Windows 10, Xbox One and other digital media players (such as Chromecast and Roku).
+   
+ANSWERS 56bf6e7a3aeaaa14008c961f = {'cbssportscom'}
+   
+SET_PREDICTIONS 56bf6e7a3aeaaa14008c961f = ['cbs', 'cbssportscom', 'cbs sports', 'windows 10', 'xbox one', 'chromecast', 'roku']
+   
+FINAL_PREDICTION 56bf6e7a3aeaaa14008c961f = xbox one
+ 
+  
+------------------  
+   
+  

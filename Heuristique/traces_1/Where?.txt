@@ -1,0 +1,282 @@
+QUESTION 56be4db0acb8001400a502ee = Where did Super Bowl 50 take place?
+   
+TEXT 56be4db0acb8001400a502ee = The game was played on February 7, 2016, at Levi's Stadium in the San Francisco Bay Area at Santa Clara, California.
+   
+ANSWERS 56be4db0acb8001400a502ee = {'levis stadium in san francisco bay area at santa clara california', 'levis stadium', 'santa clara california'}
+   
+SET_PREDICTIONS 56be4db0acb8001400a502ee = ['february 7 2016', 'levis stadium', 'san francisco bay area', 'santa clara', 'california']
+   
+FINAL_PREDICTION 56be4db0acb8001400a502ee = february 7 2016
+ 
+  
+------------------  
+   
+  
+QUESTION 56d600e31c85041400946eb1 = Where was Super Bowl 50 held?
+   
+TEXT 56d600e31c85041400946eb1 = The game was played on February 7, 2016, at Levi's Stadium in the San Francisco Bay Area at Santa Clara, California.
+   
+ANSWERS 56d600e31c85041400946eb1 = {'levis stadium', 'santa clara california'}
+   
+SET_PREDICTIONS 56d600e31c85041400946eb1 = ['february 7 2016', 'levis stadium', 'san francisco bay area', 'santa clara', 'california']
+   
+FINAL_PREDICTION 56d600e31c85041400946eb1 = february 7 2016
+ 
+  
+------------------  
+   
+  
+QUESTION 56d6ee6e0d65d21400198255 = One of the sites, Merceds-Benz Superdome, is located where?
+   
+TEXT 56d6ee6e0d65d21400198255 = The league eventually narrowed the bids to three sites: New Orleans' Mercedes-Benz Superdome, Miami's Sun Life Stadium, and the San Francisco Bay Area's Levi's Stadium.
+   
+ANSWERS 56d6ee6e0d65d21400198255 = {'new orleans'}
+   
+SET_PREDICTIONS 56d6ee6e0d65d21400198255 = ['three', 'new orleans', 'mercedesbenz superdome', 'miami', 'sun life stadium', 'san francisco bay areas', 'levis stadium']
+   
+FINAL_PREDICTION 56d6ee6e0d65d21400198255 = three
+ 
+  
+------------------  
+   
+  
+QUESTION 56beb2153aeaaa14008c9225 = Where did the spring meetings of the NFL owners take place?
+   
+TEXT 56beb2153aeaaa14008c9225 = On May 21, 2013, NFL owners at their spring meetings in Boston voted and awarded the game to Levi's Stadium.
+   
+ANSWERS 56beb2153aeaaa14008c9225 = {'in boston', 'may 21 2013', 'boston'}
+   
+SET_PREDICTIONS 56beb2153aeaaa14008c9225 = ['may 21 2013', 'nfl', 'spring', 'boston', 'levis stadium']
+   
+FINAL_PREDICTION 56beb2153aeaaa14008c9225 = nfl
+ 
+  
+------------------  
+   
+  
+QUESTION 56d6f0770d65d2140019826c = Where was the meeting held when the NFL owners voted on the location for Super Bowl 50?
+   
+TEXT 56d6f0770d65d2140019826c = On May 21, 2013, NFL owners at their spring meetings in Boston voted and awarded the game to Levi's Stadium.
+   
+ANSWERS 56d6f0770d65d2140019826c = {'in boston', 'boston'}
+   
+SET_PREDICTIONS 56d6f0770d65d2140019826c = ['may 21 2013', 'nfl', 'spring', 'boston', 'levis stadium']
+   
+FINAL_PREDICTION 56d6f0770d65d2140019826c = nfl
+ 
+  
+------------------  
+   
+  
+QUESTION 56bf49993aeaaa14008c95b7 = Where did the Panthers practice at for Super Bowl 50?
+   
+TEXT 56bf49993aeaaa14008c95b7 = The Panthers used the San Jose State practice facility and stayed at the San Jose Marriott.
+   
+ANSWERS 56bf49993aeaaa14008c95b7 = {'san jose state practice facility', 'san jose state'}
+   
+SET_PREDICTIONS 56bf49993aeaaa14008c95b7 = ['san jose state', 'san jose marriott']
+   
+FINAL_PREDICTION 56bf49993aeaaa14008c95b7 = san jose state
+ 
+  
+------------------  
+   
+  
+QUESTION 56bf49993aeaaa14008c95b8 = Where did the Broncos practice at for Super Bowl 50?
+   
+TEXT 56bf49993aeaaa14008c95b8 = The Broncos practiced at Stanford University and stayed at the Santa Clara Marriott.
+   
+ANSWERS 56bf49993aeaaa14008c95b8 = {'at stanford university', 'stanford university', 'stanford'}
+   
+SET_PREDICTIONS 56bf49993aeaaa14008c95b8 = ['broncos', 'stanford university', 'santa clara marriott']
+   
+FINAL_PREDICTION 56bf49993aeaaa14008c95b8 = broncos
+ 
+  
+------------------  
+   
+  
+QUESTION 56d70d240d65d21400198326 = Where did the Panthers practice for the Super Bowl?
+   
+TEXT 56d70d240d65d21400198326 = The Panthers used the San Jose State practice facility and stayed at the San Jose Marriott.
+   
+ANSWERS 56d70d240d65d21400198326 = {'san jose state practice facility', 'san jose state'}
+   
+SET_PREDICTIONS 56d70d240d65d21400198326 = ['san jose state', 'san jose marriott']
+   
+FINAL_PREDICTION 56d70d240d65d21400198326 = san jose state
+ 
+  
+------------------  
+   
+  
+QUESTION 56d70d240d65d21400198328 = Where did the Broncos practice for the Super Bowl?
+   
+TEXT 56d70d240d65d21400198328 = The Broncos practiced at Stanford University and stayed at the Santa Clara Marriott.
+   
+ANSWERS 56d70d240d65d21400198328 = {'at stanford university', 'stanford university', 'stanford'}
+   
+SET_PREDICTIONS 56d70d240d65d21400198328 = ['broncos', 'stanford university', 'santa clara marriott']
+   
+FINAL_PREDICTION 56d70d240d65d21400198328 = broncos
+ 
+  
+------------------  
+   
+  
+QUESTION 56d9a6b4dc89441400fdb6a0 = Where was the practice place the Panthers used for the Super Bowl?
+   
+TEXT 56d9a6b4dc89441400fdb6a0 = The Panthers used the San Jose State practice facility and stayed at the San Jose Marriott.
+   
+ANSWERS 56d9a6b4dc89441400fdb6a0 = {'san jose state practice facility', 'san jose', 'san jose state'}
+   
+SET_PREDICTIONS 56d9a6b4dc89441400fdb6a0 = ['san jose state', 'san jose marriott']
+   
+FINAL_PREDICTION 56d9a6b4dc89441400fdb6a0 = san jose state
+ 
+  
+------------------  
+   
+  
+QUESTION 56d9a6b4dc89441400fdb6a1 = Where hotel did the Panthers stay at?
+   
+TEXT 56d9a6b4dc89441400fdb6a1 = The Panthers used the San Jose State practice facility and stayed at the San Jose Marriott.
+   
+ANSWERS 56d9a6b4dc89441400fdb6a1 = {'san jose marriott'}
+   
+SET_PREDICTIONS 56d9a6b4dc89441400fdb6a1 = ['san jose state', 'san jose marriott']
+   
+FINAL_PREDICTION 56d9a6b4dc89441400fdb6a1 = san jose marriott
+ 
+  
+------------------  
+   
+  
+QUESTION 56d9a6b4dc89441400fdb6a2 = Where did the Broncos practice for the Super Bowl?
+   
+TEXT 56d9a6b4dc89441400fdb6a2 = The Broncos practiced at Stanford University and stayed at the Santa Clara Marriott.
+   
+ANSWERS 56d9a6b4dc89441400fdb6a2 = {'at stanford university', 'stanford university', 'stanford'}
+   
+SET_PREDICTIONS 56d9a6b4dc89441400fdb6a2 = ['broncos', 'stanford university', 'santa clara marriott']
+   
+FINAL_PREDICTION 56d9a6b4dc89441400fdb6a2 = broncos
+ 
+  
+------------------  
+   
+  
+QUESTION 56d9a6b4dc89441400fdb6a3 = Where did the Broncos stay at for Super Bowl 50?
+   
+TEXT 56d9a6b4dc89441400fdb6a3 = The Broncos practiced at Stanford University and stayed at the Santa Clara Marriott.
+   
+ANSWERS 56d9a6b4dc89441400fdb6a3 = {'santa clara marriott'}
+   
+SET_PREDICTIONS 56d9a6b4dc89441400fdb6a3 = ['broncos', 'stanford university', 'santa clara marriott']
+   
+FINAL_PREDICTION 56d9a6b4dc89441400fdb6a3 = broncos
+ 
+  
+------------------  
+   
+  
+QUESTION 56d7145c0d65d2140019834c = Where was the NFL Experience held for the 2015 season?
+   
+TEXT 56d7145c0d65d2140019834c = The annual NFL Experience was held at the Moscone Center in San Francisco.
+   
+ANSWERS 56d7145c0d65d2140019834c = {'moscone center', 'at moscone center'}
+   
+SET_PREDICTIONS 56d7145c0d65d2140019834c = ['annual', 'nfl', 'moscone center', 'san francisco']
+   
+FINAL_PREDICTION 56d7145c0d65d2140019834c = nfl
+ 
+  
+------------------  
+   
+  
+QUESTION 56d714cd0d65d21400198356 = Where was a beer, wine and food festival held at prior to the Super Bowl?
+   
+TEXT 56d714cd0d65d21400198356 = In addition, there are $2 million worth of other ancillary events, including a week-long event at the Santa Clara Convention Center, a beer, wine and food festival at Bellomy Field at Santa Clara University, and a pep rally.
+   
+ANSWERS 56d714cd0d65d21400198356 = {'santa clara convention center', 'bellomy field'}
+   
+SET_PREDICTIONS 56d714cd0d65d21400198356 = ['2 million', 'weeklong', 'santa clara convention center', 'bellomy field', 'santa clara university']
+   
+FINAL_PREDICTION 56d714cd0d65d21400198356 = santa clara convention center
+ 
+  
+------------------  
+   
+  
+QUESTION 56d71bd80d65d21400198361 = Where was media day for Super Bowl 50 held?
+   
+TEXT 56d71bd80d65d21400198361 = The event was held on February 1, 2016 at SAP Center in San Jose.
+   
+ANSWERS 56d71bd80d65d21400198361 = {'san jose', 'at sap center in san jose', 'sap center in san jose'}
+   
+SET_PREDICTIONS 56d71bd80d65d21400198361 = ['february 1 2016', 'sap center', 'san jose']
+   
+FINAL_PREDICTION 56d71bd80d65d21400198361 = february 1 2016
+ 
+  
+------------------  
+   
+  
+QUESTION 56d9b4ebdc89441400fdb70a = Where was the new media day event for Super Bowl 50 held?
+   
+TEXT 56d9b4ebdc89441400fdb70a = The event was held on February 1, 2016 at SAP Center in San Jose.
+   
+ANSWERS 56d9b4ebdc89441400fdb70a = {'sap center', 'sap center in san jose'}
+   
+SET_PREDICTIONS 56d9b4ebdc89441400fdb70a = ['february 1 2016', 'sap center', 'san jose']
+   
+FINAL_PREDICTION 56d9b4ebdc89441400fdb70a = february 1 2016
+ 
+  
+------------------  
+   
+  
+ERROR 56bf5e7b3aeaaa14008c95f8
+QUESTION 56bf5e7b3aeaaa14008c95f8 = Where was Tracy Wolfson announcing from during the Super Bowl 50 game?
+   
+TEXT 56bf5e7b3aeaaa14008c95f8 = The network's lead broadcast team of Jim Nantz and Phil Simms called the contest, with Tracy Wolfson and Evan Washburn on the sidelines.
+   
+ANSWERS 56bf5e7b3aeaaa14008c95f8 = {'sidelines'}
+   
+SET_PREDICTIONS 56bf5e7b3aeaaa14008c95f8 = ['jim nantz', 'phil simms', 'tracy wolfson', 'evan washburn']
+   
+FINAL_PREDICTION 56bf5e7b3aeaaa14008c95f8 = tracy wolfson
+ 
+  
+------------------  
+   
+  
+ERROR 56bf5e7b3aeaaa14008c95fb
+QUESTION 56bf5e7b3aeaaa14008c95fb = Where was Evan Washburn located while announcing during the game?
+   
+TEXT 56bf5e7b3aeaaa14008c95fb = The network's lead broadcast team of Jim Nantz and Phil Simms called the contest, with Tracy Wolfson and Evan Washburn on the sidelines.
+   
+ANSWERS 56bf5e7b3aeaaa14008c95fb = {'sidelines'}
+   
+SET_PREDICTIONS 56bf5e7b3aeaaa14008c95fb = ['jim nantz', 'phil simms', 'tracy wolfson', 'evan washburn']
+   
+FINAL_PREDICTION 56bf5e7b3aeaaa14008c95fb = evan washburn
+ 
+  
+------------------  
+   
+  
+QUESTION 56d9bc13dc89441400fdb760 = Where was the ESPN Deportes Spanish version of Super Bowl 50 available?
+   
+TEXT 56d9bc13dc89441400fdb760 = The ESPN Deportes Spanish broadcast was made available through WatchESPN.
+   
+ANSWERS 56d9bc13dc89441400fdb760 = {'through watchespn', 'watchespn'}
+   
+SET_PREDICTIONS 56d9bc13dc89441400fdb760 = ['espn', 'deportes', 'spanish', 'watchespn']
+   
+FINAL_PREDICTION 56d9bc13dc89441400fdb760 = deportes
+ 
+  
+------------------  
+   
+  

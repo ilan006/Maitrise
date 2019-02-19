@@ -26,8 +26,7 @@ FINAL_PREDICTION 56bead5a3aeaaa14008c91ec = eight
 ------------------  
    
   
-ERROR 56bf159b3aeaaa14008c950a
-QUESTION 56bf159b3aeaaa14008c950a = How many teams have played in the Super Bowl eight times?
+ERROR 56bf159b3aeaaa14008c950aQUESTION 56bf159b3aeaaa14008c950a = How many teams have played in the Super Bowl eight times?
    
 TEXT 56bf159b3aeaaa14008c950a = They defeated the Arizona Cardinals 49–15 in the NFC Championship Game and advanced to their second Super Bowl appearance since the franchise was founded in 1995.
    
@@ -59,7 +58,7 @@ QUESTION 56be4eafacb8001400a50303 = How many fumbles did Von Miller force in Sup
    
 TEXT 56be4eafacb8001400a50303 = Denver linebacker Von Miller was named Super Bowl MVP, recording five solo tackles, 2½ sacks, and two forced fumbles.
    
-ANSWERS 56be4eafacb8001400a50303 = {'2', 'two'}
+ANSWERS 56be4eafacb8001400a50303 = {'two', '2'}
    
 SET_PREDICTIONS 56be4eafacb8001400a50303 = ['five', '2½', 'two']
    
@@ -73,7 +72,7 @@ QUESTION 56beab833aeaaa14008c91d3 = How many solo tackles did Von Miller make at
    
 TEXT 56beab833aeaaa14008c91d3 = Denver linebacker Von Miller was named Super Bowl MVP, recording five solo tackles, 2½ sacks, and two forced fumbles.
    
-ANSWERS 56beab833aeaaa14008c91d3 = {'five solo tackles', 'five'}
+ANSWERS 56beab833aeaaa14008c91d3 = {'five', 'five solo tackles'}
    
 SET_PREDICTIONS 56beab833aeaaa14008c91d3 = ['five', '2½', 'two']
    
@@ -101,7 +100,7 @@ QUESTION 56bf17653aeaaa14008c9515 = How many forced fumbles did Von Miller have 
    
 TEXT 56bf17653aeaaa14008c9515 = Denver linebacker Von Miller was named Super Bowl MVP, recording five solo tackles, 2½ sacks, and two forced fumbles.
    
-ANSWERS 56bf17653aeaaa14008c9515 = {'2', 'two'}
+ANSWERS 56bf17653aeaaa14008c9515 = {'two', '2'}
    
 SET_PREDICTIONS 56bf17653aeaaa14008c9515 = ['five', '2½', 'two']
    
@@ -115,7 +114,7 @@ QUESTION 56d204ade7d4791d00902604 = How many tackles did Von Miller get during t
    
 TEXT 56d204ade7d4791d00902604 = The Broncos took an early lead in Super Bowl 50 and never trailed.
    
-ANSWERS 56d204ade7d4791d00902604 = {'5', 'five'}
+ANSWERS 56d204ade7d4791d00902604 = {'five', '5'}
    
 SET_PREDICTIONS 56d204ade7d4791d00902604 = ['50']
    
@@ -241,7 +240,7 @@ QUESTION 56bf21b43aeaaa14008c9525 = How many times has a Super Bowl taken place 
    
 TEXT 56bf21b43aeaaa14008c9525 = The league announced on October 16, 2012, that the two finalists were Sun Life Stadium and Levi's Stadium.
    
-ANSWERS 56bf21b43aeaaa14008c9525 = {'two', '10'}
+ANSWERS 56bf21b43aeaaa14008c9525 = {'10', 'two'}
    
 SET_PREDICTIONS 56bf21b43aeaaa14008c9525 = ['october 16 2012', 'two']
    
@@ -269,7 +268,7 @@ QUESTION 56d98f0ddc89441400fdb559 = How many times prios has the Sun Life Stadiu
    
 TEXT 56d98f0ddc89441400fdb559 = The South Florida/Miami area has previously hosted the event 10 times (tied for most with New Orleans), with the most recent one being Super Bowl XLIV in 2010.
    
-ANSWERS 56d98f0ddc89441400fdb559 = {'10 times', '10'}
+ANSWERS 56d98f0ddc89441400fdb559 = {'10', '10 times'}
    
 SET_PREDICTIONS 56d98f0ddc89441400fdb559 = ['10', '2010']
    
@@ -381,7 +380,7 @@ QUESTION 56bf28c73aeaaa14008c953d = How many teams can boast a 15–1 regular se
    
 TEXT 56bf28c73aeaaa14008c953d = The Carolina Panthers became one of only ten teams to have completed a regular season with only one loss, and one of only six teams to have acquired a 15–1 record, while the Denver Broncos became one of four teams to have made eight appearances in the Super Bowl.
    
-ANSWERS 56bf28c73aeaaa14008c953d = {'six', 'ten'}
+ANSWERS 56bf28c73aeaaa14008c953d = {'ten', 'six'}
    
 SET_PREDICTIONS 56bf28c73aeaaa14008c953d = ['one', 'only ten', 'regular season', 'one', 'one', 'only six', '15–1', 'one', 'four', 'eight']
    
@@ -395,7 +394,7 @@ QUESTION 56d6f1190d65d21400198276 = How many teams have had a 15-1 record for th
    
 TEXT 56d6f1190d65d21400198276 = The Carolina Panthers became one of only ten teams to have completed a regular season with only one loss, and one of only six teams to have acquired a 15–1 record, while the Denver Broncos became one of four teams to have made eight appearances in the Super Bowl.
    
-ANSWERS 56d6f1190d65d21400198276 = {'six', 'ten'}
+ANSWERS 56d6f1190d65d21400198276 = {'ten', 'six'}
    
 SET_PREDICTIONS 56d6f1190d65d21400198276 = ['one', 'only ten', 'regular season', 'one', 'one', 'only six', '15–1', 'one', 'four', 'eight']
    
@@ -405,12 +404,11 @@ FINAL_PREDICTION 56d6f1190d65d21400198276 = only six
 ------------------  
    
   
-ERROR 56d99179dc89441400fdb56c
-QUESTION 56d99179dc89441400fdb56c = How many games did the Panthers lose in the regular season before Super Bowl 50?
+ERROR 56d99179dc89441400fdb56cQUESTION 56d99179dc89441400fdb56c = How many games did the Panthers lose in the regular season before Super Bowl 50?
    
 TEXT 56d99179dc89441400fdb56c = For the third straight season, the number one seeds from both conferences met in the Super Bowl.
    
-ANSWERS 56d99179dc89441400fdb56c = {'1', 'one'}
+ANSWERS 56d99179dc89441400fdb56c = {'one', '1'}
    
 SET_PREDICTIONS 56d99179dc89441400fdb56c = ['third straight season']
    
@@ -788,7 +786,7 @@ QUESTION 56d6f4030d65d2140019829e = How many games did the Broncos lose during t
    
 TEXT 56d6f4030d65d2140019829e = Following their loss in the divisional round of the previous season's playoffs, the Denver Broncos underwent numerous coaching changes, including a mutual parting with head coach John Fox (who had won four divisional championships in his four years as Broncos head coach), and the hiring of Gary Kubiak as the new head coach.
    
-ANSWERS 56d6f4030d65d2140019829e = {'4', 'four'}
+ANSWERS 56d6f4030d65d2140019829e = {'four', '4'}
    
 SET_PREDICTIONS 56d6f4030d65d2140019829e = ['previous seasons', 'four', 'his four years']
    
@@ -844,7 +842,7 @@ QUESTION 56d6fe0b0d65d214001982a7 = How many touchdowns did Ronnie Hillman make?
    
 TEXT 56d6fe0b0d65d214001982a7 = Veteran receiver Demaryius Thomas led the team with 105 receptions for 1,304 yards and six touchdowns, while Emmanuel Sanders caught 76 passes for 1,135 yards and six scores, while adding another 106 yards returning punts.
    
-ANSWERS 56d6fe0b0d65d214001982a7 = {'5', 'five'}
+ANSWERS 56d6fe0b0d65d214001982a7 = {'five', '5'}
    
 SET_PREDICTIONS 56d6fe0b0d65d214001982a7 = ['105', '1304 yards', 'six', '76', '1135 yards', 'six', 'another 106 yards']
    
@@ -1026,7 +1024,7 @@ QUESTION 56beb7953aeaaa14008c92af = How much time remained on the clock when the
    
 TEXT 56beb7953aeaaa14008c92af = They then beat the defending Super Bowl XLIX champion New England Patriots in the AFC Championship Game, 20–18, by intercepting a pass on New England's 2-point conversion attempt with 17 seconds left on the clock.
    
-ANSWERS 56beb7953aeaaa14008c92af = {'17', '17 seconds'}
+ANSWERS 56beb7953aeaaa14008c92af = {'17 seconds', '17'}
    
 SET_PREDICTIONS 56beb7953aeaaa14008c92af = ['20–18', '2point', '17 seconds']
    
@@ -1040,7 +1038,7 @@ QUESTION 56bf36b93aeaaa14008c9564 = How many seconds were left in the game when 
    
 TEXT 56bf36b93aeaaa14008c9564 = They then beat the defending Super Bowl XLIX champion New England Patriots in the AFC Championship Game, 20–18, by intercepting a pass on New England's 2-point conversion attempt with 17 seconds left on the clock.
    
-ANSWERS 56bf36b93aeaaa14008c9564 = {'17', '17 seconds'}
+ANSWERS 56bf36b93aeaaa14008c9564 = {'17 seconds', '17'}
    
 SET_PREDICTIONS 56bf36b93aeaaa14008c9564 = ['20–18', '2point', '17 seconds']
    
@@ -1092,8 +1090,7 @@ FINAL_PREDICTION 56beb7fd3aeaaa14008c92b7 = three
 ------------------  
    
   
-ERROR 56beb7fd3aeaaa14008c92b8
-QUESTION 56beb7fd3aeaaa14008c92b8 = How many years has Thomas Davis played in the NFL?
+ERROR 56beb7fd3aeaaa14008c92b8QUESTION 56beb7fd3aeaaa14008c92b8 = How many years has Thomas Davis played in the NFL?
    
 TEXT 56beb7fd3aeaaa14008c92b8 = Carolina suffered a major setback when Thomas Davis, an 11-year veteran who had already overcome three ACL tears in his career, went down with a broken arm in the NFC Championship Game.
    
@@ -1107,8 +1104,7 @@ FINAL_PREDICTION 56beb7fd3aeaaa14008c92b8 = three
 ------------------  
    
   
-ERROR 56bf3a223aeaaa14008c9577
-QUESTION 56bf3a223aeaaa14008c9577 = How many years has Thomas Davis played in the NFL?
+ERROR 56bf3a223aeaaa14008c9577QUESTION 56bf3a223aeaaa14008c9577 = How many years has Thomas Davis played in the NFL?
    
 TEXT 56bf3a223aeaaa14008c9577 = Carolina suffered a major setback when Thomas Davis, an 11-year veteran who had already overcome three ACL tears in his career, went down with a broken arm in the NFC Championship Game.
    
@@ -1136,8 +1132,7 @@ FINAL_PREDICTION 56d703d10d65d214001982d6 = three
 ------------------  
    
   
-ERROR 56d703d10d65d214001982d8
-QUESTION 56d703d10d65d214001982d8 = How many years had Thomas Davis played in the league when he broke his arm during the NFC Championship game?
+ERROR 56d703d10d65d214001982d8QUESTION 56d703d10d65d214001982d8 = How many years had Thomas Davis played in the league when he broke his arm during the NFC Championship game?
    
 TEXT 56d703d10d65d214001982d8 = Carolina suffered a major setback when Thomas Davis, an 11-year veteran who had already overcome three ACL tears in his career, went down with a broken arm in the NFC Championship Game.
    
@@ -1309,7 +1304,7 @@ QUESTION 56d71d150d65d2140019836f = How many will the host committee dedicate to
    
 TEXT 56d71d150d65d2140019836f = The Super Bowl 50 Host Committee has vowed to be "the most giving Super Bowl ever", and will dedicate 25 percent of all money it raises for philanthropic causes in the Bay Area.
    
-ANSWERS 56d71d150d65d2140019836f = {'25', '25 percent', '25 percent of all money'}
+ANSWERS 56d71d150d65d2140019836f = {'25 percent', '25', '25 percent of all money'}
    
 SET_PREDICTIONS 56d71d150d65d2140019836f = ['25 percent']
    
@@ -1417,12 +1412,11 @@ FINAL_PREDICTION 56d722330d65d214001983a8 = nine
 ------------------  
    
   
-ERROR 56bf738b3aeaaa14008c9655
-QUESTION 56bf738b3aeaaa14008c9655 = How many color analysts were involved with Super Bowl 50?
+ERROR 56bf738b3aeaaa14008c9655QUESTION 56bf738b3aeaaa14008c9655 = How many color analysts were involved with Super Bowl 50?
    
 TEXT 56bf738b3aeaaa14008c9655 = Westwood One will carry the game throughout North America, with Kevin Harlan as play-by-play announcer, Boomer Esiason and Dan Fouts as color analysts, and James Lofton and Mark Malone as sideline reporters.
    
-ANSWERS 56bf738b3aeaaa14008c9655 = {'two', 'boomer esiason and dan fouts'}
+ANSWERS 56bf738b3aeaaa14008c9655 = {'boomer esiason and dan fouts', 'two'}
    
 SET_PREDICTIONS 56bf738b3aeaaa14008c9655 = []
    
@@ -1506,7 +1500,7 @@ QUESTION 56d728a10d65d21400198413 = How many yards was the pass on the first dri
    
 TEXT 56d728a10d65d21400198413 = Denver took the opening kickoff and started out strong with Peyton Manning completing an 18-yard pass to tight end Owen Daniels and a 22-yard throw to receiver Andre Caldwell.
    
-ANSWERS 56d728a10d65d21400198413 = {'18', '22yard'}
+ANSWERS 56d728a10d65d21400198413 = {'22yard', '18'}
    
 SET_PREDICTIONS 56d728a10d65d21400198413 = ['18yard', '22yard']
    
@@ -1530,8 +1524,7 @@ FINAL_PREDICTION 56bec8a13aeaaa14008c9437 = 51 yards
 ------------------  
    
   
-ERROR 56bec8a13aeaaa14008c9438
-QUESTION 56bec8a13aeaaa14008c9438 = How many yards did Jordan Norwood return a punt to set the Super Bowl record?
+ERROR 56bec8a13aeaaa14008c9438QUESTION 56bec8a13aeaaa14008c9438 = How many yards did Jordan Norwood return a punt to set the Super Bowl record?
    
 TEXT 56bec8a13aeaaa14008c9438 = Norwood had not done so, and with no resistance around him, he took off for a Super Bowl record 61-yard return before Mario Addison dragged him down on the Panthers 14-yard line.
    
@@ -1545,8 +1538,7 @@ FINAL_PREDICTION 56bec8a13aeaaa14008c9438 =
 ------------------  
    
   
-ERROR 56bec8a13aeaaa14008c9439
-QUESTION 56bec8a13aeaaa14008c9439 = How many yards was the McManus field goal?
+ERROR 56bec8a13aeaaa14008c9439QUESTION 56bec8a13aeaaa14008c9439 = How many yards was the McManus field goal?
    
 TEXT 56bec8a13aeaaa14008c9439 = Despite Denver's excellent field position, they could not get the ball into the end zone, so McManus kicked a 33-yard field goal that increased their lead to 13–7.
    
@@ -1588,8 +1580,7 @@ FINAL_PREDICTION 56d729180d65d21400198428 = second quarter
 ------------------  
    
   
-ERROR 56d729180d65d2140019842a
-QUESTION 56d729180d65d2140019842a = How many yards was the field goal that made the score 13-7 in Super Bowl 50?
+ERROR 56d729180d65d2140019842aQUESTION 56d729180d65d2140019842a = How many yards was the field goal that made the score 13-7 in Super Bowl 50?
    
 TEXT 56d729180d65d2140019842a = Despite Denver's excellent field position, they could not get the ball into the end zone, so McManus kicked a 33-yard field goal that increased their lead to 13–7.
    
@@ -1649,7 +1640,7 @@ QUESTION 56d9ca0adc89441400fdb822 = How many yards was the field goal Gano made 
    
 TEXT 56d9ca0adc89441400fdb822 = A 16-yard reception by Devin Funchess and a 12-yard run by Stewart then set up Gano's 39-yard field goal, cutting the Panthers deficit to one score at 16–10.
    
-ANSWERS 56d9ca0adc89441400fdb822 = {'39yard', '39'}
+ANSWERS 56d9ca0adc89441400fdb822 = {'39', '39yard'}
    
 SET_PREDICTIONS 56d9ca0adc89441400fdb822 = ['39yard field goal', 'one', '16–10']
    
@@ -1663,7 +1654,7 @@ QUESTION 56d9ca0adc89441400fdb823 = How many of the following three fourth quart
    
 TEXT 56d9ca0adc89441400fdb823 = The next three drives of the game would end in punts.
    
-ANSWERS 56d9ca0adc89441400fdb823 = {'three', 'next three drives'}
+ANSWERS 56d9ca0adc89441400fdb823 = {'next three drives', 'three'}
    
 SET_PREDICTIONS 56d9ca0adc89441400fdb823 = ['three']
    
@@ -1673,8 +1664,7 @@ FINAL_PREDICTION 56d9ca0adc89441400fdb823 = three
 ------------------  
    
   
-ERROR 56d726b60d65d214001983ee
-QUESTION 56d726b60d65d214001983ee = How much time was left in the game when Denver took the score to 24-10?
+ERROR 56d726b60d65d214001983eeQUESTION 56d726b60d65d214001983ee = How much time was left in the game when Denver took the score to 24-10?
    
 TEXT 56d726b60d65d214001983ee = Then Anderson scored on a 2-yard touchdown run and Manning completed a pass to Bennie Fowler for a 2-point conversion, giving Denver a 24–10 lead with 3:08 left and essentially putting the game away.
    
@@ -1706,7 +1696,7 @@ QUESTION 56becaf93aeaaa14008c9481 = How many solo sacks did Von Miller have in t
    
 TEXT 56becaf93aeaaa14008c9481 = Miller had six total tackles (five solo), 2½ sacks, and two forced fumbles.
    
-ANSWERS 56becaf93aeaaa14008c9481 = {'2', '2½', 'five'}
+ANSWERS 56becaf93aeaaa14008c9481 = {'five', '2½', '2'}
    
 SET_PREDICTIONS 56becaf93aeaaa14008c9481 = ['six', 'five', '2½', 'two']
    
@@ -1902,7 +1892,7 @@ QUESTION 57336755d058e614000b5a3d = Over how many species of trees can be found 
    
 TEXT 57336755d058e614000b5a3d = There are over 100 different species of trees and the avenues are a place to sit and relax.
    
-ANSWERS 57336755d058e614000b5a3d = {'over 100', '100'}
+ANSWERS 57336755d058e614000b5a3d = {'100', 'over 100'}
    
 SET_PREDICTIONS 57336755d058e614000b5a3d = ['over 100']
    
@@ -1926,8 +1916,7 @@ FINAL_PREDICTION 57337ddc4776f41900660bba = 13
 ------------------  
    
   
-ERROR 57337ddc4776f41900660bbd
-QUESTION 57337ddc4776f41900660bbd = How many lakes are there in Warsaw?
+ERROR 57337ddc4776f41900660bbdQUESTION 57337ddc4776f41900660bbd = How many lakes are there in Warsaw?
    
 TEXT 57337ddc4776f41900660bbd = There are also several lakes in Warsaw – mainly the oxbow lakes, like Czerniaków Lake, the lakes in the Łazienki or Wilanów Parks, Kamionek Lake.
    
@@ -1983,8 +1972,7 @@ FINAL_PREDICTION 57339902d058e614000b5e71 = over two million
 ------------------  
    
   
-ERROR 57339902d058e614000b5e74
-QUESTION 57339902d058e614000b5e74 = How much area does the University Library garden cover?
+ERROR 57339902d058e614000b5e74QUESTION 57339902d058e614000b5e74 = How much area does the University Library garden cover?
    
 TEXT 57339902d058e614000b5e74 = It is one of the largest and most beautiful roof gardens in Europe with an area of more than 10,000 m2 (107,639.10 sq ft), and plants covering 5,111 m2 (55,014.35 sq ft).
    
@@ -2044,7 +2032,7 @@ QUESTION 5733a2a9d058e614000b5f29 = How many projects does the Centre currently 
    
 TEXT 5733a2a9d058e614000b5f29 = The Centre currently realizes about 500 projects a year.
    
-ANSWERS 5733a2a9d058e614000b5f29 = {'500', 'about 500'}
+ANSWERS 5733a2a9d058e614000b5f29 = {'about 500', '500'}
    
 SET_PREDICTIONS 5733a2a9d058e614000b5f29 = ['about 500']
    
@@ -2054,8 +2042,7 @@ FINAL_PREDICTION 5733a2a9d058e614000b5f29 = about 500
 ------------------  
    
   
-ERROR 5733a32bd058e614000b5f34
-QUESTION 5733a32bd058e614000b5f34 = How many times has Polonia won the cup?
+ERROR 5733a32bd058e614000b5f34QUESTION 5733a32bd058e614000b5f34 = How many times has Polonia won the cup?
    
 TEXT 5733a32bd058e614000b5f34 = They also won the country’s championship in 1946, and won the cup twice as well.
    
@@ -2087,7 +2074,7 @@ QUESTION 57332e48d058e614000b5765 = How many days did the Warsaw Uprising last?
    
 TEXT 57332e48d058e614000b5765 = The armed struggle, planned to last 48 hours, was partially successful, however it went on for 63 days.
    
-ANSWERS 57332e48d058e614000b5765 = {'63 days', '63'}
+ANSWERS 57332e48d058e614000b5765 = {'63', '63 days'}
    
 SET_PREDICTIONS 57332e48d058e614000b5765 = ['last 48 hours', '63 days']
    
@@ -2321,12 +2308,11 @@ FINAL_PREDICTION 56e0d6367aa994140058e773 = fifty thousand dollars
 ------------------  
    
   
-ERROR 56e05900231d4119001ac04e
-QUESTION 56e05900231d4119001ac04e = How much did Westinghouse pay to license Tesla's designs?
+ERROR 56e05900231d4119001ac04eQUESTION 56e05900231d4119001ac04e = How much did Westinghouse pay to license Tesla's designs?
    
 TEXT 56e05900231d4119001ac04e = In July 1888, Brown and Peck negotiated a licensing deal with George Westinghouse for Tesla's polyphase induction motor and transformer designs for $60,000 in cash and stock and a royalty of $2.50 per AC horsepower produced by each motor.
    
-ANSWERS 56e05900231d4119001ac04e = {'60000 in cash and stock and royalty', '60000 in cash and stock and royalty of 250 per ac horsepower produced by each motor'}
+ANSWERS 56e05900231d4119001ac04e = {'60000 in cash and stock and royalty of 250 per ac horsepower produced by each motor', '60000 in cash and stock and royalty'}
    
 SET_PREDICTIONS 56e05900231d4119001ac04e = ['july 1888', '60000', '250']
    
@@ -2336,12 +2322,11 @@ FINAL_PREDICTION 56e05900231d4119001ac04e = july 1888
 ------------------  
    
   
-ERROR 56e0dc667aa994140058e783
-QUESTION 56e0dc667aa994140058e783 = How much did Westinghouse pay for Tesla's designs?
+ERROR 56e0dc667aa994140058e783QUESTION 56e0dc667aa994140058e783 = How much did Westinghouse pay for Tesla's designs?
    
 TEXT 56e0dc667aa994140058e783 = In July 1888, Brown and Peck negotiated a licensing deal with George Westinghouse for Tesla's polyphase induction motor and transformer designs for $60,000 in cash and stock and a royalty of $2.50 per AC horsepower produced by each motor.
    
-ANSWERS 56e0dc667aa994140058e783 = {'60000 in cash and stock and royalty', '60000 in cash and stock and royalty of 250 per ac horsepower produced by each motor'}
+ANSWERS 56e0dc667aa994140058e783 = {'60000 in cash and stock and royalty of 250 per ac horsepower produced by each motor', '60000 in cash and stock and royalty'}
    
 SET_PREDICTIONS 56e0dc667aa994140058e783 = ['july 1888', '60000', '250']
    
@@ -2369,7 +2354,7 @@ QUESTION 56e089ab231d4119001ac289 = By 1897, how much had Tesla, Brown, and Peck
    
 TEXT 56e089ab231d4119001ac289 = To secure further loans, Westinghouse was forced to revisit Tesla's AC patent, which bankers considered a financial strain on the company (at that point Westinghouse had paid out an estimated $200,000 in licenses and royalties to Tesla, Brown, and Peck).
    
-ANSWERS 56e089ab231d4119001ac289 = {'estimated 200000', '200000'}
+ANSWERS 56e089ab231d4119001ac289 = {'200000', 'estimated 200000'}
    
 SET_PREDICTIONS 56e089ab231d4119001ac289 = ['estimated 200000']
    
@@ -2383,7 +2368,7 @@ QUESTION 56e0ef0c231d4119001ac463 = How much had Westinghouse paid to Tesla, Bro
    
 TEXT 56e0ef0c231d4119001ac463 = To secure further loans, Westinghouse was forced to revisit Tesla's AC patent, which bankers considered a financial strain on the company (at that point Westinghouse had paid out an estimated $200,000 in licenses and royalties to Tesla, Brown, and Peck).
    
-ANSWERS 56e0ef0c231d4119001ac463 = {'estimated 200000', 'estimated 200000 in licenses and royalties'}
+ANSWERS 56e0ef0c231d4119001ac463 = {'estimated 200000 in licenses and royalties', 'estimated 200000'}
    
 SET_PREDICTIONS 56e0ef0c231d4119001ac463 = ['estimated 200000']
    
@@ -2421,12 +2406,11 @@ FINAL_PREDICTION 56e100b6cd28a01900c67403 = 1899
 ------------------  
    
   
-ERROR 56e10296cd28a01900c67423
-QUESTION 56e10296cd28a01900c67423 = How much correspondence did Tesla send Morgan in the five years following 1901?
+ERROR 56e10296cd28a01900c67423QUESTION 56e10296cd28a01900c67423 = How much correspondence did Tesla send Morgan in the five years following 1901?
    
 TEXT 56e10296cd28a01900c67423 = Over the next five years, Tesla wrote over 50 letters to Morgan, pleading for and demanding additional funding to complete the construction of Wardenclyffe.
    
-ANSWERS 56e10296cd28a01900c67423 = {'over 50 letters', '50 letters'}
+ANSWERS 56e10296cd28a01900c67423 = {'50 letters', 'over 50 letters'}
    
 SET_PREDICTIONS 56e10296cd28a01900c67423 = ['next five years', '50']
    
@@ -2478,8 +2462,7 @@ FINAL_PREDICTION 56e10aa5cd28a01900c674b3 = one
 ------------------  
    
   
-ERROR 56e10d2dcd28a01900c674d9
-QUESTION 56e10d2dcd28a01900c674d9 = How much energy loss did he expect would occur?
+ERROR 56e10d2dcd28a01900c674d9QUESTION 56e10d2dcd28a01900c674d9 = How much energy loss did he expect would occur?
    
 TEXT 56e10d2dcd28a01900c674d9 = In 1935, in an annual birthday celebration interview, Tesla announced a method of transmitting mechanical energy with minimal loss over any terrestrial distance, a related new means of communication, and a method of accurately determining the location of underground mineral deposits.
    
@@ -2493,12 +2476,11 @@ FINAL_PREDICTION 56e10d2dcd28a01900c674d9 = annual
 ------------------  
    
   
-ERROR 56e10f14e3433e1400422b60
-QUESTION 56e10f14e3433e1400422b60 = How much time did he claim had to pass before he gave the ray to the world?
+ERROR 56e10f14e3433e1400422b60QUESTION 56e10f14e3433e1400422b60 = How much time did he claim had to pass before he gave the ray to the world?
    
 TEXT 56e10f14e3433e1400422b60 = Only a little time will pass before I can give it to the world."
    
-ANSWERS 56e10f14e3433e1400422b60 = {'little', 'only little time', 'only little'}
+ANSWERS 56e10f14e3433e1400422b60 = {'only little time', 'little', 'only little'}
    
 SET_PREDICTIONS 56e10f14e3433e1400422b60 = []
    
@@ -2512,7 +2494,7 @@ QUESTION 56e111e5e3433e1400422b93 = How many people attended the funeral?
    
 TEXT 56e111e5e3433e1400422b93 = On 12 January, two thousand people attended a state funeral for Tesla at the Cathedral of Saint John the Divine.
    
-ANSWERS 56e111e5e3433e1400422b93 = {'two thousand', 'two thousand people'}
+ANSWERS 56e111e5e3433e1400422b93 = {'two thousand people', 'two thousand'}
    
 SET_PREDICTIONS 56e111e5e3433e1400422b93 = ['12 january', 'two thousand']
    
@@ -2592,8 +2574,7 @@ FINAL_PREDICTION 56e11cedcd28a01900c675e7 = eight
 ------------------  
    
   
-ERROR 56e126dae3433e1400422c7e
-QUESTION 56e126dae3433e1400422c7e = How many types of science fiction have been impacted by Tesla?
+ERROR 56e126dae3433e1400422c7eQUESTION 56e126dae3433e1400422c7e = How many types of science fiction have been impacted by Tesla?
    
 TEXT 56e126dae3433e1400422c7e = The impact of the technologies invented or envisioned by Tesla is a recurring theme in several types of science fiction.
    
@@ -2635,12 +2616,11 @@ FINAL_PREDICTION 56e17e6ee3433e1400422f7f = most 2000 kilometres
 ------------------  
    
   
-ERROR 56e19724cd28a01900c679f7
-QUESTION 56e19724cd28a01900c679f7 = How many outputs are expected for each input in a function problem?
+ERROR 56e19724cd28a01900c679f7QUESTION 56e19724cd28a01900c679f7 = How many outputs are expected for each input in a function problem?
    
 TEXT 56e19724cd28a01900c679f7 = A function problem is a computational problem where a single output (of a total function) is expected for every input, but the output is more complex than that of a decision problem, that is, it isn't just yes or no.
    
-ANSWERS 56e19724cd28a01900c679f7 = {'single output', 'single'}
+ANSWERS 56e19724cd28a01900c679f7 = {'single', 'single output'}
    
 SET_PREDICTIONS 56e19724cd28a01900c679f7 = []
    
@@ -2664,8 +2644,7 @@ FINAL_PREDICTION 56e20a3ae3433e140042324e = 21
 ------------------  
    
   
-ERROR 56e756bc37bdd419002c3e96
-QUESTION 56e756bc37bdd419002c3e96 = How many teachers are usually involved when co-teaching?
+ERROR 56e756bc37bdd419002c3e96QUESTION 56e756bc37bdd419002c3e96 = How many teachers are usually involved when co-teaching?
    
 TEXT 56e756bc37bdd419002c3e96 = Co-teaching is defined as two or more teachers working harmoniously to fulfill the needs of every student in the classroom.
    
@@ -2735,12 +2714,11 @@ FINAL_PREDICTION 56e76b8337bdd419002c3f7f = 2000
 ------------------  
    
   
-ERROR 56e76b8337bdd419002c3f81
-QUESTION 56e76b8337bdd419002c3f81 = How much higher was the 42% occupation stress figure, compared to other jobs?
+ERROR 56e76b8337bdd419002c3f81QUESTION 56e76b8337bdd419002c3f81 = How much higher was the 42% occupation stress figure, compared to other jobs?
    
 TEXT 56e76b8337bdd419002c3f81 = A 2000 study found that 42% of UK teachers experienced occupational stress, twice the figure for the average profession.
    
-ANSWERS 56e76b8337bdd419002c3f81 = {'twice', 'twice figure for average profession'}
+ANSWERS 56e76b8337bdd419002c3f81 = {'twice figure for average profession', 'twice'}
    
 SET_PREDICTIONS 56e76b8337bdd419002c3f81 = ['2000', '42']
    
@@ -2750,8 +2728,7 @@ FINAL_PREDICTION 56e76b8337bdd419002c3f81 = 42
 ------------------  
    
   
-ERROR 56e76c6a00c9c71400d7710e
-QUESTION 56e76c6a00c9c71400d7710e = How many ways are available to help reduce the stress of teaching?
+ERROR 56e76c6a00c9c71400d7710eQUESTION 56e76c6a00c9c71400d7710e = How many ways are available to help reduce the stress of teaching?
    
 TEXT 56e76c6a00c9c71400d7710e = There are several ways to mitigate the occupational hazards of teaching.
    
@@ -2797,7 +2774,7 @@ QUESTION 56e7770037bdd419002c3fe0 = How much does a Probationer earn, initially?
    
 TEXT 56e7770037bdd419002c3fe0 = For the salary year beginning April 2008, unpromoted teachers in Scotland earned from £20,427 for a Probationer, up to £32,583 after 6 years teaching, but could then go on to earn up to £39,942 as they complete the modules to earn Chartered Teacher Status (requiring at least 6 years at up to two modules per year.)
    
-ANSWERS 56e7770037bdd419002c3fe0 = {'20427', '£20427'}
+ANSWERS 56e7770037bdd419002c3fe0 = {'£20427', '20427'}
    
 SET_PREDICTIONS 56e7770037bdd419002c3fe0 = ['salary year', 'april 2008', '20427', 'up to £32583', '6 years', '39942', 'at least 6 years', 'up to two modules']
    
@@ -2811,7 +2788,7 @@ QUESTION 56e7770037bdd419002c3fe1 = How much does a Probationer earn, after 6 ye
    
 TEXT 56e7770037bdd419002c3fe1 = For the salary year beginning April 2008, unpromoted teachers in Scotland earned from £20,427 for a Probationer, up to £32,583 after 6 years teaching, but could then go on to earn up to £39,942 as they complete the modules to earn Chartered Teacher Status (requiring at least 6 years at up to two modules per year.)
    
-ANSWERS 56e7770037bdd419002c3fe1 = {'32583', '£32583'}
+ANSWERS 56e7770037bdd419002c3fe1 = {'£32583', '32583'}
    
 SET_PREDICTIONS 56e7770037bdd419002c3fe1 = ['salary year', 'april 2008', '20427', 'up to £32583', '6 years', '39942', 'at least 6 years', 'up to two modules']
    
@@ -2825,7 +2802,7 @@ QUESTION 56e77b8c00c9c71400d77194 = How many types of religious or spiritual tea
    
 TEXT 56e77b8c00c9c71400d77194 = There are many forms of spiritual or religious teachers in Christianity, across all three major traditions - (Roman) Catholic, (Eastern) Orthodox Catholic, and Protestant/Non-Denominational, with a stronger tradition of spiritual formation in the more historic and authoritarian/hierarchical Christian traditions with a long tradition of "discernment of spirits", of vocations, and other aspects of spiritual life, especially the Roman and Orthodox Catholic Churches.
    
-ANSWERS 56e77b8c00c9c71400d77194 = {'three', 'many'}
+ANSWERS 56e77b8c00c9c71400d77194 = {'many', 'three'}
    
 SET_PREDICTIONS 56e77b8c00c9c71400d77194 = ['three']
    
@@ -2835,12 +2812,11 @@ FINAL_PREDICTION 56e77b8c00c9c71400d77194 = three
 ------------------  
    
   
-ERROR 56e77da237bdd419002c403e
-QUESTION 56e77da237bdd419002c403e = How much has a Lama agreed to be reborn?
+ERROR 56e77da237bdd419002c403eQUESTION 56e77da237bdd419002c403e = How much has a Lama agreed to be reborn?
    
 TEXT 56e77da237bdd419002c403e = A Lama who has through phowa and siddhi consciously determined to be reborn, often many times, in order to continue their Bodhisattva vow is called a Tulku.
    
-ANSWERS 56e77da237bdd419002c403e = {'many times', 'often many times'}
+ANSWERS 56e77da237bdd419002c403e = {'often many times', 'many times'}
    
 SET_PREDICTIONS 56e77da237bdd419002c403e = []
    
@@ -2868,7 +2844,7 @@ QUESTION 56f80fdfaef2371900625d98 = How much of the indulgences went to Rome?
    
 TEXT 56f80fdfaef2371900625d98 = As Luther later noted, "the pope had a finger in the pie as well, because one half was to go to the building of St Peter's Church in Rome".
    
-ANSWERS 56f80fdfaef2371900625d98 = {'one half', 'half'}
+ANSWERS 56f80fdfaef2371900625d98 = {'half', 'one half'}
    
 SET_PREDICTIONS 56f80fdfaef2371900625d98 = ['one half']
    
@@ -2882,7 +2858,7 @@ QUESTION 56f8507fa6d7ea1400e1754b = How many ways did Luther justify his opposit
    
 TEXT 56f8507fa6d7ea1400e1754b = Luther justified his opposition to the rebels on three grounds.
    
-ANSWERS 56f8507fa6d7ea1400e1754b = {'three', 'on three grounds'}
+ANSWERS 56f8507fa6d7ea1400e1754b = {'on three grounds', 'three'}
    
 SET_PREDICTIONS 56f8507fa6d7ea1400e1754b = ['three']
    
@@ -2896,7 +2872,7 @@ QUESTION 56f8575aaef2371900625fff = How many children did Luther and his wife ha
    
 TEXT 56f8575aaef2371900625fff = Between bearing six children, Hans – June 1526; Elizabeth – 10 December 1527, who died within a few months; Magdalene – 1529, who died in Luther's arms in 1542; Martin – 1531; Paul – January 1533; and Margaret – 1534; Katharina helped the couple earn a living by farming the land and taking in boarders.
    
-ANSWERS 56f8575aaef2371900625fff = {'six children', 'six'}
+ANSWERS 56f8575aaef2371900625fff = {'six', 'six children'}
    
 SET_PREDICTIONS 56f8575aaef2371900625fff = ['six', 'december 1527', 'few months', '1542', 'margaret – 1534']
    
@@ -2938,7 +2914,7 @@ QUESTION 56f8c43d9b226e1400dd0f65 = How many times did Luther preach in Halle in
    
 TEXT 56f8c43d9b226e1400dd0f65 = In 1545 and 1546 Luther preached three times in the Market Church in Halle, staying with his friend Justus Jonas during Christmas.
    
-ANSWERS 56f8c43d9b226e1400dd0f65 = {'three', 'three times'}
+ANSWERS 56f8c43d9b226e1400dd0f65 = {'three times', 'three'}
    
 SET_PREDICTIONS 56f8c43d9b226e1400dd0f65 = ['1545', '1546', 'three', 'christmas']
    
@@ -2980,7 +2956,7 @@ QUESTION 5705e3f252bb89140068966c = How many inhabitants does the Los Angeles ar
    
 TEXT 5705e3f252bb89140068966c = Out of these, three are heavy populated areas: the Los Angeles area with over 12 million inhabitants, the Riverside-San Bernardino area with over four million inhabitants, and the San Diego area with over 3 million inhabitants.
    
-ANSWERS 5705e3f252bb89140068966c = {'over 12 million inhabitants', '12 million'}
+ANSWERS 5705e3f252bb89140068966c = {'12 million', 'over 12 million inhabitants'}
    
 SET_PREDICTIONS 5705e3f252bb89140068966c = ['three', '12 million', 'over four million', '3 million']
    
@@ -3186,8 +3162,7 @@ FINAL_PREDICTION 57094a79efce8f15003a7dc5 = six
 ------------------  
    
   
-ERROR 57094a79efce8f15003a7dc7
-QUESTION 57094a79efce8f15003a7dc7 = How much did Sky bid to win the 4 broadcast pacakges they bought?
+ERROR 57094a79efce8f15003a7dc7QUESTION 57094a79efce8f15003a7dc7 = How much did Sky bid to win the 4 broadcast pacakges they bought?
    
 TEXT 57094a79efce8f15003a7dc7 = Sky picked up the remaining four for £1.3bn.
    
@@ -3303,7 +3278,7 @@ QUESTION 570d2556fed7b91900d45c4a = How many miners died in the typhoid outbreak
    
 TEXT 570d2556fed7b91900d45c4a = Conditions on the gold fields were cramped and unsanitary; an outbreak of typhoid at Buckland Valley in 1854 killed over 1,000 miners.
    
-ANSWERS 570d2556fed7b91900d45c4a = {'over 1000', '1000'}
+ANSWERS 570d2556fed7b91900d45c4a = {'1000', 'over 1000'}
    
 SET_PREDICTIONS 570d2556fed7b91900d45c4a = ['1854', 'over 1000']
    
@@ -3453,12 +3428,11 @@ FINAL_PREDICTION 570d418dfed7b91900d45dbe = 37
 ------------------  
    
   
-ERROR 570d4329fed7b91900d45dda
-QUESTION 570d4329fed7b91900d45dda = How much did the population of Victoria increase in ten years after the discovery of gold?
+ERROR 570d4329fed7b91900d45ddaQUESTION 570d4329fed7b91900d45dda = How much did the population of Victoria increase in ten years after the discovery of gold?
    
 TEXT 570d4329fed7b91900d45dda = In ten years the population of Victoria increased sevenfold from 76,000 to 540,000.
    
-ANSWERS 570d4329fed7b91900d45dda = {'sevenfold', '76000 to 540000'}
+ANSWERS 570d4329fed7b91900d45dda = {'76000 to 540000', 'sevenfold'}
    
 SET_PREDICTIONS 570d4329fed7b91900d45dda = ['ten years', '76000', '540000']
    
@@ -3584,7 +3558,7 @@ QUESTION 570d50a5fed7b91900d45e7d = How much did the gross agricultural product 
    
 TEXT 570d50a5fed7b91900d45e7d = During 2003–04, the gross value of Victorian agricultural production increased by 17% to $8.7 billion.
    
-ANSWERS 570d50a5fed7b91900d45e7d = {'24', '87 billion'}
+ANSWERS 570d50a5fed7b91900d45e7d = {'87 billion', '24'}
    
 SET_PREDICTIONS 570d50a5fed7b91900d45e7d = ['17', '87 billion']
    
@@ -3650,8 +3624,7 @@ FINAL_PREDICTION 57107d73b654c5140001f920 = nearly threequarters
 ------------------  
    
   
-ERROR 57107e6ca58dae1900cd69f4
-QUESTION 57107e6ca58dae1900cd69f4 = How many Huguenots were killed during this purge?
+ERROR 57107e6ca58dae1900cd69f4QUESTION 57107e6ca58dae1900cd69f4 = How many Huguenots were killed during this purge?
    
 TEXT 57107e6ca58dae1900cd69f4 = The height of this persecution was the St. Bartholomew's Day massacre when 5,000 to 30,000 were killed, although there were also underlying political reasons for this as well, as some of the Huguenots were nobles trying to establish separate centers of power in southern France.
    
@@ -3679,8 +3652,7 @@ FINAL_PREDICTION 57108198b654c5140001f937 = approximately one million
 ------------------  
    
   
-ERROR 57108d69b654c5140001f984
-QUESTION 57108d69b654c5140001f984 = How many refugees emigrated to the Dutch Republic?
+ERROR 57108d69b654c5140001f984QUESTION 57108d69b654c5140001f984 = How many refugees emigrated to the Dutch Republic?
    
 TEXT 57108d69b654c5140001f984 = After the revocation of the Edict of Nantes, the Dutch Republic received the largest group of Huguenot refugees, an estimated total of 75,000 to 100,000 people.
    
@@ -3768,7 +3740,7 @@ QUESTION 57113639a58dae1900cd6d18 = How many expansion stages are used by the tr
    
 TEXT 57113639a58dae1900cd6d18 = Such engines use either three or four expansion stages and are known as triple and quadruple expansion engines respectively.
    
-ANSWERS 57113639a58dae1900cd6d18 = {'three', 'three or four'}
+ANSWERS 57113639a58dae1900cd6d18 = {'three or four', 'three'}
    
 SET_PREDICTIONS 57113639a58dae1900cd6d18 = ['three or four']
    
@@ -3866,7 +3838,7 @@ QUESTION 5711619950c2381900b54ab1 = Compared to Smeaton's improvement on Newcome
    
 TEXT 5711619950c2381900b54ab1 = Boulton and Watt's early engines used half as much coal as John Smeaton's improved version of Newcomen's.
    
-ANSWERS 5711619950c2381900b54ab1 = {'half as much', 'half', 'half as much coal'}
+ANSWERS 5711619950c2381900b54ab1 = {'half as much', 'half as much coal', 'half'}
    
 SET_PREDICTIONS 5711619950c2381900b54ab1 = ['half']
    
@@ -3894,7 +3866,7 @@ QUESTION 5711628a2419e314009555e1 = How much less steam did the Corliss engine u
    
 TEXT 5711628a2419e314009555e1 = In addition to using 30% less steam, it provided more uniform speed due to variable steam cut off, making it well suited to manufacturing, especially cotton spinning.
    
-ANSWERS 5711628a2419e314009555e1 = {'30', '30 less steam'}
+ANSWERS 5711628a2419e314009555e1 = {'30 less steam', '30'}
    
 SET_PREDICTIONS 5711628a2419e314009555e1 = ['30']
    
@@ -3975,8 +3947,7 @@ FINAL_PREDICTION 571bb2269499d21900609ca9 = 208
 ------------------  
    
   
-ERROR 571c96095efbb31900334dbe
-QUESTION 571c96095efbb31900334dbe = How much oxygen is found is a liter of fresh water under normal conditions?
+ERROR 571c96095efbb31900334dbeQUESTION 571c96095efbb31900334dbe = How much oxygen is found is a liter of fresh water under normal conditions?
    
 TEXT 571c96095efbb31900334dbe = At 25 °C and 1 standard atmosphere (101.3 kPa) of air, freshwater contains about 6.04 milliliters (mL) of oxygen per liter, whereas seawater contains about 4.95 mL per liter.
    
@@ -3990,12 +3961,11 @@ FINAL_PREDICTION 571c96095efbb31900334dbe = about 495 ml
 ------------------  
    
   
-ERROR 571c96095efbb31900334dc0
-QUESTION 571c96095efbb31900334dc0 = How much more oxygen dissolves at 0 degrees C than at 20 degrees C?
+ERROR 571c96095efbb31900334dc0QUESTION 571c96095efbb31900334dc0 = How much more oxygen dissolves at 0 degrees C than at 20 degrees C?
    
 TEXT 571c96095efbb31900334dc0 = The solubility of oxygen in water is temperature-dependent, and about twice as much (14.6 mg·L−1) dissolves at 0 °C than at 20 °C (7.6 mg·L−1).
    
-ANSWERS 571c96095efbb31900334dc0 = {'twice as much', '50 more', 'twice', 'about twice as much'}
+ANSWERS 571c96095efbb31900334dc0 = {'twice', 'twice as much', '50 more', 'about twice as much'}
    
 SET_PREDICTIONS 571c96095efbb31900334dc0 = ['146 mg·l−1', '20 °c']
    
@@ -4009,7 +3979,7 @@ QUESTION 571c97e2dd7acb1400e4c120 = How much of the sun is made up of oxygen?
    
 TEXT 571c97e2dd7acb1400e4c120 = About 0.9% of the Sun's mass is oxygen.
    
-ANSWERS 571c97e2dd7acb1400e4c120 = {'09', 'about 09'}
+ANSWERS 571c97e2dd7acb1400e4c120 = {'about 09', '09'}
    
 SET_PREDICTIONS 571c97e2dd7acb1400e4c120 = ['about 09']
    
@@ -4037,7 +4007,7 @@ QUESTION 571ccc00dd7acb1400e4c15c = In how many places is oxygen stored in its c
    
 TEXT 571ccc00dd7acb1400e4c15c = This biogeochemical cycle describes the movement of oxygen within and between its three main reservoirs on Earth: the atmosphere, the biosphere, and the lithosphere.
    
-ANSWERS 571ccc00dd7acb1400e4c15c = {'three', 'three main reservoirs'}
+ANSWERS 571ccc00dd7acb1400e4c15c = {'three main reservoirs', 'three'}
    
 SET_PREDICTIONS 571ccc00dd7acb1400e4c15c = ['three']
    
@@ -4047,14 +4017,13 @@ FINAL_PREDICTION 571ccc00dd7acb1400e4c15c = three
 ------------------  
    
   
-ERROR 571ccd9b5efbb31900334dfc
-QUESTION 571ccd9b5efbb31900334dfc = How much is the sieve method of gas production used?
+ERROR 571ccd9b5efbb31900334dfcQUESTION 571ccd9b5efbb31900334dfc = How much is the sieve method of gas production used?
    
 TEXT 571ccd9b5efbb31900334dfc = The other major method of producing O
 2 gas involves passing a stream of clean, dry air through one bed of a pair of identical zeolite molecular sieves, which absorbs the nitrogen and delivers a gas stream that is 90% to 93% O
 2.
    
-ANSWERS 571ccd9b5efbb31900334dfc = {'increasingly', 'major method'}
+ANSWERS 571ccd9b5efbb31900334dfc = {'major method', 'increasingly'}
    
 SET_PREDICTIONS 571ccd9b5efbb31900334dfc = ['2', 'one', '90 to 93']
    
@@ -4064,8 +4033,7 @@ FINAL_PREDICTION 571ccd9b5efbb31900334dfc = one
 ------------------  
    
   
-ERROR 571cde695efbb31900334e17
-QUESTION 571cde695efbb31900334e17 = How many biomolecules contain no oxygen?
+ERROR 571cde695efbb31900334e17QUESTION 571cde695efbb31900334e17 = How many biomolecules contain no oxygen?
    
 TEXT 571cde695efbb31900334e17 = Only a few common complex biomolecules, such as squalene and the carotenes, contain no oxygen.
    
@@ -4079,8 +4047,7 @@ FINAL_PREDICTION 571cde695efbb31900334e17 =
 ------------------  
    
   
-ERROR 571ce5055efbb31900334e2c
-QUESTION 571ce5055efbb31900334e2c = How much of normal is the oxygen breathed in space suits?
+ERROR 571ce5055efbb31900334e2cQUESTION 571ce5055efbb31900334e2c = How much of normal is the oxygen breathed in space suits?
    
 TEXT 571ce5055efbb31900334e2c = In the case of spacesuits, the O
 2 partial pressure in the breathing gas is, in general, about 30 kPa (1.4 times normal), and the resulting O
@@ -4097,8 +4064,7 @@ FINAL_PREDICTION 571ce5055efbb31900334e2c = about 30
 ------------------  
    
   
-ERROR 571ce5055efbb31900334e2e
-QUESTION 571ce5055efbb31900334e2e = How much damage does breathing oxygen in space conditions cause?
+ERROR 571ce5055efbb31900334e2eQUESTION 571ce5055efbb31900334e2e = How much damage does breathing oxygen in space conditions cause?
    
 TEXT 571ce5055efbb31900334e2e = Breathing pure O
 2 in space applications, such as in some modern space suits, or in early spacecraft such as Apollo, causes no damage due to the low total pressures used.
@@ -4113,12 +4079,11 @@ FINAL_PREDICTION 571ce5055efbb31900334e2e =
 ------------------  
    
   
-ERROR 5725b92e38643c19005acbd3
-QUESTION 5725b92e38643c19005acbd3 = From 1947 to 1967, how much did the price of oil increase?
+ERROR 5725b92e38643c19005acbd3QUESTION 5725b92e38643c19005acbd3 = From 1947 to 1967, how much did the price of oil increase?
    
 TEXT 5725b92e38643c19005acbd3 = From 1947 to 1967, the dollar price of oil had risen by less than two percent per year.
    
-ANSWERS 5725b92e38643c19005acbd3 = {'by less than two percent per year', 'less than two percent per year', 'risen by less than two percent per year'}
+ANSWERS 5725b92e38643c19005acbd3 = {'risen by less than two percent per year', 'by less than two percent per year', 'less than two percent per year'}
    
 SET_PREDICTIONS 5725b92e38643c19005acbd3 = ['1947', '1967', 'less than two percent']
    
@@ -4132,7 +4097,7 @@ QUESTION 5725bad5271a42140099d0bf = How many times more did the other nations ha
    
 TEXT 5725bad5271a42140099d0bf = Let's say ten times more."
    
-ANSWERS 5725bad5271a42140099d0bf = {'hundred', 'ten', 'ten times more'}
+ANSWERS 5725bad5271a42140099d0bf = {'ten', 'hundred', 'ten times more'}
    
 SET_PREDICTIONS 5725bad5271a42140099d0bf = ['ten']
    
@@ -4160,7 +4125,7 @@ QUESTION 57261dab38643c19005ad037 = How much did Saudi Arabia spend on spreading
    
 TEXT 57261dab38643c19005ad037 = Saudi Arabia spent over 100 billion dollars in the ensuing decades for helping spread its fundamentalist interpretation of Islam, known as Wahhabism, throughout the world, via religious charities such al-Haramain Foundation, which often also distributed funds to violent Sunni extremist groups such as Al-Qaeda and the Taliban.
    
-ANSWERS 57261dab38643c19005ad037 = {'over 100 billion dollars', '100 billion dollars'}
+ANSWERS 57261dab38643c19005ad037 = {'100 billion dollars', 'over 100 billion dollars'}
    
 SET_PREDICTIONS 57261dab38643c19005ad037 = ['over 100 billion dollars', 'decades']
    
@@ -4188,7 +4153,7 @@ QUESTION 57265bdfdd62a815002e829f = How many passengers can the Ford Fiesta acco
    
 TEXT 57265bdfdd62a815002e829f = The Dodge Omni / Plymouth Horizon from Chrysler, the Ford Fiesta and the Chevrolet Chevette all had four-cylinder engines and room for at least four passengers by the late 1970s.
    
-ANSWERS 57265bdfdd62a815002e829f = {'at least four', 'at least four passengers', 'four'}
+ANSWERS 57265bdfdd62a815002e829f = {'four', 'at least four', 'at least four passengers'}
    
 SET_PREDICTIONS 57265bdfdd62a815002e829f = ['four', 'at least four', 'late 1970s']
    
@@ -4202,7 +4167,7 @@ QUESTION 5725b41838643c19005acb83 = How many people were on the project that fol
    
 TEXT 5725b41838643c19005acb83 = Project Mercury was followed by the two-man Project Gemini (1962–66).
    
-ANSWERS 5725b41838643c19005acb83 = {'twoman', 'two', 'rst'}
+ANSWERS 5725b41838643c19005acb83 = {'rst', 'two', 'twoman'}
    
 SET_PREDICTIONS 5725b41838643c19005acb83 = ['two', '1962–66']
    
@@ -4216,7 +4181,7 @@ QUESTION 5725b64d89a1e219009abd43 = How many of the remaining launches were succ
    
 TEXT 5725b64d89a1e219009abd43 = Five of the remaining six missions achieved successful landings, but the Apollo 13 landing was prevented by an oxygen tank explosion in transit to the Moon, which disabled the command spacecraft's propulsion and life support.
    
-ANSWERS 5725b64d89a1e219009abd43 = {'five of remaining six missions', 'six', 'five'}
+ANSWERS 5725b64d89a1e219009abd43 = {'five', 'five of remaining six missions', 'six'}
    
 SET_PREDICTIONS 5725b64d89a1e219009abd43 = ['five', 'six']
    
@@ -4230,7 +4195,7 @@ QUESTION 5725b77889a1e219009abd56 = How many kgs of moon rocks did the program b
    
 TEXT 5725b77889a1e219009abd56 = The program returned 842 pounds (382 kg) of lunar rocks and soil to Earth, greatly contributing to the understanding of the Moon's composition and geological history.
    
-ANSWERS 5725b77889a1e219009abd56 = {'382 kg', '382'}
+ANSWERS 5725b77889a1e219009abd56 = {'382', '382 kg'}
    
 SET_PREDICTIONS 5725b77889a1e219009abd56 = ['842 pounds', '382 kg']
    
@@ -4244,7 +4209,7 @@ QUESTION 5725b888ec44d21400f3d453 = How many people could the Mercury capsule ho
    
 TEXT 5725b888ec44d21400f3d453 = While the Mercury capsule could only support one astronaut on a limited Earth orbital mission, Apollo would carry three astronauts.
    
-ANSWERS 5725b888ec44d21400f3d453 = {'three', 'one astronaut', 'one'}
+ANSWERS 5725b888ec44d21400f3d453 = {'one', 'one astronaut', 'three'}
    
 SET_PREDICTIONS 5725b888ec44d21400f3d453 = ['one', 'three']
    
@@ -4258,7 +4223,7 @@ QUESTION 5725b888ec44d21400f3d454 = How many people could Apollo be projected to
    
 TEXT 5725b888ec44d21400f3d454 = While the Mercury capsule could only support one astronaut on a limited Earth orbital mission, Apollo would carry three astronauts.
    
-ANSWERS 5725b888ec44d21400f3d454 = {'three', 'three astronauts'}
+ANSWERS 5725b888ec44d21400f3d454 = {'three astronauts', 'three'}
    
 SET_PREDICTIONS 5725b888ec44d21400f3d454 = ['one', 'three']
    
@@ -4272,7 +4237,7 @@ QUESTION 5725ba5038643c19005acbe9 = How many study contracts were awarded on Oct
    
 TEXT 5725ba5038643c19005acbe9 = On August 30, a feasibility study competition was announced, and on October 25, three study contracts were awarded to General Dynamics/Convair, General Electric, and the Glenn L. Martin Company.
    
-ANSWERS 5725ba5038643c19005acbe9 = {'three', 'three study contracts'}
+ANSWERS 5725ba5038643c19005acbe9 = {'three study contracts', 'three'}
    
 SET_PREDICTIONS 5725ba5038643c19005acbe9 = ['august 30', 'october 25', 'three']
    
@@ -4282,8 +4247,7 @@ FINAL_PREDICTION 5725ba5038643c19005acbe9 = three
 ------------------  
    
   
-ERROR 5725bc7138643c19005acc1f
-QUESTION 5725bc7138643c19005acc1f = How many days after Gagarin's flight did the US House Committee on Science and Astronautics meet?
+ERROR 5725bc7138643c19005acc1fQUESTION 5725bc7138643c19005acc1f = How many days after Gagarin's flight did the US House Committee on Science and Astronautics meet?
    
 TEXT 5725bc7138643c19005acc1f = At a meeting of the US House Committee on Science and Astronautics one day after Gagarin's flight, many congressmen pledged their support for a crash program aimed at ensuring that America would catch up.
    
@@ -4301,7 +4265,7 @@ QUESTION 5725c01389a1e219009abdd7 = How many launch pads were originally planned
    
 TEXT 5725c01389a1e219009abdd7 = Although at least three pads were planned, only two, designated A and B, were completed in October 1965.
    
-ANSWERS 5725c01389a1e219009abdd7 = {'three', 'three pads', 'several'}
+ANSWERS 5725c01389a1e219009abdd7 = {'several', 'three pads', 'three'}
    
 SET_PREDICTIONS 5725c01389a1e219009abdd7 = ['at least three', 'only two', 'october 1965']
    
@@ -4315,7 +4279,7 @@ QUESTION 5725cb4a89a1e219009abec8 = How many people was the CM designed to carry
    
 TEXT 5725cb4a89a1e219009abec8 = The Command Module (CM) was the conical crew cabin, designed to carry three astronauts from launch to lunar orbit and back to an Earth ocean landing.
    
-ANSWERS 5725cb4a89a1e219009abec8 = {'three', 'three astronauts'}
+ANSWERS 5725cb4a89a1e219009abec8 = {'three astronauts', 'three'}
    
 SET_PREDICTIONS 5725cb4a89a1e219009abec8 = ['three']
    
@@ -4343,7 +4307,7 @@ QUESTION 5725cc2038643c19005acd1e = How much did the initial version of the SM w
    
 TEXT 5725cc2038643c19005acd1e = The initial lunar flight version weighed approximately 51,300 pounds (23,300 kg) fully fueled, while a later version designed to carry a lunar orbit scientific instrument package weighed just over 54,000 pounds (24,000 kg).
    
-ANSWERS 5725cc2038643c19005acd1e = {'51300', '23300 kg', '51300 pounds'}
+ANSWERS 5725cc2038643c19005acd1e = {'51300 pounds', '51300', '23300 kg'}
    
 SET_PREDICTIONS 5725cc2038643c19005acd1e = ['approximately 51300 pounds', '23300 kg', 'just over 54000 pounds', '24000 kg']
    
@@ -4353,8 +4317,7 @@ FINAL_PREDICTION 5725cc2038643c19005acd1e = just over 54000 pounds
 ------------------  
    
   
-ERROR 5725cda338643c19005acd40
-QUESTION 5725cda338643c19005acd40 = How much thrust was estimated for the translunar flight?
+ERROR 5725cda338643c19005acd40QUESTION 5725cda338643c19005acd40 = How much thrust was estimated for the translunar flight?
    
 TEXT 5725cda338643c19005acd40 = Because the CSM design was started early before the selection of lunar orbit rendezvous, the service propulsion engine was sized to lift the CSM off of the Moon, and thus was oversized to about twice the thrust required for translunar flight.
    
@@ -4396,8 +4359,7 @@ FINAL_PREDICTION 5725ceb989a1e219009abf0d = around 34 hours
 ------------------  
    
   
-ERROR 5725d2ef271a42140099d256
-QUESTION 5725d2ef271a42140099d256 = How much did the second stage increase thrust by with the integration of the S-IVB-200?
+ERROR 5725d2ef271a42140099d256QUESTION 5725d2ef271a42140099d256 = How much did the second stage increase thrust by with the integration of the S-IVB-200?
    
 TEXT 5725d2ef271a42140099d256 = The S-IB first stage increased the thrust to 1,600,000 pounds-force (7,120 kN), and the second stage replaced the S-IV with the S-IVB-200, powered by a single J-2 engine burning liquid hydrogen fuel with LOX, to produce 200,000 lbf (890 kN) of thrust.
    
@@ -4415,7 +4377,7 @@ QUESTION 5725d2ef271a42140099d258 = How much weight could the Saturn IB send int
    
 TEXT 5725d2ef271a42140099d258 = A restartable version of the S-IVB was used as the third stage of the Saturn V. The Saturn IB could send over 40,000 pounds (18,100 kg) into low Earth orbit, sufficient for a partially fueled CSM or the LM.
    
-ANSWERS 5725d2ef271a42140099d258 = {'40000 pounds', '40000 pounds 18100 kg', 'over 40000 pounds'}
+ANSWERS 5725d2ef271a42140099d258 = {'40000 pounds 18100 kg', '40000 pounds', 'over 40000 pounds'}
    
 SET_PREDICTIONS 5725d2ef271a42140099d258 = ['third', '40000 pounds', '18100 kg']
    
@@ -4429,7 +4391,7 @@ QUESTION 5725d403ec44d21400f3d65d = How many stages did the Saturn V end up havi
    
 TEXT 5725d403ec44d21400f3d65d = The three-stage Saturn V was designed to send a fully fueled CSM and LM to the Moon.
    
-ANSWERS 5725d403ec44d21400f3d65d = {'three', 'third', 'threestage'}
+ANSWERS 5725d403ec44d21400f3d65d = {'threestage', 'third', 'three'}
    
 SET_PREDICTIONS 5725d403ec44d21400f3d65d = ['three']
    
@@ -4439,12 +4401,11 @@ FINAL_PREDICTION 5725d403ec44d21400f3d65d = three
 ------------------  
    
   
-ERROR 5725d51589a1e219009abf6f
-QUESTION 5725d51589a1e219009abf6f = How many Apollo missions were manned by the previous Mercury and Gemini veterans?
+ERROR 5725d51589a1e219009abf6fQUESTION 5725d51589a1e219009abf6f = How many Apollo missions were manned by the previous Mercury and Gemini veterans?
    
 TEXT 5725d51589a1e219009abf6f = All missions were commanded by Gemini or Mercury veterans.
    
-ANSWERS 5725d51589a1e219009abf6f = {'17', 'all', 'all missions'}
+ANSWERS 5725d51589a1e219009abf6f = {'all', 'all missions', '17'}
    
 SET_PREDICTIONS 5725d51589a1e219009abf6f = []
    
@@ -4468,8 +4429,7 @@ FINAL_PREDICTION 5725d61038643c19005acdd3 = 32
 ------------------  
    
   
-ERROR 5725d79e89a1e219009abf90
-QUESTION 5725d79e89a1e219009abf90 = How many people were on the test flight of the AS-206?
+ERROR 5725d79e89a1e219009abf90QUESTION 5725d79e89a1e219009abf90 = How many people were on the test flight of the AS-206?
    
 TEXT 5725d79e89a1e219009abf90 = After an unmanned LM test flight AS-206, a crew would fly the first Block II CSM and LM in a dual mission known as AS-207/208, or AS-278 (each spacecraft would be launched on a separate Saturn IB.)
    
@@ -4483,12 +4443,11 @@ FINAL_PREDICTION 5725d79e89a1e219009abf90 = first
 ------------------  
    
   
-ERROR 5725df1838643c19005ace17
-QUESTION 5725df1838643c19005ace17 = Since NASA didn't know how many attempts each test would end up requiring, what did they use instead of numbers for the trials?
+ERROR 5725df1838643c19005ace17QUESTION 5725df1838643c19005ace17 = Since NASA didn't know how many attempts each test would end up requiring, what did they use instead of numbers for the trials?
    
 TEXT 5725df1838643c19005ace17 = Each step had to be successfully accomplished before the next ones could be performed, and it was unknown how many tries of each mission would be necessary; therefore letters were used instead of numbers.
    
-ANSWERS 5725df1838643c19005ace17 = {'letters were used instead of numbers', 'letters'}
+ANSWERS 5725df1838643c19005ace17 = {'letters', 'letters were used instead of numbers'}
    
 SET_PREDICTIONS 5725df1838643c19005ace17 = []
    
@@ -4502,7 +4461,7 @@ QUESTION 5725e547ec44d21400f3d721 = How many more landing sites for the Apollo m
    
 TEXT 5725e547ec44d21400f3d721 = NASA publicized a preliminary list of eight more planned landing sites, with plans to increase the mass of the CSM and LM for the last five missions, along with the payload capacity of the Saturn V. These final missions would combine the I and J types in the 1967 list, allowing the CMP to operate a package of lunar orbital sensors and cameras while his companions were on the surface, and allowing them to stay on the Moon for over three days.
    
-ANSWERS 5725e547ec44d21400f3d721 = {'eight', 'five'}
+ANSWERS 5725e547ec44d21400f3d721 = {'five', 'eight'}
    
 SET_PREDICTIONS 5725e547ec44d21400f3d721 = ['eight', 'five', '1967', 'over three days']
    
@@ -4516,7 +4475,7 @@ QUESTION 5725ec7538643c19005ace8f = How much was NASA's procured spending on the
    
 TEXT 5725ec7538643c19005ace8f = In 2009, NASA held a symposium on project costs which presented an estimate of the Apollo program costs in 2005 dollars as roughly $170 billion.
    
-ANSWERS 5725ec7538643c19005ace8f = {'170 billion', 'roughly 170 billion'}
+ANSWERS 5725ec7538643c19005ace8f = {'roughly 170 billion', '170 billion'}
    
 SET_PREDICTIONS 5725ec7538643c19005ace8f = ['2009', '2005', 'roughly 170 billion']
    
@@ -4530,7 +4489,7 @@ QUESTION 5725ec7538643c19005ace90 = How many Saturn V rockets were produced by N
    
 TEXT 5725ec7538643c19005ace90 = This included all research and development costs; the procurement of 15 Saturn V rockets, 16 Command/Service Modules, 12 Lunar Modules, plus program support and management costs; construction expenses for facilities and their upgrading, and costs for flight operations.
    
-ANSWERS 5725ec7538643c19005ace90 = {'15 saturn v rockets', '15'}
+ANSWERS 5725ec7538643c19005ace90 = {'15', '15 saturn v rockets'}
    
 SET_PREDICTIONS 5725ec7538643c19005ace90 = ['15', '16', '12']
    
@@ -4558,7 +4517,7 @@ QUESTION 5725f16f89a1e219009ac0ce = How much of the population of Earth ended up
    
 TEXT 5725f16f89a1e219009ac0ce = An estimated one-quarter of the population of the world saw—either live or delayed—the Christmas Eve transmission during the ninth orbit of the Moon.
    
-ANSWERS 5725f16f89a1e219009ac0ce = {'onequarter', 'onequarter of population'}
+ANSWERS 5725f16f89a1e219009ac0ce = {'onequarter of population', 'onequarter'}
    
 SET_PREDICTIONS 5725f16f89a1e219009ac0ce = ['estimated onequarter', 'christmas eve', 'ninth']
    
@@ -4586,7 +4545,7 @@ QUESTION 57264a8cdd62a815002e808f = For each of the 28 member states, how many C
    
 TEXT 57264a8cdd62a815002e808f = [citation needed] Since Ireland refused to consent to changes in the Treaty of Lisbon 2007, there remains one Commissioner for each of the 28 member states, including the President and the High Representative for Foreign and Security Policy (currently Federica Mogherini).
    
-ANSWERS 57264a8cdd62a815002e808f = {'one commissioner for each of 28 member states', 'one'}
+ANSWERS 57264a8cdd62a815002e808f = {'one', 'one commissioner for each of 28 member states'}
    
 SET_PREDICTIONS 57264a8cdd62a815002e808f = ['one', '28']
    
@@ -4596,8 +4555,7 @@ FINAL_PREDICTION 57264a8cdd62a815002e808f = one
 ------------------  
    
   
-ERROR 572651f9f1498d1400e8dbf1
-QUESTION 572651f9f1498d1400e8dbf1 = How much of a voting majority must there be to effectively censure the Commission?
+ERROR 572651f9f1498d1400e8dbf1QUESTION 572651f9f1498d1400e8dbf1 = How much of a voting majority must there be to effectively censure the Commission?
    
 TEXT 572651f9f1498d1400e8dbf1 = It can require the Commission respond to questions and by a two-thirds majority can censure the whole Commission (as happened to the Santer Commission in 1999).
    
@@ -4657,7 +4615,7 @@ QUESTION 57269cc3dd62a815002e8b13 = How many paid holiday days does the Working 
    
 TEXT 57269cc3dd62a815002e8b13 = For example, the Working Time Directive requires that every worker has at least 4 weeks paid holidays each year, but most member states require more than 28 days in national law.
    
-ANSWERS 57269cc3dd62a815002e8b13 = {'4 weeks', '4 weeks paid holidays each year', '4 weeks paid'}
+ANSWERS 57269cc3dd62a815002e8b13 = {'4 weeks', '4 weeks paid', '4 weeks paid holidays each year'}
    
 SET_PREDICTIONS 57269cc3dd62a815002e8b13 = ['at least 4 weeks', 'more than 28 days']
    
@@ -4671,7 +4629,7 @@ QUESTION 57269cc3dd62a815002e8b14 = How many paid holiday days do most member st
    
 TEXT 57269cc3dd62a815002e8b14 = For example, the Working Time Directive requires that every worker has at least 4 weeks paid holidays each year, but most member states require more than 28 days in national law.
    
-ANSWERS 57269cc3dd62a815002e8b14 = {'more than 28 days', '28 days'}
+ANSWERS 57269cc3dd62a815002e8b14 = {'28 days', 'more than 28 days'}
    
 SET_PREDICTIONS 57269cc3dd62a815002e8b14 = ['at least 4 weeks', 'more than 28 days']
    
@@ -4695,8 +4653,7 @@ FINAL_PREDICTION 57269f3ef1498d1400e8e537 = 6 million lira
 ------------------  
    
   
-ERROR 5726a299dd62a815002e8b9e
-QUESTION 5726a299dd62a815002e8b9e = How many original treaties establishing the EU protected fundamental rights?
+ERROR 5726a299dd62a815002e8b9eQUESTION 5726a299dd62a815002e8b9e = How many original treaties establishing the EU protected fundamental rights?
    
 TEXT 5726a299dd62a815002e8b9e = None of the original treaties establishing the European Union mention protection for fundamental rights.
    
@@ -4742,7 +4699,7 @@ QUESTION 5726a46cdd62a815002e8bd0 = How many member states adopted the Social Ch
    
 TEXT 5726a46cdd62a815002e8bd0 = The Social Charter was subsequently adopted in 1989 by 11 of the then 12 member states.
    
-ANSWERS 5726a46cdd62a815002e8bd0 = {'11 of then 12 member states', '11'}
+ANSWERS 5726a46cdd62a815002e8bd0 = {'11', '11 of then 12 member states'}
    
 SET_PREDICTIONS 5726a46cdd62a815002e8bd0 = ['1989', '11', '12']
    
@@ -4752,8 +4709,7 @@ FINAL_PREDICTION 5726a46cdd62a815002e8bd0 = 1989
 ------------------  
    
   
-ERROR 5726bc1add62a815002e8eaa
-QUESTION 5726bc1add62a815002e8eaa = In the case Geven v Land Nordrhein-Westfalen, how many hours was the Dutch woman in question working in Germany?
+ERROR 5726bc1add62a815002e8eaaQUESTION 5726bc1add62a815002e8eaa = In the case Geven v Land Nordrhein-Westfalen, how many hours was the Dutch woman in question working in Germany?
    
 TEXT 5726bc1add62a815002e8eaa = Conversely, in Geven v Land Nordrhein-Westfalen the Court of Justice held that a Dutch woman living in the Netherlands, but working between 3 and 14 hours a week in Germany, did not have a right to receive German child benefits, even though the wife of a man who worked full-time in Germany but was resident in Austria could.
    
@@ -4767,8 +4723,7 @@ FINAL_PREDICTION 5726bc1add62a815002e8eaa = 3 and 14 hours
 ------------------  
    
   
-ERROR 5726c5a9f1498d1400e8eac5
-QUESTION 5726c5a9f1498d1400e8eac5 = How much capital did UK law require to start a company?
+ERROR 5726c5a9f1498d1400e8eac5QUESTION 5726c5a9f1498d1400e8eac5 = How much capital did UK law require to start a company?
    
 TEXT 5726c5a9f1498d1400e8eac5 = UK law only required £1 of capital to start a company, while Denmark's legislature took the view companies should only be started up if they had 200,000 Danish krone (around €27,000) to protect creditors if the company failed and went insolvent.
    
@@ -4782,8 +4737,7 @@ FINAL_PREDICTION 5726c5a9f1498d1400e8eac5 = around €27000
 ------------------  
    
   
-ERROR 5726c5a9f1498d1400e8eac6
-QUESTION 5726c5a9f1498d1400e8eac6 = How much capital did Danish law require to start a company?
+ERROR 5726c5a9f1498d1400e8eac6QUESTION 5726c5a9f1498d1400e8eac6 = How much capital did Danish law require to start a company?
    
 TEXT 5726c5a9f1498d1400e8eac6 = UK law only required £1 of capital to start a company, while Denmark's legislature took the view companies should only be started up if they had 200,000 Danish krone (around €27,000) to protect creditors if the company failed and went insolvent.
    
@@ -4815,7 +4769,7 @@ QUESTION 5725b81b271a42140099d099 = How many nations control this region in tota
    
 TEXT 5725b81b271a42140099d099 = This region includes territory belonging to nine nations.
    
-ANSWERS 5725b81b271a42140099d099 = {'this region includes territory belonging to nine nations', 'nine'}
+ANSWERS 5725b81b271a42140099d099 = {'nine', 'this region includes territory belonging to nine nations'}
    
 SET_PREDICTIONS 5725b81b271a42140099d099 = ['nine']
    
@@ -4829,7 +4783,7 @@ QUESTION 5725b81b271a42140099d09a = How many nations contain "Amazonas" in their
    
 TEXT 5725b81b271a42140099d09a = States or departments in four nations contain "Amazonas" in their names.
    
-ANSWERS 5725b81b271a42140099d09a = {'states or departments in four nations contain amazonas in their names', 'four'}
+ANSWERS 5725b81b271a42140099d09a = {'four', 'states or departments in four nations contain amazonas in their names'}
    
 SET_PREDICTIONS 5725b81b271a42140099d09a = ['four']
    
@@ -4857,7 +4811,7 @@ QUESTION 5729e2316aef0514001550c5 = How many square kilometers is the Amazon Bas
    
 TEXT 5729e2316aef0514001550c5 = This basin encompasses 7,000,000 square kilometres (2,700,000 sq mi), of which 5,500,000 square kilometres (2,100,000 sq mi) are covered by the rainforest.
    
-ANSWERS 5729e2316aef0514001550c5 = {'7000000', '7000000 square kilometres 270', '7000000 square kilometres'}
+ANSWERS 5729e2316aef0514001550c5 = {'7000000 square kilometres 270', '7000000', '7000000 square kilometres'}
    
 SET_PREDICTIONS 5729e2316aef0514001550c5 = ['7000000 square kilometres', '2700000', '5500000 square kilometres', '2100000']
    
@@ -4899,7 +4853,7 @@ QUESTION 5729e500af94a219006aa6b6 = Beginning how many years ago did the amazon 
    
 TEXT 5729e500af94a219006aa6b6 = From 66–34 Mya, the rainforest extended as far south as 45°.
    
-ANSWERS 5729e500af94a219006aa6b6 = {'66–34', '66–34 mya'}
+ANSWERS 5729e500af94a219006aa6b6 = {'66–34 mya', '66–34'}
    
 SET_PREDICTIONS 5729e500af94a219006aa6b6 = ['66–34', '45']
    
@@ -4913,7 +4867,7 @@ QUESTION 5729e500af94a219006aa6b9 = Savannah areas expanded over the last how ma
    
 TEXT 5729e500af94a219006aa6b9 = Climate fluctuations during the last 34 million years have allowed savanna regions to expand into the tropics.
    
-ANSWERS 5729e500af94a219006aa6b9 = {'34 million', '34 million years'}
+ANSWERS 5729e500af94a219006aa6b9 = {'34 million years', '34 million'}
    
 SET_PREDICTIONS 5729e500af94a219006aa6b9 = ['last 34 million years']
    
@@ -4941,7 +4895,7 @@ QUESTION 5725c63438643c19005acca0 = How many tons of dust are blown from the Sah
    
 TEXT 5725c63438643c19005acca0 = NASA's CALIPSO satellite has measured the amount of dust transported by wind from the Sahara to the Amazon: an average 182 million tons of dust are windblown out of the Sahara each year, at 15 degrees west longitude, across 1,600 miles (2,600 km) over the Atlantic Ocean (some dust falls into the Atlantic), then at 35 degrees West longitude at the eastern coast of South America, 27.7 million tons (15%) of dust fall over the Amazon basin, 132 million tons of dust remain in the air, 43 million tons of dust are windblown and falls on the Caribbean Sea, past 75 degrees west longitude.
    
-ANSWERS 5725c63438643c19005acca0 = {'average 182 million', '182 million tons', '182 million'}
+ANSWERS 5725c63438643c19005acca0 = {'average 182 million', '182 million', '182 million tons'}
    
 SET_PREDICTIONS 5725c63438643c19005acca0 = ['average 182 million tons', 'each year', '15 degrees', '1600 miles', '2600 km', '35 degrees', '277 million tons', '15', '132 million tons', '43 million tons', '75 degrees']
    
@@ -4969,7 +4923,7 @@ QUESTION 5725c63438643c19005acca3 = How many tons of dust remains in the air?
    
 TEXT 5725c63438643c19005acca3 = NASA's CALIPSO satellite has measured the amount of dust transported by wind from the Sahara to the Amazon: an average 182 million tons of dust are windblown out of the Sahara each year, at 15 degrees west longitude, across 1,600 miles (2,600 km) over the Atlantic Ocean (some dust falls into the Atlantic), then at 35 degrees West longitude at the eastern coast of South America, 27.7 million tons (15%) of dust fall over the Amazon basin, 132 million tons of dust remain in the air, 43 million tons of dust are windblown and falls on the Caribbean Sea, past 75 degrees west longitude.
    
-ANSWERS 5725c63438643c19005acca3 = {'132 million', '132 million tons'}
+ANSWERS 5725c63438643c19005acca3 = {'132 million tons', '132 million'}
    
 SET_PREDICTIONS 5725c63438643c19005acca3 = ['average 182 million tons', 'each year', '15 degrees', '1600 miles', '2600 km', '35 degrees', '277 million tons', '15', '132 million tons', '43 million tons', '75 degrees']
    
@@ -5109,7 +5063,7 @@ QUESTION 5729eb34af94a219006aa6cc = In 1500 AD how many people were believed to 
    
 TEXT 5729eb34af94a219006aa6cc = Some 5 million people may have lived in the Amazon region in AD 1500, divided between dense coastal settlements, such as that at Marajó, and inland dwellers.
    
-ANSWERS 5729eb34af94a219006aa6cc = {'5 million', '5 million people', 'some 5 million'}
+ANSWERS 5729eb34af94a219006aa6cc = {'some 5 million', '5 million', '5 million people'}
    
 SET_PREDICTIONS 5729eb34af94a219006aa6cc = ['some 5 million', 'ad 1500']
    
@@ -5133,12 +5087,11 @@ FINAL_PREDICTION 5729edd56aef051400155116 = at least 11000 years
 ------------------  
    
   
-ERROR 5725cf3238643c19005acd62
-QUESTION 5725cf3238643c19005acd62 = How much is terra preta distributed over the Amazon forest?
+ERROR 5725cf3238643c19005acd62QUESTION 5725cf3238643c19005acd62 = How much is terra preta distributed over the Amazon forest?
    
 TEXT 5725cf3238643c19005acd62 = Terra preta (black earth), which is distributed over large areas in the Amazon forest, is now widely accepted as a product of indigenous soil management.
    
-ANSWERS 5725cf3238643c19005acd62 = {'large areas', 'over large areas'}
+ANSWERS 5725cf3238643c19005acd62 = {'over large areas', 'large areas'}
    
 SET_PREDICTIONS 5725cf3238643c19005acd62 = []
    
@@ -5180,7 +5133,7 @@ QUESTION 5725d16aec44d21400f3d61f = How many invertebrate species are known in B
    
 TEXT 5725d16aec44d21400f3d61f = Scientists have described between 96,660 and 128,843 invertebrate species in Brazil alone.
    
-ANSWERS 5725d16aec44d21400f3d61f = {'96660 and 128843', 'between 96660 and 128843', '128843'}
+ANSWERS 5725d16aec44d21400f3d61f = {'128843', 'between 96660 and 128843', '96660 and 128843'}
    
 SET_PREDICTIONS 5725d16aec44d21400f3d61f = ['96660', '128843']
    
@@ -5194,7 +5147,7 @@ QUESTION 5729f0db6aef051400155126 = The Amazon region is home to how many specie
    
 TEXT 5729f0db6aef051400155126 = The region is home to about 2.5 million insect species, tens of thousands of plants, and some 2,000 birds and mammals.
    
-ANSWERS 5729f0db6aef051400155126 = {'about 25 million', '25 million'}
+ANSWERS 5729f0db6aef051400155126 = {'25 million', 'about 25 million'}
    
 SET_PREDICTIONS 5729f0db6aef051400155126 = ['about 25 million', 'tens of thousands', 'some 2000']
    
@@ -5208,7 +5161,7 @@ QUESTION 5729f0db6aef051400155127 = How many species of bird and mammals are the
    
 TEXT 5729f0db6aef051400155127 = The region is home to about 2.5 million insect species, tens of thousands of plants, and some 2,000 birds and mammals.
    
-ANSWERS 5729f0db6aef051400155127 = {'2000', 'some 2000'}
+ANSWERS 5729f0db6aef051400155127 = {'some 2000', '2000'}
    
 SET_PREDICTIONS 5729f0db6aef051400155127 = ['about 25 million', 'tens of thousands', 'some 2000']
    
@@ -5222,7 +5175,7 @@ QUESTION 5729f0db6aef051400155128 = How many plant species are estimated to be i
    
 TEXT 5729f0db6aef051400155128 = To date, at least 40,000 plant species, 2,200 fishes, 1,294 birds, 427 mammals, 428 amphibians, and 378 reptiles have been scientifically classified in the region.
    
-ANSWERS 5729f0db6aef051400155128 = {'tens of thousands', '40000'}
+ANSWERS 5729f0db6aef051400155128 = {'40000', 'tens of thousands'}
    
 SET_PREDICTIONS 5729f0db6aef051400155128 = ['at least 40000', '2200', '1294', '427', '428', '378']
    
@@ -5250,7 +5203,7 @@ QUESTION 5726722bdd62a815002e8528 = How many kilometers of acres of the Ecuadori
    
 TEXT 5726722bdd62a815002e8528 = The biodiversity of plant species is the highest on Earth with one 2001 study finding a quarter square kilometer (62 acres) of Ecuadorian rainforest supports more than 1,100 tree species.
    
-ANSWERS 5726722bdd62a815002e8528 = {'quarter square', '62 acres', '62'}
+ANSWERS 5726722bdd62a815002e8528 = {'62 acres', '62', 'quarter square'}
    
 SET_PREDICTIONS 5726722bdd62a815002e8528 = ['2001', 'quarter square kilometer', '62 acres', 'more than 1100']
    
@@ -5334,7 +5287,7 @@ QUESTION 5729feaf6aef051400155188 = How many square kilometres of the Amazon for
    
 TEXT 5729feaf6aef051400155188 = Between 1991 and 2000, the total area of forest lost in the Amazon rose from 415,000 to 587,000 square kilometres (160,000 to 227,000 sq mi), with most of the lost forest becoming pasture for cattle.
    
-ANSWERS 5729feaf6aef051400155188 = {'415000 to 587000', '415000'}
+ANSWERS 5729feaf6aef051400155188 = {'415000', '415000 to 587000'}
    
 SET_PREDICTIONS 5729feaf6aef051400155188 = ['between 1991 and 2000', '415000 to 587000 square kilometres', '160000 to 227000']
    
@@ -5362,7 +5315,7 @@ QUESTION 572a005f1d046914007796b9 = The rate of clearing of forest from 2000 to 
    
 TEXT 572a005f1d046914007796b9 = The mean annual deforestation rate from 2000 to 2005 (22,392 km2 or 8,646 sq mi per year) was 18% higher than in the previous five years (19,018 km2 or 7,343 sq mi per year).
    
-ANSWERS 572a005f1d046914007796b9 = {'8646', '8646 sq mi', '22392 km2 or 8646 sq mi'}
+ANSWERS 572a005f1d046914007796b9 = {'22392 km2 or 8646 sq mi', '8646 sq mi', '8646'}
    
 SET_PREDICTIONS 572a005f1d046914007796b9 = ['annual', '2000', '22392', '8646', '18', 'previous five years', '19018', '7343']
    
@@ -5428,8 +5381,7 @@ FINAL_PREDICTION 572a0bebaf94a219006aa771 = three
 ------------------  
    
   
-ERROR 572a0bebaf94a219006aa773
-QUESTION 572a0bebaf94a219006aa773 = How many tons of carbon are absorbed the Amazon in a typical year?
+ERROR 572a0bebaf94a219006aa773QUESTION 572a0bebaf94a219006aa773 = How many tons of carbon are absorbed the Amazon in a typical year?
    
 TEXT 572a0bebaf94a219006aa773 = In a typical year the Amazon absorbs 1.5 gigatons of carbon dioxide; during 2005 instead 5 gigatons were released and in 2010 8 gigatons were released.
    
@@ -5443,8 +5395,7 @@ FINAL_PREDICTION 572a0bebaf94a219006aa773 = typical year
 ------------------  
    
   
-ERROR 5725bae289a1e219009abd90
-QUESTION 5725bae289a1e219009abd90 = How much can Ctenophores eat in one day?
+ERROR 5725bae289a1e219009abd90QUESTION 5725bae289a1e219009abd90 = How much can Ctenophores eat in one day?
    
 TEXT 5725bae289a1e219009abd90 = In favorable circumstances, ctenophores can eat ten times their own weight in a day.
    
@@ -5500,8 +5451,7 @@ FINAL_PREDICTION 5725c337271a42140099d163 = only 100–150
 ------------------  
    
   
-ERROR 5725c337271a42140099d165
-QUESTION 5725c337271a42140099d165 = How much food does a ctenophora eat in a day?
+ERROR 5725c337271a42140099d165QUESTION 5725c337271a42140099d165 = How much food does a ctenophora eat in a day?
    
 TEXT 5725c337271a42140099d165 = In favorable circumstances, ctenophores can eat ten times their own weight in a day.
    
@@ -5515,8 +5465,7 @@ FINAL_PREDICTION 5725c337271a42140099d165 = day
 ------------------  
    
   
-ERROR 5726400589a1e219009ac5ee
-QUESTION 5726400589a1e219009ac5ee = How much do ctenophore eat in a day?
+ERROR 5726400589a1e219009ac5eeQUESTION 5726400589a1e219009ac5ee = How much do ctenophore eat in a day?
    
 TEXT 5726400589a1e219009ac5ee = In favorable circumstances, ctenophores can eat ten times their own weight in a day.
    
@@ -5534,7 +5483,7 @@ QUESTION 5726400589a1e219009ac5f2 = How many different species of ctenohore are 
    
 TEXT 5726400589a1e219009ac5f2 = Only 100–150 species have been validated, and possibly another 25 have not been fully described and named.
    
-ANSWERS 5726400589a1e219009ac5f2 = {'100–150 species have been validated', '100–150', '100–150 species'}
+ANSWERS 5726400589a1e219009ac5f2 = {'100–150', '100–150 species have been validated', '100–150 species'}
    
 SET_PREDICTIONS 5726400589a1e219009ac5f2 = ['only 100–150', 'another 25']
    
@@ -5548,7 +5497,7 @@ QUESTION 572658daf1498d1400e8dcaf = How many types of movements do euplokamis te
    
 TEXT 572658daf1498d1400e8dcaf = Euplokamis' tentilla have three types of movement that are used in capturing prey: they may flick out very quickly (in 40 to 60 milliseconds); they can wriggle, which may lure prey by behaving like small planktonic worms; and they coil round prey.
    
-ANSWERS 572658daf1498d1400e8dcaf = {'three', 'three types of movement'}
+ANSWERS 572658daf1498d1400e8dcaf = {'three types of movement', 'three'}
    
 SET_PREDICTIONS 572658daf1498d1400e8dcaf = ['three', '40 to 60']
    
@@ -5628,8 +5577,7 @@ FINAL_PREDICTION 5725ec8289a1e219009ac0b1 = mere half decade later
 ------------------  
    
   
-ERROR 5725f190ec44d21400f3d773
-QUESTION 5725f190ec44d21400f3d773 = How much retail activity does the neighborhood have?
+ERROR 5725f190ec44d21400f3d773QUESTION 5725f190ec44d21400f3d773 = How much retail activity does the neighborhood have?
    
 TEXT 5725f190ec44d21400f3d773 = The neighborhood has very little retail activity, aside from the area near Fresno Street and State Route 99 Freeway (Kearney Palm Shopping Center, built in the late 1990s) and small corner markets scattered throughout.
    
@@ -5675,7 +5623,7 @@ QUESTION 5725f2c838643c19005acef0 = How many miles, once completed, will the the
    
 TEXT 5725f2c838643c19005acef0 = When complete, the Lewis S. Eaton trail system will cover 22 miles (35 km) between Highway 99 and Friant Dam.
    
-ANSWERS 5725f2c838643c19005acef0 = {'22', '22 miles'}
+ANSWERS 5725f2c838643c19005acef0 = {'22 miles', '22'}
    
 SET_PREDICTIONS 5725f2c838643c19005acef0 = ['22 miles', '35 km']
    
@@ -5689,7 +5637,7 @@ QUESTION 5725f5b1271a42140099d373 = How much rain per year does Fresno get on av
    
 TEXT 5725f5b1271a42140099d373 = Average annual precipitation is around 11.5 inches (292.1 mm), which, by definition, would classify the area as a semidesert.
    
-ANSWERS 5725f5b1271a42140099d373 = {'115 inches 2921 mm', 'around 115 inches', '115 inches'}
+ANSWERS 5725f5b1271a42140099d373 = {'115 inches', 'around 115 inches', '115 inches 2921 mm'}
    
 SET_PREDICTIONS 5725f5b1271a42140099d373 = ['annual', 'around 115 inches', '2921']
    
@@ -5703,7 +5651,7 @@ QUESTION 5725f7cd38643c19005acf25 = How many Native American people resided in F
    
 TEXT 5725f7cd38643c19005acf25 = The racial makeup of Fresno was 245,306 (49.6%) White, 40,960 (8.3%) African American, 8,525 (1.7%) Native American, 62,528 (12.6%) Asian (3.6% Hmong, 1.7% Indian, 1.2% Filipino, 1.2% Laotian, 1.0% Thai, 0.8% Cambodian, 0.7% Chinese, 0.5% Japanese, 0.4% Vietnamese, 0.2% Korean), 849 (0.2%) Pacific Islander, 111,984 (22.6%) from other races, and 24,513 (5.0%) from two or more races.
    
-ANSWERS 5725f7cd38643c19005acf25 = {'8525', '62528'}
+ANSWERS 5725f7cd38643c19005acf25 = {'62528', '8525'}
    
 SET_PREDICTIONS 5725f7cd38643c19005acf25 = ['245306', '496', '40960', '83', '8525', '17', '62528', '126', '36', '17', '12', '12', '10', '08', '07', '05', '04', '02', '849', '02', '111984', '226', '24513', '50', 'two']
    
@@ -5717,7 +5665,7 @@ QUESTION 5725f7cd38643c19005acf27 = How many people per square mile lived in Fre
    
 TEXT 5725f7cd38643c19005acf27 = The population density was 4,404.5 people per square mile (1,700.6/km²).
    
-ANSWERS 5725f7cd38643c19005acf27 = {'44045 people', '44045'}
+ANSWERS 5725f7cd38643c19005acf27 = {'44045', '44045 people'}
    
 SET_PREDICTIONS 5725f7cd38643c19005acf27 = ['44045', '17006km²']
    
@@ -5801,7 +5749,7 @@ QUESTION 57263ea0271a42140099d7c5 = DEC originally had 3 layers but evolved into
    
 TEXT 57263ea0271a42140099d7c5 = Initially built with three layers, it later (1982) evolved into a seven-layer OSI-compliant networking protocol.
    
-ANSWERS 57263ea0271a42140099d7c5 = {'initially built with three layers it later 1982 evolved into sevenlayer osicompliant networking protocol', 'seven'}
+ANSWERS 57263ea0271a42140099d7c5 = {'seven', 'initially built with three layers it later 1982 evolved into sevenlayer osicompliant networking protocol'}
    
 SET_PREDICTIONS 57263ea0271a42140099d7c5 = ['three', '1982', 'seven']
    
@@ -5811,8 +5759,7 @@ FINAL_PREDICTION 57263ea0271a42140099d7c5 = three
 ------------------  
    
   
-ERROR 572643de5951261400b5195a
-QUESTION 572643de5951261400b5195a = How many types of X.25 networks were there originally 
+ERROR 572643de5951261400b5195aQUESTION 572643de5951261400b5195a = How many types of X.25 networks were there originally 
    
 TEXT 572643de5951261400b5195a = Some such as DATAPAC and TRANSPAC were initially implemented with an X.25 external interface.
    
@@ -5872,7 +5819,7 @@ QUESTION 57265285708984140094c25f = How many years could separate outbreaks of t
    
 TEXT 57265285708984140094c25f = Other arguments include the lack of accounts of the death of rats before outbreaks of plague between the 14th and 17th centuries; temperatures that are too cold in northern Europe for the survival of fleas; that, despite primitive transport systems, the spread of the Black Death was much faster than that of modern bubonic plague; that mortality rates of the Black Death appear to be very high; that, while modern bubonic plague is largely endemic as a rural disease, the Black Death indiscriminately struck urban and rural areas; and that the pattern of the Black Death, with major outbreaks in the same areas separated by 5 to 15 years, differs from modern bubonic plague—which often becomes endemic for decades with annual flare-ups.
    
-ANSWERS 57265285708984140094c25f = {'5 to 15 years', '5 to 15'}
+ANSWERS 57265285708984140094c25f = {'5 to 15', '5 to 15 years'}
    
 SET_PREDICTIONS 57265285708984140094c25f = ['between 14th and 17th centuries', '5 to 15 years', 'decades', 'annual']
    
@@ -5914,7 +5861,7 @@ QUESTION 5726542ff1498d1400e8dc29 = How much of Paris' population was killed by 
    
 TEXT 5726542ff1498d1400e8dc29 = Half of Paris's population of 100,000 people died.
    
-ANSWERS 5726542ff1498d1400e8dc29 = {'half of pariss population of 100000 people', 'half', '100000'}
+ANSWERS 5726542ff1498d1400e8dc29 = {'100000', 'half', 'half of pariss population of 100000 people'}
    
 SET_PREDICTIONS 5726542ff1498d1400e8dc29 = ['half', '100000']
    
@@ -5928,7 +5875,7 @@ QUESTION 5726542ff1498d1400e8dc2b = How many people would die of plague in large
    
 TEXT 5726542ff1498d1400e8dc2b = In crowded cities, it was not uncommon for as much as 50% of the population to die.
    
-ANSWERS 5726542ff1498d1400e8dc2b = {'50', 'as much as 50'}
+ANSWERS 5726542ff1498d1400e8dc2b = {'as much as 50', '50'}
    
 SET_PREDICTIONS 5726542ff1498d1400e8dc2b = ['as much as 50']
    
@@ -5952,8 +5899,7 @@ FINAL_PREDICTION 572654e2708984140094c2b9 = almost million
 ------------------  
    
   
-ERROR 5726559edd62a815002e81ca
-QUESTION 5726559edd62a815002e81ca = How many people died in the outbreak of 1471?
+ERROR 5726559edd62a815002e81caQUESTION 5726559edd62a815002e81ca = How many people died in the outbreak of 1471?
    
 TEXT 5726559edd62a815002e81ca = An outbreak in 1471 took as much as 10–15% of the population, while the death rate of the plague of 1479–80 could have been as high as 20%.
    
@@ -5985,7 +5931,7 @@ QUESTION 57265642f1498d1400e8dc6a = How many times did plague occur in Venice?
    
 TEXT 57265642f1498d1400e8dc6a = Plague occurred in Venice 22 times between 1361 and 1528.
    
-ANSWERS 57265642f1498d1400e8dc6a = {'22', '22 times between 1361 and 1528'}
+ANSWERS 57265642f1498d1400e8dc6a = {'22 times between 1361 and 1528', '22'}
    
 SET_PREDICTIONS 57265642f1498d1400e8dc6a = ['22', 'between 1361 and 1528']
    
@@ -5999,7 +5945,7 @@ QUESTION 57265700dd62a815002e820e = How many were killed by plague in Italy in t
    
 TEXT 57265700dd62a815002e820e = In the first half of the 17th century, a plague claimed some 1.7 million victims in Italy, or about 14% of the population.
    
-ANSWERS 57265700dd62a815002e820e = {'17 million', 'some 17 million victims'}
+ANSWERS 57265700dd62a815002e820e = {'some 17 million victims', '17 million'}
    
 SET_PREDICTIONS 57265700dd62a815002e820e = ['first half of 17th century', 'some 17 million', 'about 14']
    
@@ -6009,12 +5955,11 @@ FINAL_PREDICTION 57265700dd62a815002e820e = first half of 17th century
 ------------------  
    
   
-ERROR 57265700dd62a815002e820f
-QUESTION 57265700dd62a815002e820f = How many were killed by plague in Naples in 1656?
+ERROR 57265700dd62a815002e820fQUESTION 57265700dd62a815002e820f = How many were killed by plague in Naples in 1656?
    
 TEXT 57265700dd62a815002e820f = In 1656, the plague killed about half of Naples' 300,000 inhabitants.
    
-ANSWERS 57265700dd62a815002e820f = {'about half of naples 300000 inhabitants', 'half of naples 300000 inhabitants'}
+ANSWERS 57265700dd62a815002e820f = {'half of naples 300000 inhabitants', 'about half of naples 300000 inhabitants'}
    
 SET_PREDICTIONS 57265700dd62a815002e820f = ['1656', 'about half', '300000']
    
@@ -6042,7 +5987,7 @@ QUESTION 5726577f708984140094c302 = How many people were lost in Algiers during 
    
 TEXT 5726577f708984140094c302 = Algiers lost 30 to 50 thousand inhabitants to it in 1620–21, and again in 1654–57, 1665, 1691, and 1740–42.
    
-ANSWERS 5726577f708984140094c302 = {'30 to 50 thousand inhabitants', '30 to 50 thousand'}
+ANSWERS 5726577f708984140094c302 = {'30 to 50 thousand', '30 to 50 thousand inhabitants'}
    
 SET_PREDICTIONS 5726577f708984140094c302 = ['30 to 50 thousand', '1654–57 1665 1691', '1740–42']
    
@@ -6052,8 +5997,7 @@ FINAL_PREDICTION 5726577f708984140094c302 = 30 to 50 thousand
 ------------------  
    
   
-ERROR 5726577f708984140094c304
-QUESTION 5726577f708984140094c304 = How many people, at most, have died of plague in Baghdad? 
+ERROR 5726577f708984140094c304QUESTION 5726577f708984140094c304 = How many people, at most, have died of plague in Baghdad? 
    
 TEXT 5726577f708984140094c304 = Baghdad has suffered severely from visitations of the plague, and sometimes two-thirds of its population has been wiped out.
    
@@ -6081,8 +6025,7 @@ FINAL_PREDICTION 5726642f5951b619008f7157 = 103 miles
 ------------------  
    
   
-ERROR 5726642f5951b619008f7158
-QUESTION 5726642f5951b619008f7158 = How many miles from the north Sea is Newcastle?
+ERROR 5726642f5951b619008f7158QUESTION 5726642f5951b619008f7158 = How many miles from the north Sea is Newcastle?
    
 TEXT 5726642f5951b619008f7158 = Newcastle upon Tyne (RP: i/ˌnjuːkɑːsəl əˌpɒn ˈtaɪn/; Locally: i/njuːˌkæsəl əˌpən ˈtaɪn/), commonly known as Newcastle, is a city in Tyne and Wear, North East England, 103 miles (166 km) south of Edinburgh and 277 miles (446 km) north of London on the northern bank of the River Tyne, 8.5 mi (13.7 km) from the North Sea.
    
@@ -6100,7 +6043,7 @@ QUESTION 572666d9dd62a815002e83b8 = How many times did Newcastle fight off the S
    
 TEXT 572666d9dd62a815002e83b8 = Newcastle was successfully defended against the Scots three times during the 14th century, and was created a county corporate with its own sheriff by Henry IV in 1400.
    
-ANSWERS 572666d9dd62a815002e83b8 = {'three', 'three times'}
+ANSWERS 572666d9dd62a815002e83b8 = {'three times', 'three'}
    
 SET_PREDICTIONS 572666d9dd62a815002e83b8 = ['three', '14th century', '1400']
    
@@ -6142,7 +6085,7 @@ QUESTION 572671e55951b619008f72d9 = How many guests attended the dinner celebrat
    
 TEXT 572671e55951b619008f72d9 = The opening was celebrated with a grand dinner attended by 2000 guests, and the Laing Art Gallery has a painting of this event.
    
-ANSWERS 572671e55951b619008f72d9 = {'2000 guests', '2000'}
+ANSWERS 572671e55951b619008f72d9 = {'2000', '2000 guests'}
    
 SET_PREDICTIONS 572671e55951b619008f72d9 = ['2000']
    
@@ -6156,7 +6099,7 @@ QUESTION 57267de1f1498d1400e8e196 = How many screens does the Empire muliplex ci
    
 TEXT 57267de1f1498d1400e8e196 = In recent years "The Gate" has opened in the city centre, a new indoor complex consisting of bars, upmarket clubs, restaurants and a 12-screen Empire multiplex cinema.
    
-ANSWERS 57267de1f1498d1400e8e196 = {'12', '12screen'}
+ANSWERS 57267de1f1498d1400e8e196 = {'12screen', '12'}
    
 SET_PREDICTIONS 57267de1f1498d1400e8e196 = ['recent years', '12screen']
    
@@ -6184,7 +6127,7 @@ QUESTION 57268109f1498d1400e8e1fe = How many weeks each year does the food and d
    
 TEXT 57268109f1498d1400e8e1fe = NewcastleGateshead, a festival of food and drink, runs for 2 weeks each year in mid June.
    
-ANSWERS 57268109f1498d1400e8e1fe = {'2', '2 weeks each year'}
+ANSWERS 57268109f1498d1400e8e1fe = {'2 weeks each year', '2'}
    
 SET_PREDICTIONS 57268109f1498d1400e8e1fe = ['2 weeks each year', 'mid june']
    
@@ -6198,7 +6141,7 @@ QUESTION 57268525dd62a815002e8808 = How many cinemas are currently housed at one
    
 TEXT 57268525dd62a815002e8808 = The site currently houses three cinemas, including the restored Classic —the United Kingdom's last surviving news cinema still in full-time operation—alongside two new screens, a roof extension containing the Tyneside Bar, and dedicated education and teaching suites.
    
-ANSWERS 57268525dd62a815002e8808 = {'three', 'three cinemas'}
+ANSWERS 57268525dd62a815002e8808 = {'three cinemas', 'three'}
    
 SET_PREDICTIONS 57268525dd62a815002e8808 = ['three', 'two']
    
@@ -6222,12 +6165,11 @@ FINAL_PREDICTION 57268885dd62a815002e886d = over five million
 ------------------  
    
   
-ERROR 57268885dd62a815002e886e
-QUESTION 57268885dd62a815002e886e = How many destinations are available worldwide from Newcastle's airport?
+ERROR 57268885dd62a815002e886eQUESTION 57268885dd62a815002e886e = How many destinations are available worldwide from Newcastle's airport?
    
 TEXT 57268885dd62a815002e886e = As of 2007[update], over 90 destinations are available worldwide.
    
-ANSWERS 57268885dd62a815002e886e = {'over 90', 'over 90 destinations'}
+ANSWERS 57268885dd62a815002e886e = {'over 90 destinations', 'over 90'}
    
 SET_PREDICTIONS 57268885dd62a815002e886e = ['90']
    
@@ -6255,7 +6197,7 @@ QUESTION 572689b6dd62a815002e8891 = How many hours can one expect to ride the tr
    
 TEXT 572689b6dd62a815002e8891 = Train operator Virgin Trains East Coast provides a half-hourly frequency of trains to London King's Cross, with a journey time of about three hours, these services call at Durham, Darlington, York, Doncaster, Newark North Gate and Peterborough and north to Scotland with all trains calling at Edinburgh and a small number of trains extended to Glasgow, Aberdeen and Inverness.
    
-ANSWERS 572689b6dd62a815002e8891 = {'three', 'about three', 'about three hours'}
+ANSWERS 572689b6dd62a815002e8891 = {'about three', 'about three hours', 'three'}
    
 SET_PREDICTIONS 572689b6dd62a815002e8891 = ['about three hours']
    
@@ -6269,7 +6211,7 @@ QUESTION 57268a8fdd62a815002e88cf = How many phases was the Metro opened in betw
    
 TEXT 57268a8fdd62a815002e88cf = It was opened in five phases between 1980 and 1984, and was Britain's first urban light rail transit system; two extensions were opened in 1991 and 2002.
    
-ANSWERS 57268a8fdd62a815002e88cf = {'five phases', 'five'}
+ANSWERS 57268a8fdd62a815002e88cf = {'five', 'five phases'}
    
 SET_PREDICTIONS 57268a8fdd62a815002e88cf = ['five', 'between 1980 and 1984', 'first', 'two', '1991', '2002']
    
@@ -6283,7 +6225,7 @@ QUESTION 57268a8fdd62a815002e88d2 = How many passengers a year does the rail net
    
 TEXT 57268a8fdd62a815002e88d2 = The network is operated by DB Regio on behalf of Nexus and carries over 37 million passengers a year, extending as far as Newcastle Airport, Tynemouth, South Shields and South Hylton in Sunderland.
    
-ANSWERS 57268a8fdd62a815002e88d2 = {'over 37 million passengers', 'over 37 million'}
+ANSWERS 57268a8fdd62a815002e88d2 = {'over 37 million', 'over 37 million passengers'}
    
 SET_PREDICTIONS 57268a8fdd62a815002e88d2 = ['over 37 million', 'year']
    
@@ -6367,7 +6309,7 @@ QUESTION 5726710b708984140094c61e = how many permanent objects are located there
    
 TEXT 5726710b708984140094c61e = The Victoria and Albert Museum (often abbreviated as the V&A), London, is the world's largest museum of decorative arts and design, housing a permanent collection of over 4.5 million objects.
    
-ANSWERS 5726710b708984140094c61e = {'45 million', 'permanent collection of over 45 million objects', 'over 45 million objects', 'over 45 million'}
+ANSWERS 5726710b708984140094c61e = {'45 million', 'permanent collection of over 45 million objects', 'over 45 million', 'over 45 million objects'}
    
 SET_PREDICTIONS 5726710b708984140094c61e = ['over 45 million']
    
@@ -6381,7 +6323,7 @@ QUESTION 57268294708984140094c877 = How many acres does the V&A cover?
    
 TEXT 57268294708984140094c877 = The V&A covers 12.5 acres (51,000 m2) and 145 galleries.
    
-ANSWERS 57268294708984140094c877 = {'125 acres', '125'}
+ANSWERS 57268294708984140094c877 = {'125', '125 acres'}
    
 SET_PREDICTIONS 57268294708984140094c877 = ['125 acres', '51000', '145']
    
@@ -6395,7 +6337,7 @@ QUESTION 57268294708984140094c878 = How many galleries does the V&A have?
    
 TEXT 57268294708984140094c878 = The V&A covers 12.5 acres (51,000 m2) and 145 galleries.
    
-ANSWERS 57268294708984140094c878 = {'145', '145 galleries'}
+ANSWERS 57268294708984140094c878 = {'145 galleries', '145'}
    
 SET_PREDICTIONS 57268294708984140094c878 = ['125 acres', '51000', '145']
    
@@ -6409,7 +6351,7 @@ QUESTION 57268294708984140094c879 = How many years does the V&A's collections sp
    
 TEXT 57268294708984140094c879 = Its collection spans 5,000 years of art, from ancient times to the present day, from the cultures of Europe, North America, Asia and North Africa.
    
-ANSWERS 57268294708984140094c879 = {'5000', '5000 years'}
+ANSWERS 57268294708984140094c879 = {'5000 years', '5000'}
    
 SET_PREDICTIONS 57268294708984140094c879 = ['5000 years']
    
@@ -6419,12 +6361,11 @@ FINAL_PREDICTION 57268294708984140094c879 = 5000 years
 ------------------  
    
   
-ERROR 57268f2c708984140094ca26
-QUESTION 57268f2c708984140094ca26 = How many visitors did the Britain Can Make It exhibition attract?
+ERROR 57268f2c708984140094ca26QUESTION 57268f2c708984140094ca26 = How many visitors did the Britain Can Make It exhibition attract?
    
 TEXT 57268f2c708984140094ca26 = Before the return of the collections after the war, the Britain Can Make It exhibition was held between September and November 1946, attracting nearly a million and a half visitors.
    
-ANSWERS 57268f2c708984140094ca26 = {'nearly million and half visitors', 'nearly million and half'}
+ANSWERS 57268f2c708984140094ca26 = {'nearly million and half', 'nearly million and half visitors'}
    
 SET_PREDICTIONS 57268f2c708984140094ca26 = ['between september and november 1946', 'million and half']
    
@@ -6438,7 +6379,7 @@ QUESTION 5726a9ff708984140094cd4c = How many levels of galleries do the façades
    
 TEXT 5726a9ff708984140094cd4c = These façades surround four levels of galleries.
    
-ANSWERS 5726a9ff708984140094cd4c = {'four levels', 'four'}
+ANSWERS 5726a9ff708984140094cd4c = {'four', 'four levels'}
    
 SET_PREDICTIONS 5726a9ff708984140094cd4c = ['four']
    
@@ -6452,7 +6393,7 @@ QUESTION 5726b2fcf1498d1400e8e7e7 = Approximately how many architectural drawing
    
 TEXT 5726b2fcf1498d1400e8e7e7 = With over 600,000 drawings, over 750,000 papers and paraphernalia, and over 700,000 photographs from around the world, together they form the world's most comprehensive architectural resource.
    
-ANSWERS 5726b2fcf1498d1400e8e7e7 = {'over 600000', '600000'}
+ANSWERS 5726b2fcf1498d1400e8e7e7 = {'600000', 'over 600000'}
    
 SET_PREDICTIONS 5726b2fcf1498d1400e8e7e7 = ['600000', 'over 750000', 'over 700000']
    
@@ -6466,7 +6407,7 @@ QUESTION 5726b2fcf1498d1400e8e7e8 = Approximately how many architectural photogr
    
 TEXT 5726b2fcf1498d1400e8e7e8 = With over 600,000 drawings, over 750,000 papers and paraphernalia, and over 700,000 photographs from around the world, together they form the world's most comprehensive architectural resource.
    
-ANSWERS 5726b2fcf1498d1400e8e7e8 = {'700000', 'over 700000'}
+ANSWERS 5726b2fcf1498d1400e8e7e8 = {'over 700000', '700000'}
    
 SET_PREDICTIONS 5726b2fcf1498d1400e8e7e8 = ['600000', 'over 750000', 'over 700000']
    
@@ -6476,8 +6417,7 @@ FINAL_PREDICTION 5726b2fcf1498d1400e8e7e8 = over 750000
 ------------------  
    
   
-ERROR 5726b6e05951b619008f7b9b
-QUESTION 5726b6e05951b619008f7b9b = Approximately how many drawings of the Italian architect Andrea Palladio is in the RIBA collection?
+ERROR 5726b6e05951b619008f7b9bQUESTION 5726b6e05951b619008f7b9b = Approximately how many drawings of the Italian architect Andrea Palladio is in the RIBA collection?
    
 TEXT 5726b6e05951b619008f7b9b = The RIBA's holdings of over 330 drawings by Andrea Palladio are the largest in the world, other Europeans well represented are Jacques Gentilhatre and Antonio Visentini.
    
@@ -6589,8 +6529,7 @@ FINAL_PREDICTION 5726de7a5951b619008f80ab = 4000 years
 ------------------  
    
   
-ERROR 5726de7a5951b619008f80ac
-QUESTION 5726de7a5951b619008f80ac = Approximately how many items are in the glass collection of the V&A?
+ERROR 5726de7a5951b619008f80acQUESTION 5726de7a5951b619008f80ac = Approximately how many items are in the glass collection of the V&A?
    
 TEXT 5726de7a5951b619008f80ac = The glass collection covers 4000 years of glass making, and has over 6000 items from Africa, Britain, Europe, America and Asia.
    
@@ -6632,12 +6571,11 @@ FINAL_PREDICTION 5726e1fcdd62a815002e93c5 = 10000
 ------------------  
    
   
-ERROR 5726e37ef1498d1400e8eed8
-QUESTION 5726e37ef1498d1400e8eed8 = Approximately how many items are in the costume collection of the V&A?
+ERROR 5726e37ef1498d1400e8eed8QUESTION 5726e37ef1498d1400e8eed8 = Approximately how many items are in the costume collection of the V&A?
    
 TEXT 5726e37ef1498d1400e8eed8 = The costume collection is the most comprehensive in Britain, containing over 14,000 outfits plus accessories, mainly dating from 1600 to the present.
    
-ANSWERS 5726e37ef1498d1400e8eed8 = {'over 14000', 'over 14000 outfits'}
+ANSWERS 5726e37ef1498d1400e8eed8 = {'over 14000 outfits', 'over 14000'}
    
 SET_PREDICTIONS 5726e37ef1498d1400e8eed8 = ['14000', '1600']
    
@@ -6661,8 +6599,7 @@ FINAL_PREDICTION 5726e4eedd62a815002e943a = 178
 ------------------  
    
   
-ERROR 5726e9c65951b619008f8247
-QUESTION 5726e9c65951b619008f8247 = Approximately how many items comprise the jewelry collection of the V&A?
+ERROR 5726e9c65951b619008f8247QUESTION 5726e9c65951b619008f8247 = Approximately how many items comprise the jewelry collection of the V&A?
    
 TEXT 5726e9c65951b619008f8247 = The jewellery collection, containing over 6000 items is one of the finest and most comprehensive collections of jewellery in the world and includes works dating from Ancient Egypt to the present day, as well as jewellery designs on paper.
    
@@ -6680,7 +6617,7 @@ QUESTION 5726e9c65951b619008f824a = Approximately how many gems in Reverend Chau
    
 TEXT 5726e9c65951b619008f824a = Major bequests include Reverend Chauncy Hare Townshend's collection of 154 gems bequeathed in 1869, Lady Cory's 1951 gift of major diamond jewellery from the 18th and 19th centuries, and jewellery scholar Dame Joan Evans' 1977 gift of more than 800 jewels dating from the Middle Ages to the early 19th century.
    
-ANSWERS 5726e9c65951b619008f824a = {'1869', '154'}
+ANSWERS 5726e9c65951b619008f824a = {'154', '1869'}
    
 SET_PREDICTIONS 5726e9c65951b619008f824a = ['154', '1869', '1951', '18th and 19th centuries', '1977', 'more than 800', 'middle ages', 'early 19th century']
    
@@ -6690,8 +6627,7 @@ FINAL_PREDICTION 5726e9c65951b619008f824a = 18th and 19th centuries
 ------------------  
    
   
-ERROR 5726ee28708984140094d655
-QUESTION 5726ee28708984140094d655 = Approximately how many silver and gold objects does the V&A have it its collection?
+ERROR 5726ee28708984140094d655QUESTION 5726ee28708984140094d655 = Approximately how many silver and gold objects does the V&A have it its collection?
    
 TEXT 5726ee28708984140094d655 = There are over 10,000 objects made from silver or gold in the collection, the display (about 15% of the collection) is divided into secular and sacred covering both Christian (Roman Catholic, Anglican and Greek Orthodox) and Jewish liturgical vessels and items.
    
@@ -6821,7 +6757,7 @@ QUESTION 5726fe95dd62a815002e9732 = Approximately how many works by Rodin are pa
    
 TEXT 5726fe95dd62a815002e9732 = Rodin is represented by more than 20 works in the museum collection, making it one of the largest collections of the sculptor's work outside France; these were given to the museum by the sculptor in 1914, as acknowledgement of Britain's support of France in World War I, although the statue of St John the Baptist had been purchased in 1902 by public subscription.
    
-ANSWERS 5726fe95dd62a815002e9732 = {'20 works', '20', 'more than 20'}
+ANSWERS 5726fe95dd62a815002e9732 = {'20', 'more than 20', '20 works'}
    
 SET_PREDICTIONS 5726fe95dd62a815002e9732 = ['more than 20', '1914', '1902']
    
@@ -6835,7 +6771,7 @@ QUESTION 572703fdf1498d1400e8f23c = Approximately how many items are in the V&A'
    
 TEXT 572703fdf1498d1400e8f23c = The collection of textiles consists of more than 53,000 examples, mainly western European though all populated continents are represented, dating from the 1st century AD to the present, this is the largest such collection in the world.
    
-ANSWERS 572703fdf1498d1400e8f23c = {'53000', 'more than 53000'}
+ANSWERS 572703fdf1498d1400e8f23c = {'more than 53000', '53000'}
    
 SET_PREDICTIONS 572703fdf1498d1400e8f23c = ['more than 53000', '1st century ad']
    
@@ -6849,7 +6785,7 @@ QUESTION 57267f1cdd62a815002e8740 = How many affiliated stations does ABC curren
    
 TEXT 57267f1cdd62a815002e8740 = The television network has eight owned-and-operated and over 232 affiliated television stations throughout the United States and its territories.
    
-ANSWERS 57267f1cdd62a815002e8740 = {'over 232', '232'}
+ANSWERS 57267f1cdd62a815002e8740 = {'232', 'over 232'}
    
 SET_PREDICTIONS 57267f1cdd62a815002e8740 = ['eight', '232']
    
@@ -6961,7 +6897,7 @@ QUESTION 57273f9d708984140094db54 = How much money was to go to DuMont Televisio
    
 TEXT 57273f9d708984140094db54 = As part of this merger, the network would have been renamed "ABC-DuMont" for five years, and DuMont would have received $5 million in cash, room on the schedule for existing DuMont programming, and guaranteed advertising time for DuMont Laboratories receivers.
    
-ANSWERS 57273f9d708984140094db54 = {'5 million', '5 million in cash'}
+ANSWERS 57273f9d708984140094db54 = {'5 million in cash', '5 million'}
    
 SET_PREDICTIONS 57273f9d708984140094db54 = ['five years', '5 million']
    
@@ -7101,7 +7037,7 @@ QUESTION 57276a8f5951b619008f8996 = How many variants is the new ABC logo curren
    
 TEXT 57276a8f5951b619008f8996 = The logo is displayed on-air, online and in print advertising in four variants shading the respective color used with the circle design's native black coloring: a gold version is primarily used on entertainment-oriented outlets (such as ABC.com, WATCH ABC, and by ABC Studios) and the on-screen bug; steel blue and dark grey versions are used primarily by ABC News; a red version is used for ESPN on ABC, while all four variants are used selectively in advertising and by affiliates.
    
-ANSWERS 57276a8f5951b619008f8996 = {'four variants', 'four'}
+ANSWERS 57276a8f5951b619008f8996 = {'four', 'four variants'}
    
 SET_PREDICTIONS 57276a8f5951b619008f8996 = ['four', 'four']
    
@@ -7129,7 +7065,7 @@ QUESTION 57276c64f1498d1400e8f7b3 = How many primary affiliates did CBS have in 
    
 TEXT 57276c64f1498d1400e8f7b3 = However that year, ABC had only 14 primary affiliates compared to the 74 that carried the majority of CBS programs and the 71 that were primarily affiliated with NBC.
    
-ANSWERS 57276c64f1498d1400e8f7b3 = {'74', '71'}
+ANSWERS 57276c64f1498d1400e8f7b3 = {'71', '74'}
    
 SET_PREDICTIONS 57276c64f1498d1400e8f7b3 = ['that year', 'only 14', '74', '71']
    
@@ -7139,12 +7075,11 @@ FINAL_PREDICTION 57276c64f1498d1400e8f7b3 = that year
 ------------------  
    
   
-ERROR 57276d7f708984140094dd40
-QUESTION 57276d7f708984140094dd40 = Relegation to secondary status for ABC resulted in viewership how much lower than their competitors, according to Goldenson?
+ERROR 57276d7f708984140094dd40QUESTION 57276d7f708984140094dd40 = Relegation to secondary status for ABC resulted in viewership how much lower than their competitors, according to Goldenson?
    
 TEXT 57276d7f708984140094dd40 = According to Goldenson, this meant that an hour of ABC programming reported five times lower viewership than its competitors.
    
-ANSWERS 57276d7f708984140094dd40 = {'five times', 'five times lower viewership'}
+ANSWERS 57276d7f708984140094dd40 = {'five times lower viewership', 'five times'}
    
 SET_PREDICTIONS 57276d7f708984140094dd40 = ['hour', 'five']
    
@@ -7158,7 +7093,7 @@ QUESTION 57277373dd62a815002e9d25 = How much did Capital Cities Communications p
    
 TEXT 57277373dd62a815002e9d25 = On March 16, 1985, ABC's executive committee accepted the merger offer, which was formally announced on March 18, 1985, with Capital Cities purchasing ABC and its related properties for $3.5 billion and $118 for each of ABC's shares as well as a guarantee of 10% (or $3) for a total of $121 per share.
    
-ANSWERS 57277373dd62a815002e9d25 = {'35 billion', '35 billion and 118 for each of abcs shares as well as guarantee of 10 or 3 for total of 121 per share'}
+ANSWERS 57277373dd62a815002e9d25 = {'35 billion and 118 for each of abcs shares as well as guarantee of 10 or 3 for total of 121 per share', '35 billion'}
    
 SET_PREDICTIONS 57277373dd62a815002e9d25 = ['march 16 1985', 'march 18 1985', '35 billion', '118', '10', '3', '121']
    
@@ -7186,7 +7121,7 @@ QUESTION 572776e85951b619008f8a7f = New broadcast regulations from the FCC in 19
    
 TEXT 572776e85951b619008f8a7f = In 1968, ABC took advantage of new FCC ownership regulations that allowed broadcasting companies to own a maximum of seven radio stations nationwide in order to purchase Houston radio stations KXYZ and KXYZ-FM for $1 million in shares and $1.5 million in bonds.
    
-ANSWERS 572776e85951b619008f8a7f = {'seven radio stations', 'seven'}
+ANSWERS 572776e85951b619008f8a7f = {'seven', 'seven radio stations'}
    
 SET_PREDICTIONS 572776e85951b619008f8a7f = ['1968', 'seven', '1 million', '15 million']
    
@@ -7210,12 +7145,11 @@ FINAL_PREDICTION 5727780a5951b619008f8a9e = between 1953 and 1958
 ------------------  
    
   
-ERROR 57277bfc708984140094dedc
-QUESTION 57277bfc708984140094dedc = How many affiliates does Sinclair Broadcast Group service or own?
+ERROR 57277bfc708984140094dedcQUESTION 57277bfc708984140094dedc = How many affiliates does Sinclair Broadcast Group service or own?
    
 TEXT 57277bfc708984140094dedc = The Sinclair Broadcast Group is the largest operator of ABC stations by numerical total, owning or providing services to 28 ABC affiliates and two additional subchannel-only affiliates; Sinclair owns the largest ABC subchannel affiliate by market size, WABM-DT2/WDBB-DT2 in the Birmingham market, which serve as repeaters of WBMA-LD (the largest low-power "Big Four" affiliate by market size, which itself is also simulcast on a subchannel of former WBMA satellite WGWW, owned by Sinclair partner company Howard Stirk Holdings).
    
-ANSWERS 57277bfc708984140094dedc = {'28 abc affiliates and two additional subchannelonly', '28 abc affiliates and two additional subchannelonly affiliates'}
+ANSWERS 57277bfc708984140094dedc = {'28 abc affiliates and two additional subchannelonly affiliates', '28 abc affiliates and two additional subchannelonly'}
    
 SET_PREDICTIONS 57277bfc708984140094dedc = ['28', 'two']
    
@@ -7313,7 +7247,7 @@ QUESTION 5726c20fdd62a815002e8fa7 = How many divisions comprised Genghis Khan's 
    
 TEXT 5726c20fdd62a815002e8fa7 = After compiling intelligence from many sources Genghis Khan carefully prepared his army, which was divided into three groups.
    
-ANSWERS 5726c20fdd62a815002e8fa7 = {'three', 'three groups'}
+ANSWERS 5726c20fdd62a815002e8fa7 = {'three groups', 'three'}
    
 SET_PREDICTIONS 5726c20fdd62a815002e8fa7 = ['three']
    
@@ -7327,7 +7261,7 @@ QUESTION 572753af708984140094dc31 = How many people do historians estimate Gengh
    
 TEXT 572753af708984140094dc31 = Steven R. Ward wrote that "Overall, the Mongol violence and depredations killed up to three-fourths of the population of the Iranian Plateau, possibly 10 to 15 million people.
    
-ANSWERS 572753af708984140094dc31 = {'10 to 15 million', '10 to 15 million people'}
+ANSWERS 572753af708984140094dc31 = {'10 to 15 million people', '10 to 15 million'}
    
 SET_PREDICTIONS 572753af708984140094dc31 = ['up to threefourths', '10 to 15 million']
    
@@ -7351,8 +7285,7 @@ FINAL_PREDICTION 5726f36cdd62a815002e95ff = 2013
 ------------------  
    
   
-ERROR 5729f4b41d0469140077968c
-QUESTION 5729f4b41d0469140077968c = How many receptors on a helper T cell must be bound to a MHC:antigen complex in order for the cell to be activated?
+ERROR 5729f4b41d0469140077968cQUESTION 5729f4b41d0469140077968c = How many receptors on a helper T cell must be bound to a MHC:antigen complex in order for the cell to be activated?
    
 TEXT 5729f4b41d0469140077968c = Helper T cells have a weaker association with the MHC:antigen complex than observed for killer T cells, meaning many receptors (around 200–300) on the helper T cell must be bound by an MHC:antigen in order to activate the helper cell, while killer T cells can be activated by engagement of a single MHC:antigen molecule.
    
@@ -7366,12 +7299,11 @@ FINAL_PREDICTION 5729f4b41d0469140077968c = 200–300
 ------------------  
    
   
-ERROR 5729f4b41d0469140077968d
-QUESTION 5729f4b41d0469140077968d = The receptors on a killer T cell must bind to how many MHC: antigen complexes in order to activate the cell?
+ERROR 5729f4b41d0469140077968dQUESTION 5729f4b41d0469140077968d = The receptors on a killer T cell must bind to how many MHC: antigen complexes in order to activate the cell?
    
 TEXT 5729f4b41d0469140077968d = Helper T cells have a weaker association with the MHC:antigen complex than observed for killer T cells, meaning many receptors (around 200–300) on the helper T cell must be bound by an MHC:antigen in order to activate the helper cell, while killer T cells can be activated by engagement of a single MHC:antigen molecule.
    
-ANSWERS 5729f4b41d0469140077968d = {'single mhcantigen molecule', 'single'}
+ANSWERS 5729f4b41d0469140077968d = {'single', 'single mhcantigen molecule'}
    
 SET_PREDICTIONS 5729f4b41d0469140077968d = ['200–300']
    
@@ -7385,7 +7317,7 @@ QUESTION 572a0bf96aef051400155205 = How many classes of immune hypersensitivity 
    
 TEXT 572a0bf96aef051400155205 = They are divided into four classes (Type I – IV) based on the mechanisms involved and the time course of the hypersensitive reaction.
    
-ANSWERS 572a0bf96aef051400155205 = {'four classes', 'four classes type i – iv', 'four'}
+ANSWERS 572a0bf96aef051400155205 = {'four', 'four classes', 'four classes type i – iv'}
    
 SET_PREDICTIONS 572a0bf96aef051400155205 = ['four']
    
@@ -7395,8 +7327,7 @@ FINAL_PREDICTION 572a0bf96aef051400155205 = four
 ------------------  
    
   
-ERROR 5728d7c54b864d1900164f4d
-QUESTION 5728d7c54b864d1900164f4d = How much literature has been written regarding civil disobedience?
+ERROR 5728d7c54b864d1900164f4dQUESTION 5728d7c54b864d1900164f4d = How much literature has been written regarding civil disobedience?
    
 TEXT 5728d7c54b864d1900164f4d = In reviewing the voluminous literature on the subject, the student of civil disobedience rapidly finds himself surrounded by a maze of semantical problems and grammatical niceties.
    
@@ -7410,8 +7341,7 @@ FINAL_PREDICTION 5728d7c54b864d1900164f4d =
 ------------------  
    
   
-ERROR 572744aff1498d1400e8f58b
-QUESTION 572744aff1498d1400e8f58b = Working versions of 3D-printing building technology are already printing how much building material per hour?
+ERROR 572744aff1498d1400e8f58bQUESTION 572744aff1498d1400e8f58b = Working versions of 3D-printing building technology are already printing how much building material per hour?
    
 TEXT 572744aff1498d1400e8f58b = Working versions of 3D-printing building technology are already printing 2 metres (6 ft 7 in) of building material per hour as of January 2013[update], with the next-generation printers capable of 3.5 metres (11 ft) per hour, sufficient to complete a building in a week.
    
@@ -7439,8 +7369,7 @@ FINAL_PREDICTION 572755b7708984140094dc4e = around 960 billion
 ------------------  
    
   
-ERROR 572755b7708984140094dc4f
-QUESTION 572755b7708984140094dc4f = How many firms were existing in 2005?
+ERROR 572755b7708984140094dc4fQUESTION 572755b7708984140094dc4f = How many firms were existing in 2005?
    
 TEXT 572755b7708984140094dc4f = As of 2005, there were about 667,000 firms employing 1 million contractors (200,000 general contractors, 38,000 heavy, and 432,000 specialty); the average contractor employed fewer than 10 employees.
    
@@ -7472,7 +7401,7 @@ QUESTION 572755b7708984140094dc51 = How many women were employed in construction
    
 TEXT 572755b7708984140094dc51 = In the United States, approximately 828,000 women were employed in the construction industry as of 2011.
    
-ANSWERS 572755b7708984140094dc51 = {'828000', '828000 women'}
+ANSWERS 572755b7708984140094dc51 = {'828000 women', '828000'}
    
 SET_PREDICTIONS 572755b7708984140094dc51 = ['approximately 828000', '2011']
    
@@ -7500,7 +7429,7 @@ QUESTION 57274d9bf1498d1400e8f5fa = As a result of a compromise, about how many 
    
 TEXT 57274d9bf1498d1400e8f5fa = Over 60 schools converted to become National Type schools.
    
-ANSWERS 57274d9bf1498d1400e8f5fa = {'all', '60'}
+ANSWERS 57274d9bf1498d1400e8f5fa = {'60', 'all'}
    
 SET_PREDICTIONS 57274d9bf1498d1400e8f5fa = ['60']
    
@@ -7584,7 +7513,7 @@ QUESTION 5727aeac3acd2414000de989 = How many volumes are contained in the librar
    
 TEXT 5727aeac3acd2414000de989 = It operates several arts, cultural, and scientific museums, alongside the Harvard Library, which is the world's largest academic and private library system, comprising 79 individual libraries with over 18 million volumes.
    
-ANSWERS 5727aeac3acd2414000de989 = {'18 million', '18 million volumes', 'over 18 million'}
+ANSWERS 5727aeac3acd2414000de989 = {'18 million volumes', 'over 18 million', '18 million'}
    
 SET_PREDICTIONS 5727aeac3acd2414000de989 = ['79', '18 million']
    
@@ -7598,7 +7527,7 @@ QUESTION 5727aeac3acd2414000de98a = How many US presidents are alumni of the sch
    
 TEXT 5727aeac3acd2414000de98a = Harvard's alumni include eight U.S. presidents, several foreign heads of state, 62 living billionaires, 335 Rhodes Scholars, and 242 Marshall Scholars.
    
-ANSWERS 5727aeac3acd2414000de98a = {'eight', 'eight us presidents'}
+ANSWERS 5727aeac3acd2414000de98a = {'eight us presidents', 'eight'}
    
 SET_PREDICTIONS 5727aeac3acd2414000de98a = ['eight', '62', '335', '242']
    
@@ -7612,7 +7541,7 @@ QUESTION 5727aeac3acd2414000de98b = How many Nobel Laureates are among the schoo
    
 TEXT 5727aeac3acd2414000de98b = To date, some 150 Nobel laureates, 18 Fields Medalists and 13 Turing Award winners have been affiliated as students, faculty, or staff.
    
-ANSWERS 5727aeac3acd2414000de98b = {'150 nobel laureates', '150'}
+ANSWERS 5727aeac3acd2414000de98b = {'150', '150 nobel laureates'}
    
 SET_PREDICTIONS 5727aeac3acd2414000de98b = ['some 150', '18', '13']
    
@@ -7640,7 +7569,7 @@ QUESTION 5727cd0f4b864d1900163d72 = How much more land does the school own in Al
    
 TEXT 5727cd0f4b864d1900163d72 = The university now owns approximately fifty percent more land in Allston than in Cambridge.
    
-ANSWERS 5727cd0f4b864d1900163d72 = {'fifty percent more', 'approximately fifty percent', 'fifty percent'}
+ANSWERS 5727cd0f4b864d1900163d72 = {'fifty percent', 'fifty percent more', 'approximately fifty percent'}
    
 SET_PREDICTIONS 5727cd0f4b864d1900163d72 = ['approximately fifty percent']
    
@@ -7682,7 +7611,7 @@ QUESTION 5727d4922ca10214002d977d = How many courses must undergraduates maintai
    
 TEXT 5727d4922ca10214002d977d = Undergraduates typically take four half-courses per term and must maintain a four-course rate average to be considered full-time.
    
-ANSWERS 5727d4922ca10214002d977d = {'fourcourse rate average', 'four'}
+ANSWERS 5727d4922ca10214002d977d = {'four', 'fourcourse rate average'}
    
 SET_PREDICTIONS 5727d4922ca10214002d977d = ['four half', 'four']
    
@@ -7692,8 +7621,7 @@ FINAL_PREDICTION 5727d4922ca10214002d977d = four half
 ------------------  
    
   
-ERROR 5727d6154b864d1900163e36
-QUESTION 5727d6154b864d1900163e36 = After 2007 how much do student from families earning less than $60,000 pay for school?
+ERROR 5727d6154b864d1900163e36QUESTION 5727d6154b864d1900163e36 = After 2007 how much do student from families earning less than $60,000 pay for school?
    
 TEXT 5727d6154b864d1900163e36 = Beginning 2007, families with incomes below $60,000 pay nothing for their children to attend, including room and board.
    
@@ -7711,7 +7639,7 @@ QUESTION 5727d6faff5b5019007d969b = How many total volumes are in the Harvard li
    
 TEXT 5727d6faff5b5019007d969b = The Harvard University Library System is centered in Widener Library in Harvard Yard and comprises nearly 80 individual libraries holding over 18 million volumes.
    
-ANSWERS 5727d6faff5b5019007d969b = {'18 million', '18 million volumes', 'over 18 million'}
+ANSWERS 5727d6faff5b5019007d969b = {'18 million volumes', 'over 18 million', '18 million'}
    
 SET_PREDICTIONS 5727d6faff5b5019007d969b = ['nearly 80', 'over 18 million']
    
@@ -7725,7 +7653,7 @@ QUESTION 5727d88b4b864d1900163e5e = How many museums comprise Harvard Art Museum
    
 TEXT 5727d88b4b864d1900163e5e = The Harvard Art Museums comprises three museums.
    
-ANSWERS 5727d88b4b864d1900163e5e = {'three', 'three museums'}
+ANSWERS 5727d88b4b864d1900163e5e = {'three museums', 'three'}
    
 SET_PREDICTIONS 5727d88b4b864d1900163e5e = ['three']
    
@@ -7753,7 +7681,7 @@ QUESTION 5727dc473acd2414000dee45 = How many weight rooms are in the Malkin Athl
    
 TEXT 5727dc473acd2414000dee45 = The five-story building includes two cardio rooms, an Olympic-size swimming pool, a smaller pool for aquaerobics and other activities, a mezzanine, where all types of classes are held, an indoor cycling studio, three weight rooms, and a three-court gym floor to play basketball.
    
-ANSWERS 5727dc473acd2414000dee45 = {'three', 'three weight rooms'}
+ANSWERS 5727dc473acd2414000dee45 = {'three weight rooms', 'three'}
    
 SET_PREDICTIONS 5727dc473acd2414000dee45 = ['five', 'two', 'three', 'three']
    
@@ -7767,7 +7695,7 @@ QUESTION 5727dd2e4b864d1900163eba = Harvard - Yale Regatta predates "The Game" b
    
 TEXT 5727dd2e4b864d1900163eba = Older than The Game by 23 years, the Harvard-Yale Regatta was the original source of the athletic rivalry between the two schools.
    
-ANSWERS 5727dd2e4b864d1900163eba = {'23', '23 years'}
+ANSWERS 5727dd2e4b864d1900163eba = {'23 years', '23'}
    
 SET_PREDICTIONS 5727dd2e4b864d1900163eba = ['23 years', 'two']
    
@@ -7795,7 +7723,7 @@ QUESTION 5728170d3acd2414000df444 = How many buildings were razed by the Jackson
    
 TEXT 5728170d3acd2414000df444 = In just eight hours, it swept through 146 city blocks, destroyed over 2,000 buildings, left about 10,000 homeless and killed 7 residents.
    
-ANSWERS 5728170d3acd2414000df444 = {'over 2000', 'over 2', '2000 buildings'}
+ANSWERS 5728170d3acd2414000df444 = {'over 2', '2000 buildings', 'over 2000'}
    
 SET_PREDICTIONS 5728170d3acd2414000df444 = ['just eight hours', '146', 'over 2000', 'about 10000', '7']
    
@@ -7847,8 +7775,7 @@ FINAL_PREDICTION 572821274b864d1900164513 = 28
 ------------------  
    
   
-ERROR 572826634b864d19001645bf
-QUESTION 572826634b864d19001645bf = How many residents were recorded in the 2010 census of Jacksonville?
+ERROR 572826634b864d19001645bfQUESTION 572826634b864d19001645bf = How many residents were recorded in the 2010 census of Jacksonville?
    
 TEXT 572826634b864d19001645bf = As of 2010[update], there were 821,784 people and 366,273 households in the city.
    
@@ -7894,7 +7821,7 @@ QUESTION 5727e6cbff5b5019007d97ef = According to Oxfam, the 85 richest people ha
    
 TEXT 5727e6cbff5b5019007d97ef = A January 2014 report by Oxfam claims that the 85 wealthiest individuals in the world have a combined wealth equal to that of the bottom 50% of the world's population, or about 3.5 billion people.
    
-ANSWERS 5727e6cbff5b5019007d97ef = {'about 35 billion people', '35 billion', '50'}
+ANSWERS 5727e6cbff5b5019007d97ef = {'about 35 billion people', '50', '35 billion'}
    
 SET_PREDICTIONS 5727e6cbff5b5019007d97ef = ['january 2014', '85', '50', 'about 35 billion']
    
@@ -7922,7 +7849,7 @@ QUESTION 5729d36b1d04691400779609 = How much was the combined wealth of the "10 
    
 TEXT 5729d36b1d04691400779609 = The combined wealth of the "10 million dollar millionaires" grew to nearly $41 trillion in 2008.
    
-ANSWERS 5729d36b1d04691400779609 = {'10 million dollar millionaires grew to nearly 41 trillion in 2008', '41 trillion', 'nearly 41 trillion'}
+ANSWERS 5729d36b1d04691400779609 = {'10 million dollar millionaires grew to nearly 41 trillion in 2008', 'nearly 41 trillion', '41 trillion'}
    
 SET_PREDICTIONS 5729d36b1d04691400779609 = ['10 million dollar', 'nearly 41 trillion', '2008']
    
@@ -7936,7 +7863,7 @@ QUESTION 5729d36b1d0469140077960a = How much of the global wealth will the wealt
    
 TEXT 5729d36b1d0469140077960a = More recently, in January 2015, Oxfam reported that the wealthiest 1 percent will own more than half of the global wealth by 2016.
    
-ANSWERS 5729d36b1d0469140077960a = {'own more than half of global wealth by 2016', 'more than half', 'half'}
+ANSWERS 5729d36b1d0469140077960a = {'more than half', 'half', 'own more than half of global wealth by 2016'}
    
 SET_PREDICTIONS 5729d36b1d0469140077960a = ['january 2015', '1 percent', 'more than half', '2016']
    
@@ -7988,12 +7915,11 @@ FINAL_PREDICTION 5727f16c3acd2414000df05c = one
 ------------------  
    
   
-ERROR 5727f6723acd2414000df0ea
-QUESTION 5727f6723acd2414000df0ea = How much support is there for the US approach to economic development?
+ERROR 5727f6723acd2414000df0eaQUESTION 5727f6723acd2414000df0ea = How much support is there for the US approach to economic development?
    
 TEXT 5727f6723acd2414000df0ea = At the same time, the available evidence provides little support for the view that U.S.-style labor-market flexibility dramatically improves labor-market outcomes.
    
-ANSWERS 5727f6723acd2414000df0ea = {'little', 'little support'}
+ANSWERS 5727f6723acd2414000df0ea = {'little support', 'little'}
    
 SET_PREDICTIONS 5727f6723acd2414000df0ea = []
    
@@ -8003,12 +7929,11 @@ FINAL_PREDICTION 5727f6723acd2414000df0ea =
 ------------------  
    
   
-ERROR 5729e38daf94a219006aa6a0
-QUESTION 5729e38daf94a219006aa6a0 = How much support does evidence provide for the view that labor-market flexibility improves labor-market outcomes?
+ERROR 5729e38daf94a219006aa6a0QUESTION 5729e38daf94a219006aa6a0 = How much support does evidence provide for the view that labor-market flexibility improves labor-market outcomes?
    
 TEXT 5729e38daf94a219006aa6a0 = At the same time, the available evidence provides little support for the view that U.S.-style labor-market flexibility dramatically improves labor-market outcomes.
    
-ANSWERS 5729e38daf94a219006aa6a0 = {'little', 'little support'}
+ANSWERS 5729e38daf94a219006aa6a0 = {'little support', 'little'}
    
 SET_PREDICTIONS 5729e38daf94a219006aa6a0 = []
    
@@ -8050,7 +7975,7 @@ QUESTION 572a0a391d046914007796e1 = Over how many studies have shown that violen
    
 TEXT 572a0a391d046914007796e1 = There have been over fifty studies showing tendencies for violence to be more common in societies where income differences are larger.
    
-ANSWERS 572a0a391d046914007796e1 = {'over fifty', 'fifty'}
+ANSWERS 572a0a391d046914007796e1 = {'fifty', 'over fifty'}
    
 SET_PREDICTIONS 572a0a391d046914007796e1 = ['fifty']
    
@@ -8060,8 +7985,7 @@ FINAL_PREDICTION 572a0a391d046914007796e1 = fifty
 ------------------  
    
   
-ERROR 572a0a391d046914007796e2
-QUESTION 572a0a391d046914007796e2 = How much of a difference in homicide rates are related to inequality?
+ERROR 572a0a391d046914007796e2QUESTION 572a0a391d046914007796e2 = How much of a difference in homicide rates are related to inequality?
    
 TEXT 572a0a391d046914007796e2 = 2001 found that among U.S States and Canadian Provinces there is a tenfold difference in homicide rates related to inequality.
    
@@ -8247,7 +8171,7 @@ QUESTION 5728231fff5b5019007d9dd7 = How many days was the 1996 film shown ahead 
    
 TEXT 5728231fff5b5019007d9dd7 = Finally, the 1996 television film premièred on 12 May 1996 on CITV in Edmonton, Canada, 15 days before the BBC One showing, and two days before it aired on Fox in the United States.
    
-ANSWERS 5728231fff5b5019007d9dd7 = {'15', '15 days'}
+ANSWERS 5728231fff5b5019007d9dd7 = {'15 days', '15'}
    
 SET_PREDICTIONS 5728231fff5b5019007d9dd7 = ['1996', '12 may 1996', '15 days', 'two days']
    
@@ -8275,7 +8199,7 @@ QUESTION 57283ce72ca10214002da14d = How many BAFTA TV awards has Doctor Who won?
    
 TEXT 57283ce72ca10214002da14d = It won five BAFTA TV Awards, including Best Drama Series, the highest-profile and most prestigious British television award for which the series has ever been nominated.
    
-ANSWERS 57283ce72ca10214002da14d = {'25', 'five'}
+ANSWERS 57283ce72ca10214002da14d = {'five', '25'}
    
 SET_PREDICTIONS 57283ce72ca10214002da14d = ['five']
    
@@ -8313,8 +8237,7 @@ FINAL_PREDICTION 57283dbeff5b5019007d9fc6 = every year since 2006
 ------------------  
    
   
-ERROR 57283dbeff5b5019007d9fc7
-QUESTION 57283dbeff5b5019007d9fc7 = How many awards has Doctor Who been nominated for, over the years?
+ERROR 57283dbeff5b5019007d9fc7QUESTION 57283dbeff5b5019007d9fc7 = How many awards has Doctor Who been nominated for, over the years?
    
 TEXT 57283dbeff5b5019007d9fc7 = Doctor Who has been nominated for over 200 awards and has won over a hundred of them.
    
@@ -8328,8 +8251,7 @@ FINAL_PREDICTION 57283dbeff5b5019007d9fc7 = hundred
 ------------------  
    
   
-ERROR 57283dbeff5b5019007d9fc8
-QUESTION 57283dbeff5b5019007d9fc8 = How many awards has Doctor Who won?
+ERROR 57283dbeff5b5019007d9fc8QUESTION 57283dbeff5b5019007d9fc8 = How many awards has Doctor Who won?
    
 TEXT 57283dbeff5b5019007d9fc8 = Doctor Who has been nominated for over 200 awards and has won over a hundred of them.
    
@@ -8375,7 +8297,7 @@ QUESTION 57283c464b864d19001647cc = How many students does the University of Chi
    
 TEXT 57283c464b864d19001647cc = The university currently enrolls approximately 5,000 students in the College and around 15,000 students overall.
    
-ANSWERS 57283c464b864d19001647cc = {'5000', 'around 15000', '15000'}
+ANSWERS 57283c464b864d19001647cc = {'around 15000', '5000', '15000'}
    
 SET_PREDICTIONS 57283c464b864d19001647cc = ['approximately 5000', '15000']
    
@@ -8441,8 +8363,7 @@ FINAL_PREDICTION 5728501aff5b5019007da167 = 50
 ------------------  
    
   
-ERROR 5728501aff5b5019007da168
-QUESTION 5728501aff5b5019007da168 = How many Vice Presidents are in the Board of Trustees?
+ERROR 5728501aff5b5019007da168QUESTION 5728501aff5b5019007da168 = How many Vice Presidents are in the Board of Trustees?
    
 TEXT 5728501aff5b5019007da168 = Directly beneath the President are the Provost, fourteen Vice Presidents (including the Chief Financial Officer, Chief Investment Officer, and Dean of Students of the university), the Directors of Argonne National Laboratory and Fermilab, the Secretary of the university, and the Student Ombudsperson.
    
@@ -8572,7 +8493,7 @@ QUESTION 572856beff5b5019007da194 = How many volumes does the John Crerar Librar
    
 TEXT 572856beff5b5019007da194 = The John Crerar Library contains more than 1.3 million volumes in the biological, medical and physical sciences and collections in general science and the philosophy and history of science, medicine, and technology.
    
-ANSWERS 572856beff5b5019007da194 = {'more than 13 million', '13 million'}
+ANSWERS 572856beff5b5019007da194 = {'13 million', 'more than 13 million'}
    
 SET_PREDICTIONS 572856beff5b5019007da194 = ['more than 13 million']
    
@@ -8750,12 +8671,11 @@ FINAL_PREDICTION 572867543acd2414000df9a2 = one
 ------------------  
    
   
-ERROR 572867543acd2414000df9a4
-QUESTION 572867543acd2414000df9a4 = How many sororities belong to the National Panhellenic Conference?
+ERROR 572867543acd2414000df9a4QUESTION 572867543acd2414000df9a4 = How many sororities belong to the National Panhellenic Conference?
    
 TEXT 572867543acd2414000df9a4 = There are fifteen fraternities and seven sororities at the University of Chicago, as well as one co-ed community service fraternity, Alpha Phi Omega.
    
-ANSWERS 572867543acd2414000df9a4 = {'alpha phi omega', 'four'}
+ANSWERS 572867543acd2414000df9a4 = {'four', 'alpha phi omega'}
    
 SET_PREDICTIONS 572867543acd2414000df9a4 = ['fifteen', 'seven', 'one']
    
@@ -8811,7 +8731,7 @@ QUESTION 572869b84b864d19001649b1 = How many societal class divisions were in th
    
 TEXT 572869b84b864d19001649b1 = However, Kublai rejected plans to revive the Confucian imperial examinations and divided Yuan society into three, later four, classes with the Han Chinese occupying the lowest rank.
    
-ANSWERS 572869b84b864d19001649b1 = {'three', 'three later four', 'four'}
+ANSWERS 572869b84b864d19001649b1 = {'four', 'three later four', 'three'}
    
 SET_PREDICTIONS 572869b84b864d19001649b1 = ['three later four']
    
@@ -8909,7 +8829,7 @@ QUESTION 572916f16aef051400154a58 = How much does 17.7% of the population live o
    
 TEXT 572916f16aef051400154a58 = As of 2005, 17.7% of Kenyans lived on less than $1.25 a day.
    
-ANSWERS 572916f16aef051400154a58 = {'less than 125 day', 'less than 125'}
+ANSWERS 572916f16aef051400154a58 = {'less than 125', 'less than 125 day'}
    
 SET_PREDICTIONS 572916f16aef051400154a58 = ['2005', '177', 'less than 125']
    
@@ -8965,7 +8885,7 @@ QUESTION 57291f153f37b31900478044 = How many barrels of oil is it estimated Keny
    
 TEXT 57291f153f37b31900478044 = Tullow Oil estimates Kenya's oil reserves to be around 10 billion barrels.
    
-ANSWERS 57291f153f37b31900478044 = {'around 10 billion barrels', '10 billion'}
+ANSWERS 57291f153f37b31900478044 = {'10 billion', 'around 10 billion barrels'}
    
 SET_PREDICTIONS 57291f153f37b31900478044 = ['around 10 billion barrels']
    
@@ -9063,7 +8983,7 @@ QUESTION 572924b53f37b3190047806a = How many doctors were in Kenya in 2011?
    
 TEXT 572924b53f37b3190047806a = According to the Kenya National Bureau of Statistics, in 2011 there were 65,000 qualified nurses registered in the country; 8,600 clinical officers and 7,000 doctors for the population of 43 million people (These figures from official registers include those who have died or left the profession hence the actual number of these workers may be lower).
    
-ANSWERS 572924b53f37b3190047806a = {'7000 doctors', '7000'}
+ANSWERS 572924b53f37b3190047806a = {'7000', '7000 doctors'}
    
 SET_PREDICTIONS 572924b53f37b3190047806a = ['2011', '65000', '8600', '7000', '43 million']
    
@@ -9119,7 +9039,7 @@ QUESTION 572928bf6aef051400154af0 = How many gold medals did Kenya win during th
    
 TEXT 572928bf6aef051400154af0 = Kenya won several medals during the Beijing Olympics, six gold, four silver and four bronze, making it Africa's most successful nation in the 2008 Olympics.
    
-ANSWERS 572928bf6aef051400154af0 = {'six gold', 'six', 'several'}
+ANSWERS 572928bf6aef051400154af0 = {'several', 'six gold', 'six'}
    
 SET_PREDICTIONS 572928bf6aef051400154af0 = ['six', 'four', 'four']
    
@@ -9133,7 +9053,7 @@ QUESTION 572929d56aef051400154b0a = How many meals a day do normal Kenyans eat?
    
 TEXT 572929d56aef051400154b0a = Kenyans generally have three meals in a day – breakfast in the morning (kiamsha kinywa), lunch in the afternoon (chakula cha mchana) and supper in the evening (chakula cha jioni or known simply as "chajio").
    
-ANSWERS 572929d56aef051400154b0a = {'three', 'three meals in day'}
+ANSWERS 572929d56aef051400154b0a = {'three meals in day', 'three'}
    
 SET_PREDICTIONS 572929d56aef051400154b0a = ['three', 'morning', 'lunch in afternoon']
    
@@ -9199,12 +9119,11 @@ FINAL_PREDICTION 57293d6d1d046914007791b8 = ten to fifteen
 ------------------  
    
   
-ERROR 57293d6d1d046914007791b9
-QUESTION 57293d6d1d046914007791b9 = How many contributing authors does an IPCC report chapter have?
+ERROR 57293d6d1d046914007791b9QUESTION 57293d6d1d046914007791b9 = How many contributing authors does an IPCC report chapter have?
    
 TEXT 57293d6d1d046914007791b9 = A chapter typically has two "coordinating lead authors", ten to fifteen "lead authors", and a somewhat larger number of "contributing authors".
    
-ANSWERS 57293d6d1d046914007791b9 = {'somewhat larger number', 'somewhat larger number of contributing authors'}
+ANSWERS 57293d6d1d046914007791b9 = {'somewhat larger number of contributing authors', 'somewhat larger number'}
    
 SET_PREDICTIONS 57293d6d1d046914007791b9 = ['two', 'ten to fifteen']
    
@@ -9228,12 +9147,11 @@ FINAL_PREDICTION 57293e221d046914007791d7 = over half
 ------------------  
    
   
-ERROR 57293e221d046914007791d9
-QUESTION 57293e221d046914007791d9 = How much has global mean surface air temperature changed in the last century?
+ERROR 57293e221d046914007791d9QUESTION 57293e221d046914007791d9 = How much has global mean surface air temperature changed in the last century?
    
 TEXT 57293e221d046914007791d9 = They judge that global mean surface air temperature has increased by 0.3 to 0.6 °C over the last 100 years, broadly consistent with prediction of climate models, but also of the same magnitude as natural climate variability.
    
-ANSWERS 57293e221d046914007791d9 = {'increased by 03 to 06 °c', '03 to 06 °c'}
+ANSWERS 57293e221d046914007791d9 = {'03 to 06 °c', 'increased by 03 to 06 °c'}
    
 SET_PREDICTIONS 57293e221d046914007791d9 = ['03', 'last 100 years']
    
@@ -9261,7 +9179,7 @@ QUESTION 57293e983f37b3190047818f = How much did the statement predict global su
    
 TEXT 57293e983f37b3190047818f = The statement, also published as an editorial in the journal Science, stated "we support the [TAR's] conclusion that it is at least 90% certain that temperatures will continue to rise, with average global surface temperature projected to increase by between 1.4 and 5.8 °C above 1990 levels by 2100".
    
-ANSWERS 57293e983f37b3190047818f = {'between 14 and 58 °c above 1990 levels', '14 and 58 °c', 'between 14 and 58 °c'}
+ANSWERS 57293e983f37b3190047818f = {'14 and 58 °c', 'between 14 and 58 °c above 1990 levels', 'between 14 and 58 °c'}
    
 SET_PREDICTIONS 57293e983f37b3190047818f = ['at least 90', 'between 14 and 58 °c above 1990 levels by 2100']
    
@@ -9275,7 +9193,7 @@ QUESTION 572944e03f37b319004781e4 = How many Medieval Warm Period reconstruction
    
 TEXT 572944e03f37b319004781e4 = Ten of these 14 reconstructions covered 1,000 years or longer.
    
-ANSWERS 572944e03f37b319004781e4 = {'ten', '14'}
+ANSWERS 572944e03f37b319004781e4 = {'14', 'ten'}
    
 SET_PREDICTIONS 572944e03f37b319004781e4 = ['ten', '14', '1000 years']
    
@@ -9289,7 +9207,7 @@ QUESTION 572944e03f37b319004781e3 = How many Medieval Warm Period reconstruction
    
 TEXT 572944e03f37b319004781e3 = Ten of these 14 reconstructions covered 1,000 years or longer.
    
-ANSWERS 572944e03f37b319004781e3 = {'ten', '14'}
+ANSWERS 572944e03f37b319004781e3 = {'14', 'ten'}
    
 SET_PREDICTIONS 572944e03f37b319004781e3 = ['ten', '14', '1000 years']
    
@@ -9303,7 +9221,7 @@ QUESTION 572949306aef051400154c69 = How much did the IPCC Third Assessment Repor
    
 TEXT 572949306aef051400154c69 = These values are much greater than the 9–88 cm as projected by the IPCC itself in its Third Assessment Report, published in 2001".
    
-ANSWERS 572949306aef051400154c69 = {'05–14 m', '9–88 cm'}
+ANSWERS 572949306aef051400154c69 = {'9–88 cm', '05–14 m'}
    
 SET_PREDICTIONS 572949306aef051400154c69 = ['9–88 cm', '2001']
    
@@ -9317,7 +9235,7 @@ QUESTION 572949306aef051400154c6a = How much do researchers now think sea levels
    
 TEXT 572949306aef051400154c6a = When the researchers' analysis was "applied to the possible scenarios outlined by the Intergovernmental Panel on Climate Change (IPCC), the researchers found that in 2100 sea levels would be 0.5–1.4 m [50–140 cm] above 1990 levels.
    
-ANSWERS 572949306aef051400154c6a = {'05–14 m 50–140 cm', '9–88 cm', '50–140 cm'}
+ANSWERS 572949306aef051400154c6a = {'05–14 m 50–140 cm', '50–140 cm', '9–88 cm'}
    
 SET_PREDICTIONS 572949306aef051400154c6a = ['2100', '50–140 cm', '1990']
    
@@ -9369,8 +9287,7 @@ FINAL_PREDICTION 5729582b1d046914007792e4 = one
 ------------------  
    
   
-ERROR 5729686d1d046914007793c3
-QUESTION 5729686d1d046914007793c3 = How many base pairs are there in Chromatophore DNA?
+ERROR 5729686d1d046914007793c3QUESTION 5729686d1d046914007793c3 = How many base pairs are there in Chromatophore DNA?
    
 TEXT 5729686d1d046914007793c3 = Chromatophore DNA is about a million base pairs long, containing around 850 protein encoding genes—far less than the three million base pair Synechococcus genome, but much larger than the approximately 150,000 base pair genome of the more assimilated chloroplast.
    
@@ -9388,7 +9305,7 @@ QUESTION 5729686d1d046914007793c4 = How many protein-encoding genes are there in
    
 TEXT 5729686d1d046914007793c4 = Chromatophore DNA is about a million base pairs long, containing around 850 protein encoding genes—far less than the three million base pair Synechococcus genome, but much larger than the approximately 150,000 base pair genome of the more assimilated chloroplast.
    
-ANSWERS 5729686d1d046914007793c4 = {'850', 'around 850'}
+ANSWERS 5729686d1d046914007793c4 = {'around 850', '850'}
    
 SET_PREDICTIONS 5729686d1d046914007793c4 = ['850', 'three million', 'approximately 150000']
    
@@ -9430,7 +9347,7 @@ QUESTION 57296bf96aef051400154e53 = How much of the protein products of transfer
    
 TEXT 57296bf96aef051400154e53 = Curiously, around half of the protein products of transferred genes aren't even targeted back to the chloroplast.
    
-ANSWERS 57296bf96aef051400154e53 = {'half', 'around half'}
+ANSWERS 57296bf96aef051400154e53 = {'around half', 'half'}
    
 SET_PREDICTIONS 57296bf96aef051400154e53 = ['half']
    
@@ -9444,7 +9361,7 @@ QUESTION 57296fd71d04691400779441 = How many granal thylakoids can be in each gr
    
 TEXT 57296fd71d04691400779441 = Each granum can contain anywhere from two to a hundred thylakoids, though grana with 10–20 thylakoids are most common.
    
-ANSWERS 57296fd71d04691400779441 = {'two to hundred', 'anywhere from two to hundred'}
+ANSWERS 57296fd71d04691400779441 = {'anywhere from two to hundred', 'two to hundred'}
    
 SET_PREDICTIONS 57296fd71d04691400779441 = ['two to hundred', '10–20']
    
@@ -9482,8 +9399,7 @@ FINAL_PREDICTION 572970916aef051400154eba = two
 ------------------  
    
   
-ERROR 57297103af94a219006aa423
-QUESTION 57297103af94a219006aa423 = How many photosynthetic carotenoids are there?
+ERROR 57297103af94a219006aa423QUESTION 57297103af94a219006aa423 = How many photosynthetic carotenoids are there?
    
 TEXT 57297103af94a219006aa423 = There are about thirty photosynthetic carotenoids.
    
@@ -9497,12 +9413,11 @@ FINAL_PREDICTION 57297103af94a219006aa423 =
 ------------------  
    
   
-ERROR 572972f46aef051400154ef6
-QUESTION 572972f46aef051400154ef6 = How many chloroplasts are in stomatal guard cells?
+ERROR 572972f46aef051400154ef6QUESTION 572972f46aef051400154ef6 = How many chloroplasts are in stomatal guard cells?
    
 TEXT 572972f46aef051400154ef6 = Palisade mesophyll cells can contain 30–70 chloroplasts per cell, while stomatal guard cells contain only around 8–15 per cell, as well as much less chlorophyll.
    
-ANSWERS 572972f46aef051400154ef6 = {'8–15 per cell', 'around 8–15', '8–15'}
+ANSWERS 572972f46aef051400154ef6 = {'8–15 per cell', '8–15', 'around 8–15'}
    
 SET_PREDICTIONS 572972f46aef051400154ef6 = ['30–70']
    
@@ -9540,12 +9455,11 @@ FINAL_PREDICTION 572973ccaf94a219006aa449 = two
 ------------------  
    
   
-ERROR 572975a3af94a219006aa468
-QUESTION 572975a3af94a219006aa468 = How many G3P molecules leave the cycle?
+ERROR 572975a3af94a219006aa468QUESTION 572975a3af94a219006aa468 = How many G3P molecules leave the cycle?
    
 TEXT 572975a3af94a219006aa468 = Most of the G3P molecules are recycled back into RuBP using energy from more ATP, but one out of every six produced leaves the cycle—the end product of the dark reactions.
    
-ANSWERS 572975a3af94a219006aa468 = {'out of every six', 'one out of every six'}
+ANSWERS 572975a3af94a219006aa468 = {'one out of every six', 'out of every six'}
    
 SET_PREDICTIONS 572975a3af94a219006aa468 = ['g3p', 'one', 'six']
    
@@ -9559,7 +9473,7 @@ QUESTION 572976791d046914007794b2 = How much carbon gets wasted by using O2 inst
    
 TEXT 572976791d046914007794b2 = It can waste up to half the carbon fixed by the Calvin cycle.
    
-ANSWERS 572976791d046914007794b2 = {'up to half carbon fixed by calvin cycle', 'up to half', 'half'}
+ANSWERS 572976791d046914007794b2 = {'up to half', 'up to half carbon fixed by calvin cycle', 'half'}
    
 SET_PREDICTIONS 572976791d046914007794b2 = ['up to half']
    
@@ -9587,7 +9501,7 @@ QUESTION 57296f293f37b319004783a7 = As of January 2016 how many digits does the 
    
 TEXT 57296f293f37b319004783a7 = As of January 2016[update], the largest known prime number has 22,338,618 decimal digits.
    
-ANSWERS 57296f293f37b319004783a7 = {'22338618', '22338618 decimal digits'}
+ANSWERS 57296f293f37b319004783a7 = {'22338618 decimal digits', '22338618'}
    
 SET_PREDICTIONS 57296f293f37b319004783a7 = ['january 2016update', '22338618']
    
@@ -9597,12 +9511,11 @@ FINAL_PREDICTION 57296f293f37b319004783a7 = january 2016update
 ------------------  
    
   
-ERROR 572970c11d04691400779463
-QUESTION 572970c11d04691400779463 = How many prime numbers exist?
+ERROR 572970c11d04691400779463QUESTION 572970c11d04691400779463 = How many prime numbers exist?
    
 TEXT 572970c11d04691400779463 = There are infinitely many primes, as demonstrated by Euclid around 300 BC.
    
-ANSWERS 572970c11d04691400779463 = {'infinitely', 'infinitely many'}
+ANSWERS 572970c11d04691400779463 = {'infinitely many', 'infinitely'}
    
 SET_PREDICTIONS 572970c11d04691400779463 = ['300 bc']
    
@@ -9630,7 +9543,7 @@ QUESTION 57297bc9af94a219006aa4cb = How many divisions are required to verify th
    
 TEXT 57297bc9af94a219006aa4cb = For example, to check the primality of 37, only three divisions are necessary (m = 2, 3, and 5), given that 4 and 6 are composite.
    
-ANSWERS 57297bc9af94a219006aa4cb = {'three', 'only for those m that are prime', 'only three divisions'}
+ANSWERS 57297bc9af94a219006aa4cb = {'only three divisions', 'only for those m that are prime', 'three'}
    
 SET_PREDICTIONS 57297bc9af94a219006aa4cb = ['37', 'only three', '2', '3', '5', '4']
    
@@ -9658,7 +9571,7 @@ QUESTION 572987e46aef051400154fa5 = If q=9 and a=3,6 or 9, how many primes would
    
 TEXT 572987e46aef051400154fa5 = The rows (=progressions) starting with a = 3, 6, or 9 contain at most one prime number.
    
-ANSWERS 572987e46aef051400154fa5 = {'at most one', 'at most one prime number', 'one'}
+ANSWERS 572987e46aef051400154fa5 = {'at most one prime number', 'one', 'at most one'}
    
 SET_PREDICTIONS 572987e46aef051400154fa5 = ['3', '6', '9', 'one']
    
@@ -9668,12 +9581,11 @@ FINAL_PREDICTION 572987e46aef051400154fa5 = one
 ------------------  
    
   
-ERROR 572987e46aef051400154fa6
-QUESTION 572987e46aef051400154fa6 = If q=9 and a=1,2,4,5,7, or 8, how many primes would be in a progression?
+ERROR 572987e46aef051400154fa6QUESTION 572987e46aef051400154fa6 = If q=9 and a=1,2,4,5,7, or 8, how many primes would be in a progression?
    
 TEXT 572987e46aef051400154fa6 = In all other rows (a = 1, 2, 4, 5, 7, and 8) there are infinitely many prime numbers.
    
-ANSWERS 572987e46aef051400154fa6 = {'infinitely many prime numbers', 'infinite', 'infinitely many'}
+ANSWERS 572987e46aef051400154fa6 = {'infinite', 'infinitely many', 'infinitely many prime numbers'}
    
 SET_PREDICTIONS 572987e46aef051400154fa6 = ['1', '2', '4', '5', '7']
    
@@ -9683,12 +9595,11 @@ FINAL_PREDICTION 572987e46aef051400154fa6 = 1
 ------------------  
    
   
-ERROR 57299021af94a219006aa50d
-QUESTION 57299021af94a219006aa50d = As of February 2011, how many numbers has Goldbach's conjecture been proven to?
+ERROR 57299021af94a219006aa50dQUESTION 57299021af94a219006aa50d = As of February 2011, how many numbers has Goldbach's conjecture been proven to?
    
 TEXT 57299021af94a219006aa50d = As of February 2011[update], this conjecture has been verified for all numbers up to n = 2 · 1017.
    
-ANSWERS 57299021af94a219006aa50d = {'all numbers up to n 2 · 1017', 'n 2 · 1017', 'n 2'}
+ANSWERS 57299021af94a219006aa50d = {'all numbers up to n 2 · 1017', 'n 2', 'n 2 · 1017'}
    
 SET_PREDICTIONS 57299021af94a219006aa50d = ['february', '2', '1017']
    
@@ -9730,7 +9641,7 @@ QUESTION 572998673f37b319004784d9 = How much larger would cicada predator popula
    
 TEXT 572998673f37b319004784d9 = Over a 200-year period, average predator populations during hypothetical outbreaks of 14- and 15-year cicadas would be up to 2% higher than during outbreaks of 13- and 17-year cicadas.
    
-ANSWERS 572998673f37b319004784d9 = {'2', 'up to 2 higher'}
+ANSWERS 572998673f37b319004784d9 = {'up to 2 higher', '2'}
    
 SET_PREDICTIONS 572998673f37b319004784d9 = ['up to 2']
    
@@ -9744,7 +9655,7 @@ QUESTION 572f58d9a23a5019007fc57d = How many bodies of water makes up Lake Const
    
 TEXT 572f58d9a23a5019007fc57d = Lake Constance consists of three bodies of water: the Obersee ("upper lake"), the Untersee ("lower lake"), and a connecting stretch of the Rhine, called the Seerhein ("Lake Rhine").
    
-ANSWERS 572f58d9a23a5019007fc57d = {'three', 'three bodies of water'}
+ANSWERS 572f58d9a23a5019007fc57d = {'three bodies of water', 'three'}
    
 SET_PREDICTIONS 572f58d9a23a5019007fc57d = ['three']
    
@@ -9758,7 +9669,7 @@ QUESTION 572fe60fb2c2fd140056858b = How many bodies of water makes up Lake Const
    
 TEXT 572fe60fb2c2fd140056858b = Lake Constance consists of three bodies of water: the Obersee ("upper lake"), the Untersee ("lower lake"), and a connecting stretch of the Rhine, called the Seerhein ("Lake Rhine").
    
-ANSWERS 572fe60fb2c2fd140056858b = {'three', 'three bodies of water'}
+ANSWERS 572fe60fb2c2fd140056858b = {'three bodies of water', 'three'}
    
 SET_PREDICTIONS 572fe60fb2c2fd140056858b = ['three']
    
@@ -9768,12 +9679,11 @@ FINAL_PREDICTION 572fe60fb2c2fd140056858b = three
 ------------------  
    
   
-ERROR 572f59b4a23a5019007fc58b
-QUESTION 572f59b4a23a5019007fc58b = How much of the lake connecting with the Rhine can you see from the German islands?
+ERROR 572f59b4a23a5019007fc58bQUESTION 572f59b4a23a5019007fc58b = How much of the lake connecting with the Rhine can you see from the German islands?
    
 TEXT 572f59b4a23a5019007fc58b = Depending on the water level, this flow of the Rhine water is clearly visible along the entire length of the lake.
    
-ANSWERS 572f59b4a23a5019007fc58b = {'entire length', 'entire length of lake'}
+ANSWERS 572f59b4a23a5019007fc58b = {'entire length of lake', 'entire length'}
    
 SET_PREDICTIONS 572f59b4a23a5019007fc58b = []
    
@@ -9783,8 +9693,7 @@ FINAL_PREDICTION 572f59b4a23a5019007fc58b =
 ------------------  
    
   
-ERROR 572f609ca23a5019007fc5b1
-QUESTION 572f609ca23a5019007fc5b1 = How much water does the Aare give to the Rhine?
+ERROR 572f609ca23a5019007fc5b1QUESTION 572f609ca23a5019007fc5b1 = How much water does the Aare give to the Rhine?
    
 TEXT 572f609ca23a5019007fc5b1 = The Aare more than doubles the Rhine's water discharge, to an average of nearly 1,000 m3/s (35,000 cu ft/s), and provides more than a fifth of the discharge at the Dutch border.
    
@@ -9798,12 +9707,11 @@ FINAL_PREDICTION 572f609ca23a5019007fc5b1 = more than fifth
 ------------------  
    
   
-ERROR 572ff07304bcaa1900d76ef9
-QUESTION 572ff07304bcaa1900d76ef9 = How much does the Rhine discharge at the Dutch border?
+ERROR 572ff07304bcaa1900d76ef9QUESTION 572ff07304bcaa1900d76ef9 = How much does the Rhine discharge at the Dutch border?
    
 TEXT 572ff07304bcaa1900d76ef9 = As it approaches the Dutch border, the Rhine has an annual mean discharge of 2,290 m3/s (81,000 cu ft/s) and an average width of 400 m (1,300 ft).
    
-ANSWERS 572ff07304bcaa1900d76ef9 = {'2290 m3s 81000 cu fts', '2290 m3s'}
+ANSWERS 572ff07304bcaa1900d76ef9 = {'2290 m3s', '2290 m3s 81000 cu fts'}
    
 SET_PREDICTIONS 572ff07304bcaa1900d76ef9 = ['2290', '81000', '400 m', '1300 ft']
    
@@ -9827,8 +9735,7 @@ FINAL_PREDICTION 572f76d1b2c2fd1400568155 = two thirds
 ------------------  
    
   
-ERROR 572ff56304bcaa1900d76f2f
-QUESTION 572ff56304bcaa1900d76f2f = How much of the Rhine flow does Ijssel carry?
+ERROR 572ff56304bcaa1900d76f2fQUESTION 572ff56304bcaa1900d76f2f = How much of the Rhine flow does Ijssel carry?
    
 TEXT 572ff56304bcaa1900d76f2f = The IJssel branch carries one ninth of the water flow of the Rhine north into the IJsselmeer (a former bay), while the Nederrijn carries approximately two ninths of the flow west along a route parallel to the Waal.
    
@@ -9944,7 +9851,7 @@ QUESTION 572fadcbb2c2fd140056832a = How many of the Scottish electorate would ne
    
 TEXT 572fadcbb2c2fd140056832a = Under the terms of the Scotland Act 1978, an elected assembly would be set up in Edinburgh provided that the majority of the Scottish electorate voted for it in a referendum to be held on 1 March 1979 that represented at least 40% of the total electorate.
    
-ANSWERS 572fadcbb2c2fd140056832a = {'majority', 'at least 40', '40'}
+ANSWERS 572fadcbb2c2fd140056832a = {'at least 40', '40', 'majority'}
    
 SET_PREDICTIONS 572fadcbb2c2fd140056832a = ['1978', '1 march 1979', 'at least 40']
    
@@ -9958,7 +9865,7 @@ QUESTION 572fbb04a23a5019007fc8f9 = How many seats must a political party have t
    
 TEXT 572fbb04a23a5019007fc8f9 = Under the Standing Orders of the Parliament the Bureau consists of the Presiding Officer and one representative from each political parties with five or more seats in the Parliament.
    
-ANSWERS 572fbb04a23a5019007fc8f9 = {'five or more', 'five or more seats', 'five'}
+ANSWERS 572fbb04a23a5019007fc8f9 = {'five', 'five or more seats', 'five or more'}
    
 SET_PREDICTIONS 572fbb04a23a5019007fc8f9 = ['five']
    
@@ -9996,8 +9903,7 @@ FINAL_PREDICTION 572fbea404bcaa1900d76c5e = 131
 ------------------  
    
   
-ERROR 572fbfa504bcaa1900d76c76
-QUESTION 572fbfa504bcaa1900d76c76 = How much does it cost to gain entry to a parliament meeting?
+ERROR 572fbfa504bcaa1900d76c76QUESTION 572fbfa504bcaa1900d76c76 = How much does it cost to gain entry to a parliament meeting?
    
 TEXT 572fbfa504bcaa1900d76c76 = Entry is free, but booking in advance is recommended due to limited space.
    
@@ -10015,7 +9921,7 @@ QUESTION 572fc80b04bcaa1900d76d12 = How many ministries of the Scottish governme
    
 TEXT 572fc80b04bcaa1900d76d12 = Typically each committee corresponds with one (or more) of the departments (or ministries) of the Scottish Government.
    
-ANSWERS 572fc80b04bcaa1900d76d12 = {'one or more', 'one or more of departments or ministries of scottish government', 'one'}
+ANSWERS 572fc80b04bcaa1900d76d12 = {'one or more of departments or ministries of scottish government', 'one', 'one or more'}
    
 SET_PREDICTIONS 572fc80b04bcaa1900d76d12 = ['one']
    
@@ -10025,8 +9931,7 @@ FINAL_PREDICTION 572fc80b04bcaa1900d76d12 = one
 ------------------  
    
   
-ERROR 572fcb6da23a5019007fc9f4
-QUESTION 572fcb6da23a5019007fc9f4 = How much can the SP alter income tax in Scotland?
+ERROR 572fcb6da23a5019007fc9f4QUESTION 572fcb6da23a5019007fc9f4 = How much can the SP alter income tax in Scotland?
    
 TEXT 572fcb6da23a5019007fc9f4 = The Scottish Parliament has the ability to alter income tax in Scotland by up to 3 pence in the pound.
    
@@ -10044,7 +9949,7 @@ QUESTION 572fd6aa04bcaa1900d76da2 = How many days does the Parliament have to no
    
 TEXT 572fd6aa04bcaa1900d76da2 = If the Parliament itself resolves that it should be dissolved (with at least two-thirds of the Members voting in favour), or if the Parliament fails to nominate one of its members to be First Minister within 28 days of a General Election or of the position becoming vacant, the Presiding Officer proposes a date for an extraordinary general election and the Parliament is dissolved by the Queen by royal proclamation.
    
-ANSWERS 572fd6aa04bcaa1900d76da2 = {'28', '28 days'}
+ANSWERS 572fd6aa04bcaa1900d76da2 = {'28 days', '28'}
    
 SET_PREDICTIONS 572fd6aa04bcaa1900d76da2 = ['at least twothirds', 'first', '28 days']
    
@@ -10082,8 +9987,7 @@ FINAL_PREDICTION 572fd8efb2c2fd14005684fa = one
 ------------------  
    
   
-ERROR 572fdbb004bcaa1900d76ddb
-QUESTION 572fdbb004bcaa1900d76ddb = By how much did Labour lead Lain Gray retain East Lothian?
+ERROR 572fdbb004bcaa1900d76ddbQUESTION 572fdbb004bcaa1900d76ddb = By how much did Labour lead Lain Gray retain East Lothian?
    
 TEXT 572fdbb004bcaa1900d76ddb = The SNP took 16 seats from Labour, with many of their key figures not returned to parliament, although Labour leader Iain Gray retained East Lothian by 151 votes.
    
@@ -10111,8 +10015,7 @@ FINAL_PREDICTION 572fdbb004bcaa1900d76ddc = one
 ------------------  
    
   
-ERROR 57300ec0947a6a140053d008
-QUESTION 57300ec0947a6a140053d008 = How many Muslims came from around the world to fight in Afghanistan?
+ERROR 57300ec0947a6a140053d008QUESTION 57300ec0947a6a140053d008 = How many Muslims came from around the world to fight in Afghanistan?
    
 TEXT 57300ec0947a6a140053d008 = While the military effectiveness of these "Afghan Arabs" was marginal, an estimated 16,000 to 35,000 Muslim volunteers came from around the world came to fight in Afghanistan.
    
@@ -10144,7 +10047,7 @@ QUESTION 573028fa04bcaa1900d7728b = How much of Afghanistan did the Taliban take
    
 TEXT 573028fa04bcaa1900d7728b = In 1996, a more conservative and anti-democratic Islamist movement known as the Taliban rose to power, defeated most of the warlords and took over roughly 80% of Afghanistan.
    
-ANSWERS 573028fa04bcaa1900d7728b = {'roughly 80', '80'}
+ANSWERS 573028fa04bcaa1900d7728b = {'80', 'roughly 80'}
    
 SET_PREDICTIONS 573028fa04bcaa1900d7728b = ['1996', 'roughly 80']
    
@@ -10256,7 +10159,7 @@ QUESTION 5730c810aca1c71400fe5aa7 = The United States is divided into how many j
    
 TEXT 5730c810aca1c71400fe5aa7 = The United States is divided into five jurisdictions: Northeastern, Southeastern, North Central, South Central and Western.
    
-ANSWERS 5730c810aca1c71400fe5aa7 = {'united states is divided into five jurisdictions', 'five'}
+ANSWERS 5730c810aca1c71400fe5aa7 = {'five', 'united states is divided into five jurisdictions'}
    
 SET_PREDICTIONS 5730c810aca1c71400fe5aa7 = ['five']
    
@@ -10270,7 +10173,7 @@ QUESTION 5730c810aca1c71400fe5aa8 = How many central conferences are outside of 
    
 TEXT 5730c810aca1c71400fe5aa8 = Outside the United States the church is divided into seven central conferences: Africa, Congo, West Africa, Central & Southern Europe, Germany, Northern Europe and the Philippines.
    
-ANSWERS 5730c810aca1c71400fe5aa8 = {'seven central conferences africa congo west africa central southern europe germany northern europe and philippines', 'seven'}
+ANSWERS 5730c810aca1c71400fe5aa8 = {'seven', 'seven central conferences africa congo west africa central southern europe germany northern europe and philippines'}
    
 SET_PREDICTIONS 5730c810aca1c71400fe5aa8 = ['seven']
    
@@ -10308,12 +10211,11 @@ FINAL_PREDICTION 5730ca6eaca1c71400fe5ac2 = nine
 ------------------  
    
   
-ERROR 5730ca6eaca1c71400fe5ac4
-QUESTION 5730ca6eaca1c71400fe5ac4 = How many times a year does The Council meet?
+ERROR 5730ca6eaca1c71400fe5ac4QUESTION 5730ca6eaca1c71400fe5ac4 = How many times a year does The Council meet?
    
 TEXT 5730ca6eaca1c71400fe5ac4 = The Council meets twice a year at various locations throughout the world.
    
-ANSWERS 5730ca6eaca1c71400fe5ac4 = {'meets twice year at', 'every eight years', 'twice year'}
+ANSWERS 5730ca6eaca1c71400fe5ac4 = {'every eight years', 'meets twice year at', 'twice year'}
    
 SET_PREDICTIONS 5730ca6eaca1c71400fe5ac4 = []
    
@@ -10327,7 +10229,7 @@ QUESTION 5730cc2cb54a4f140068cc66 = The UMC established and is affiliated with a
    
 TEXT 5730cc2cb54a4f140068cc66 = As such, the United Methodist Church established and is affiliated with around one hundred colleges and universities in the United States, including Syracuse University, Boston University, Emory University, Duke University, Drew University, University of Denver, University of Evansville, and Southern Methodist University.
    
-ANSWERS 5730cc2cb54a4f140068cc66 = {'one hundred', 'one hundred colleges and universities', 'around one hundred'}
+ANSWERS 5730cc2cb54a4f140068cc66 = {'one hundred colleges and universities', 'around one hundred', 'one hundred'}
    
 SET_PREDICTIONS 5730cc2cb54a4f140068cc66 = ['one hundred']
    
@@ -10341,7 +10243,7 @@ QUESTION 5730cc2cb54a4f140068cc67 = How many schools and institutions does the c
    
 TEXT 5730cc2cb54a4f140068cc67 = The church operates three hundred sixty schools and institutions overseas.
    
-ANSWERS 5730cc2cb54a4f140068cc67 = {'three hundred', 'three hundred sixty schools and institutions overseas', 'three hundred sixty'}
+ANSWERS 5730cc2cb54a4f140068cc67 = {'three hundred sixty schools and institutions overseas', 'three hundred sixty', 'three hundred'}
    
 SET_PREDICTIONS 5730cc2cb54a4f140068cc67 = ['three hundred sixty']
    
@@ -10355,7 +10257,7 @@ QUESTION 5730d473b7151e1900c0155c = How many years do Elders serve as provisiona
    
 TEXT 5730d473b7151e1900c0155c = Elders serve a term of 2–3 years as provisional Elders prior to their ordination.
    
-ANSWERS 5730d473b7151e1900c0155c = {'2–3 years', '2–3 years as provisional elders prior to their ordination'}
+ANSWERS 5730d473b7151e1900c0155c = {'2–3 years as provisional elders prior to their ordination', '2–3 years'}
    
 SET_PREDICTIONS 5730d473b7151e1900c0155c = ['2–3 years']
    
@@ -10369,7 +10271,7 @@ QUESTION 5730d523aca1c71400fe5b03 = Deacons serve a term of how many years as pr
    
 TEXT 5730d523aca1c71400fe5b03 = Deacons serve a term of 2–3 years as provisional deacons prior to their ordination.
    
-ANSWERS 5730d523aca1c71400fe5b03 = {'deacons serve term of 2–3 years as provisional deacons prior to their ordination', '2–3 years'}
+ANSWERS 5730d523aca1c71400fe5b03 = {'2–3 years', 'deacons serve term of 2–3 years as provisional deacons prior to their ordination'}
    
 SET_PREDICTIONS 5730d523aca1c71400fe5b03 = ['2–3 years']
    
@@ -10383,7 +10285,7 @@ QUESTION 5730d6fcb7151e1900c01564 = How many years must a local pastor attend a 
    
 TEXT 5730d6fcb7151e1900c01564 = Local pastors are not required to have advanced degrees but are required to attend licensing school and attend and pass an approved five-year course of study at an approved United Methodist seminary or course of study school, successfully complete written and oral examinations, and appear before the District Committee on Ministry and the Conference Board of Ordained Ministry.
    
-ANSWERS 5730d6fcb7151e1900c01564 = {'fiveyear course of study at', 'fiveyear', 'five'}
+ANSWERS 5730d6fcb7151e1900c01564 = {'five', 'fiveyear', 'fiveyear course of study at'}
    
 SET_PREDICTIONS 5730d6fcb7151e1900c01564 = ['fiveyear']
    
@@ -10393,12 +10295,11 @@ FINAL_PREDICTION 5730d6fcb7151e1900c01564 = fiveyear
 ------------------  
    
   
-ERROR 5730e936aca1c71400fe5b64
-QUESTION 5730e936aca1c71400fe5b64 = How many courses must a local lay servant take?
+ERROR 5730e936aca1c71400fe5b64QUESTION 5730e936aca1c71400fe5b64 = How many courses must a local lay servant take?
    
 TEXT 5730e936aca1c71400fe5b64 = They must report and reapply annually; and they must complete at least one advanced course every three years.
    
-ANSWERS 5730e936aca1c71400fe5b64 = {'one advanced course every three years', 'at least one advanced course every three years', 'complete basic course and one advanced lay servant course'}
+ANSWERS 5730e936aca1c71400fe5b64 = {'one advanced course every three years', 'complete basic course and one advanced lay servant course', 'at least one advanced course every three years'}
    
 SET_PREDICTIONS 5730e936aca1c71400fe5b64 = ['annually', 'at least one', 'every three years']
    
@@ -10412,7 +10313,7 @@ QUESTION 5730eb5b497a881900248a3f = At the time of its formation, how many membe
    
 TEXT 5730eb5b497a881900248a3f = At the time of its formation, the UMC had about 11 million members in nearly 42,000 congregations.
    
-ANSWERS 5730eb5b497a881900248a3f = {'11 million', 'about 11 million members in nearly 42000 congregations'}
+ANSWERS 5730eb5b497a881900248a3f = {'about 11 million members in nearly 42000 congregations', '11 million'}
    
 SET_PREDICTIONS 5730eb5b497a881900248a3f = ['about 11 million', 'nearly 42000']
    
@@ -10454,7 +10355,7 @@ QUESTION 5733cf61d058e614000b62eb = How many people were in French North America
    
 TEXT 5733cf61d058e614000b62eb = At the start of the war, the French North American colonies had a population of roughly 60,000 European settlers, compared with 2 million in the British North American colonies.
    
-ANSWERS 5733cf61d058e614000b62eb = {'60000', 'roughly 60000 european settlers', '60000 european settlers'}
+ANSWERS 5733cf61d058e614000b62eb = {'roughly 60000 european settlers', '60000 european settlers', '60000'}
    
 SET_PREDICTIONS 5733cf61d058e614000b62eb = ['roughly 60000', '2 million']
    
@@ -10478,12 +10379,11 @@ FINAL_PREDICTION 5733cf61d058e614000b62ec = 2 million
 ------------------  
    
   
-ERROR 5733d249d058e614000b6332
-QUESTION 5733d249d058e614000b6332 = How much resources were French placing in North America?
+ERROR 5733d249d058e614000b6332QUESTION 5733d249d058e614000b6332 = How much resources were French placing in North America?
    
 TEXT 5733d249d058e614000b6332 = William Pitt came to power and significantly increased British military resources in the colonies at a time when France was unwilling to risk large convoys to aid the limited forces it had in New France.
    
-ANSWERS 5733d249d058e614000b6332 = {'significantly increased', 'unwilling to risk large convoys to aid limited forces it had in new france', 'france was unwilling to risk large convoys to aid limited forces it had in new france', 'limited forces'}
+ANSWERS 5733d249d058e614000b6332 = {'significantly increased', 'france was unwilling to risk large convoys to aid limited forces it had in new france', 'unwilling to risk large convoys to aid limited forces it had in new france', 'limited forces'}
    
 SET_PREDICTIONS 5733d249d058e614000b6332 = []
    
@@ -10493,12 +10393,11 @@ FINAL_PREDICTION 5733d249d058e614000b6332 =
 ------------------  
    
   
-ERROR 5733dab4d058e614000b640a
-QUESTION 5733dab4d058e614000b640a = How much British military was in North America at start of War?
+ERROR 5733dab4d058e614000b640aQUESTION 5733dab4d058e614000b640a = How much British military was in North America at start of War?
    
 TEXT 5733dab4d058e614000b640a = At the start of the war, no French regular army troops were stationed in North America, and few British troops.
    
-ANSWERS 5733dab4d058e614000b640a = {'few british troops', 'not have any standing forces', 'few'}
+ANSWERS 5733dab4d058e614000b640a = {'not have any standing forces', 'few british troops', 'few'}
    
 SET_PREDICTIONS 5733dab4d058e614000b640a = []
    
@@ -10522,12 +10421,11 @@ FINAL_PREDICTION 5733e8ae4776f419006614a7 = 300
 ------------------  
    
   
-ERROR 5733f5f24776f419006615c2
-QUESTION 5733f5f24776f419006615c2 = How much success did this expedition with Braddock find?
+ERROR 5733f5f24776f419006615c2QUESTION 5733f5f24776f419006615c2 = How much success did this expedition with Braddock find?
    
 TEXT 5733f5f24776f419006615c2 = The expedition was a disaster.
    
-ANSWERS 5733f5f24776f419006615c2 = {'expedition was disaster', 'disaster', 'was disaster'}
+ANSWERS 5733f5f24776f419006615c2 = {'expedition was disaster', 'was disaster', 'disaster'}
    
 SET_PREDICTIONS 5733f5f24776f419006615c2 = []
    
@@ -10541,7 +10439,7 @@ QUESTION 5733f5f24776f419006615c3 = How many casualties did British get?
    
 TEXT 5733f5f24776f419006615c3 = Approximately 1,000 British soldiers were killed or injured.
    
-ANSWERS 5733f5f24776f419006615c3 = {'approximately 1000 british soldiers were killed or injured', 'approximately 1000', '1000', '1000 british soldiers'}
+ANSWERS 5733f5f24776f419006615c3 = {'1000 british soldiers', 'approximately 1000 british soldiers were killed or injured', 'approximately 1000', '1000'}
    
 SET_PREDICTIONS 5733f5f24776f419006615c3 = ['approximately 1000']
    
@@ -10597,7 +10495,7 @@ QUESTION 573403394776f419006616de = How many troops were defeated for British in
    
 TEXT 573403394776f419006616de = The third invasion was stopped with the improbable French victory in the Battle of Carillon, in which 3,600 Frenchmen famously and decisively defeated Abercrombie's force of 18,000 regulars, militia and Native American allies outside the fort the French called Carillon and the British called Ticonderoga.
    
-ANSWERS 573403394776f419006616de = {'18000', '18000 regulars militia and native american allies'}
+ANSWERS 573403394776f419006616de = {'18000 regulars militia and native american allies', '18000'}
    
 SET_PREDICTIONS 573403394776f419006616de = ['third', '3600', '18000']
    

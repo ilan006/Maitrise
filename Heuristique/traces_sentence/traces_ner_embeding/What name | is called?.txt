@@ -2,7 +2,7 @@ QUESTION 56beace93aeaaa14008c91e2 = If Roman numerals were used, what would Supe
    
 TEXT 56beace93aeaaa14008c91e2 = As this was the 50th Super Bowl, the league emphasized the "golden anniversary" with various gold-themed initiatives, as well as temporarily suspending the tradition of naming each Super Bowl game with Roman numerals (under which the game would have been known as "Super Bowl L"), so that the logo could prominently feature the Arabic numerals 50.
    
-ANSWERS 56beace93aeaaa14008c91e2 = {'l', 'super bowl l'}
+ANSWERS 56beace93aeaaa14008c91e2 = {'super bowl l', 'l'}
    
 SET_PREDICTIONS 56beace93aeaaa14008c91e2 = ['50th super bowl', 'super bowl', 'roman', 'super bowl l']
    
@@ -142,7 +142,7 @@ QUESTION 56bf49993aeaaa14008c95b6 = What was the name of the hotel the Panthers 
    
 TEXT 56bf49993aeaaa14008c95b6 = The Broncos practiced at Stanford University and stayed at the Santa Clara Marriott.
    
-ANSWERS 56bf49993aeaaa14008c95b6 = {'san jose marriott', 'santa clara marriott', 'marriott'}
+ANSWERS 56bf49993aeaaa14008c95b6 = {'marriott', 'santa clara marriott', 'san jose marriott'}
    
 SET_PREDICTIONS 56bf49993aeaaa14008c95b6 = ['broncos', 'stanford university', 'santa clara marriott']
    
@@ -250,8 +250,7 @@ FINAL_PREDICTION 56d9b5ffdc89441400fdb720 = business connect
 ------------------  
    
   
-ERROR 56bebec43aeaaa14008c934a
-QUESTION 56bebec43aeaaa14008c934a = What is the name of the Host Committee's charitable initiative?
+ERROR 56bebec43aeaaa14008c934aQUESTION 56bebec43aeaaa14008c934a = What is the name of the Host Committee's charitable initiative?
    
 TEXT 56bebec43aeaaa14008c934a = The committee created the 50 fund as its philanthropic initiative and focuses on providing grants to aid with youth development, community investment and sustainable environments.
    
@@ -265,8 +264,7 @@ FINAL_PREDICTION 56bebec43aeaaa14008c934a =
 ------------------  
    
   
-ERROR 56bf5abc3aeaaa14008c95ea
-QUESTION 56bf5abc3aeaaa14008c95ea = What was the name of the fund setup to help with investing in the community? 
+ERROR 56bf5abc3aeaaa14008c95eaQUESTION 56bf5abc3aeaaa14008c95ea = What was the name of the fund setup to help with investing in the community? 
    
 TEXT 56bf5abc3aeaaa14008c95ea = The committee created the 50 fund as its philanthropic initiative and focuses on providing grants to aid with youth development, community investment and sustainable environments.
    
@@ -280,8 +278,7 @@ FINAL_PREDICTION 56bf5abc3aeaaa14008c95ea =
 ------------------  
    
   
-ERROR 56d71d150d65d21400198370
-QUESTION 56d71d150d65d21400198370 = What is the name of the fund that focuses on youth, community and sustainable environments?
+ERROR 56d71d150d65d21400198370QUESTION 56d71d150d65d21400198370 = What is the name of the fund that focuses on youth, community and sustainable environments?
    
 TEXT 56d71d150d65d21400198370 = The committee created the 50 fund as its philanthropic initiative and focuses on providing grants to aid with youth development, community investment and sustainable environments.
    
@@ -295,8 +292,7 @@ FINAL_PREDICTION 56d71d150d65d21400198370 =
 ------------------  
    
   
-ERROR 56d9b6a3dc89441400fdb730
-QUESTION 56d9b6a3dc89441400fdb730 = What was the name of the work to give grants for youth development and other things?
+ERROR 56d9b6a3dc89441400fdb730QUESTION 56d9b6a3dc89441400fdb730 = What was the name of the work to give grants for youth development and other things?
    
 TEXT 56d9b6a3dc89441400fdb730 = The committee created the 50 fund as its philanthropic initiative and focuses on providing grants to aid with youth development, community investment and sustainable environments.
    
@@ -366,8 +362,7 @@ FINAL_PREDICTION 56d9bdc1dc89441400fdb76a = crash super bowl
 ------------------  
    
   
-ERROR 56bec7353aeaaa14008c9410
-QUESTION 56bec7353aeaaa14008c9410 = What was the name of the single that Coldplay and Beyoncé collaborated on?
+ERROR 56bec7353aeaaa14008c9410QUESTION 56bec7353aeaaa14008c9410 = What was the name of the single that Coldplay and Beyoncé collaborated on?
    
 TEXT 56bec7353aeaaa14008c9410 = On January 7, 2016, Pepsi confirmed to the Associated Press that Beyoncé, who headlined the Super Bowl XLVII halftime show and collaborated with Coldplay on the single "Hymn for the Weekend", would be making an appearance.
    
@@ -493,8 +488,7 @@ FINAL_PREDICTION 57332442d058e614000b5720 = warsaw
 ------------------  
    
   
-ERROR 57332442d058e614000b5724
-QUESTION 57332442d058e614000b5724 = What is the full official city name of Warsaw?
+ERROR 57332442d058e614000b5724QUESTION 57332442d058e614000b5724 = What is the full official city name of Warsaw?
    
 TEXT 57332442d058e614000b5724 = The official city name in full is miasto stołeczne Warszawa (English: "The Capital City of Warsaw").
    
@@ -508,8 +502,7 @@ FINAL_PREDICTION 57332442d058e614000b5724 = capital city of warsaw
 ------------------  
    
   
-ERROR 57335c20d058e614000b58fd
-QUESTION 57335c20d058e614000b58fd = What is the edge of the moraine plateau called?
+ERROR 57335c20d058e614000b58fdQUESTION 57335c20d058e614000b58fd = What is the edge of the moraine plateau called?
    
 TEXT 57335c20d058e614000b58fd = The significant element of the relief, in this part of Warsaw, is the edge of moraine plateau called Warsaw Escarpment.
    
@@ -523,8 +516,7 @@ FINAL_PREDICTION 57335c20d058e614000b58fd = warsaw
 ------------------  
    
   
-ERROR 5733647e4776f419006609af
-QUESTION 5733647e4776f419006609af = What was the name of the infamous German Gestapo prison?
+ERROR 5733647e4776f419006609afQUESTION 5733647e4776f419006609af = What was the name of the infamous German Gestapo prison?
    
 TEXT 5733647e4776f419006609af = Pawiak, an infamous German Gestapo prison now occupied by a Mausoleum of Memory of Martyrdom and the museum, is only the beginning of a walk in the traces of Heroic City.
    
@@ -538,8 +530,7 @@ FINAL_PREDICTION 5733647e4776f419006609af = heroic city
 ------------------  
    
   
-ERROR 57338255d058e614000b5c0d
-QUESTION 57338255d058e614000b5c0d = What is the mayor of Warsaw called?
+ERROR 57338255d058e614000b5c0dQUESTION 57338255d058e614000b5c0d = What is the mayor of Warsaw called?
    
 TEXT 57338255d058e614000b5c0d = The mayor of Warsaw is called President.
    
@@ -623,8 +614,7 @@ FINAL_PREDICTION 56de1563cffd8e1900b4b5c3 = dyrrachium
 ------------------  
    
   
-ERROR 56de3ebc4396321400ee26e7
-QUESTION 56de3ebc4396321400ee26e7 = What was the name of Bohemond's nephew?
+ERROR 56de3ebc4396321400ee26e7QUESTION 56de3ebc4396321400ee26e7 = What was the name of Bohemond's nephew?
    
 TEXT 56de3ebc4396321400ee26e7 = In 1096, Crusaders passing by the siege of Amalfi were joined by Bohemond of Taranto and his nephew Tancred with an army of Italo-Normans.
    
@@ -694,8 +684,7 @@ FINAL_PREDICTION 56e0d402231d4119001ac3fe = budapest telephone exchange
 ------------------  
    
   
-ERROR 56e0d6cf231d4119001ac420
-QUESTION 56e0d6cf231d4119001ac420 = What were the names of Tesla's new partners?
+ERROR 56e0d6cf231d4119001ac420QUESTION 56e0d6cf231d4119001ac420 = What were the names of Tesla's new partners?
    
 TEXT 56e0d6cf231d4119001ac420 = After leaving Edison's company Tesla partnered with two businessmen in 1886, Robert Lane and Benjamin Vail, who agreed to finance an electric lighting company in Tesla's name, Tesla Electric Light & Manufacturing.
    
@@ -737,8 +726,7 @@ FINAL_PREDICTION 56e0ed557aa994140058e7dd = egg of columbus
 ------------------  
    
   
-ERROR 56e0fb887aa994140058e86a
-QUESTION 56e0fb887aa994140058e86a = What was the boat called?
+ERROR 56e0fb887aa994140058e86aQUESTION 56e0fb887aa994140058e86a = What was the boat called?
    
 TEXT 56e0fb887aa994140058e86a = In 1898, Tesla demonstrated a radio-controlled boat—which he dubbed "teleautomaton"—to the public during an electrical exhibition at Madison Square Garden.
    
@@ -752,8 +740,7 @@ FINAL_PREDICTION 56e0fb887aa994140058e86a = madison square garden
 ------------------  
    
   
-ERROR 56e17a7ccd28a01900c679a1
-QUESTION 56e17a7ccd28a01900c679a1 = What is the name given to the input string of a computational problem?
+ERROR 56e17a7ccd28a01900c679a1QUESTION 56e17a7ccd28a01900c679a1 = What is the name given to the input string of a computational problem?
    
 TEXT 56e17a7ccd28a01900c679a1 = The input string for a computational problem is referred to as a problem instance, and should not be confused with the problem itself.
    
@@ -767,8 +754,7 @@ FINAL_PREDICTION 56e17a7ccd28a01900c679a1 =
 ------------------  
    
   
-ERROR 56e181d9e3433e1400422fa1
-QUESTION 56e181d9e3433e1400422fa1 = What is the name of the alphabet is most commonly used in a problem instance?
+ERROR 56e181d9e3433e1400422fa1QUESTION 56e181d9e3433e1400422fa1 = What is the name of the alphabet is most commonly used in a problem instance?
    
 TEXT 56e181d9e3433e1400422fa1 = Usually, the alphabet is taken to be the binary alphabet (i.e., the set {0,1}), and thus the strings are bitstrings.
    
@@ -782,8 +768,7 @@ FINAL_PREDICTION 56e181d9e3433e1400422fa1 =
 ------------------  
    
   
-ERROR 56e1a0dccd28a01900c67a2f
-QUESTION 56e1a0dccd28a01900c67a2f = If two integers are multiplied and output a value, what is this expression set called?
+ERROR 56e1a0dccd28a01900c67a2fQUESTION 56e1a0dccd28a01900c67a2f = If two integers are multiplied and output a value, what is this expression set called?
    
 TEXT 56e1a0dccd28a01900c67a2f = For example, the multiplication of two integers can be expressed as the set of triples (a, b, c) such that the relation a × b = c holds.
    
@@ -797,12 +782,11 @@ FINAL_PREDICTION 56e1a0dccd28a01900c67a2f =
 ------------------  
    
   
-ERROR 56e1ded7cd28a01900c67bd5
-QUESTION 56e1ded7cd28a01900c67bd5 = What is the name for a problem that meets Ladner's assertion?
+ERROR 56e1ded7cd28a01900c67bd5QUESTION 56e1ded7cd28a01900c67bd5 = What is the name for a problem that meets Ladner's assertion?
    
 TEXT 56e1ded7cd28a01900c67bd5 = Such problems are called NP-intermediate problems.
    
-ANSWERS 56e1ded7cd28a01900c67bd5 = {'npintermediate problems', 'npintermediate'}
+ANSWERS 56e1ded7cd28a01900c67bd5 = {'npintermediate', 'npintermediate problems'}
    
 SET_PREDICTIONS 56e1ded7cd28a01900c67bd5 = ['np']
    
@@ -812,8 +796,7 @@ FINAL_PREDICTION 56e1ded7cd28a01900c67bd5 = np
 ------------------  
    
   
-ERROR 56e7477700c9c71400d76f23
-QUESTION 56e7477700c9c71400d76f23 = What is a course of study called?
+ERROR 56e7477700c9c71400d76f23QUESTION 56e7477700c9c71400d76f23 = What is a course of study called?
    
 TEXT 56e7477700c9c71400d76f23 = Teachers may use a lesson plan to facilitate student learning, providing a course of study which is called the curriculum.
    
@@ -827,8 +810,7 @@ FINAL_PREDICTION 56e7477700c9c71400d76f23 =
 ------------------  
    
   
-ERROR 56e7477700c9c71400d76f24
-QUESTION 56e7477700c9c71400d76f24 = What is another name to describe the science of teaching?
+ERROR 56e7477700c9c71400d76f24QUESTION 56e7477700c9c71400d76f24 = What is another name to describe the science of teaching?
    
 TEXT 56e7477700c9c71400d76f24 = These professional qualifications may include the study of pedagogy, the science of teaching.
    
@@ -842,8 +824,7 @@ FINAL_PREDICTION 56e7477700c9c71400d76f24 =
 ------------------  
    
   
-ERROR 56e749dd00c9c71400d76f52
-QUESTION 56e749dd00c9c71400d76f52 = If someone is being taught at their place of residence, what is it called?
+ERROR 56e749dd00c9c71400d76f52QUESTION 56e749dd00c9c71400d76f52 = If someone is being taught at their place of residence, what is it called?
    
 TEXT 56e749dd00c9c71400d76f52 = In some countries, formal education can take place through home schooling.
    
@@ -857,12 +838,11 @@ FINAL_PREDICTION 56e749dd00c9c71400d76f52 =
 ------------------  
    
   
-ERROR 56e74af500c9c71400d76f65
-QUESTION 56e74af500c9c71400d76f65 = What is another general name for a religious teacher?
+ERROR 56e74af500c9c71400d76f65QUESTION 56e74af500c9c71400d76f65 = What is another general name for a religious teacher?
    
 TEXT 56e74af500c9c71400d76f65 = Religious and spiritual teachers, such as gurus, mullahs, rabbis, pastors/youth pastors and lamas, may teach religious texts such as the Quran, Torah or Bible.
    
-ANSWERS 56e74af500c9c71400d76f65 = {'gurus mullahs rabbis pastorsyouth pastors and lamas', 'spiritual teachers', 'spiritual'}
+ANSWERS 56e74af500c9c71400d76f65 = {'spiritual', 'spiritual teachers', 'gurus mullahs rabbis pastorsyouth pastors and lamas'}
    
 SET_PREDICTIONS 56e74af500c9c71400d76f65 = ['quran', 'torah', 'bible']
    
@@ -872,8 +852,7 @@ FINAL_PREDICTION 56e74af500c9c71400d76f65 = bible
 ------------------  
    
   
-ERROR 56e74bf937bdd419002c3e33
-QUESTION 56e74bf937bdd419002c3e33 = What is another name for teaching within the family?
+ERROR 56e74bf937bdd419002c3e33QUESTION 56e74bf937bdd419002c3e33 = What is another name for teaching within the family?
    
 TEXT 56e74bf937bdd419002c3e33 = Teaching may be carried out informally, within the family, which is called homeschooling, or in the wider community.
    
@@ -887,8 +866,7 @@ FINAL_PREDICTION 56e74bf937bdd419002c3e33 =
 ------------------  
    
   
-ERROR 56e7504437bdd419002c3e5c
-QUESTION 56e7504437bdd419002c3e5c = What is the name for a teacher of just one person?
+ERROR 56e7504437bdd419002c3e5cQUESTION 56e7504437bdd419002c3e5c = What is the name for a teacher of just one person?
    
 TEXT 56e7504437bdd419002c3e5c = A teacher who teaches on an individual basis may be described as a tutor.
    
@@ -902,8 +880,7 @@ FINAL_PREDICTION 56e7504437bdd419002c3e5c =
 ------------------  
    
   
-ERROR 56e751fb00c9c71400d76fa9
-QUESTION 56e751fb00c9c71400d76fa9 = What is a name for the different ways to instruct students?
+ERROR 56e751fb00c9c71400d76fa9QUESTION 56e751fb00c9c71400d76fa9 = What is a name for the different ways to instruct students?
    
 TEXT 56e751fb00c9c71400d76fa9 = Different ways to teach are often referred to as pedagogy.
    
@@ -917,8 +894,7 @@ FINAL_PREDICTION 56e751fb00c9c71400d76fa9 =
 ------------------  
    
   
-ERROR 56e751fb00c9c71400d76faa
-QUESTION 56e751fb00c9c71400d76faa = What is a typical name for learning that is not inside of the classroom?
+ERROR 56e751fb00c9c71400d76faaQUESTION 56e751fb00c9c71400d76faa = What is a typical name for learning that is not inside of the classroom?
    
 TEXT 56e751fb00c9c71400d76faa = Many times, teachers assist in learning outside of the classroom by accompanying students on field trips.
    
@@ -932,8 +908,7 @@ FINAL_PREDICTION 56e751fb00c9c71400d76faa =
 ------------------  
    
   
-ERROR 56e76f7000c9c71400d7712e
-QUESTION 56e76f7000c9c71400d7712e = What is the name of Elementary Schools?
+ERROR 56e76f7000c9c71400d7712eQUESTION 56e76f7000c9c71400d7712e = What is the name of Elementary Schools?
    
 TEXT 56e76f7000c9c71400d7712e = There are many differences between the teachers for elementary schools (Grundschule), lower secondary schools (Hauptschule), middle level secondary schools (Realschule) and higher level secondary schools (Gymnasium).
    
@@ -961,8 +936,7 @@ FINAL_PREDICTION 56e76f7000c9c71400d77130 = hauptschule
 ------------------  
    
   
-ERROR 56e77cee00c9c71400d771a8
-QUESTION 56e77cee00c9c71400d771a8 = What is the name of the spiritual teacher in Hinduism?
+ERROR 56e77cee00c9c71400d771a8QUESTION 56e77cee00c9c71400d771a8 = What is the name of the spiritual teacher in Hinduism?
    
 TEXT 56e77cee00c9c71400d771a8 = In Hinduism the spiritual teacher is known as a guru, and, in many traditions of Hinduism - especially those common in the West - the emphasis on spiritual mentorship is extremely high, with gurus often exercising a great deal of control over the lives of their disciples.
    
@@ -976,8 +950,7 @@ FINAL_PREDICTION 56e77cee00c9c71400d771a8 = west
 ------------------  
    
   
-ERROR 56e77da237bdd419002c403b
-QUESTION 56e77da237bdd419002c403b = What is the name of a teacher in Tibetan Buddhism?
+ERROR 56e77da237bdd419002c403bQUESTION 56e77da237bdd419002c403b = What is the name of a teacher in Tibetan Buddhism?
    
 TEXT 56e77da237bdd419002c403b = In Tibetan Buddhism the teachers of Dharma in Tibet are most commonly called a Lama.
    
@@ -1005,8 +978,7 @@ FINAL_PREDICTION 56e77da237bdd419002c403d = bodhisattva
 ------------------  
    
   
-ERROR 56e77e4a00c9c71400d771b2
-QUESTION 56e77e4a00c9c71400d771b2 = What is the name of the mystical type of Islam?
+ERROR 56e77e4a00c9c71400d771b2QUESTION 56e77e4a00c9c71400d771b2 = What is the name of the mystical type of Islam?
    
 TEXT 56e77e4a00c9c71400d771b2 = In the more spiritual or mystical Islamic tradition of Sufism, the position of spiritual teacher and an esoteric (as opposed to exoteric, or actions-oriented, e.g.
    
@@ -1020,8 +992,7 @@ FINAL_PREDICTION 56e77e4a00c9c71400d771b2 =
 ------------------  
    
   
-ERROR 56e77e4a00c9c71400d771b3
-QUESTION 56e77e4a00c9c71400d771b3 = What is another name for exoteric?
+ERROR 56e77e4a00c9c71400d771b3QUESTION 56e77e4a00c9c71400d771b3 = What is another name for exoteric?
    
 TEXT 56e77e4a00c9c71400d771b3 = In the more spiritual or mystical Islamic tradition of Sufism, the position of spiritual teacher and an esoteric (as opposed to exoteric, or actions-oriented, e.g.
    
@@ -1049,8 +1020,7 @@ FINAL_PREDICTION 56f7ffadaef2371900625d60 = disputation of martin luther on powe
 ------------------  
    
   
-ERROR 56f82989aef2371900625e6d
-QUESTION 56f82989aef2371900625e6d = What did Luther call his stay a Wartburg Castle?
+ERROR 56f82989aef2371900625e6dQUESTION 56f82989aef2371900625e6d = What did Luther call his stay a Wartburg Castle?
    
 TEXT 56f82989aef2371900625e6d = During his stay at Wartburg, which he referred to as "my Patmos", Luther translated the New Testament from Greek into German and poured out doctrinal and polemical writings.
    
@@ -1064,8 +1034,7 @@ FINAL_PREDICTION 56f82989aef2371900625e6d = wartburg
 ------------------  
    
   
-ERROR 56f8507fa6d7ea1400e1754e
-QUESTION 56f8507fa6d7ea1400e1754e = What is this doctrine of God appointing authorities called?
+ERROR 56f8507fa6d7ea1400e1754eQUESTION 56f8507fa6d7ea1400e1754e = What is this doctrine of God appointing authorities called?
    
 TEXT 56f8507fa6d7ea1400e1754e = This reference from the Bible forms the foundation for the doctrine known as the Divine Right of Kings, or, in the German case, the divine right of the princes.
    
@@ -1083,7 +1052,7 @@ QUESTION 5705e33f52bb89140068964c = What is the name of the region that is not d
    
 TEXT 5705e33f52bb89140068964c = The 8- and 10-county definitions are not used for the greater Southern California Megaregion, one of the 11 megaregions of the United States.
    
-ANSWERS 5705e33f52bb89140068964c = {'southern california megaregion', 'greater southern california megaregion'}
+ANSWERS 5705e33f52bb89140068964c = {'greater southern california megaregion', 'southern california megaregion'}
    
 SET_PREDICTIONS 5705e33f52bb89140068964c = ['southern california megaregion', 'united states']
    
@@ -1163,8 +1132,7 @@ FINAL_PREDICTION 5705e4fe75f01819005e7706 = mojave desert
 ------------------  
    
   
-ERROR 5705e4fe75f01819005e7707
-QUESTION 5705e4fe75f01819005e7707 = What is the name of the border to the south?
+ERROR 5705e4fe75f01819005e7707QUESTION 5705e4fe75f01819005e7707 = What is the name of the border to the south?
    
 TEXT 5705e4fe75f01819005e7707 = To the south is the Mexico–United States border.
    
@@ -1234,8 +1202,7 @@ FINAL_PREDICTION 5705eccb52bb8914006896b8 = palm springs
 ------------------  
    
   
-ERROR 5705f09e75f01819005e77a5
-QUESTION 5705f09e75f01819005e77a5 = What was the name given to the regions in which the pro - slavery southerners lived?
+ERROR 5705f09e75f01819005e77a5QUESTION 5705f09e75f01819005e77a5 = What was the name given to the regions in which the pro - slavery southerners lived?
    
 TEXT 5705f09e75f01819005e77a5 = Subsequently, Californios (dissatisfied with inequitable taxes and land laws) and pro-slavery southerners in the lightly populated "Cow Counties" of southern California attempted three times in the 1850s to achieve a separate statehood or territorial status separate from Northern California.
    
@@ -1253,7 +1220,7 @@ QUESTION 57060df252bb891400689821 = Other than San Bernardino, what is the name 
    
 TEXT 57060df252bb891400689821 = The San Bernardino-Riverside area maintains the business districts of Downtown San Bernardino, Hospitality Business/Financial Centre, University Town which are in San Bernardino and Downtown Riverside.
    
-ANSWERS 57060df252bb891400689821 = {'downtown riverside', 'riverside'}
+ANSWERS 57060df252bb891400689821 = {'riverside', 'downtown riverside'}
    
 SET_PREDICTIONS 57060df252bb891400689821 = ['downtown san bernardino', 'hospitality businessfinancial centre', 'university town', 'san bernardino and downtown riverside']
    
@@ -1267,7 +1234,7 @@ QUESTION 57060df252bb891400689822 = Other than Downtown San Bernardino, and Univ
    
 TEXT 57060df252bb891400689822 = The San Bernardino-Riverside area maintains the business districts of Downtown San Bernardino, Hospitality Business/Financial Centre, University Town which are in San Bernardino and Downtown Riverside.
    
-ANSWERS 57060df252bb891400689822 = {'hospitality businessfinancial centre', 'downtown riverside'}
+ANSWERS 57060df252bb891400689822 = {'downtown riverside', 'hospitality businessfinancial centre'}
    
 SET_PREDICTIONS 57060df252bb891400689822 = ['downtown san bernardino', 'hospitality businessfinancial centre', 'university town', 'san bernardino and downtown riverside']
    
@@ -1277,8 +1244,7 @@ FINAL_PREDICTION 57060df252bb891400689822 = san bernardino and downtown riversid
 ------------------  
    
   
-ERROR 5706111a52bb89140068984c
-QUESTION 5706111a52bb89140068984c = What is the name of the commuter rail system?
+ERROR 5706111a52bb89140068984cQUESTION 5706111a52bb89140068984c = What is the name of the commuter rail system?
    
 TEXT 5706111a52bb89140068984c = Six of the seven lines of the commuter rail system, Metrolink, run out of Downtown Los Angeles, connecting Los Angeles, Ventura, San Bernardino, Riverside, Orange, and San Diego counties with the other line connecting San Bernardino, Riverside, and Orange counties directly.
    
@@ -1320,12 +1286,11 @@ FINAL_PREDICTION 570614ff52bb89140068988c = ncaa division
 ------------------  
    
   
-ERROR 57092322efce8f15003a7db3
-QUESTION 57092322efce8f15003a7db3 = What is the name of the holding company for BSkyB?
+ERROR 57092322efce8f15003a7db3QUESTION 57092322efce8f15003a7db3 = What is the name of the holding company for BSkyB?
    
 TEXT 57092322efce8f15003a7db3 = Following BSkyB's 2014 acquisition of Sky Italia and a majority 90.04% interest in Sky Deutschland in November 2014, its holding company British Sky Broadcasting Group plc changed its name to Sky plc.
    
-ANSWERS 57092322efce8f15003a7db3 = {'british sky broadcasting group plc', 'sky plc'}
+ANSWERS 57092322efce8f15003a7db3 = {'sky plc', 'british sky broadcasting group plc'}
    
 SET_PREDICTIONS 57092322efce8f15003a7db3 = ['bskyb', 'sky italia', 'sky deutschland', 'british sky broadcasting group', 'sky']
    
@@ -1405,8 +1370,7 @@ FINAL_PREDICTION 5709686c200fba1400367f79 = bskyb
 ------------------  
    
   
-ERROR 57097141200fba1400367ffd
-QUESTION 57097141200fba1400367ffd = what was the name of the other HD channel Virgin media could carry in the future?
+ERROR 57097141200fba1400367ffdQUESTION 57097141200fba1400367ffd = what was the name of the other HD channel Virgin media could carry in the future?
    
 TEXT 57097141200fba1400367ffd = Virgin Media has claimed that other HD channels were "locked up" or otherwise withheld from their platform, although Virgin Media did in fact have an option to carry Channel 4 HD in the future.
    
@@ -1494,7 +1458,7 @@ QUESTION 57106185b654c5140001f8de = What name was given to the plot to usurp pow
    
 TEXT 57106185b654c5140001f8de = The label Huguenot was purportedly first applied in France to those conspirators (all of them aristocratic members of the Reformed Church) involved in the Amboise plot of 1560: a foiled attempt to wrest power in France from the influential House of Guise.
    
-ANSWERS 57106185b654c5140001f8de = {'amboise plot', 'amboise'}
+ANSWERS 57106185b654c5140001f8de = {'amboise', 'amboise plot'}
    
 SET_PREDICTIONS 57106185b654c5140001f8de = ['huguenot', 'france', 'reformed church', 'amboise', 'france', 'house']
    
@@ -1504,12 +1468,11 @@ FINAL_PREDICTION 57106185b654c5140001f8de = house
 ------------------  
    
   
-ERROR 57107932a58dae1900cd69cc
-QUESTION 57107932a58dae1900cd69cc = What was the name of the first Huguenot church in the New World?
+ERROR 57107932a58dae1900cd69ccQUESTION 57107932a58dae1900cd69cc = What was the name of the first Huguenot church in the New World?
    
 TEXT 57107932a58dae1900cd69cc = In 1628 the Huguenots established a congregation as L'Église française à la Nouvelle-Amsterdam (the French church in New Amsterdam).
    
-ANSWERS 57107932a58dae1900cd69cc = {'léglise française à la nouvelleamsterdam', 'léglise française à la nouvelleamsterdam french church in new amsterdam'}
+ANSWERS 57107932a58dae1900cd69cc = {'léglise française à la nouvelleamsterdam french church in new amsterdam', 'léglise française à la nouvelleamsterdam'}
    
 SET_PREDICTIONS 57107932a58dae1900cd69cc = ['huguenots', 'léglise', 'nouvelleamsterdam', 'new amsterdam']
    
@@ -1547,8 +1510,7 @@ FINAL_PREDICTION 57108ee6a58dae1900cd6a1b = king hugo
 ------------------  
    
   
-ERROR 57108ee6a58dae1900cd6a1d
-QUESTION 57108ee6a58dae1900cd6a1d = By what name were the "supposedly reformed" known?
+ERROR 57108ee6a58dae1900cd6a1dQUESTION 57108ee6a58dae1900cd6a1d = By what name were the "supposedly reformed" known?
    
 TEXT 57108ee6a58dae1900cd6a1d = It was in this place in Tours that the prétendus réformés ("these supposedly 'reformed'") habitually gathered at night, both for political purposes, and for prayer and singing psalms.
    
@@ -1618,8 +1580,7 @@ FINAL_PREDICTION 5710eb6fb654c5140001fa17 = charlesfort on parris island
 ------------------  
    
   
-ERROR 571112ada58dae1900cd6bcd
-QUESTION 571112ada58dae1900cd6bcd = What is the theory that this King's name is the origin of "Huguenot" called?
+ERROR 571112ada58dae1900cd6bcdQUESTION 571112ada58dae1900cd6bcd = What is the theory that this King's name is the origin of "Huguenot" called?
    
 TEXT 571112ada58dae1900cd6bcd = The "Hugues hypothesis" argues that the name was derived by association with Hugues Capet, king of France, who reigned long before the Reformation.
    
@@ -1633,8 +1594,7 @@ FINAL_PREDICTION 571112ada58dae1900cd6bcd = hugues capet
 ------------------  
    
   
-ERROR 5711163bb654c5140001fb17
-QUESTION 5711163bb654c5140001fb17 = What is the name of the third, permanent Huguenot church in New Rochelle?
+ERROR 5711163bb654c5140001fb17QUESTION 5711163bb654c5140001fb17 = What is the name of the third, permanent Huguenot church in New Rochelle?
    
 TEXT 5711163bb654c5140001fb17 = The church was eventually replaced by a third, Trinity-St. Paul's Episcopal Church, which contains heirlooms including the original bell from the French Huguenot Church "Eglise du St. Esperit" on Pine Street in New York City, which is preserved as a relic in the tower room.
    
@@ -1648,8 +1608,7 @@ FINAL_PREDICTION 5711163bb654c5140001fb17 = french huguenot church
 ------------------  
    
   
-ERROR 57111713a58dae1900cd6c04
-QUESTION 57111713a58dae1900cd6c04 = What was the name of du Pont's gunpowder operation?
+ERROR 57111713a58dae1900cd6c04QUESTION 57111713a58dae1900cd6c04 = What was the name of du Pont's gunpowder operation?
    
 TEXT 57111713a58dae1900cd6c04 = du Pont, a former student of Lavoisier, established the Eleutherian gunpowder mills.
    
@@ -1663,8 +1622,7 @@ FINAL_PREDICTION 57111713a58dae1900cd6c04 = du pont
 ------------------  
    
   
-ERROR 57113f83b654c5140001fc2a
-QUESTION 57113f83b654c5140001fc2a = What are the stages in a compound engine called?
+ERROR 57113f83b654c5140001fc2aQUESTION 57113f83b654c5140001fc2a = What are the stages in a compound engine called?
    
 TEXT 57113f83b654c5140001fc2a = These stages were called expansions, with double and triple expansion engines being common, especially in shipping where efficiency was important to reduce the weight of coal carried.
    
@@ -1678,8 +1636,7 @@ FINAL_PREDICTION 57113f83b654c5140001fc2a =
 ------------------  
    
   
-ERROR 571144d1a58dae1900cd6d6f
-QUESTION 571144d1a58dae1900cd6d6f = Aside from firebox, what is another name for the space in which combustible material is burned in the engine?
+ERROR 571144d1a58dae1900cd6d6fQUESTION 571144d1a58dae1900cd6d6f = Aside from firebox, what is another name for the space in which combustible material is burned in the engine?
    
 TEXT 571144d1a58dae1900cd6d6f = The heat required for boiling the water and supplying the steam can be derived from various sources, most commonly from burning combustible materials with an appropriate supply of air in a closed space (called variously combustion chamber, firebox).
    
@@ -1707,8 +1664,7 @@ FINAL_PREDICTION 57114aceb654c5140001fc47 = quasiturbine
 ------------------  
    
   
-ERROR 571153422419e3140095557d
-QUESTION 571153422419e3140095557d = What was the name of the locomotive that debuted in 1808?
+ERROR 571153422419e3140095557dQUESTION 571153422419e3140095557d = What was the name of the locomotive that debuted in 1808?
    
 TEXT 571153422419e3140095557d = Trevithick continued his own experiments using a trio of locomotives, concluding with the Catch Me Who Can in 1808.
    
@@ -1740,7 +1696,7 @@ QUESTION 5711607f2419e314009555d0 = What is the name of the movement that seeks 
    
 TEXT 5711607f2419e314009555d0 = This is becoming known as the Advanced Steam movement.
    
-ANSWERS 5711607f2419e314009555d0 = {'advanced steam', 'advanced steam movement', 'cogeneration processes'}
+ANSWERS 5711607f2419e314009555d0 = {'advanced steam movement', 'advanced steam', 'cogeneration processes'}
    
 SET_PREDICTIONS 5711607f2419e314009555d0 = ['advanced steam']
    
@@ -1750,8 +1706,7 @@ FINAL_PREDICTION 5711607f2419e314009555d0 = advanced steam
 ------------------  
    
   
-ERROR 5711651050c2381900b54ace
-QUESTION 5711651050c2381900b54ace = What is another name for a coal supply bin?
+ERROR 5711651050c2381900b54aceQUESTION 5711651050c2381900b54ace = What is another name for a coal supply bin?
    
 TEXT 5711651050c2381900b54ace = When coal is used, a chain or screw stoking mechanism and its drive engine or motor may be included to move the fuel from a supply bin (bunker) to the firebox.
    
@@ -1765,8 +1720,7 @@ FINAL_PREDICTION 5711651050c2381900b54ace = bin
 ------------------  
    
   
-ERROR 571166352419e314009555f4
-QUESTION 571166352419e314009555f4 = What is it called when steam propels a turbo generator with electric motor propulsion?
+ERROR 571166352419e314009555f4QUESTION 571166352419e314009555f4 = What is it called when steam propels a turbo generator with electric motor propulsion?
    
 TEXT 571166352419e314009555f4 = Nuclear-powered ships and submarines either use a steam turbine directly for main propulsion, with generators providing auxiliary power, or else employ turbo-electric transmission, where the steam drives a turbo generator set with propulsion provided by electric motors.
    
@@ -1780,8 +1734,7 @@ FINAL_PREDICTION 571166352419e314009555f4 =
 ------------------  
    
   
-ERROR 5711669550c2381900b54adf
-QUESTION 5711669550c2381900b54adf = What is the Rankine cycle sometimes called?
+ERROR 5711669550c2381900b54adfQUESTION 5711669550c2381900b54adf = What is the Rankine cycle sometimes called?
    
 TEXT 5711669550c2381900b54adf = The Rankine cycle is sometimes referred to as a practical Carnot cycle because, when an efficient turbine is used, the TS diagram begins to resemble the Carnot cycle.
    
@@ -1825,8 +1778,7 @@ FINAL_PREDICTION 571cb010dd7acb1400e4c128 = singlet
 ------------------  
    
   
-ERROR 57261dab38643c19005ad03b
-QUESTION 57261dab38643c19005ad03b = What is a fundamentalist interpretation of Islam called?
+ERROR 57261dab38643c19005ad03bQUESTION 57261dab38643c19005ad03b = What is a fundamentalist interpretation of Islam called?
    
 TEXT 57261dab38643c19005ad03b = Saudi Arabia spent over 100 billion dollars in the ensuing decades for helping spread its fundamentalist interpretation of Islam, known as Wahhabism, throughout the world, via religious charities such al-Haramain Foundation, which often also distributed funds to violent Sunni extremist groups such as Al-Qaeda and the Taliban.
    
@@ -1854,8 +1806,7 @@ FINAL_PREDICTION 57264efddd62a815002e8135 = emergency highway energy conservatio
 ------------------  
    
   
-ERROR 5725cda338643c19005acd42
-QUESTION 5725cda338643c19005acd42 = What was the name of the launch vehicle for NASA, which North American Aviation designed the second stage of?
+ERROR 5725cda338643c19005acd42QUESTION 5725cda338643c19005acd42 = What was the name of the launch vehicle for NASA, which North American Aviation designed the second stage of?
    
 TEXT 5725cda338643c19005acd42 = North American Aviation won the contract to build the CSM, and also the second stage of the Saturn V launch vehicle for NASA.
    
@@ -1869,12 +1820,11 @@ FINAL_PREDICTION 5725cda338643c19005acd42 = north american aviation
 ------------------  
    
   
-ERROR 5725d2ef271a42140099d255
-QUESTION 5725d2ef271a42140099d255 = What was the name of the upgraded Saturn I called?
+ERROR 5725d2ef271a42140099d255QUESTION 5725d2ef271a42140099d255 = What was the name of the upgraded Saturn I called?
    
 TEXT 5725d2ef271a42140099d255 = The Saturn IB was an upgraded version of the Saturn I.
    
-ANSWERS 5725d2ef271a42140099d255 = {'saturn ib', 'sib'}
+ANSWERS 5725d2ef271a42140099d255 = {'sib', 'saturn ib'}
    
 SET_PREDICTIONS 5725d2ef271a42140099d255 = []
    
@@ -1884,8 +1834,7 @@ FINAL_PREDICTION 5725d2ef271a42140099d255 =
 ------------------  
    
   
-ERROR 5725e08389a1e219009ac010
-QUESTION 5725e08389a1e219009ac010 = What was the technical name of the first unmanned Saturn V flight, Apollo 4?
+ERROR 5725e08389a1e219009ac010QUESTION 5725e08389a1e219009ac010 = What was the technical name of the first unmanned Saturn V flight, Apollo 4?
    
 TEXT 5725e08389a1e219009ac010 = The delay in the CSM caused by the fire enabled NASA to catch up on man-rating the LM and Saturn V. Apollo 4 (AS-501) was the first unmanned flight of the Saturn V, carrying a Block I CSM on November 9, 1967.
    
@@ -1913,8 +1862,7 @@ FINAL_PREDICTION 5725c071271a42140099d129 = solimões basin
 ------------------  
    
   
-ERROR 5725c63438643c19005acc9f
-QUESTION 5725c63438643c19005acc9f = What is the name of the satellite that measured the amount of dust?
+ERROR 5725c63438643c19005acc9fQUESTION 5725c63438643c19005acc9f = What is the name of the satellite that measured the amount of dust?
    
 TEXT 5725c63438643c19005acc9f = NASA's CALIPSO satellite has measured the amount of dust transported by wind from the Sahara to the Amazon: an average 182 million tons of dust are windblown out of the Sahara each year, at 15 degrees west longitude, across 1,600 miles (2,600 km) over the Atlantic Ocean (some dust falls into the Atlantic), then at 35 degrees West longitude at the eastern coast of South America, 27.7 million tons (15%) of dust fall over the Amazon basin, 132 million tons of dust remain in the air, 43 million tons of dust are windblown and falls on the Caribbean Sea, past 75 degrees west longitude.
    
@@ -1928,8 +1876,7 @@ FINAL_PREDICTION 5725c63438643c19005acc9f = south america
 ------------------  
    
   
-ERROR 5725cf3238643c19005acd61
-QUESTION 5725cf3238643c19005acd61 = What is terra preta called?
+ERROR 5725cf3238643c19005acd61QUESTION 5725cf3238643c19005acd61 = What is terra preta called?
    
 TEXT 5725cf3238643c19005acd61 = Terra preta (black earth), which is distributed over large areas in the Amazon forest, is now widely accepted as a product of indigenous soil management.
    
@@ -1943,8 +1890,7 @@ FINAL_PREDICTION 5725cf3238643c19005acd61 = amazon
 ------------------  
    
   
-ERROR 5726400589a1e219009ac5ef
-QUESTION 5726400589a1e219009ac5ef = What are the small tentacles on Cydippids called?
+ERROR 5726400589a1e219009ac5efQUESTION 5726400589a1e219009ac5ef = What are the small tentacles on Cydippids called?
    
 TEXT 5726400589a1e219009ac5ef = The textbook examples are cydippids with egg-shaped bodies and a pair of retractable tentacles fringed with tentilla ("little tentacles") that are covered with colloblasts, sticky cells that capture prey.
    
@@ -1958,8 +1904,7 @@ FINAL_PREDICTION 5726400589a1e219009ac5ef =
 ------------------  
    
   
-ERROR 572647d0708984140094c14b
-QUESTION 572647d0708984140094c14b = What is the jelly-like susbtance called?
+ERROR 572647d0708984140094c14bQUESTION 572647d0708984140094c14b = What is the jelly-like susbtance called?
    
 TEXT 572647d0708984140094c14b = Like sponges and cnidarians, ctenophores have two main layers of cells that sandwich a middle layer of jelly-like material, which is called the mesoglea in cnidarians and ctenophores; more complex animals have three main cell layers and no intermediate jelly-like layer.
    
@@ -1973,8 +1918,7 @@ FINAL_PREDICTION 572647d0708984140094c14b =
 ------------------  
    
   
-ERROR 572648e8dd62a815002e8076
-QUESTION 572648e8dd62a815002e8076 = What are the hairs on ctenophores called?
+ERROR 572648e8dd62a815002e8076QUESTION 572648e8dd62a815002e8076 = What are the hairs on ctenophores called?
    
 TEXT 572648e8dd62a815002e8076 = Ranging from about 1 millimeter (0.039 in) to 1.5 meters (4.9 ft) in size, ctenophores are the largest non-colonial animals that use cilia ("hairs") as their main method of locomotion.
    
@@ -1988,8 +1932,7 @@ FINAL_PREDICTION 572648e8dd62a815002e8076 =
 ------------------  
    
   
-ERROR 572648e8dd62a815002e8078
-QUESTION 572648e8dd62a815002e8078 = Comb like bands of cilia are called what?
+ERROR 572648e8dd62a815002e8078QUESTION 572648e8dd62a815002e8078 = Comb like bands of cilia are called what?
    
 TEXT 572648e8dd62a815002e8078 = Most species have eight strips, called comb rows, that run the length of their bodies and bear comb-like bands of cilia, called "ctenes," stacked along the comb rows so that when the cilia beat, those of each comb touch the comb below.
    
@@ -2003,8 +1946,7 @@ FINAL_PREDICTION 572648e8dd62a815002e8078 =
 ------------------  
    
   
-ERROR 57264b1ddd62a815002e80a2
-QUESTION 57264b1ddd62a815002e80a2 = What is the throat called?
+ERROR 57264b1ddd62a815002e80a2QUESTION 57264b1ddd62a815002e80a2 = What is the throat called?
    
 TEXT 57264b1ddd62a815002e80a2 = The internal cavity forms: a mouth that can usually be closed by muscles; a pharynx ("throat"); a wider area in the center that acts as a stomach; and a system of internal canals.
    
@@ -2018,8 +1960,7 @@ FINAL_PREDICTION 57264b1ddd62a815002e80a2 =
 ------------------  
    
   
-ERROR 57264cfa708984140094c1c3
-QUESTION 57264cfa708984140094c1c3 = What are the eight comb rows on the outer surface called?
+ERROR 57264cfa708984140094c1c3QUESTION 57264cfa708984140094c1c3 = What are the eight comb rows on the outer surface called?
    
 TEXT 57264cfa708984140094c1c3 = The outer surface bears usually eight comb rows, called swimming-plates, which are used for swimming.
    
@@ -2033,12 +1974,11 @@ FINAL_PREDICTION 57264cfa708984140094c1c3 =
 ------------------  
    
   
-ERROR 57264cfa708984140094c1c4
-QUESTION 57264cfa708984140094c1c4 = Combs are called what?
+ERROR 57264cfa708984140094c1c4QUESTION 57264cfa708984140094c1c4 = Combs are called what?
    
 TEXT 57264cfa708984140094c1c4 = The "combs" (also called "ctenes" or "comb plates") run across each row, and each consists of thousands of unusually long cilia, up to 2 millimeters (0.079 in).
    
-ANSWERS 57264cfa708984140094c1c4 = {'ctenes', 'also called ctenes or comb plates', 'ctenes or comb plates'}
+ANSWERS 57264cfa708984140094c1c4 = {'ctenes', 'ctenes or comb plates', 'also called ctenes or comb plates'}
    
 SET_PREDICTIONS 57264cfa708984140094c1c4 = []
    
@@ -2048,8 +1988,7 @@ FINAL_PREDICTION 57264cfa708984140094c1c4 =
 ------------------  
    
   
-ERROR 57265746dd62a815002e8218
-QUESTION 57265746dd62a815002e8218 = What is the common coastal pleurobrachia called?
+ERROR 57265746dd62a815002e8218QUESTION 57265746dd62a815002e8218 = What is the common coastal pleurobrachia called?
    
 TEXT 57265746dd62a815002e8218 = Cydippid ctenophores have bodies that are more or less rounded, sometimes nearly spherical and other times more cylindrical or egg-shaped; the common coastal "sea gooseberry," Pleurobrachia, sometimes has an egg-shaped body with the mouth at the narrow end, although some individuals are more uniformly round.
    
@@ -2063,8 +2002,7 @@ FINAL_PREDICTION 57265746dd62a815002e8218 = pleurobrachia
 ------------------  
    
   
-ERROR 57265e97708984140094c3c4
-QUESTION 57265e97708984140094c3c4 = What are cestida called?
+ERROR 57265e97708984140094c3c4QUESTION 57265e97708984140094c3c4 = What are cestida called?
    
 TEXT 57265e97708984140094c3c4 = The Cestida ("belt animals") are ribbon-shaped planktonic animals, with the mouth and aboral organ aligned in the middle of opposite edges of the ribbon.
    
@@ -2078,8 +2016,7 @@ FINAL_PREDICTION 57265e97708984140094c3c4 = cestida
 ------------------  
    
   
-ERROR 572686fc708984140094c8e7
-QUESTION 572686fc708984140094c8e7 = What are the secretions commonly called?
+ERROR 572686fc708984140094c8e7QUESTION 572686fc708984140094c8e7 = What are the secretions commonly called?
    
 TEXT 572686fc708984140094c8e7 = When some species, including Bathyctena chuni, Euplokamis stationis and Eurhamphaea vexilligera, are disturbed, they produce secretions (ink) that luminesce at much the same wavelengths as their bodies.
    
@@ -2093,8 +2030,7 @@ FINAL_PREDICTION 572686fc708984140094c8e7 = bathyctena
 ------------------  
    
   
-ERROR 5726887e708984140094c91b
-QUESTION 5726887e708984140094c91b = What is the name of the two-tentacled cydippid that feedsentirely on salps called?
+ERROR 5726887e708984140094c91bQUESTION 5726887e708984140094c91b = What is the name of the two-tentacled cydippid that feedsentirely on salps called?
    
 TEXT 5726887e708984140094c91b = The two-tentacled "cydippid" Lampea feeds exclusively on salps, close relatives of sea-squirts that form large chain-like floating colonies, and juveniles of Lampea attach themselves like parasites to salps that are too large for them to swallow.
    
@@ -2108,8 +2044,7 @@ FINAL_PREDICTION 5726887e708984140094c91b = colonies
 ------------------  
    
   
-ERROR 57268a37f1498d1400e8e33d
-QUESTION 57268a37f1498d1400e8e33d = What is the oncorhynchus also called?
+ERROR 57268a37f1498d1400e8e33dQUESTION 57268a37f1498d1400e8e33d = What is the oncorhynchus also called?
    
 TEXT 57268a37f1498d1400e8e33d = Detailed investigation of chum salmon, Oncorhynchus keta, showed that these fish digest ctenophores 20 times as fast as an equal weight of shrimps, and that ctenophores can provide a good diet if there are enough of them around.
    
@@ -2221,8 +2156,7 @@ FINAL_PREDICTION 5725fcbe271a42140099d3af = yosemite
 ------------------  
    
   
-ERROR 57264a74708984140094c18c
-QUESTION 57264a74708984140094c18c = What is the Latin name for Black Death?
+ERROR 57264a74708984140094c18cQUESTION 57264a74708984140094c18c = What is the Latin name for Black Death?
    
 TEXT 57264a74708984140094c18c = Gasquet (1908) claimed that the Latin name atra mors (Black Death) for the 14th-century epidemic first appeared in modern times in 1631 in a book on Danish history by J.I.
    
@@ -2236,8 +2170,7 @@ FINAL_PREDICTION 57264a74708984140094c18c = black death
 ------------------  
    
   
-ERROR 57265f605951b619008f70db
-QUESTION 57265f605951b619008f70db = What is the area called where two plates move apart?
+ERROR 57265f605951b619008f70dbQUESTION 57265f605951b619008f70db = What is the area called where two plates move apart?
    
 TEXT 57265f605951b619008f70db = Mid-ocean ridges, high regions on the seafloor where hydrothermal vents and volcanoes exist, were explained as divergent boundaries, where two plates move apart.
    
@@ -2251,8 +2184,7 @@ FINAL_PREDICTION 57265f605951b619008f70db =
 ------------------  
    
   
-ERROR 57265f605951b619008f70dc
-QUESTION 57265f605951b619008f70dc = What is the area called where one plate subducts under another?
+ERROR 57265f605951b619008f70dcQUESTION 57265f605951b619008f70dc = What is the area called where one plate subducts under another?
    
 TEXT 57265f605951b619008f70dc = Arcs of volcanoes and earthquakes were explained as convergent boundaries, where one plate subducts under another.
    
@@ -2280,12 +2212,11 @@ FINAL_PREDICTION 572663a9f1498d1400e8ddf5 = holocene
 ------------------  
    
   
-ERROR 5726701add62a815002e84cc
-QUESTION 5726701add62a815002e84cc = If the tops of the rock units within the folds remain pointing upwards, they are called what? 
+ERROR 5726701add62a815002e84ccQUESTION 5726701add62a815002e84cc = If the tops of the rock units within the folds remain pointing upwards, they are called what? 
    
 TEXT 5726701add62a815002e84cc = If the tops of the rock units within the folds remain pointing upwards, they are called anticlines and synclines, respectively.
    
-ANSWERS 5726701add62a815002e84cc = {'overturned anticline', 'anticlines and synclines'}
+ANSWERS 5726701add62a815002e84cc = {'anticlines and synclines', 'overturned anticline'}
    
 SET_PREDICTIONS 5726701add62a815002e84cc = []
    
@@ -2295,8 +2226,7 @@ FINAL_PREDICTION 5726701add62a815002e84cc =
 ------------------  
    
   
-ERROR 57268882f1498d1400e8e306
-QUESTION 57268882f1498d1400e8e306 = First published by Sir Charles Lyell in 1830 this book was called what? 
+ERROR 57268882f1498d1400e8e306QUESTION 57268882f1498d1400e8e306 = First published by Sir Charles Lyell in 1830 this book was called what? 
    
 TEXT 57268882f1498d1400e8e306 = Sir Charles Lyell first published his famous book, Principles of Geology, in 1830.
    
@@ -2422,8 +2352,7 @@ FINAL_PREDICTION 572687e1dd62a815002e8854 = brough park
 ------------------  
    
   
-ERROR 57268bb25951b619008f7645
-QUESTION 57268bb25951b619008f7645 = What is the name of the current refurbishment the system is undergoing?
+ERROR 57268bb25951b619008f7645QUESTION 57268bb25951b619008f7645 = What is the name of the current refurbishment the system is undergoing?
    
 TEXT 57268bb25951b619008f7645 = The system is currently undergoing a period of refurbishment and modernization, entitled 'Metro: All Change.'
    
@@ -2465,8 +2394,7 @@ FINAL_PREDICTION 5726a0205951b619008f781c = henry cole wing
 ------------------  
    
   
-ERROR 5726c9a4708984140094d170
-QUESTION 5726c9a4708984140094d170 = What are the three parchment-bound manuscripts of the Codex Forster called?
+ERROR 5726c9a4708984140094d170QUESTION 5726c9a4708984140094d170 = What are the three parchment-bound manuscripts of the Codex Forster called?
    
 TEXT 5726c9a4708984140094d170 = The Codex consists of three parchment-bound manuscripts, Forster I, Forster II, and Forster III, quite small in size, dated between 1490 and 1505.
    
@@ -2550,8 +2478,7 @@ FINAL_PREDICTION 57277af2708984140094dec6 = watchespn
 ------------------  
    
   
-ERROR 57277cf6dd62a815002e9e76
-QUESTION 57277cf6dd62a815002e9e76 = What was the name for the imaging campaign ABC began in 2007?
+ERROR 57277cf6dd62a815002e9e76QUESTION 57277cf6dd62a815002e9e76 = What was the name for the imaging campaign ABC began in 2007?
    
 TEXT 57277cf6dd62a815002e9e76 = On June 16, 2007, ABC began to phase in a new imaging campaign for the upcoming 2007–08 season, "Start Here".
    
@@ -2597,7 +2524,7 @@ QUESTION 5726a9ed5951b619008f796a = What was the name of Börte's second male ch
    
 TEXT 5726a9ed5951b619008f796a = Börte had three more sons, Chagatai (1187—1241), Ögedei (1189—1241), and Tolui (1190–1232).
    
-ANSWERS 5726a9ed5951b619008f796a = {'chagatai', 'ögedei'}
+ANSWERS 5726a9ed5951b619008f796a = {'ögedei', 'chagatai'}
    
 SET_PREDICTIONS 5726a9ed5951b619008f796a = ['chagatai', 'ögedei', 'tolui']
    
@@ -2607,8 +2534,7 @@ FINAL_PREDICTION 5726a9ed5951b619008f796a = tolui
 ------------------  
    
   
-ERROR 5726ae32708984140094cdab
-QUESTION 5726ae32708984140094cdab = What was the name of Temüjin's laws?
+ERROR 5726ae32708984140094cdabQUESTION 5726ae32708984140094cdab = What was the name of Temüjin's laws?
    
 TEXT 5726ae32708984140094cdab = As an incentive for absolute obedience and following his rule of law, the Yassa code, Temüjin promised civilians and soldiers wealth from future possible war spoils.
    
@@ -2678,8 +2604,7 @@ FINAL_PREDICTION 572736bff1498d1400e8f4b4 = mongol empire
 ------------------  
    
   
-ERROR 57274126dd62a815002e9a24
-QUESTION 57274126dd62a815002e9a24 = What is the name of contemporary Mongolian currency?
+ERROR 57274126dd62a815002e9a24QUESTION 57274126dd62a815002e9a24 = What is the name of contemporary Mongolian currency?
    
 TEXT 57274126dd62a815002e9a24 = His face can be found on everyday commodities, from liquor bottles to candy products, and on the largest denominations of 500, 1,000, 5,000, 10,000, and 20,000 Mongolian tögrög (₮).
    
@@ -2721,8 +2646,7 @@ FINAL_PREDICTION 5726db5add62a815002e92d6 = de materia medica
 ------------------  
    
   
-ERROR 5726eb4b5951b619008f826d
-QUESTION 5726eb4b5951b619008f826d = What are internet pharmacies also called?
+ERROR 5726eb4b5951b619008f826dQUESTION 5726eb4b5951b619008f826d = What are internet pharmacies also called?
    
 TEXT 5726eb4b5951b619008f826d = Internet pharmacies (also known as online pharmacies) are also recommended to some patients by their physicians if they are homebound.
    
@@ -2736,8 +2660,7 @@ FINAL_PREDICTION 5726eb4b5951b619008f826d =
 ------------------  
    
   
-ERROR 572a135daf94a219006aa7a0
-QUESTION 572a135daf94a219006aa7a0 = What are antimicrobial peptides that evolved as immune defense in eukaryotes called?
+ERROR 572a135daf94a219006aa7a0QUESTION 572a135daf94a219006aa7a0 = What are antimicrobial peptides that evolved as immune defense in eukaryotes called?
    
 TEXT 572a135daf94a219006aa7a0 = These mechanisms include phagocytosis, antimicrobial peptides called defensins, and the complement system.
    
@@ -2751,8 +2674,7 @@ FINAL_PREDICTION 572a135daf94a219006aa7a0 =
 ------------------  
    
   
-ERROR 572a135daf94a219006aa7a2
-QUESTION 572a135daf94a219006aa7a2 = What is the ability to recognize and adapt to new specific pathogens called?
+ERROR 572a135daf94a219006aa7a2QUESTION 572a135daf94a219006aa7a2 = What is the ability to recognize and adapt to new specific pathogens called?
    
 TEXT 572a135daf94a219006aa7a2 = Adaptive (or acquired) immunity creates immunological memory after an initial response to a specific pathogen, leading to an enhanced response to subsequent encounters with that same pathogen.
    
@@ -2766,8 +2688,7 @@ FINAL_PREDICTION 572a135daf94a219006aa7a2 = adaptive
 ------------------  
    
   
-ERROR 5726f8aef1498d1400e8f16e
-QUESTION 5726f8aef1498d1400e8f16e = What is another name for an immune system's improved response?
+ERROR 5726f8aef1498d1400e8f16eQUESTION 5726f8aef1498d1400e8f16e = What is another name for an immune system's improved response?
    
 TEXT 5726f8aef1498d1400e8f16e = This improved response is then retained after the pathogen has been eliminated, in the form of an immunological memory, and allows the adaptive immune system to mount faster and stronger attacks each time this pathogen is encountered.
    
@@ -2781,8 +2702,7 @@ FINAL_PREDICTION 5726f8aef1498d1400e8f16e =
 ------------------  
    
   
-ERROR 5729081d3f37b31900477fae
-QUESTION 5729081d3f37b31900477fae = What is the process in which neutrophils move towards the site of inflammation called?
+ERROR 5729081d3f37b31900477faeQUESTION 5729081d3f37b31900477fae = What is the process in which neutrophils move towards the site of inflammation called?
    
 TEXT 5729081d3f37b31900477fae = During the acute phase of inflammation, particularly as a result of bacterial infection, neutrophils migrate toward the site of inflammation in a process called chemotaxis, and are usually the first cells to arrive at the scene of infection.
    
@@ -2796,8 +2716,7 @@ FINAL_PREDICTION 5729081d3f37b31900477fae =
 ------------------  
    
   
-ERROR 5729efab3f37b319004785cf
-QUESTION 5729efab3f37b319004785cf = What are the phagocytes that are located in tissues in contact with the external environment called?
+ERROR 5729efab3f37b319004785cfQUESTION 5729efab3f37b319004785cf = What are the phagocytes that are located in tissues in contact with the external environment called?
    
 TEXT 5729efab3f37b319004785cf = Dendritic cells (DC) are phagocytes in tissues that are in contact with the external environment; therefore, they are located mainly in the skin, nose, lungs, stomach, and intestines.
    
@@ -2811,8 +2730,7 @@ FINAL_PREDICTION 5729efab3f37b319004785cf =
 ------------------  
    
   
-ERROR 5729f12e3f37b319004785e2
-QUESTION 5729f12e3f37b319004785e2 = The adaptive immune system recognizes non-self antigens during a process called what?
+ERROR 5729f12e3f37b319004785e2QUESTION 5729f12e3f37b319004785e2 = The adaptive immune system recognizes non-self antigens during a process called what?
    
 TEXT 5729f12e3f37b319004785e2 = The adaptive immune response is antigen-specific and requires the recognition of specific "non-self" antigens during a process called antigen presentation.
    
@@ -2826,8 +2744,7 @@ FINAL_PREDICTION 5729f12e3f37b319004785e2 =
 ------------------  
    
   
-ERROR 572a06af3f37b31900478668
-QUESTION 572a06af3f37b31900478668 = What are the antimicrobial peptides that are the main form of invertebrate systemic immunity called?
+ERROR 572a06af3f37b31900478668QUESTION 572a06af3f37b31900478668 = What are the antimicrobial peptides that are the main form of invertebrate systemic immunity called?
    
 TEXT 572a06af3f37b31900478668 = Antimicrobial peptides called defensins are an evolutionarily conserved component of the innate immune response found in all animals and plants, and represent the main form of invertebrate systemic immunity.
    
@@ -2855,8 +2772,7 @@ FINAL_PREDICTION 572a0bf96aef051400155204 = hypersensitivity
 ------------------  
    
   
-ERROR 572a0e4b6aef051400155214
-QUESTION 572a0e4b6aef051400155214 = What is the process by which the adaptive immune system is evaded by the chainging of non-essential epitopes called?
+ERROR 572a0e4b6aef051400155214QUESTION 572a0e4b6aef051400155214 = What is the process by which the adaptive immune system is evaded by the chainging of non-essential epitopes called?
    
 TEXT 572a0e4b6aef051400155214 = This is called antigenic variation.
    
@@ -2870,8 +2786,7 @@ FINAL_PREDICTION 572a0e4b6aef051400155214 =
 ------------------  
    
   
-ERROR 57271c235951b619008f860b
-QUESTION 57271c235951b619008f860b = What is it called when people in society rebel against laws they think are unfair?
+ERROR 57271c235951b619008f860bQUESTION 57271c235951b619008f860b = What is it called when people in society rebel against laws they think are unfair?
    
 TEXT 57271c235951b619008f860b = Civil disobedience is one of the many ways people have rebelled against what they deem to be unfair laws.
    
@@ -2903,7 +2818,7 @@ QUESTION 5728d63c4b864d1900164f1c = What was Ghandi's work called?
    
 TEXT 5728d63c4b864d1900164f1c = A version was taken up by the author Henry David Thoreau in his essay Civil Disobedience, and later by Gandhi in his doctrine of Satyagraha.
    
-ANSWERS 5728d63c4b864d1900164f1c = {'doctrine of satyagraha', 'satyagraha'}
+ANSWERS 5728d63c4b864d1900164f1c = {'satyagraha', 'doctrine of satyagraha'}
    
 SET_PREDICTIONS 5728d63c4b864d1900164f1c = ['henry david thoreau', 'civil disobedience', 'gandhi', 'satyagraha']
    
@@ -2913,8 +2828,7 @@ FINAL_PREDICTION 5728d63c4b864d1900164f1c = henry david thoreau
 ------------------  
    
   
-ERROR 5728202c4b864d19001644ec
-QUESTION 5728202c4b864d19001644ec = What is it called when there is an active attempt to overthrow a government or belief system?
+ERROR 5728202c4b864d19001644ecQUESTION 5728202c4b864d19001644ec = What is it called when there is an active attempt to overthrow a government or belief system?
    
 TEXT 5728202c4b864d19001644ec = Revolutionary civil disobedience is more of an active attempt to overthrow a government (or to change cultural traditions, social customs, religious beliefs, etc...revolution doesn't have to be political, i.e.
    
@@ -2928,12 +2842,11 @@ FINAL_PREDICTION 5728202c4b864d19001644ec =
 ------------------  
    
   
-ERROR 5728e3c33acd2414000e0134
-QUESTION 5728e3c33acd2414000e0134 = What is the civil disobedience called where people refuse to be released?
+ERROR 5728e3c33acd2414000e0134QUESTION 5728e3c33acd2414000e0134 = What is the civil disobedience called where people refuse to be released?
    
 TEXT 5728e3c33acd2414000e0134 = This is a form of jail solidarity.
    
-ANSWERS 5728e3c33acd2414000e0134 = {'solitary civil disobedience', 'jail solidarity'}
+ANSWERS 5728e3c33acd2414000e0134 = {'jail solidarity', 'solitary civil disobedience'}
    
 SET_PREDICTIONS 5728e3c33acd2414000e0134 = []
    
@@ -2943,8 +2856,7 @@ FINAL_PREDICTION 5728e3c33acd2414000e0134 =
 ------------------  
    
   
-ERROR 57273d8bf1498d1400e8f500
-QUESTION 57273d8bf1498d1400e8f500 = Infrastructure is often called what?
+ERROR 57273d8bf1498d1400e8f500QUESTION 57273d8bf1498d1400e8f500 = Infrastructure is often called what?
    
 TEXT 57273d8bf1498d1400e8f500 = Infrastructure is often called heavy/highway, heavy civil or heavy engineering.
    
@@ -2958,8 +2870,7 @@ FINAL_PREDICTION 57273d8bf1498d1400e8f500 =
 ------------------  
    
   
-ERROR 572746addd62a815002e9a5e
-QUESTION 572746addd62a815002e9a5e = Along with non-governmental and nonstate schools, what is another name for private schools?
+ERROR 572746addd62a815002e9a5eQUESTION 572746addd62a815002e9a5e = Along with non-governmental and nonstate schools, what is another name for private schools?
    
 TEXT 572746addd62a815002e9a5e = Private schools, also known as independent schools, non-governmental, or nonstate schools, are not administered by local, state or national governments; thus, they retain the right to select their students and are funded in whole or in part by charging their students tuition, rather than relying on mandatory taxation through public (government) funding; at some private schools students may be able to get a scholarship, which makes the cost cheaper, depending on a talent the student may have (e.g.
    
@@ -2973,8 +2884,7 @@ FINAL_PREDICTION 572746addd62a815002e9a5e =
 ------------------  
    
   
-ERROR 57274712708984140094dbae
-QUESTION 57274712708984140094dbae = What are private schools that charge no tuition called?
+ERROR 57274712708984140094dbaeQUESTION 57274712708984140094dbae = What are private schools that charge no tuition called?
    
 TEXT 57274712708984140094dbae = Annual tuition fees at K-12 schools range from nothing at so called 'tuition-free' schools to more than $45,000 at several New England preparatory schools.
    
@@ -2988,8 +2898,7 @@ FINAL_PREDICTION 57274712708984140094dbae = new england
 ------------------  
    
   
-ERROR 57274b35f1498d1400e8f5d4
-QUESTION 57274b35f1498d1400e8f5d4 = What are private secondary schools in Germany called?
+ERROR 57274b35f1498d1400e8f5d4QUESTION 57274b35f1498d1400e8f5d4 = What are private secondary schools in Germany called?
    
 TEXT 57274b35f1498d1400e8f5d4 = Ergänzungsschulen are secondary or post-secondary (non-tertiary) schools, which are run by private individuals, private organizations or rarely, religious groups and offer a type of education which is not available at public schools.
    
@@ -3003,8 +2912,7 @@ FINAL_PREDICTION 57274b35f1498d1400e8f5d4 =
 ------------------  
    
   
-ERROR 57274ca8dd62a815002e9aa6
-QUESTION 57274ca8dd62a815002e9aa6 = What is the full name of the ASER?
+ERROR 57274ca8dd62a815002e9aa6QUESTION 57274ca8dd62a815002e9aa6 = What is the full name of the ASER?
    
 TEXT 57274ca8dd62a815002e9aa6 = The Annual Status of Education Report (ASER), which evaluates learning levels in rural India, has been reporting poorer academic achievement in government schools than in private schools.
    
@@ -3116,12 +3024,11 @@ FINAL_PREDICTION 5727e0474b864d1900163f0a = tibetologist george de roerich
 ------------------  
    
   
-ERROR 5727cd7dff5b5019007d9591
-QUESTION 5727cd7dff5b5019007d9591 = What are those from Jacksonville sometimes called?
+ERROR 5727cd7dff5b5019007d9591QUESTION 5727cd7dff5b5019007d9591 = What are those from Jacksonville sometimes called?
    
 TEXT 5727cd7dff5b5019007d9591 = People from Jacksonville may be called "Jacksonvillians" or "Jaxsons" (also spelled "Jaxons").
    
-ANSWERS 5727cd7dff5b5019007d9591 = {'jacksonvillians or jaxsons', 'jacksonvillians'}
+ANSWERS 5727cd7dff5b5019007d9591 = {'jacksonvillians', 'jacksonvillians or jaxsons'}
    
 SET_PREDICTIONS 5727cd7dff5b5019007d9591 = ['jacksonville']
    
@@ -3145,8 +3052,7 @@ FINAL_PREDICTION 57280e1aff5b5019007d9bf0 = jacksonville
 ------------------  
    
   
-ERROR 5728128cff5b5019007d9c77
-QUESTION 5728128cff5b5019007d9c77 = What was the name of the battle that marked the first Confederate win in Florida?
+ERROR 5728128cff5b5019007d9c77QUESTION 5728128cff5b5019007d9c77 = What was the name of the battle that marked the first Confederate win in Florida?
    
 TEXT 5728128cff5b5019007d9c77 = The Skirmish of the Brick Church in 1862 just outside Jacksonville proper resulted in the first Confederate victory in Florida.
    
@@ -3174,8 +3080,7 @@ FINAL_PREDICTION 57281edd3acd2414000df4ee = better jacksonville plan
 ------------------  
    
   
-ERROR 572820512ca10214002d9e74
-QUESTION 572820512ca10214002d9e74 = What is the name of the river that is completely contained inside Jacksonville?
+ERROR 572820512ca10214002d9e74QUESTION 572820512ca10214002d9e74 = What is the name of the river that is completely contained inside Jacksonville?
    
 TEXT 572820512ca10214002d9e74 = The Trout River, a major tributary of the St. Johns River, is located entirely within Jacksonville.
    
@@ -3203,12 +3108,11 @@ FINAL_PREDICTION 572824f13acd2414000df591 = jacksonville beach
 ------------------  
    
   
-ERROR 5727ef664b864d1900164060
-QUESTION 5727ef664b864d1900164060 = What is it called when the tax rate and base amount increase simultaneously?
+ERROR 5727ef664b864d1900164060QUESTION 5727ef664b864d1900164060 = What is it called when the tax rate and base amount increase simultaneously?
    
 TEXT 5727ef664b864d1900164060 = A progressive tax is a tax by which the tax rate increases as the taxable base amount increases.
    
-ANSWERS 5727ef664b864d1900164060 = {'progressive', 'progressive tax'}
+ANSWERS 5727ef664b864d1900164060 = {'progressive tax', 'progressive'}
    
 SET_PREDICTIONS 5727ef664b864d1900164060 = []
    
@@ -3218,8 +3122,7 @@ FINAL_PREDICTION 5727ef664b864d1900164060 =
 ------------------  
    
   
-ERROR 5729f3883f37b319004785f2
-QUESTION 5729f3883f37b319004785f2 = What is a a developing economy's level of inequality bulging out called?
+ERROR 5729f3883f37b319004785f2QUESTION 5729f3883f37b319004785f2 = What is a a developing economy's level of inequality bulging out called?
    
 TEXT 5729f3883f37b319004785f2 = Plotting the relationship between level of income and inequality, Kuznets saw middle-income developing economies level of inequality bulging out to form what is now known as the Kuznets curve.
    
@@ -3233,8 +3136,7 @@ FINAL_PREDICTION 5729f3883f37b319004785f2 =
 ------------------  
    
   
-ERROR 5727f746ff5b5019007d9960
-QUESTION 5727f746ff5b5019007d9960 = What was the name of the first episode of the new Doctor Who series?
+ERROR 5727f746ff5b5019007d9960QUESTION 5727f746ff5b5019007d9960 = What was the name of the first episode of the new Doctor Who series?
    
 TEXT 5727f746ff5b5019007d9960 = Doctor Who finally returned with the episode "Rose" on BBC One on 26 March 2005.
    
@@ -3276,8 +3178,7 @@ FINAL_PREDICTION 572800b03acd2414000df1f4 = key to time
 ------------------  
    
   
-ERROR 572804522ca10214002d9b97
-QUESTION 572804522ca10214002d9b97 = What was the name of the Marco Polo episode?
+ERROR 572804522ca10214002d9b97QUESTION 572804522ca10214002d9b97 = What was the name of the Marco Polo episode?
    
 TEXT 572804522ca10214002d9b97 = Short clips from every story with the exception of Marco Polo, "Mission to the Unknown" and The Massacre of St Bartholomew's Eve also exist.
    
@@ -3361,8 +3262,7 @@ FINAL_PREDICTION 57280f0d3acd2414000df35c = unearthly child
 ------------------  
    
   
-ERROR 5728185f3acd2414000df45b
-QUESTION 5728185f3acd2414000df45b = What was the name of the 2007 Christmas special?
+ERROR 5728185f3acd2414000df45bQUESTION 5728185f3acd2414000df45b = What was the name of the 2007 Christmas special?
    
 TEXT 5728185f3acd2414000df45b = A new arrangement of the theme, once again by Gold, was introduced in the 2007 Christmas special episode, "Voyage of the Damned"; Gold returned as composer for the 2010 series.
    
@@ -3404,8 +3304,7 @@ FINAL_PREDICTION 57281cb22ca10214002d9e21 = christmas carol
 ------------------  
    
   
-ERROR 572828383acd2414000df5c4
-QUESTION 572828383acd2414000df5c4 = What was the name of the Doctor Who play from the 1980's?
+ERROR 572828383acd2414000df5c4QUESTION 572828383acd2414000df5c4 = What was the name of the Doctor Who play from the 1980's?
    
 TEXT 572828383acd2414000df5c4 = In the late 1980s, Jon Pertwee and Colin Baker both played the Doctor at different times during the run of a play titled Doctor Who – The Ultimate Adventure.
    
@@ -3433,8 +3332,7 @@ FINAL_PREDICTION 572829532ca10214002d9fa5 = children of earth
 ------------------  
    
   
-ERROR 5728303e4b864d19001646ae
-QUESTION 5728303e4b864d19001646ae = What was the name of the 3D system effect in Dimension in Time?
+ERROR 5728303e4b864d19001646aeQUESTION 5728303e4b864d19001646ae = What was the name of the 3D system effect in Dimension in Time?
    
 TEXT 5728303e4b864d19001646ae = The special was one of several special 3D programmes the BBC produced at the time, using a 3D system that made use of the Pulfrich effect requiring glasses with one darkened lens; the picture would look normal to those viewers who watched without the glasses.
    
@@ -3462,8 +3360,7 @@ FINAL_PREDICTION 572831512ca10214002da04a = comic relief
 ------------------  
    
   
-ERROR 572834524b864d1900164718
-QUESTION 572834524b864d1900164718 = What was the name of the first Doctor Who story released as an LP?
+ERROR 572834524b864d1900164718QUESTION 572834524b864d1900164718 = What was the name of the first Doctor Who story released as an LP?
    
 TEXT 572834524b864d1900164718 = Ten years later, the first original Doctor Who audio was released on LP record; Doctor Who and the Pescatons featuring the Fourth Doctor.
    
@@ -3481,7 +3378,7 @@ QUESTION 572834524b864d190016471a = What was the name of the first Doctor Who ra
    
 TEXT 572834524b864d190016471a = In 1988, during a hiatus in the television show, Slipback, the first radio drama, was transmitted.
    
-ANSWERS 572834524b864d190016471a = {'slipback', 'doctor who and pescatons'}
+ANSWERS 572834524b864d190016471a = {'doctor who and pescatons', 'slipback'}
    
 SET_PREDICTIONS 572834524b864d190016471a = ['slipback']
    
@@ -3603,8 +3500,7 @@ FINAL_PREDICTION 57285841ff5b5019007da19c = center for middle eastern studies
 ------------------  
    
   
-ERROR 57286010ff5b5019007da1cb
-QUESTION 57286010ff5b5019007da1cb = What was the name of the first self-sustained man-made nuclear reaction?
+ERROR 57286010ff5b5019007da1cbQUESTION 57286010ff5b5019007da1cb = What was the name of the first self-sustained man-made nuclear reaction?
    
 TEXT 57286010ff5b5019007da1cb = In physics, the university was the site of the Chicago Pile-1 (the first self-sustained man-made nuclear reaction, part of the Manhattan Project), of Robert Millikan's oil-drop experiment that calculated the charge of the electron, and of the development of radiocarbon dating by Willard F. Libby in 1947.
    
@@ -3618,8 +3514,7 @@ FINAL_PREDICTION 57286010ff5b5019007da1cb = manhattan project
 ------------------  
    
   
-ERROR 57286010ff5b5019007da1cc
-QUESTION 57286010ff5b5019007da1cc = What was the name of the experiment that tested how life originated?
+ERROR 57286010ff5b5019007da1ccQUESTION 57286010ff5b5019007da1cc = What was the name of the experiment that tested how life originated?
    
 TEXT 57286010ff5b5019007da1cc = The chemical experiment that tested how life originated on early Earth, the Miller–Urey experiment, was conducted at the university.
    
@@ -3777,7 +3672,7 @@ QUESTION 57286192ff5b5019007da1de = What was the Yuan dynasty called in Mongolia
    
 TEXT 57286192ff5b5019007da1de = The counterpart in Mongolian language was Dai Ön Ulus, also rendered as Ikh Yuan Üls or Yekhe Yuan Ulus.
    
-ANSWERS 57286192ff5b5019007da1de = {'dai ön ulus also rendered as ikh yuan üls or yekhe yuan ulus', 'dai ön ulus'}
+ANSWERS 57286192ff5b5019007da1de = {'dai ön ulus', 'dai ön ulus also rendered as ikh yuan üls or yekhe yuan ulus'}
    
 SET_PREDICTIONS 57286192ff5b5019007da1de = ['mongolian', 'dai ön ulus', 'ikh yuan üls']
    
@@ -3829,12 +3724,11 @@ FINAL_PREDICTION 572871bd3acd2414000dfa04 = rinchinbal emperor ningzong
 ------------------  
    
   
-ERROR 57287e512ca10214002da3fc
-QUESTION 57287e512ca10214002da3fc = What was Tugh's Chinese-style name?
+ERROR 57287e512ca10214002da3fcQUESTION 57287e512ca10214002da3fc = What was Tugh's Chinese-style name?
    
 TEXT 57287e512ca10214002da3fc = Nevertheless, a few other Yuan emperors actively sponsored cultural activities; an example is Tugh Temur (Emperor Wenzong), who wrote poetry, painted, read Chinese classical texts, and ordered the compilation of books.
    
-ANSWERS 57287e512ca10214002da3fc = {'wenzong', 'emperor wenzong'}
+ANSWERS 57287e512ca10214002da3fc = {'emperor wenzong', 'wenzong'}
    
 SET_PREDICTIONS 57287e512ca10214002da3fc = ['yuan', 'tugh temur']
    
@@ -3858,8 +3752,7 @@ FINAL_PREDICTION 5728809f2ca10214002da40e = shoushi li
 ------------------  
    
   
-ERROR 5728809f2ca10214002da40f
-QUESTION 5728809f2ca10214002da40f = What was the English name of Gou's calendar?
+ERROR 5728809f2ca10214002da40fQUESTION 5728809f2ca10214002da40f = What was the English name of Gou's calendar?
    
 TEXT 5728809f2ca10214002da40f = His calendar, the Shoushi Li (授時暦) or Calendar for Fixing the Seasons, was disseminated in 1281 as the official calendar of the Yuan dynasty.
    
@@ -3873,8 +3766,7 @@ FINAL_PREDICTION 5728809f2ca10214002da40f = fixing seasons
 ------------------  
    
   
-ERROR 5728827b2ca10214002da42a
-QUESTION 5728827b2ca10214002da42a = What was the Yuan's paper money called?
+ERROR 5728827b2ca10214002da42aQUESTION 5728827b2ca10214002da42a = What was the Yuan's paper money called?
    
 TEXT 5728827b2ca10214002da42a = One of the more notable applications of printing technology was the chao, the paper money of the Yuan.
    
@@ -3902,12 +3794,11 @@ FINAL_PREDICTION 572885c44b864d1900164a7c = bureau of buddhist and tibetan affai
 ------------------  
    
   
-ERROR 5728f9342ca10214002dab52
-QUESTION 5728f9342ca10214002dab52 = Ludwig Krapf recorded the name was what?
+ERROR 5728f9342ca10214002dab52QUESTION 5728f9342ca10214002dab52 = Ludwig Krapf recorded the name was what?
    
 TEXT 5728f9342ca10214002dab52 = Ludwig Krapf recorded the name as both Kenia and Kegnia believed by most to be a corruption of the Kamba version.
    
-ANSWERS 5728f9342ca10214002dab52 = {'both kenia and kegnia', 'kenia and kegnia'}
+ANSWERS 5728f9342ca10214002dab52 = {'kenia and kegnia', 'both kenia and kegnia'}
    
 SET_PREDICTIONS 5728f9342ca10214002dab52 = ['ludwig krapf', 'kenia', 'kegnia', 'kamba']
    
@@ -3917,8 +3808,7 @@ FINAL_PREDICTION 5728f9342ca10214002dab52 = ludwig krapf
 ------------------  
    
   
-ERROR 5728f9cf4b864d1900165166
-QUESTION 5728f9cf4b864d1900165166 = What are the biggest game animals of Kenya called?
+ERROR 5728f9cf4b864d1900165166QUESTION 5728f9cf4b864d1900165166 = What are the biggest game animals of Kenya called?
    
 TEXT 5728f9cf4b864d1900165166 = The "Big Five" game animals of Africa, that is the lion, leopard, buffalo, rhinoceros, and elephant, can be found in Kenya and in the Masai Mara in particular.
    
@@ -3946,12 +3836,11 @@ FINAL_PREDICTION 5728fd9b3f37b31900477f3c = mombasa
 ------------------  
    
   
-ERROR 57293e221d046914007791d8
-QUESTION 57293e221d046914007791d8 = What is the scenario called in which we don't change our greenhouse gas creation practices?
+ERROR 57293e221d046914007791d8QUESTION 57293e221d046914007791d8 = What is the scenario called in which we don't change our greenhouse gas creation practices?
    
 TEXT 57293e221d046914007791d8 = They predict that under a "business as usual" (BAU) scenario, global mean temperature will increase by about 0.3 °C per decade during the [21st] century.
    
-ANSWERS 57293e221d046914007791d8 = {'enhanced greenhouse effect', 'business as usual bau'}
+ANSWERS 57293e221d046914007791d8 = {'business as usual bau', 'enhanced greenhouse effect'}
    
 SET_PREDICTIONS 57293e221d046914007791d8 = []
    
@@ -3961,8 +3850,7 @@ FINAL_PREDICTION 57293e221d046914007791d8 =
 ------------------  
    
   
-ERROR 572953013f37b31900478250
-QUESTION 572953013f37b31900478250 = What is the process of turning CO2 into organic molecules called?
+ERROR 572953013f37b31900478250QUESTION 572953013f37b31900478250 = What is the process of turning CO2 into organic molecules called?
    
 TEXT 572953013f37b31900478250 = They then use the ATP and NADPH to make organic molecules from carbon dioxide in a process known as the Calvin cycle.
    
@@ -3976,8 +3864,7 @@ FINAL_PREDICTION 572953013f37b31900478250 = atp
 ------------------  
    
   
-ERROR 57296eee6aef051400154e8e
-QUESTION 57296eee6aef051400154e8e = What is a single Plastoglobuli called?
+ERROR 57296eee6aef051400154e8eQUESTION 57296eee6aef051400154e8e = What is a single Plastoglobuli called?
    
 TEXT 57296eee6aef051400154e8e = Plastoglobuli (singular plastoglobulus, sometimes spelled plastoglobule(s)), are spherical bubbles of lipids and proteins about 45–60 nanometers across.
    
@@ -3991,12 +3878,11 @@ FINAL_PREDICTION 57296eee6aef051400154e8e = plastoglobuli
 ------------------  
    
   
-ERROR 57297991af94a219006aa4ba
-QUESTION 57297991af94a219006aa4ba = What are plants with plastid gene transformations called?
+ERROR 57297991af94a219006aa4baQUESTION 57297991af94a219006aa4ba = What are plants with plastid gene transformations called?
    
 TEXT 57297991af94a219006aa4ba = While the reliability of this mechanism has not yet been studied for all relevant crop species, recent results in tobacco plants are promising, showing a failed containment rate of transplastomic plants at 3 in 1,000,000.
    
-ANSWERS 57297991af94a219006aa4ba = {'transplastomic', 'genetically modified plants', 'genetically modified crops'}
+ANSWERS 57297991af94a219006aa4ba = {'genetically modified crops', 'transplastomic', 'genetically modified plants'}
    
 SET_PREDICTIONS 57297991af94a219006aa4ba = []
    
@@ -4006,12 +3892,11 @@ FINAL_PREDICTION 57297991af94a219006aa4ba =
 ------------------  
    
   
-ERROR 57296d571d04691400779414
-QUESTION 57296d571d04691400779414 = What are numbers greater than 1 that can be divided by 3 or more numbers called?
+ERROR 57296d571d04691400779414QUESTION 57296d571d04691400779414 = What are numbers greater than 1 that can be divided by 3 or more numbers called?
    
 TEXT 57296d571d04691400779414 = A natural number greater than 1 that is not a prime number is called a composite number.
    
-ANSWERS 57296d571d04691400779414 = {'primes', 'composite number'}
+ANSWERS 57296d571d04691400779414 = {'composite number', 'primes'}
    
 SET_PREDICTIONS 57296d571d04691400779414 = []
    
@@ -4021,8 +3906,7 @@ FINAL_PREDICTION 57296d571d04691400779414 =
 ------------------  
    
   
-ERROR 57296f293f37b319004783a3
-QUESTION 57296f293f37b319004783a3 = What is the name of the property that designates a number as being prime or not?
+ERROR 57296f293f37b319004783a3QUESTION 57296f293f37b319004783a3 = What is the name of the property that designates a number as being prime or not?
    
 TEXT 57296f293f37b319004783a3 = The property of being prime (or not) is called primality.
    
@@ -4036,8 +3920,7 @@ FINAL_PREDICTION 57296f293f37b319004783a3 =
 ------------------  
    
   
-ERROR 57296f293f37b319004783a4
-QUESTION 57296f293f37b319004783a4 = What is the name of the process which confirms the primality of a number n?
+ERROR 57296f293f37b319004783a4QUESTION 57296f293f37b319004783a4 = What is the name of the process which confirms the primality of a number n?
    
 TEXT 57296f293f37b319004783a4 = A simple but slow method of verifying the primality of a given number n is known as trial division.
    
@@ -4051,8 +3934,7 @@ FINAL_PREDICTION 57296f293f37b319004783a4 =
 ------------------  
    
   
-ERROR 57296f293f37b319004783a5
-QUESTION 57296f293f37b319004783a5 = What is the name of one algorithm useful for conveniently testing the primality of large numbers? 
+ERROR 57296f293f37b319004783a5QUESTION 57296f293f37b319004783a5 = What is the name of one algorithm useful for conveniently testing the primality of large numbers? 
    
 TEXT 57296f293f37b319004783a5 = These include the Miller–Rabin primality test, which is fast but has a small probability of error, and the AKS primality test, which always produces the correct answer in polynomial time but is too slow to be practical.
    
@@ -4066,8 +3948,7 @@ FINAL_PREDICTION 57296f293f37b319004783a5 = miller
 ------------------  
    
   
-ERROR 57296f293f37b319004783a6
-QUESTION 57296f293f37b319004783a6 = What is the name of another algorithm useful for conveniently testing the primality of large numbers? 
+ERROR 57296f293f37b319004783a6QUESTION 57296f293f37b319004783a6 = What is the name of another algorithm useful for conveniently testing the primality of large numbers? 
    
 TEXT 57296f293f37b319004783a6 = These include the Miller–Rabin primality test, which is fast but has a small probability of error, and the AKS primality test, which always produces the correct answer in polynomial time but is too slow to be practical.
    
@@ -4081,8 +3962,7 @@ FINAL_PREDICTION 57296f293f37b319004783a6 = miller
 ------------------  
    
   
-ERROR 5729727baf94a219006aa437
-QUESTION 5729727baf94a219006aa437 = What is the name of the supposition that any number larger than 2 can be represented as the sum of two primes?
+ERROR 5729727baf94a219006aa437QUESTION 5729727baf94a219006aa437 = What is the name of the supposition that any number larger than 2 can be represented as the sum of two primes?
    
 TEXT 5729727baf94a219006aa437 = Many questions regarding prime numbers remain open, such as Goldbach's conjecture (that every even integer greater than 2 can be expressed as the sum of two primes), and the twin prime conjecture (that there are infinitely many pairs of primes whose difference is 2).
    
@@ -4096,8 +3976,7 @@ FINAL_PREDICTION 5729727baf94a219006aa437 = goldbach
 ------------------  
    
   
-ERROR 5729727baf94a219006aa438
-QUESTION 5729727baf94a219006aa438 = What is the name of the supposition that there are infinite pairs of primes whose difference is 2?
+ERROR 5729727baf94a219006aa438QUESTION 5729727baf94a219006aa438 = What is the name of the supposition that there are infinite pairs of primes whose difference is 2?
    
 TEXT 5729727baf94a219006aa438 = Many questions regarding prime numbers remain open, such as Goldbach's conjecture (that every even integer greater than 2 can be expressed as the sum of two primes), and the twin prime conjecture (that there are infinitely many pairs of primes whose difference is 2).
    
@@ -4111,8 +3990,7 @@ FINAL_PREDICTION 5729727baf94a219006aa438 = goldbach
 ------------------  
    
   
-ERROR 5729727baf94a219006aa43b
-QUESTION 5729727baf94a219006aa43b = What is the name of one algebraic generalization prime numbers have inspired?
+ERROR 5729727baf94a219006aa43bQUESTION 5729727baf94a219006aa43b = What is the name of one algebraic generalization prime numbers have inspired?
    
 TEXT 5729727baf94a219006aa43b = Prime numbers give rise to various generalizations in other mathematical domains, mainly algebra, such as prime elements and prime ideals.
    
@@ -4126,8 +4004,7 @@ FINAL_PREDICTION 5729727baf94a219006aa43b =
 ------------------  
    
   
-ERROR 572973f76aef051400154f0c
-QUESTION 572973f76aef051400154f0c = What name is given to any prime number larger than 2?
+ERROR 572973f76aef051400154f0cQUESTION 572973f76aef051400154f0c = What name is given to any prime number larger than 2?
    
 TEXT 572973f76aef051400154f0c = Accordingly, the term odd prime refers to any prime number greater than 2.
    
@@ -4155,12 +4032,11 @@ FINAL_PREDICTION 572978f91d046914007794d3 = rhind
 ------------------  
    
   
-ERROR 57297d421d046914007794e6
-QUESTION 57297d421d046914007794e6 = What is the name of one type of modern primality test?
+ERROR 57297d421d046914007794e6QUESTION 57297d421d046914007794e6 = What is the name of one type of modern primality test?
    
 TEXT 57297d421d046914007794e6 = Modern primality tests for general numbers n can be divided into two main classes, probabilistic (or "Monte Carlo") and deterministic algorithms.
    
-ANSWERS 57297d421d046914007794e6 = {'probabilistic or monte carlo', 'probabilistic'}
+ANSWERS 57297d421d046914007794e6 = {'probabilistic', 'probabilistic or monte carlo'}
    
 SET_PREDICTIONS 57297d421d046914007794e6 = ['monte carlo']
    
@@ -4170,8 +4046,7 @@ FINAL_PREDICTION 57297d421d046914007794e6 = monte carlo
 ------------------  
    
   
-ERROR 57297d421d046914007794e7
-QUESTION 57297d421d046914007794e7 = What is the name of another type of modern primality test?
+ERROR 57297d421d046914007794e7QUESTION 57297d421d046914007794e7 = What is the name of another type of modern primality test?
    
 TEXT 57297d421d046914007794e7 = Modern primality tests for general numbers n can be divided into two main classes, probabilistic (or "Monte Carlo") and deterministic algorithms.
    
@@ -4217,7 +4092,7 @@ QUESTION 572980f9af94a219006aa4d4 = What is the name of one type of prime where 
    
 TEXT 572980f9af94a219006aa4d4 = Other primes where either p + 1 or p − 1 is of a particular shape include the Sophie Germain primes (primes of the form 2p + 1 with p prime), primorial primes, Fermat primes and Mersenne primes, that is, prime numbers that are of the form 2p − 1, where p is an arbitrary prime.
    
-ANSWERS 572980f9af94a219006aa4d4 = {'fermat', 'sophie germain', 'primorial primes'}
+ANSWERS 572980f9af94a219006aa4d4 = {'primorial primes', 'fermat', 'sophie germain'}
    
 SET_PREDICTIONS 572980f9af94a219006aa4d4 = ['fermat', 'mersenne']
    
@@ -4231,7 +4106,7 @@ QUESTION 572980f9af94a219006aa4d5 = What is the name of another type of prime he
    
 TEXT 572980f9af94a219006aa4d5 = Other primes where either p + 1 or p − 1 is of a particular shape include the Sophie Germain primes (primes of the form 2p + 1 with p prime), primorial primes, Fermat primes and Mersenne primes, that is, prime numbers that are of the form 2p − 1, where p is an arbitrary prime.
    
-ANSWERS 572980f9af94a219006aa4d5 = {'mersenne', 'fermat primes', 'primorial primes'}
+ANSWERS 572980f9af94a219006aa4d5 = {'primorial primes', 'fermat primes', 'mersenne'}
    
 SET_PREDICTIONS 572980f9af94a219006aa4d5 = ['fermat', 'mersenne']
    
@@ -4241,8 +4116,7 @@ FINAL_PREDICTION 572980f9af94a219006aa4d5 = fermat
 ------------------  
    
   
-ERROR 572982e66aef051400154f92
-QUESTION 572982e66aef051400154f92 = What is the name of one type of computing method that is used to find prime numbers?
+ERROR 572982e66aef051400154f92QUESTION 572982e66aef051400154f92 = What is the name of one type of computing method that is used to find prime numbers?
    
 TEXT 572982e66aef051400154f92 = Some of these primes have been found using distributed computing.
    
@@ -4256,12 +4130,11 @@ FINAL_PREDICTION 572982e66aef051400154f92 =
 ------------------  
    
   
-ERROR 57299c2c6aef051400155020
-QUESTION 57299c2c6aef051400155020 = What is the name of an algebraic structure in which addition, subtraction and multiplication are defined?
+ERROR 57299c2c6aef051400155020QUESTION 57299c2c6aef051400155020 = What is the name of an algebraic structure in which addition, subtraction and multiplication are defined?
    
 TEXT 57299c2c6aef051400155020 = Prime numbers give rise to two more general concepts that apply to elements of any commutative ring R, an algebraic structure where addition, subtraction and multiplication are defined: prime elements and irreducible elements.
    
-ANSWERS 57299c2c6aef051400155020 = {'commutative ring', 'ring r', 'commutative ring r'}
+ANSWERS 57299c2c6aef051400155020 = {'commutative ring r', 'ring r', 'commutative ring'}
    
 SET_PREDICTIONS 57299c2c6aef051400155020 = []
    
@@ -4317,7 +4190,7 @@ QUESTION 572fe9b3947a6a140053cde3 = What is the highest point of the Rhine basin
    
 TEXT 572fe9b3947a6a140053cde3 = The Aare also contains the waters from the 4,274 m (14,022 ft) summit of Finsteraarhorn, the highest point of the Rhine basin.
    
-ANSWERS 572fe9b3947a6a140053cde3 = {'summit of finsteraarhorn', 'finsteraarhorn'}
+ANSWERS 572fe9b3947a6a140053cde3 = {'finsteraarhorn', 'summit of finsteraarhorn'}
    
 SET_PREDICTIONS 572fe9b3947a6a140053cde3 = ['aare', 'finsteraarhorn', 'rhine']
    
@@ -4327,8 +4200,7 @@ FINAL_PREDICTION 572fe9b3947a6a140053cde3 = rhine
 ------------------  
    
   
-ERROR 572f60f4947a6a140053c8eb
-QUESTION 572f60f4947a6a140053c8eb = What is the bend of Rhine in Basel called? 
+ERROR 572f60f4947a6a140053c8ebQUESTION 572f60f4947a6a140053c8eb = What is the bend of Rhine in Basel called? 
    
 TEXT 572f60f4947a6a140053c8eb = In the centre of Basel, the first major city in the course of the stream, is located the "Rhine knee"; this is a major bend, where the overall direction of the Rhine changes from West to North.
    
@@ -4342,8 +4214,7 @@ FINAL_PREDICTION 572f60f4947a6a140053c8eb = basel
 ------------------  
    
   
-ERROR 572fec30947a6a140053cdf3
-QUESTION 572fec30947a6a140053cdf3 = What is the first major bend in the Rhine called?
+ERROR 572fec30947a6a140053cdf3QUESTION 572fec30947a6a140053cdf3 = What is the first major bend in the Rhine called?
    
 TEXT 572fec30947a6a140053cdf3 = In the centre of Basel, the first major city in the course of the stream, is located the "Rhine knee"; this is a major bend, where the overall direction of the Rhine changes from West to North.
    
@@ -4371,12 +4242,11 @@ FINAL_PREDICTION 572f6a0ba23a5019007fc5ee = romantic rhine
 ------------------  
    
   
-ERROR 572ff430a23a5019007fcbab
-QUESTION 572ff430a23a5019007fcbab = What is the largest port in Europe called?
+ERROR 572ff430a23a5019007fcbabQUESTION 572ff430a23a5019007fcbab = What is the largest port in Europe called?
    
 TEXT 572ff430a23a5019007fcbab = One of the most important cities in this region is Duisburg with the largest river port in Europe (Duisport).
    
-ANSWERS 572ff430a23a5019007fcbab = {'duisburg', 'duisport'}
+ANSWERS 572ff430a23a5019007fcbab = {'duisport', 'duisburg'}
    
 SET_PREDICTIONS 572ff430a23a5019007fcbab = ['europe']
    
@@ -4414,8 +4284,7 @@ FINAL_PREDICTION 572f76d1b2c2fd1400568153 = rijn
 ------------------  
    
   
-ERROR 572ff4ca04bcaa1900d76f27
-QUESTION 572ff4ca04bcaa1900d76f27 = What's the name of where the Rhine branches off near Dordrecht?
+ERROR 572ff4ca04bcaa1900d76f27QUESTION 572ff4ca04bcaa1900d76f27 = What's the name of where the Rhine branches off near Dordrecht?
    
 TEXT 572ff4ca04bcaa1900d76f27 = The Oude Maas branches off, near Dordrecht, farther down rejoining the Nieuwe Maas to form Het Scheur.
    
@@ -4475,7 +4344,7 @@ QUESTION 57300888b2c2fd1400568778 = What was the Colonia Agrippina's original na
    
 TEXT 57300888b2c2fd1400568778 = Between about AD 14 and 180, the assignment of legions was as follows: for the army of Germania Inferior, two legions at Vetera (Xanten), I Germanica and XX Valeria (Pannonian troops); two legions at oppidum Ubiorum ("town of the Ubii"), which was renamed to Colonia Agrippina, descending to Cologne, V Alaudae, a Celtic legion recruited from Gallia Narbonensis and XXI, possibly a Galatian legion from the other side of the empire.
    
-ANSWERS 57300888b2c2fd1400568778 = {'ubiorum', 'oppidum ubiorum'}
+ANSWERS 57300888b2c2fd1400568778 = {'oppidum ubiorum', 'ubiorum'}
    
 SET_PREDICTIONS 57300888b2c2fd1400568778 = ['germania inferior', 'vetera', 'xanten', 'germanica', 'xx valeria', 'ubiorum', 'ubii', 'colonia agrippina', 'cologne', 'gallia narbonensis', 'xxi']
    
@@ -4499,8 +4368,7 @@ FINAL_PREDICTION 57300a25a23a5019007fcc97 = peace of westphalia
 ------------------  
    
   
-ERROR 572fcc43b2c2fd140056847d
-QUESTION 572fcc43b2c2fd140056847d = What is the name of matters outside the legislative ability of the Scottish Parliament?
+ERROR 572fcc43b2c2fd140056847dQUESTION 572fcc43b2c2fd140056847d = What is the name of matters outside the legislative ability of the Scottish Parliament?
    
 TEXT 572fcc43b2c2fd140056847d = Reserved matters are subjects that are outside the legislative competence of the Scotland Parliament.
    
@@ -4514,12 +4382,11 @@ FINAL_PREDICTION 572fcc43b2c2fd140056847d = scotland parliament
 ------------------  
    
   
-ERROR 57308ddc396df919000961a6
-QUESTION 57308ddc396df919000961a6 = What were the native inhabitants of Australia called?
+ERROR 57308ddc396df919000961a6QUESTION 57308ddc396df919000961a6 = What were the native inhabitants of Australia called?
    
 TEXT 57308ddc396df919000961a6 = The country of Australia serves as a case study in relation to British settlement and colonial rule of the continent in the eighteenth century, as it was premised on terra nullius, and its settlers considered it unused by its sparse Aboriginal inhabitants.
    
-ANSWERS 57308ddc396df919000961a6 = {'aboriginal inhabitants', 'aboriginal'}
+ANSWERS 57308ddc396df919000961a6 = {'aboriginal', 'aboriginal inhabitants'}
    
 SET_PREDICTIONS 57308ddc396df919000961a6 = ['australia']
    
@@ -4543,8 +4410,7 @@ FINAL_PREDICTION 57309446396df919000961bc = age of imperialism
 ------------------  
    
   
-ERROR 5730a314069b5314008321ee
-QUESTION 5730a314069b5314008321ee = What was a similar view about the Asian continent called?
+ERROR 5730a314069b5314008321eeQUESTION 5730a314069b5314008321ee = What was a similar view about the Asian continent called?
    
 TEXT 5730a314069b5314008321ee = Similarly, orientalism is a view of a people based on their geographical location.
    
@@ -4562,7 +4428,7 @@ QUESTION 5730aef38ab72b1400f9c684 = What was the name of the first German settle
    
 TEXT 5730aef38ab72b1400f9c684 = The establishment of the German colonial empire proceeded smoothly, starting with German New Guinea in 1884.
    
-ANSWERS 5730aef38ab72b1400f9c684 = {'german new guinea', 'new guinea'}
+ANSWERS 5730aef38ab72b1400f9c684 = {'new guinea', 'german new guinea'}
    
 SET_PREDICTIONS 5730aef38ab72b1400f9c684 = ['new guinea']
    
@@ -4586,8 +4452,7 @@ FINAL_PREDICTION 5730b7ce069b5314008322c4 = theodore roosevelt’s
 ------------------  
    
   
-ERROR 5730b8ca8ab72b1400f9c708
-QUESTION 5730b8ca8ab72b1400f9c708 = What was Isiah Bowman nick name, as known by the public.
+ERROR 5730b8ca8ab72b1400f9c708QUESTION 5730b8ca8ab72b1400f9c708 = What was Isiah Bowman nick name, as known by the public.
    
 TEXT 5730b8ca8ab72b1400f9c708 = As a result of his role in the inquiry, Isiah Bowman would come to be known as Wilson's geographer.
    
@@ -4601,12 +4466,11 @@ FINAL_PREDICTION 5730b8ca8ab72b1400f9c708 = isiah bowman
 ------------------  
    
   
-ERROR 5730aeba069b531400832244
-QUESTION 5730aeba069b531400832244 = What is another name for being born again?
+ERROR 5730aeba069b531400832244QUESTION 5730aeba069b531400832244 = What is another name for being born again?
    
 TEXT 5730aeba069b531400832244 = Today, justifying grace is also known as conversion, "accepting Jesus as your personal Lord and Savior," or being "born again".
    
-ANSWERS 5730aeba069b531400832244 = {'conversion accepting jesus as your personal lord and savior or being born again', 'justifying grace', 'conversion'}
+ANSWERS 5730aeba069b531400832244 = {'conversion accepting jesus as your personal lord and savior or being born again', 'conversion', 'justifying grace'}
    
 SET_PREDICTIONS 5730aeba069b531400832244 = ['jesus', 'savior']
    
@@ -4630,8 +4494,7 @@ FINAL_PREDICTION 5730b2ac2461fd1900a9cfb4 = use of money
 ------------------  
    
   
-ERROR 5733d3cb4776f419006612ed
-QUESTION 5733d3cb4776f419006612ed = What are other alternative names for French and Indian War?
+ERROR 5733d3cb4776f419006612edQUESTION 5733d3cb4776f419006612ed = What are other alternative names for French and Indian War?
    
 TEXT 5733d3cb4776f419006612ed = Other, less frequently used names for the war include the Fourth Intercolonial War and the Great War for the Empire.
    
@@ -4659,8 +4522,7 @@ FINAL_PREDICTION 5733eb34d058e614000b65cd = iroquois as warraghiggey
 ------------------  
    
   
-ERROR 57376a1bc3c5551400e51ec5
-QUESTION 57376a1bc3c5551400e51ec5 = What is the resultant force called when two forces act on a particle?
+ERROR 57376a1bc3c5551400e51ec5QUESTION 57376a1bc3c5551400e51ec5 = What is the resultant force called when two forces act on a particle?
    
 TEXT 57376a1bc3c5551400e51ec5 = When two forces act on a point particle, the resulting force, the resultant (also called the net force), can be determined by following the parallelogram rule of vector addition: the addition of two vectors represented by sides of a parallelogram, gives an equivalent resultant vector that is equal in magnitude and direction to the transversal of the parallelogram.
    
@@ -4674,8 +4536,7 @@ FINAL_PREDICTION 57376a1bc3c5551400e51ec5 =
 ------------------  
    
   
-ERROR 57378b141c456719005744a1
-QUESTION 57378b141c456719005744a1 = What is the derivative of an object's changing momentum called?
+ERROR 57378b141c456719005744a1QUESTION 57378b141c456719005744a1 = What is the derivative of an object's changing momentum called?
    
 TEXT 57378b141c456719005744a1 = The time derivative of the changing momentum of the object is what we label as "gravitational force".
    

@@ -1,0 +1,1655 @@
+QUESTION 56beace93aeaaa14008c91df = Who won Super Bowl 50?
+   
+TEXT 56beace93aeaaa14008c91df = The American Football Conference (AFC) champion Denver Broncos defeated the National Football Conference (NFC) champion Carolina Panthers 24–10 to earn their third Super Bowl title.
+   
+ANSWERS 56beace93aeaaa14008c91df = {'denver broncos'}
+   
+SET_PREDICTIONS 56beace93aeaaa14008c91df = ['american football conference', 'afc', 'denver broncos', 'national football conference', 'carolina panthers', 'third', 'super bowl']
+   
+FINAL_PREDICTION 56beace93aeaaa14008c91df = super bowl
+ 
+  
+------------------  
+   
+  
+QUESTION 56d20362e7d4791d009025eb = Who won Super Bowl 50?
+   
+TEXT 56d20362e7d4791d009025eb = The American Football Conference (AFC) champion Denver Broncos defeated the National Football Conference (NFC) champion Carolina Panthers 24–10 to earn their third Super Bowl title.
+   
+ANSWERS 56d20362e7d4791d009025eb = {'denver broncos'}
+   
+SET_PREDICTIONS 56d20362e7d4791d009025eb = ['american football conference', 'afc', 'denver broncos', 'national football conference', 'carolina panthers', 'third', 'super bowl']
+   
+FINAL_PREDICTION 56d20362e7d4791d009025eb = super bowl
+ 
+  
+------------------  
+   
+  
+QUESTION 56beaa4a3aeaaa14008c91c3 = Who did the Broncos prevent from going to the Super Bowl?
+   
+TEXT 56beaa4a3aeaaa14008c91c3 = The Broncos finished the regular season with a 12–4 record, and denied the New England Patriots a chance to defend their title from Super Bowl XLIX by defeating them 20–18 in the AFC Championship Game.
+   
+ANSWERS 56beaa4a3aeaaa14008c91c3 = {'new england patriots'}
+   
+SET_PREDICTIONS 56beaa4a3aeaaa14008c91c3 = ['broncos', 'regular season', 'new england patriots', 'super bowl xlix', '20–18']
+   
+FINAL_PREDICTION 56beaa4a3aeaaa14008c91c3 = broncos
+ 
+  
+------------------  
+   
+  
+QUESTION 56bead5a3aeaaa14008c91e9 = Who did the Panthers beat in the NFC Championship Game?
+   
+TEXT 56bead5a3aeaaa14008c91e9 = They defeated the Arizona Cardinals 49–15 in the NFC Championship Game and advanced to their second Super Bowl appearance since the franchise was founded in 1995.
+   
+ANSWERS 56bead5a3aeaaa14008c91e9 = {'arizona cardinals'}
+   
+SET_PREDICTIONS 56bead5a3aeaaa14008c91e9 = ['arizona cardinals 49–15', 'nfc championship game', 'second', 'super bowl', '1995']
+   
+FINAL_PREDICTION 56bead5a3aeaaa14008c91e9 = nfc championship game
+ 
+  
+------------------  
+   
+  
+QUESTION 56bead5a3aeaaa14008c91ea = Who lost to the Broncos in the AFC Championship?
+   
+TEXT 56bead5a3aeaaa14008c91ea = The Broncos finished the regular season with a 12–4 record, and denied the New England Patriots a chance to defend their title from Super Bowl XLIX by defeating them 20–18 in the AFC Championship Game.
+   
+ANSWERS 56bead5a3aeaaa14008c91ea = {'new england patriots'}
+   
+SET_PREDICTIONS 56bead5a3aeaaa14008c91ea = ['broncos', 'regular season', 'new england patriots', 'super bowl xlix', '20–18']
+   
+FINAL_PREDICTION 56bead5a3aeaaa14008c91ea = broncos
+ 
+  
+------------------  
+   
+  
+QUESTION 56bead5a3aeaaa14008c91eb = Who were the defending Super Bowl champions?
+   
+TEXT 56bead5a3aeaaa14008c91eb = The Broncos finished the regular season with a 12–4 record, and denied the New England Patriots a chance to defend their title from Super Bowl XLIX by defeating them 20–18 in the AFC Championship Game.
+   
+ANSWERS 56bead5a3aeaaa14008c91eb = {'new england patriots'}
+   
+SET_PREDICTIONS 56bead5a3aeaaa14008c91eb = ['broncos', 'regular season', 'new england patriots', 'super bowl xlix', '20–18']
+   
+FINAL_PREDICTION 56bead5a3aeaaa14008c91eb = super bowl xlix
+ 
+  
+------------------  
+   
+  
+QUESTION 56bead5a3aeaaa14008c91ed = Who was this season's NFL MVP?
+   
+TEXT 56bead5a3aeaaa14008c91ed = The Panthers finished the regular season with a 15–1 record, and quarterback Cam Newton was named the NFL Most Valuable Player (MVP).
+   
+ANSWERS 56bead5a3aeaaa14008c91ed = {'cam newton'}
+   
+SET_PREDICTIONS 56bead5a3aeaaa14008c91ed = ['panthers', 'regular season', '15–1 record', 'cam newton', 'nfl', 'most valuable player', 'mvp']
+   
+FINAL_PREDICTION 56bead5a3aeaaa14008c91ed = nfl
+ 
+  
+------------------  
+   
+  
+QUESTION 56d2045de7d4791d009025f3 = Who is the quarterback for the Panthers?
+   
+TEXT 56d2045de7d4791d009025f3 = The Panthers finished the regular season with a 15–1 record, and quarterback Cam Newton was named the NFL Most Valuable Player (MVP).
+   
+ANSWERS 56d2045de7d4791d009025f3 = {'cam newton'}
+   
+SET_PREDICTIONS 56d2045de7d4791d009025f3 = ['panthers', 'regular season', '15–1 record', 'cam newton', 'nfl', 'most valuable player', 'mvp']
+   
+FINAL_PREDICTION 56d2045de7d4791d009025f3 = most valuable player
+ 
+  
+------------------  
+   
+  
+QUESTION 56d2045de7d4791d009025f4 = Who did Carolina beat in the NFC championship game?
+   
+TEXT 56d2045de7d4791d009025f4 = They defeated the Arizona Cardinals 49–15 in the NFC Championship Game and advanced to their second Super Bowl appearance since the franchise was founded in 1995.
+   
+ANSWERS 56d2045de7d4791d009025f4 = {'arizona cardinals'}
+   
+SET_PREDICTIONS 56d2045de7d4791d009025f4 = ['arizona cardinals 49–15', 'nfc championship game', 'second', 'super bowl', '1995']
+   
+FINAL_PREDICTION 56d2045de7d4791d009025f4 = nfc championship game
+ 
+  
+------------------  
+   
+  
+QUESTION 56d2045de7d4791d009025f6 = Who did Denver beat in the AFC championship?
+   
+TEXT 56d2045de7d4791d009025f6 = The Broncos finished the regular season with a 12–4 record, and denied the New England Patriots a chance to defend their title from Super Bowl XLIX by defeating them 20–18 in the AFC Championship Game.
+   
+ANSWERS 56d2045de7d4791d009025f6 = {'new england patriots'}
+   
+SET_PREDICTIONS 56d2045de7d4791d009025f6 = ['broncos', 'regular season', 'new england patriots', 'super bowl xlix', '20–18']
+   
+FINAL_PREDICTION 56d2045de7d4791d009025f6 = new england patriots
+ 
+  
+------------------  
+   
+  
+QUESTION 56d6017d1c85041400946ebe = Who was the Most Valuable Player for the 2015 NFL season?
+   
+TEXT 56d6017d1c85041400946ebe = The Panthers finished the regular season with a 15–1 record, and quarterback Cam Newton was named the NFL Most Valuable Player (MVP).
+   
+ANSWERS 56d6017d1c85041400946ebe = {'cam newton'}
+   
+SET_PREDICTIONS 56d6017d1c85041400946ebe = ['panthers', 'regular season', '15–1 record', 'cam newton', 'nfl', 'most valuable player', 'mvp']
+   
+FINAL_PREDICTION 56d6017d1c85041400946ebe = most valuable player
+ 
+  
+------------------  
+   
+  
+QUESTION 56d6017d1c85041400946ec1 = Who did Denver beat in the 2015 AFC Championship game?
+   
+TEXT 56d6017d1c85041400946ec1 = The Broncos finished the regular season with a 12–4 record, and denied the New England Patriots a chance to defend their title from Super Bowl XLIX by defeating them 20–18 in the AFC Championship Game.
+   
+ANSWERS 56d6017d1c85041400946ec1 = {'new england patriots'}
+   
+SET_PREDICTIONS 56d6017d1c85041400946ec1 = ['broncos', 'regular season', 'new england patriots', 'super bowl xlix', '20–18']
+   
+FINAL_PREDICTION 56d6017d1c85041400946ec1 = new england patriots
+ 
+  
+------------------  
+   
+  
+QUESTION 56d6017d1c85041400946ec2 = Who did the Carolina Panthers beat in the 2015 NFC Championship game?
+   
+TEXT 56d6017d1c85041400946ec2 = They defeated the Arizona Cardinals 49–15 in the NFC Championship Game and advanced to their second Super Bowl appearance since the franchise was founded in 1995.
+   
+ANSWERS 56d6017d1c85041400946ec2 = {'arizona cardinals'}
+   
+SET_PREDICTIONS 56d6017d1c85041400946ec2 = ['arizona cardinals 49–15', 'nfc championship game', 'second', 'super bowl', '1995']
+   
+FINAL_PREDICTION 56d6017d1c85041400946ec2 = nfc championship game
+ 
+  
+------------------  
+   
+  
+QUESTION 56d98a59dc89441400fdb52a = Who was the 2015 NFL MVP?
+   
+TEXT 56d98a59dc89441400fdb52a = The Panthers finished the regular season with a 15–1 record, and quarterback Cam Newton was named the NFL Most Valuable Player (MVP).
+   
+ANSWERS 56d98a59dc89441400fdb52a = {'cam newton'}
+   
+SET_PREDICTIONS 56d98a59dc89441400fdb52a = ['panthers', 'regular season', '15–1 record', 'cam newton', 'nfl', 'most valuable player', 'mvp']
+   
+FINAL_PREDICTION 56d98a59dc89441400fdb52a = nfl
+ 
+  
+------------------  
+   
+  
+QUESTION 56d98a59dc89441400fdb52b = Who did the Panthers beat to become the NFC champs?
+   
+TEXT 56d98a59dc89441400fdb52b = They defeated the Arizona Cardinals 49–15 in the NFC Championship Game and advanced to their second Super Bowl appearance since the franchise was founded in 1995.
+   
+ANSWERS 56d98a59dc89441400fdb52b = {'arizona cardinals'}
+   
+SET_PREDICTIONS 56d98a59dc89441400fdb52b = ['arizona cardinals 49–15', 'nfc championship game', 'second', 'super bowl', '1995']
+   
+FINAL_PREDICTION 56d98a59dc89441400fdb52b = nfc championship game
+ 
+  
+------------------  
+   
+  
+QUESTION 56be4eafacb8001400a50302 = Who was the Super Bowl 50 MVP?
+   
+TEXT 56be4eafacb8001400a50302 = Denver linebacker Von Miller was named Super Bowl MVP, recording five solo tackles, 2½ sacks, and two forced fumbles.
+   
+ANSWERS 56be4eafacb8001400a50302 = {'von miller', 'miller'}
+   
+SET_PREDICTIONS 56be4eafacb8001400a50302 = ['denver', 'von miller', 'super bowl mvp', 'five', '2½', 'two']
+   
+FINAL_PREDICTION 56be4eafacb8001400a50302 = super bowl mvp
+ 
+  
+------------------  
+   
+  
+QUESTION 56beab833aeaaa14008c91d4 = Who was limited by Denver's defense?
+   
+TEXT 56beab833aeaaa14008c91d4 = Newton was limited by Denver's defense, which sacked him seven times and forced him into three turnovers, including a fumble which they recovered for a touchdown.
+   
+ANSWERS 56beab833aeaaa14008c91d4 = {'newton was limited by denvers defense', 'newton'}
+   
+SET_PREDICTIONS 56beab833aeaaa14008c91d4 = ['newton', 'denver', 'seven', 'three']
+   
+FINAL_PREDICTION 56beab833aeaaa14008c91d4 = three
+ 
+  
+------------------  
+   
+  
+QUESTION 56beae423aeaaa14008c91f5 = Who won the Super Bowl MVP?
+   
+TEXT 56beae423aeaaa14008c91f5 = Denver linebacker Von Miller was named Super Bowl MVP, recording five solo tackles, 2½ sacks, and two forced fumbles.
+   
+ANSWERS 56beae423aeaaa14008c91f5 = {'von miller', 'miller', 'broncos'}
+   
+SET_PREDICTIONS 56beae423aeaaa14008c91f5 = ['denver', 'von miller', 'super bowl mvp', 'five', '2½', 'two']
+   
+FINAL_PREDICTION 56beae423aeaaa14008c91f5 = super bowl mvp
+ 
+  
+------------------  
+   
+  
+QUESTION 56bf17653aeaaa14008c9511 = Who was given the esteemed status of MVP for Super Bowl 50?
+   
+TEXT 56bf17653aeaaa14008c9511 = Denver linebacker Von Miller was named Super Bowl MVP, recording five solo tackles, 2½ sacks, and two forced fumbles.
+   
+ANSWERS 56bf17653aeaaa14008c9511 = {'von miller', 'miller'}
+   
+SET_PREDICTIONS 56bf17653aeaaa14008c9511 = ['denver', 'von miller', 'super bowl mvp', 'five', '2½', 'two']
+   
+FINAL_PREDICTION 56bf17653aeaaa14008c9511 = super bowl mvp
+ 
+  
+------------------  
+   
+  
+QUESTION 56d204ade7d4791d00902603 = Who won the MVP for the Super Bowl?
+   
+TEXT 56d204ade7d4791d00902603 = Denver linebacker Von Miller was named Super Bowl MVP, recording five solo tackles, 2½ sacks, and two forced fumbles.
+   
+ANSWERS 56d204ade7d4791d00902603 = {'von miller'}
+   
+SET_PREDICTIONS 56d204ade7d4791d00902603 = ['denver', 'von miller', 'super bowl mvp', 'five', '2½', 'two']
+   
+FINAL_PREDICTION 56d204ade7d4791d00902603 = super bowl mvp
+ 
+  
+------------------  
+   
+  
+QUESTION 56d601e41c85041400946ed1 = Who was the Most Valuable Player of Super Bowl 50?
+   
+TEXT 56d601e41c85041400946ed1 = Denver linebacker Von Miller was named Super Bowl MVP, recording five solo tackles, 2½ sacks, and two forced fumbles.
+   
+ANSWERS 56d601e41c85041400946ed1 = {'von miller'}
+   
+SET_PREDICTIONS 56d601e41c85041400946ed1 = ['denver', 'von miller', 'super bowl mvp', 'five', '2½', 'two']
+   
+FINAL_PREDICTION 56d601e41c85041400946ed1 = super bowl mvp
+ 
+  
+------------------  
+   
+  
+QUESTION 56beaf5e3aeaaa14008c91fd = Who was the broadcaster for Super Bowl 50 in the United States?
+   
+TEXT 56beaf5e3aeaaa14008c91fd = CBS broadcast Super Bowl 50 in the U.S., and charged an average of $5 million for a 30-second commercial during the game.
+   
+ANSWERS 56beaf5e3aeaaa14008c91fd = {'cbs'}
+   
+SET_PREDICTIONS 56beaf5e3aeaaa14008c91fd = ['cbs', 'super bowl', '50', 'us', '5 million']
+   
+FINAL_PREDICTION 56beaf5e3aeaaa14008c91fd = super bowl
+ 
+  
+------------------  
+   
+  
+ERROR 56beaf5e3aeaaa14008c9201
+QUESTION 56beaf5e3aeaaa14008c9201 = Who was the main performer at this year's halftime show?
+   
+TEXT 56beaf5e3aeaaa14008c9201 = The Super Bowl 50 halftime show was headlined by the British rock group Coldplay with special guest performers Beyoncé and Bruno Mars, who headlined the Super Bowl XLVII and Super Bowl XLVIII halftime shows, respectively.
+   
+ANSWERS 56beaf5e3aeaaa14008c9201 = {'coldplay'}
+   
+SET_PREDICTIONS 56beaf5e3aeaaa14008c9201 = ['super bowl', '50', 'british', 'bruno mars', 'super bowl xlvii', 'super bowl xlviii']
+   
+FINAL_PREDICTION 56beaf5e3aeaaa14008c9201 = super bowl xlviii
+ 
+  
+------------------  
+   
+  
+QUESTION 56bf1ae93aeaaa14008c951e = Who was the male singer who performed as a special guest during Super Bowl 50?
+   
+TEXT 56bf1ae93aeaaa14008c951e = The Super Bowl 50 halftime show was headlined by the British rock group Coldplay with special guest performers Beyoncé and Bruno Mars, who headlined the Super Bowl XLVII and Super Bowl XLVIII halftime shows, respectively.
+   
+ANSWERS 56bf1ae93aeaaa14008c951e = {'bruno mars'}
+   
+SET_PREDICTIONS 56bf1ae93aeaaa14008c951e = ['super bowl', '50', 'british', 'bruno mars', 'super bowl xlvii', 'super bowl xlviii']
+   
+FINAL_PREDICTION 56bf1ae93aeaaa14008c951e = super bowl
+ 
+  
+------------------  
+   
+  
+QUESTION 56d602631c85041400946ed8 = Who broadcast the Super Bowl on TV?
+   
+TEXT 56d602631c85041400946ed8 = CBS broadcast Super Bowl 50 in the U.S., and charged an average of $5 million for a 30-second commercial during the game.
+   
+ANSWERS 56d602631c85041400946ed8 = {'cbs'}
+   
+SET_PREDICTIONS 56d602631c85041400946ed8 = ['cbs', 'super bowl', '50', 'us', '5 million']
+   
+FINAL_PREDICTION 56d602631c85041400946ed8 = super bowl
+ 
+  
+------------------  
+   
+  
+ERROR 56d602631c85041400946eda
+QUESTION 56d602631c85041400946eda = Who headlined the halftime show for Super Bowl 50?
+   
+TEXT 56d602631c85041400946eda = The Super Bowl 50 halftime show was headlined by the British rock group Coldplay with special guest performers Beyoncé and Bruno Mars, who headlined the Super Bowl XLVII and Super Bowl XLVIII halftime shows, respectively.
+   
+ANSWERS 56d602631c85041400946eda = {'coldplay'}
+   
+SET_PREDICTIONS 56d602631c85041400946eda = ['super bowl', '50', 'british', 'bruno mars', 'super bowl xlvii', 'super bowl xlviii']
+   
+FINAL_PREDICTION 56d602631c85041400946eda = super bowl
+ 
+  
+------------------  
+   
+  
+ERROR 56d602631c85041400946edb
+QUESTION 56d602631c85041400946edb = Who were special guests for the Super Bowl halftime show?
+   
+TEXT 56d602631c85041400946edb = The Super Bowl 50 halftime show was headlined by the British rock group Coldplay with special guest performers Beyoncé and Bruno Mars, who headlined the Super Bowl XLVII and Super Bowl XLVIII halftime shows, respectively.
+   
+ANSWERS 56d602631c85041400946edb = {'beyoncé and bruno mars'}
+   
+SET_PREDICTIONS 56d602631c85041400946edb = ['super bowl', '50', 'british', 'bruno mars', 'super bowl xlvii', 'super bowl xlviii']
+   
+FINAL_PREDICTION 56d602631c85041400946edb = super bowl
+ 
+  
+------------------  
+   
+  
+ERROR 56d98c53dc89441400fdb545
+QUESTION 56d98c53dc89441400fdb545 = Who lead the Super Bowl 50 halftime performance?
+   
+TEXT 56d98c53dc89441400fdb545 = The Super Bowl 50 halftime show was headlined by the British rock group Coldplay with special guest performers Beyoncé and Bruno Mars, who headlined the Super Bowl XLVII and Super Bowl XLVIII halftime shows, respectively.
+   
+ANSWERS 56d98c53dc89441400fdb545 = {'coldplay'}
+   
+SET_PREDICTIONS 56d98c53dc89441400fdb545 = ['super bowl', '50', 'british', 'bruno mars', 'super bowl xlvii', 'super bowl xlviii']
+   
+FINAL_PREDICTION 56d98c53dc89441400fdb545 = super bowl
+ 
+  
+------------------  
+   
+  
+QUESTION 56be53b8acb8001400a50314 = Who was the NFL Commissioner in early 2012?
+   
+TEXT 56be53b8acb8001400a50314 = In early 2012, NFL Commissioner Roger Goodell stated that the league planned to make the 50th Super Bowl "spectacular" and that it would be "an important game for us as a league".
+   
+ANSWERS 56be53b8acb8001400a50314 = {'roger goodell', 'goodell'}
+   
+SET_PREDICTIONS 56be53b8acb8001400a50314 = ['early 2012', 'nfl', 'roger goodell', '50th', 'super bowl']
+   
+FINAL_PREDICTION 56be53b8acb8001400a50314 = nfl
+ 
+  
+------------------  
+   
+  
+QUESTION 56beafca3aeaaa14008c9207 = Who is the Commissioner of the National Football League?
+   
+TEXT 56beafca3aeaaa14008c9207 = In early 2012, NFL Commissioner Roger Goodell stated that the league planned to make the 50th Super Bowl "spectacular" and that it would be "an important game for us as a league".
+   
+ANSWERS 56beafca3aeaaa14008c9207 = {'roger goodell', 'goodell'}
+   
+SET_PREDICTIONS 56beafca3aeaaa14008c9207 = ['early 2012', 'nfl', 'roger goodell', '50th', 'super bowl']
+   
+FINAL_PREDICTION 56beafca3aeaaa14008c9207 = roger goodell
+ 
+  
+------------------  
+   
+  
+QUESTION 56bf42f53aeaaa14008c95a3 = Who was the commissioner of the NFL in 2012? 
+   
+TEXT 56bf42f53aeaaa14008c95a3 = In early 2012, NFL Commissioner Roger Goodell stated that the league planned to make the 50th Super Bowl "spectacular" and that it would be "an important game for us as a league".
+   
+ANSWERS 56bf42f53aeaaa14008c95a3 = {'roger goodell', 'goodell'}
+   
+SET_PREDICTIONS 56bf42f53aeaaa14008c95a3 = ['early 2012', 'nfl', 'roger goodell', '50th', 'super bowl']
+   
+FINAL_PREDICTION 56bf42f53aeaaa14008c95a3 = nfl
+ 
+  
+------------------  
+   
+  
+QUESTION 56d2053ae7d4791d00902610 = Who if the commissioner of the NFL?
+   
+TEXT 56d2053ae7d4791d00902610 = In early 2012, NFL Commissioner Roger Goodell stated that the league planned to make the 50th Super Bowl "spectacular" and that it would be "an important game for us as a league".
+   
+ANSWERS 56d2053ae7d4791d00902610 = {'roger goodell', 'goodell'}
+   
+SET_PREDICTIONS 56d2053ae7d4791d00902610 = ['early 2012', 'nfl', 'roger goodell', '50th', 'super bowl']
+   
+FINAL_PREDICTION 56d2053ae7d4791d00902610 = roger goodell
+ 
+  
+------------------  
+   
+  
+QUESTION 56d6edd00d65d21400198250 = Who is the commissioner of the NFL?
+   
+TEXT 56d6edd00d65d21400198250 = In early 2012, NFL Commissioner Roger Goodell stated that the league planned to make the 50th Super Bowl "spectacular" and that it would be "an important game for us as a league".
+   
+ANSWERS 56d6edd00d65d21400198250 = {'roger goodell', 'goodell'}
+   
+SET_PREDICTIONS 56d6edd00d65d21400198250 = ['early 2012', 'nfl', 'roger goodell', '50th', 'super bowl']
+   
+FINAL_PREDICTION 56d6edd00d65d21400198250 = roger goodell
+ 
+  
+------------------  
+   
+  
+ERROR 56d98f0ddc89441400fdb55c
+QUESTION 56d98f0ddc89441400fdb55c = Who decided not to approve paying for renovations at Sun Life Stadium that the league wanted for them to do to host Super Bowl 50?
+   
+TEXT 56d98f0ddc89441400fdb55c = However, on May 3, 2013, the Florida legislature refused to approve the funding plan to pay for the renovations, dealing a significant blow to Miami's chances.
+   
+ANSWERS 56d98f0ddc89441400fdb55c = {'florida legislature'}
+   
+SET_PREDICTIONS 56d98f0ddc89441400fdb55c = ['may 3 2013', 'florida', 'miami']
+   
+FINAL_PREDICTION 56d98f0ddc89441400fdb55c = miami
+ 
+  
+------------------  
+   
+  
+ERROR 56be5523acb8001400a5032d
+QUESTION 56be5523acb8001400a5032d = Who voted on the venue for Super Bowl 50?
+   
+TEXT 56be5523acb8001400a5032d = On May 21, 2013, NFL owners at their spring meetings in Boston voted and awarded the game to Levi's Stadium.
+   
+ANSWERS 56be5523acb8001400a5032d = {'nfl owners'}
+   
+SET_PREDICTIONS 56be5523acb8001400a5032d = ['may 21 2013', 'nfl', 'spring', 'boston', 'levis stadium']
+   
+FINAL_PREDICTION 56be5523acb8001400a5032d = levis stadium
+ 
+  
+------------------  
+   
+  
+QUESTION 56be572b3aeaaa14008c9052 = Who coached each Super Bowl 50 participant in their most recent Super Bowl appearance prior to Super Bowl 50?
+   
+TEXT 56be572b3aeaaa14008c9052 = Coincidentally, both teams were coached by John Fox in their last Super Bowl appearance prior to Super Bowl 50.
+   
+ANSWERS 56be572b3aeaaa14008c9052 = {'fox', 'john fox'}
+   
+SET_PREDICTIONS 56be572b3aeaaa14008c9052 = ['john fox', 'super bowl', 'super bowl', '50']
+   
+FINAL_PREDICTION 56be572b3aeaaa14008c9052 = super bowl
+ 
+  
+------------------  
+   
+  
+QUESTION 56beb2a03aeaaa14008c9233 = Who was the head coach of the Broncos in Super Bowl XLVIII?
+   
+TEXT 56beb2a03aeaaa14008c9233 = Coincidentally, both teams were coached by John Fox in their last Super Bowl appearance prior to Super Bowl 50.
+   
+ANSWERS 56beb2a03aeaaa14008c9233 = {'fox', 'john fox'}
+   
+SET_PREDICTIONS 56beb2a03aeaaa14008c9233 = ['john fox', 'super bowl', 'super bowl', '50']
+   
+FINAL_PREDICTION 56beb2a03aeaaa14008c9233 = super bowl
+ 
+  
+------------------  
+   
+  
+QUESTION 56beb3083aeaaa14008c923e = Who had the best record in the NFC?
+   
+TEXT 56beb3083aeaaa14008c923e = Despite waiving longtime running back DeAngelo Williams and losing top wide receiver Kelvin Benjamin to a torn ACL in the preseason, the Carolina Panthers had their best regular season in franchise history, becoming the seventh team to win at least 15 regular season games since the league expanded to a 16-game schedule in 1978.
+   
+ANSWERS 56beb3083aeaaa14008c923e = {'carolina panthers', 'panthers', 'carolina'}
+   
+SET_PREDICTIONS 56beb3083aeaaa14008c923e = ['deangelo williams', 'kelvin benjamin', 'acl', 'carolina panthers', 'seventh', 'at least 15', '16game', '1978']
+   
+FINAL_PREDICTION 56beb3083aeaaa14008c923e = at least 15
+ 
+  
+------------------  
+   
+  
+QUESTION 56beb3a03aeaaa14008c924b = Who started at tight end for the Panthers?
+   
+TEXT 56beb3a03aeaaa14008c924b = Newton's leading receivers were tight end Greg Olsen, who caught a career-high 77 passes for 1,104 yards and seven touchdowns, and wide receiver Ted Ginn, Jr., who caught 44 passes for 739 yards and 10 touchdowns; Ginn also rushed for 60 yards and returned 27 punts for 277 yards.
+   
+ANSWERS 56beb3a03aeaaa14008c924b = {'olsen', 'greg olsen'}
+   
+SET_PREDICTIONS 56beb3a03aeaaa14008c924b = ['newton', 'greg olsen', '77', '1104 yards', 'seven', 'ted ginn', 'jr', '44', '739 yards', '10', 'ginn', '60 yards', '27 punts', '277 yards']
+   
+FINAL_PREDICTION 56beb3a03aeaaa14008c924b = seven
+ 
+  
+------------------  
+   
+  
+QUESTION 56d6f2960d65d21400198287 = Who is the quarterback for the Carolina Panthers?
+   
+TEXT 56d6f2960d65d21400198287 = Pro Bowl quarterback Cam Newton had one of his best seasons, throwing for 3,837 yards and rushing for 636, while recording a career-high and league-leading 45 total touchdowns (35 passing, 10 rushing), a career-low 10 interceptions, and a career-best quarterback rating of 99.4.
+   
+ANSWERS 56d6f2960d65d21400198287 = {'cam newton'}
+   
+SET_PREDICTIONS 56d6f2960d65d21400198287 = ['cam newton', 'one', '3837 yards', '636', '45', '35', '10', '10', '994']
+   
+FINAL_PREDICTION 56d6f2960d65d21400198287 = one
+ 
+  
+------------------  
+   
+  
+QUESTION 56beb4343aeaaa14008c925f = Who registered the most sacks on the team this season?
+   
+TEXT 56beb4343aeaaa14008c925f = Pro Bowl defensive tackle Kawann Short led the team in sacks with 11, while also forcing three fumbles and recovering two.
+   
+ANSWERS 56beb4343aeaaa14008c925f = {'short', 'kawann short'}
+   
+SET_PREDICTIONS 56beb4343aeaaa14008c925f = ['pro bowl', 'kawann short', '11', 'three', 'two']
+   
+FINAL_PREDICTION 56beb4343aeaaa14008c925f = three
+ 
+  
+------------------  
+   
+  
+QUESTION 56d6f3500d65d21400198291 = Who led the Panthers in sacks?
+   
+TEXT 56d6f3500d65d21400198291 = Pro Bowl defensive tackle Kawann Short led the team in sacks with 11, while also forcing three fumbles and recovering two.
+   
+ANSWERS 56d6f3500d65d21400198291 = {'short', 'kawann short'}
+   
+SET_PREDICTIONS 56d6f3500d65d21400198291 = ['pro bowl', 'kawann short', '11', 'three', 'two']
+   
+FINAL_PREDICTION 56d6f3500d65d21400198291 = pro bowl
+ 
+  
+------------------  
+   
+  
+QUESTION 56d9992fdc89441400fdb59e = Who had five sacks in nine games as a Carolina Panthers starter?
+   
+TEXT 56d9992fdc89441400fdb59e = The Panthers line also featured veteran defensive end Jared Allen, a 5-time pro bowler who was the NFL's active career sack leader with 136, along with defensive end Kony Ealy, who had 5 sacks in just 9 starts.
+   
+ANSWERS 56d9992fdc89441400fdb59e = {'kony ealy'}
+   
+SET_PREDICTIONS 56d9992fdc89441400fdb59e = ['panthers', 'jared allen', '5time', 'nfl', '136', 'kony ealy', '5', '9']
+   
+FINAL_PREDICTION 56d9992fdc89441400fdb59e = panthers
+ 
+  
+------------------  
+   
+  
+QUESTION 56d9992fdc89441400fdb59f = Who was the Panthers' tackle leader for 2015?
+   
+TEXT 56d9992fdc89441400fdb59f = Behind them, two of the Panthers three starting linebackers were also selected to play in the Pro Bowl: Thomas Davis and Luke Kuechly.
+   
+ANSWERS 56d9992fdc89441400fdb59f = {'short', 'luke kuechly'}
+   
+SET_PREDICTIONS 56d9992fdc89441400fdb59f = ['two', 'three', 'pro bowl', 'thomas davis', 'luke kuechly']
+   
+FINAL_PREDICTION 56d9992fdc89441400fdb59f = luke kuechly
+ 
+  
+------------------  
+   
+  
+QUESTION 56beb4e43aeaaa14008c9265 = Who is the head coach of the Broncos?
+   
+TEXT 56beb4e43aeaaa14008c9265 = Following their loss in the divisional round of the previous season's playoffs, the Denver Broncos underwent numerous coaching changes, including a mutual parting with head coach John Fox (who had won four divisional championships in his four years as Broncos head coach), and the hiring of Gary Kubiak as the new head coach.
+   
+ANSWERS 56beb4e43aeaaa14008c9265 = {'gary kubiak', 'kubiak'}
+   
+SET_PREDICTIONS 56beb4e43aeaaa14008c9265 = ['previous seasons', 'denver broncos', 'john fox', 'four', 'his four years', 'broncos', 'gary kubiak']
+   
+FINAL_PREDICTION 56beb4e43aeaaa14008c9265 = his four years
+ 
+  
+------------------  
+   
+  
+QUESTION 56beb4e43aeaaa14008c9266 = Who played quarterback for the Broncos after Peyton Manning was benched?
+   
+TEXT 56beb4e43aeaaa14008c9266 = He set the NFL's all-time record for career passing yards in this game, but was benched after throwing four interceptions in favor of backup quarterback Brock Osweiler, who took over as the starter for most of the remainder of the regular season.
+   
+ANSWERS 56beb4e43aeaaa14008c9266 = {'osweiler', 'brock osweiler'}
+   
+SET_PREDICTIONS 56beb4e43aeaaa14008c9266 = ['nfl', 'four', 'brock osweiler', 'regular season']
+   
+FINAL_PREDICTION 56beb4e43aeaaa14008c9266 = nfl
+ 
+  
+------------------  
+   
+  
+QUESTION 56beb4e43aeaaa14008c9267 = Who did Peyton Manning play for as a rookie?
+   
+TEXT 56beb4e43aeaaa14008c9267 = Under Kubiak, the Broncos planned to install a run-oriented offense with zone blocking to blend in with quarterback Peyton Manning's shotgun passing skills, but struggled with numerous changes and injuries to the offensive line, as well as Manning having his worst statistical season since his rookie year with the Indianapolis Colts in 1998, due to a plantar fasciitis injury in his heel that he had suffered since the summer, and the simple fact that Manning was getting old, as he turned 39 in the 2015 off-season.
+   
+ANSWERS 56beb4e43aeaaa14008c9267 = {'indianapolis colts', 'colts'}
+   
+SET_PREDICTIONS 56beb4e43aeaaa14008c9267 = ['kubiak', 'broncos', 'peyton mannings', 'manning', 'indianapolis colts', '1998', 'summer', 'manning', '39', '2015 offseason']
+   
+FINAL_PREDICTION 56beb4e43aeaaa14008c9267 = peyton mannings
+ 
+  
+------------------  
+   
+  
+QUESTION 56beb4e43aeaaa14008c9268 = Who did the Broncos play in the last week of the regular season?
+   
+TEXT 56beb4e43aeaaa14008c9268 = Osweiler was injured, however, leading to Manning's return during the Week 17 regular season finale, where the Broncos were losing 13–7 against the 4–11 San Diego Chargers, resulting in Manning re-claiming the starting quarterback position for the playoffs by leading the team to a key 27–20 win that enabled the team to clinch the number one overall AFC seed.
+   
+ANSWERS 56beb4e43aeaaa14008c9268 = {'san diego chargers', 'chargers'}
+   
+SET_PREDICTIONS 56beb4e43aeaaa14008c9268 = ['osweiler', 'manning', 'week 17 regular season finale', 'broncos', '13–7', 'san diego chargers', 'manning', 'one', 'afc']
+   
+FINAL_PREDICTION 56beb4e43aeaaa14008c9268 = week 17 regular season finale
+ 
+  
+------------------  
+   
+  
+QUESTION 56beb4e43aeaaa14008c9269 = Who is Denver's defensive coordinator?
+   
+TEXT 56beb4e43aeaaa14008c9269 = Under defensive coordinator Wade Phillips, the Broncos' defense ranked number one in total yards allowed, passing yards allowed and sacks, and like the previous three seasons, the team has continued to set numerous individual, league and franchise records.
+   
+ANSWERS 56beb4e43aeaaa14008c9269 = {'phillips', 'wade phillips'}
+   
+SET_PREDICTIONS 56beb4e43aeaaa14008c9269 = ['wade phillips', 'broncos', 'one', 'previous three seasons']
+   
+FINAL_PREDICTION 56beb4e43aeaaa14008c9269 = one
+ 
+  
+------------------  
+   
+  
+QUESTION 56d6f4030d65d2140019829b = Who was the quarterback for the Broncos 2015 season?
+   
+TEXT 56d6f4030d65d2140019829b = Under Kubiak, the Broncos planned to install a run-oriented offense with zone blocking to blend in with quarterback Peyton Manning's shotgun passing skills, but struggled with numerous changes and injuries to the offensive line, as well as Manning having his worst statistical season since his rookie year with the Indianapolis Colts in 1998, due to a plantar fasciitis injury in his heel that he had suffered since the summer, and the simple fact that Manning was getting old, as he turned 39 in the 2015 off-season.
+   
+ANSWERS 56d6f4030d65d2140019829b = {'manning', 'peyton manning'}
+   
+SET_PREDICTIONS 56d6f4030d65d2140019829b = ['kubiak', 'broncos', 'peyton mannings', 'manning', 'indianapolis colts', '1998', 'summer', 'manning', '39', '2015 offseason']
+   
+FINAL_PREDICTION 56d6f4030d65d2140019829b = broncos
+ 
+  
+------------------  
+   
+  
+QUESTION 56d99b7bdc89441400fdb5ca = Who was the Denver head coach for Super Bowl 50?
+   
+TEXT 56d99b7bdc89441400fdb5ca = Following their loss in the divisional round of the previous season's playoffs, the Denver Broncos underwent numerous coaching changes, including a mutual parting with head coach John Fox (who had won four divisional championships in his four years as Broncos head coach), and the hiring of Gary Kubiak as the new head coach.
+   
+ANSWERS 56d99b7bdc89441400fdb5ca = {'gary kubiak', 'kubiak'}
+   
+SET_PREDICTIONS 56d99b7bdc89441400fdb5ca = ['previous seasons', 'denver broncos', 'john fox', 'four', 'his four years', 'broncos', 'gary kubiak']
+   
+FINAL_PREDICTION 56d99b7bdc89441400fdb5ca = denver broncos
+ 
+  
+------------------  
+   
+  
+QUESTION 56d99b7bdc89441400fdb5cc = Who was the defensive coordinator for the Broncos in 2015?
+   
+TEXT 56d99b7bdc89441400fdb5cc = Under defensive coordinator Wade Phillips, the Broncos' defense ranked number one in total yards allowed, passing yards allowed and sacks, and like the previous three seasons, the team has continued to set numerous individual, league and franchise records.
+   
+ANSWERS 56d99b7bdc89441400fdb5cc = {'phillips', 'wade phillips'}
+   
+SET_PREDICTIONS 56d99b7bdc89441400fdb5cc = ['wade phillips', 'broncos', 'one', 'previous three seasons']
+   
+FINAL_PREDICTION 56d99b7bdc89441400fdb5cc = broncos
+ 
+  
+------------------  
+   
+  
+QUESTION 56beb57b3aeaaa14008c927b = Who registered the most receptions on the Broncos?
+   
+TEXT 56beb57b3aeaaa14008c927b = Veteran receiver Demaryius Thomas led the team with 105 receptions for 1,304 yards and six touchdowns, while Emmanuel Sanders caught 76 passes for 1,135 yards and six scores, while adding another 106 yards returning punts.
+   
+ANSWERS 56beb57b3aeaaa14008c927b = {'demaryius thomas', 'thomas'}
+   
+SET_PREDICTIONS 56beb57b3aeaaa14008c927b = ['demaryius thomas', '105', '1304 yards', 'six', 'emmanuel sanders', '76', '1135 yards', 'six', 'another 106 yards']
+   
+FINAL_PREDICTION 56beb57b3aeaaa14008c927b = another 106 yards
+ 
+  
+------------------  
+   
+  
+QUESTION 56beb57b3aeaaa14008c927c = Who had the most rushing yards on the Broncos?
+   
+TEXT 56beb57b3aeaaa14008c927c = Running back C. J. Anderson was the team's leading rusher 863 yards and seven touchdowns, while also catching 25 passes for 183 yards.
+   
+ANSWERS 56beb57b3aeaaa14008c927c = {'anderson', 'c j anderson'}
+   
+SET_PREDICTIONS 56beb57b3aeaaa14008c927c = ['c j anderson', '863 yards', 'seven', '25', '183 yards']
+   
+FINAL_PREDICTION 56beb57b3aeaaa14008c927c = 863 yards
+ 
+  
+------------------  
+   
+  
+QUESTION 56bf38383aeaaa14008c956e = Who had the most receptions out of all players for the year?
+   
+TEXT 56bf38383aeaaa14008c956e = Veteran receiver Demaryius Thomas led the team with 105 receptions for 1,304 yards and six touchdowns, while Emmanuel Sanders caught 76 passes for 1,135 yards and six scores, while adding another 106 yards returning punts.
+   
+ANSWERS 56bf38383aeaaa14008c956e = {'demaryius thomas', 'thomas'}
+   
+SET_PREDICTIONS 56bf38383aeaaa14008c956e = ['demaryius thomas', '105', '1304 yards', 'six', 'emmanuel sanders', '76', '1135 yards', 'six', 'another 106 yards']
+   
+FINAL_PREDICTION 56bf38383aeaaa14008c956e = another 106 yards
+ 
+  
+------------------  
+   
+  
+QUESTION 56d6fe0b0d65d214001982a6 = Who led the Broncos with 105 receptions?
+   
+TEXT 56d6fe0b0d65d214001982a6 = Veteran receiver Demaryius Thomas led the team with 105 receptions for 1,304 yards and six touchdowns, while Emmanuel Sanders caught 76 passes for 1,135 yards and six scores, while adding another 106 yards returning punts.
+   
+ANSWERS 56d6fe0b0d65d214001982a6 = {'demaryius thomas', 'thomas'}
+   
+SET_PREDICTIONS 56d6fe0b0d65d214001982a6 = ['demaryius thomas', '105', '1304 yards', 'six', 'emmanuel sanders', '76', '1135 yards', 'six', 'another 106 yards']
+   
+FINAL_PREDICTION 56d6fe0b0d65d214001982a6 = another 106 yards
+ 
+  
+------------------  
+   
+  
+QUESTION 56d99c44dc89441400fdb5d9 = Who was the Broncos' leading rusher for the 2015 season?
+   
+TEXT 56d99c44dc89441400fdb5d9 = Running back C. J. Anderson was the team's leading rusher 863 yards and seven touchdowns, while also catching 25 passes for 183 yards.
+   
+ANSWERS 56d99c44dc89441400fdb5d9 = {'anderson', 'c j anderson'}
+   
+SET_PREDICTIONS 56d99c44dc89441400fdb5d9 = ['c j anderson', '863 yards', 'seven', '25', '183 yards']
+   
+FINAL_PREDICTION 56d99c44dc89441400fdb5d9 = 863 yards
+ 
+  
+------------------  
+   
+  
+QUESTION 56beb6533aeaaa14008c9290 = Who was first on the team in total tackles?
+   
+TEXT 56beb6533aeaaa14008c9290 = Linebacker Brandon Marshall led the team in total tackles with 109, while Danny Trevathan ranked second with 102.
+   
+ANSWERS 56beb6533aeaaa14008c9290 = {'marshall', 'brandon marshall'}
+   
+SET_PREDICTIONS 56beb6533aeaaa14008c9290 = ['linebacker brandon marshall', '109', 'danny trevathan', 'second', '102']
+   
+FINAL_PREDICTION 56beb6533aeaaa14008c9290 = second
+ 
+  
+------------------  
+   
+  
+QUESTION 56d99da8dc89441400fdb5fd = Who forced four fumbles for the Broncos in the 2015 season?
+   
+TEXT 56d99da8dc89441400fdb5fd = Pro Bowl linebacker Von Miller led the team with 11 sacks, forced four fumbles, and recovered three.
+   
+ANSWERS 56d99da8dc89441400fdb5fd = {'von miller', 'miller'}
+   
+SET_PREDICTIONS 56d99da8dc89441400fdb5fd = ['von miller', '11', 'four', 'three']
+   
+FINAL_PREDICTION 56d99da8dc89441400fdb5fd = three
+ 
+  
+------------------  
+   
+  
+QUESTION 56beb6f23aeaaa14008c92a1 = Who lost to the Panthers in the divisional round of the playoffs?
+   
+TEXT 56beb6f23aeaaa14008c92a1 = The Panthers beat the Seattle Seahawks in the divisional round, running up a 31–0 halftime lead and then holding off a furious second half comeback attempt to win 31–24, avenging their elimination from a year earlier.
+   
+ANSWERS 56beb6f23aeaaa14008c92a1 = {'seahawks', 'seattle seahawks'}
+   
+SET_PREDICTIONS 56beb6f23aeaaa14008c92a1 = ['panthers', 'seattle seahawks', '31–0', 'second', 'half', '31–24', 'year earlier']
+   
+FINAL_PREDICTION 56beb6f23aeaaa14008c92a1 = panthers
+ 
+  
+------------------  
+   
+  
+QUESTION 56beb6f23aeaaa14008c92a2 = Who did the Panthers face in the NFC Championship Game?
+   
+TEXT 56beb6f23aeaaa14008c92a2 = The Panthers then blew out the Arizona Cardinals in the NFC Championship Game, 49–15, racking up 487 yards and forcing seven turnovers.
+   
+ANSWERS 56beb6f23aeaaa14008c92a2 = {'cardinals', 'arizona cardinals'}
+   
+SET_PREDICTIONS 56beb6f23aeaaa14008c92a2 = ['arizona cardinals', 'nfc championship game', '49–15', '487 yards', 'seven']
+   
+FINAL_PREDICTION 56beb6f23aeaaa14008c92a2 = nfc championship game
+ 
+  
+------------------  
+   
+  
+QUESTION 56d701280d65d214001982b8 = Who did Carolina beat in the divisional round?
+   
+TEXT 56d701280d65d214001982b8 = The Panthers beat the Seattle Seahawks in the divisional round, running up a 31–0 halftime lead and then holding off a furious second half comeback attempt to win 31–24, avenging their elimination from a year earlier.
+   
+ANSWERS 56d701280d65d214001982b8 = {'seahawks', 'seattle seahawks'}
+   
+SET_PREDICTIONS 56d701280d65d214001982b8 = ['panthers', 'seattle seahawks', '31–0', 'second', 'half', '31–24', 'year earlier']
+   
+FINAL_PREDICTION 56d701280d65d214001982b8 = year earlier
+ 
+  
+------------------  
+   
+  
+QUESTION 56d701280d65d214001982ba = Who did the Panthers play to advance to the Super Bowl?
+   
+TEXT 56d701280d65d214001982ba = The Panthers then blew out the Arizona Cardinals in the NFC Championship Game, 49–15, racking up 487 yards and forcing seven turnovers.
+   
+ANSWERS 56d701280d65d214001982ba = {'cardinals', 'arizona cardinals'}
+   
+SET_PREDICTIONS 56d701280d65d214001982ba = ['arizona cardinals', 'nfc championship game', '49–15', '487 yards', 'seven']
+   
+FINAL_PREDICTION 56d701280d65d214001982ba = nfc championship game
+ 
+  
+------------------  
+   
+  
+QUESTION 56d99e78dc89441400fdb616 = Who did the Panthers beat in the divisional round?
+   
+TEXT 56d99e78dc89441400fdb616 = The Panthers beat the Seattle Seahawks in the divisional round, running up a 31–0 halftime lead and then holding off a furious second half comeback attempt to win 31–24, avenging their elimination from a year earlier.
+   
+ANSWERS 56d99e78dc89441400fdb616 = {'seahawks', 'seattle seahawks'}
+   
+SET_PREDICTIONS 56d99e78dc89441400fdb616 = ['panthers', 'seattle seahawks', '31–0', 'second', 'half', '31–24', 'year earlier']
+   
+FINAL_PREDICTION 56d99e78dc89441400fdb616 = panthers
+ 
+  
+------------------  
+   
+  
+QUESTION 56d99e78dc89441400fdb619 = Who did the Panthers play in their division championship game?
+   
+TEXT 56d99e78dc89441400fdb619 = The Panthers then blew out the Arizona Cardinals in the NFC Championship Game, 49–15, racking up 487 yards and forcing seven turnovers.
+   
+ANSWERS 56d99e78dc89441400fdb619 = {'cardinals', 'seattle seahawks', 'arizona cardinals'}
+   
+SET_PREDICTIONS 56d99e78dc89441400fdb619 = ['arizona cardinals', 'nfc championship game', '49–15', '487 yards', 'seven']
+   
+FINAL_PREDICTION 56d99e78dc89441400fdb619 = nfc championship game
+ 
+  
+------------------  
+   
+  
+QUESTION 56beb7953aeaaa14008c92ab = Who lost to the Broncos in the divisional round?
+   
+TEXT 56beb7953aeaaa14008c92ab = The Broncos defeated the Pittsburgh Steelers in the divisional round, 23–16, by scoring 11 points in the final three minutes of the game.
+   
+ANSWERS 56beb7953aeaaa14008c92ab = {'steelers', 'pittsburgh steelers'}
+   
+SET_PREDICTIONS 56beb7953aeaaa14008c92ab = ['broncos', 'pittsburgh steelers', '23–16', '11', 'final three minutes']
+   
+FINAL_PREDICTION 56beb7953aeaaa14008c92ab = broncos
+ 
+  
+------------------  
+   
+  
+QUESTION 56beb7953aeaaa14008c92ad = Who won Super Bowl XLIX?
+   
+TEXT 56beb7953aeaaa14008c92ad = They then beat the defending Super Bowl XLIX champion New England Patriots in the AFC Championship Game, 20–18, by intercepting a pass on New England's 2-point conversion attempt with 17 seconds left on the clock.
+   
+ANSWERS 56beb7953aeaaa14008c92ad = {'patriots', 'new england patriots'}
+   
+SET_PREDICTIONS 56beb7953aeaaa14008c92ad = ['super bowl', 'new england patriots', 'afc championship game', '20–18', 'new englands', '2point', '17 seconds']
+   
+FINAL_PREDICTION 56beb7953aeaaa14008c92ad = super bowl
+ 
+  
+------------------  
+   
+  
+QUESTION 56bf36b93aeaaa14008c9563 = Who won Super Bowl XLIX?
+   
+TEXT 56bf36b93aeaaa14008c9563 = They then beat the defending Super Bowl XLIX champion New England Patriots in the AFC Championship Game, 20–18, by intercepting a pass on New England's 2-point conversion attempt with 17 seconds left on the clock.
+   
+ANSWERS 56bf36b93aeaaa14008c9563 = {'patriots', 'new england patriots'}
+   
+SET_PREDICTIONS 56bf36b93aeaaa14008c9563 = ['super bowl', 'new england patriots', 'afc championship game', '20–18', 'new englands', '2point', '17 seconds']
+   
+FINAL_PREDICTION 56bf36b93aeaaa14008c9563 = super bowl
+ 
+  
+------------------  
+   
+  
+QUESTION 56bf36b93aeaaa14008c9565 = During the Bronco's playoff games, who did not throw at all?
+   
+TEXT 56bf36b93aeaaa14008c9565 = Despite Manning's problems with interceptions during the season, he didn't throw any in their two playoff games.
+   
+ANSWERS 56bf36b93aeaaa14008c9565 = {'manning'}
+   
+SET_PREDICTIONS 56bf36b93aeaaa14008c9565 = ['manning', 'two']
+   
+FINAL_PREDICTION 56bf36b93aeaaa14008c9565 = two
+ 
+  
+------------------  
+   
+  
+QUESTION 56d7018a0d65d214001982c2 = Who did the Broncos beat in the divisional game?
+   
+TEXT 56d7018a0d65d214001982c2 = The Broncos defeated the Pittsburgh Steelers in the divisional round, 23–16, by scoring 11 points in the final three minutes of the game.
+   
+ANSWERS 56d7018a0d65d214001982c2 = {'steelers', 'pittsburgh steelers'}
+   
+SET_PREDICTIONS 56d7018a0d65d214001982c2 = ['broncos', 'pittsburgh steelers', '23–16', '11', 'final three minutes']
+   
+FINAL_PREDICTION 56d7018a0d65d214001982c2 = broncos
+ 
+  
+------------------  
+   
+  
+QUESTION 56d7018a0d65d214001982c5 = Who did the Broncos defeat in the AFC Championship game?
+   
+TEXT 56d7018a0d65d214001982c5 = They then beat the defending Super Bowl XLIX champion New England Patriots in the AFC Championship Game, 20–18, by intercepting a pass on New England's 2-point conversion attempt with 17 seconds left on the clock.
+   
+ANSWERS 56d7018a0d65d214001982c5 = {'patriots', 'new england patriots'}
+   
+SET_PREDICTIONS 56d7018a0d65d214001982c5 = ['super bowl', 'new england patriots', 'afc championship game', '20–18', 'new englands', '2point', '17 seconds']
+   
+FINAL_PREDICTION 56d7018a0d65d214001982c5 = afc championship game
+ 
+  
+------------------  
+   
+  
+QUESTION 56d99f99dc89441400fdb628 = Who did the Broncos beat to win their division in 2015?
+   
+TEXT 56d99f99dc89441400fdb628 = The Broncos defeated the Pittsburgh Steelers in the divisional round, 23–16, by scoring 11 points in the final three minutes of the game.
+   
+ANSWERS 56d99f99dc89441400fdb628 = {'steelers', 'pittsburgh steelers'}
+   
+SET_PREDICTIONS 56d99f99dc89441400fdb628 = ['broncos', 'pittsburgh steelers', '23–16', '11', 'final three minutes']
+   
+FINAL_PREDICTION 56d99f99dc89441400fdb628 = broncos
+ 
+  
+------------------  
+   
+  
+QUESTION 56d99f99dc89441400fdb629 = Who did the Broncos beat tp become the AFC champions?
+   
+TEXT 56d99f99dc89441400fdb629 = They then beat the defending Super Bowl XLIX champion New England Patriots in the AFC Championship Game, 20–18, by intercepting a pass on New England's 2-point conversion attempt with 17 seconds left on the clock.
+   
+ANSWERS 56d99f99dc89441400fdb629 = {'patriots', 'new england patriots'}
+   
+SET_PREDICTIONS 56d99f99dc89441400fdb629 = ['super bowl', 'new england patriots', 'afc championship game', '20–18', 'new englands', '2point', '17 seconds']
+   
+FINAL_PREDICTION 56d99f99dc89441400fdb629 = afc championship game
+ 
+  
+------------------  
+   
+  
+QUESTION 56d9a026dc89441400fdb632 = Who suffered a broken arm in the NFC Championship Game?
+   
+TEXT 56d9a026dc89441400fdb632 = Carolina suffered a major setback when Thomas Davis, an 11-year veteran who had already overcome three ACL tears in his career, went down with a broken arm in the NFC Championship Game.
+   
+ANSWERS 56d9a026dc89441400fdb632 = {'davis', 'thomas davis'}
+   
+SET_PREDICTIONS 56d9a026dc89441400fdb632 = ['carolina', 'thomas davis', 'three', 'acl', 'nfc championship game']
+   
+FINAL_PREDICTION 56d9a026dc89441400fdb632 = nfc championship game
+ 
+  
+------------------  
+   
+  
+QUESTION 56beb86b3aeaaa14008c92be = Who previously held the record for being the oldest quarterback to play in a Super Bowl?
+   
+TEXT 56beb86b3aeaaa14008c92be = The past record was held by John Elway, who led the Broncos to victory in Super Bowl XXXIII at age 38 and is currently Denver's Executive Vice President of Football Operations and General Manager.
+   
+ANSWERS 56beb86b3aeaaa14008c92be = {'elway', 'john elway'}
+   
+SET_PREDICTIONS 56beb86b3aeaaa14008c92be = ['john elway', 'broncos', 'super bowl xxxiii', 'age 38', 'denver', 'football operations']
+   
+FINAL_PREDICTION 56beb86b3aeaaa14008c92be = super bowl xxxiii
+ 
+  
+------------------  
+   
+  
+QUESTION 56beb86b3aeaaa14008c92c1 = Who did John Elway play for in Super Bowl XXXIII?
+   
+TEXT 56beb86b3aeaaa14008c92c1 = The past record was held by John Elway, who led the Broncos to victory in Super Bowl XXXIII at age 38 and is currently Denver's Executive Vice President of Football Operations and General Manager.
+   
+ANSWERS 56beb86b3aeaaa14008c92c1 = {'broncos'}
+   
+SET_PREDICTIONS 56beb86b3aeaaa14008c92c1 = ['john elway', 'broncos', 'super bowl xxxiii', 'age 38', 'denver', 'football operations']
+   
+FINAL_PREDICTION 56beb86b3aeaaa14008c92c1 = john elway
+ 
+  
+------------------  
+   
+  
+QUESTION 56bf3fd53aeaaa14008c9592 = Who is the General Manager for the Broncos?
+   
+TEXT 56bf3fd53aeaaa14008c9592 = The past record was held by John Elway, who led the Broncos to victory in Super Bowl XXXIII at age 38 and is currently Denver's Executive Vice President of Football Operations and General Manager.
+   
+ANSWERS 56bf3fd53aeaaa14008c9592 = {'elway', 'john elway'}
+   
+SET_PREDICTIONS 56bf3fd53aeaaa14008c9592 = ['john elway', 'broncos', 'super bowl xxxiii', 'age 38', 'denver', 'football operations']
+   
+FINAL_PREDICTION 56bf3fd53aeaaa14008c9592 = football operations
+ 
+  
+------------------  
+   
+  
+ERROR 56bf3fd53aeaaa14008c9594
+QUESTION 56bf3fd53aeaaa14008c9594 = Who has the record of being the oldest quarter back in any Super Bowl game?
+   
+TEXT 56bf3fd53aeaaa14008c9594 = Peyton Manning became the first quarterback ever to lead two different teams to multiple Super Bowls.
+   
+ANSWERS 56bf3fd53aeaaa14008c9594 = {'manning', 'peyton manning'}
+   
+SET_PREDICTIONS 56bf3fd53aeaaa14008c9594 = ['peyton', 'first', 'two', 'super bowls']
+   
+FINAL_PREDICTION 56bf3fd53aeaaa14008c9594 = super bowls
+ 
+  
+------------------  
+   
+  
+ERROR 56d704430d65d214001982e0
+QUESTION 56d704430d65d214001982e0 = Who is the oldest quarterback to play in a Super Bowl?
+   
+TEXT 56d704430d65d214001982e0 = Peyton Manning became the first quarterback ever to lead two different teams to multiple Super Bowls.
+   
+ANSWERS 56d704430d65d214001982e0 = {'manning', 'peyton manning'}
+   
+SET_PREDICTIONS 56d704430d65d214001982e0 = ['peyton', 'first', 'two', 'super bowls']
+   
+FINAL_PREDICTION 56d704430d65d214001982e0 = super bowls
+ 
+  
+------------------  
+   
+  
+QUESTION 56d704430d65d214001982e1 = Prior to Manning, who was the oldest quarterback to play in a Super Bowl?
+   
+TEXT 56d704430d65d214001982e1 = The past record was held by John Elway, who led the Broncos to victory in Super Bowl XXXIII at age 38 and is currently Denver's Executive Vice President of Football Operations and General Manager.
+   
+ANSWERS 56d704430d65d214001982e1 = {'elway', 'john elway'}
+   
+SET_PREDICTIONS 56d704430d65d214001982e1 = ['john elway', 'broncos', 'super bowl xxxiii', 'age 38', 'denver', 'football operations']
+   
+FINAL_PREDICTION 56d704430d65d214001982e1 = super bowl xxxiii
+ 
+  
+------------------  
+   
+  
+ERROR 56d9a0eadc89441400fdb63e
+QUESTION 56d9a0eadc89441400fdb63e = Who was the first quarterback to take two teams to more than one Super Bowl?
+   
+TEXT 56d9a0eadc89441400fdb63e = Peyton Manning became the first quarterback ever to lead two different teams to multiple Super Bowls.
+   
+ANSWERS 56d9a0eadc89441400fdb63e = {'manning', 'peyton manning'}
+   
+SET_PREDICTIONS 56d9a0eadc89441400fdb63e = ['peyton', 'first', 'two', 'super bowls']
+   
+FINAL_PREDICTION 56d9a0eadc89441400fdb63e = two
+ 
+  
+------------------  
+   
+  
+QUESTION 56beb90c3aeaaa14008c92cb = Who was the #2 pick in the 2011 NFL Draft?
+   
+TEXT 56beb90c3aeaaa14008c92cb = The matchup also pits the top two picks of the 2011 draft against each other: Newton for Carolina and Von Miller for Denver.
+   
+ANSWERS 56beb90c3aeaaa14008c92cb = {'von miller', 'miller'}
+   
+SET_PREDICTIONS 56beb90c3aeaaa14008c92cb = ['two', '2011', 'newton', 'carolina', 'von miller', 'denver']
+   
+FINAL_PREDICTION 56beb90c3aeaaa14008c92cb = 2011
+ 
+  
+------------------  
+   
+  
+QUESTION 56bf41013aeaaa14008c959b = Who was considered to be the first choice in the NFL draft of 1998?
+   
+TEXT 56bf41013aeaaa14008c959b = Manning was the #1 selection of the 1998 NFL draft, while Newton was picked first in 2011.
+   
+ANSWERS 56bf41013aeaaa14008c959b = {'manning'}
+   
+SET_PREDICTIONS 56bf41013aeaaa14008c959b = ['manning', '1', '1998', 'nfl', 'newton', 'first', '2011']
+   
+FINAL_PREDICTION 56bf41013aeaaa14008c959b = first
+ 
+  
+------------------  
+   
+  
+QUESTION 56bf41013aeaaa14008c959c = In 2011, who was the first player to be chosen in the NFL draft?
+   
+TEXT 56bf41013aeaaa14008c959c = Manning was the #1 selection of the 1998 NFL draft, while Newton was picked first in 2011.
+   
+ANSWERS 56bf41013aeaaa14008c959c = {'newton'}
+   
+SET_PREDICTIONS 56bf41013aeaaa14008c959c = ['manning', '1', '1998', 'nfl', 'newton', 'first', '2011']
+   
+FINAL_PREDICTION 56bf41013aeaaa14008c959c = first
+ 
+  
+------------------  
+   
+  
+QUESTION 56d7096b0d65d214001982fe = Who was the number two draft pick for 2011?
+   
+TEXT 56d7096b0d65d214001982fe = The matchup also pits the top two picks of the 2011 draft against each other: Newton for Carolina and Von Miller for Denver.
+   
+ANSWERS 56d7096b0d65d214001982fe = {'von miller', 'miller'}
+   
+SET_PREDICTIONS 56d7096b0d65d214001982fe = ['two', '2011', 'newton', 'carolina', 'von miller', 'denver']
+   
+FINAL_PREDICTION 56d7096b0d65d214001982fe = two
+ 
+  
+------------------  
+   
+  
+QUESTION 56beb97c3aeaaa14008c92de = Who was replaced by Kubiak in Super Bowl XXIV?
+   
+TEXT 56beb97c3aeaaa14008c92de = With Rivera having been a linebacker with the Chicago Bears in Super Bowl XX, and Kubiak replacing Elway at the end of the Broncos' defeats in Super Bowls XXI and XXIV, this will be the first Super Bowl in which both head coaches played in the game themselves.
+   
+ANSWERS 56beb97c3aeaaa14008c92de = {'elway'}
+   
+SET_PREDICTIONS 56beb97c3aeaaa14008c92de = ['chicago bears', 'super bowl xx', 'kubiak', 'elway', 'end of', 'broncos', 'super bowls xxi', 'xxiv', 'first', 'super bowl']
+   
+FINAL_PREDICTION 56beb97c3aeaaa14008c92de = super bowl
+ 
+  
+------------------  
+   
+  
+QUESTION 56bf6c3e3aeaaa14008c9617 = Who did Kubiak take the place of after Super Bowl XXIV?
+   
+TEXT 56bf6c3e3aeaaa14008c9617 = With Rivera having been a linebacker with the Chicago Bears in Super Bowl XX, and Kubiak replacing Elway at the end of the Broncos' defeats in Super Bowls XXI and XXIV, this will be the first Super Bowl in which both head coaches played in the game themselves.
+   
+ANSWERS 56bf6c3e3aeaaa14008c9617 = {'elway'}
+   
+SET_PREDICTIONS 56bf6c3e3aeaaa14008c9617 = ['chicago bears', 'super bowl xx', 'kubiak', 'elway', 'end of', 'broncos', 'super bowls xxi', 'xxiv', 'first', 'super bowl']
+   
+FINAL_PREDICTION 56bf6c3e3aeaaa14008c9617 = super bowl
+ 
+  
+------------------  
+   
+  
+ERROR 56d709ef0d65d21400198306
+QUESTION 56d709ef0d65d21400198306 = Who was the Panthers head coach for the 2015 season?
+   
+TEXT 56d709ef0d65d21400198306 = With Rivera having been a linebacker with the Chicago Bears in Super Bowl XX, and Kubiak replacing Elway at the end of the Broncos' defeats in Super Bowls XXI and XXIV, this will be the first Super Bowl in which both head coaches played in the game themselves.
+   
+ANSWERS 56d709ef0d65d21400198306 = {'rivera'}
+   
+SET_PREDICTIONS 56d709ef0d65d21400198306 = ['chicago bears', 'super bowl xx', 'kubiak', 'elway', 'end of', 'broncos', 'super bowls xxi', 'xxiv', 'first', 'super bowl']
+   
+FINAL_PREDICTION 56d709ef0d65d21400198306 = end of
+ 
+  
+------------------  
+   
+  
+QUESTION 56beba103aeaaa14008c92e5 = Who slipped on the Levi's Stadium turf in week 6 of the 2015 NFL season?
+   
+TEXT 56beba103aeaaa14008c92e5 = Concerns were raised over whether Levi's Stadium's field was of a high enough quality to host a Super Bowl; during the inaugural season, the field had to be re-sodded multiple times due to various issues, and during a week 6 game earlier in the 2015 season, a portion of the turf collapsed under Baltimore Ravens kicker Justin Tucker, causing him to slip and miss a field goal, although the field has not had any major issues since.
+   
+ANSWERS 56beba103aeaaa14008c92e5 = {'tucker', 'justin tucker'}
+   
+SET_PREDICTIONS 56beba103aeaaa14008c92e5 = ['levis stadiums', 'super bowl', 'inaugural season', 'week 6', 'earlier in 2015 season', 'baltimore', 'ravens', 'justin tucker']
+   
+FINAL_PREDICTION 56beba103aeaaa14008c92e5 = earlier in 2015 season
+ 
+  
+------------------  
+   
+  
+QUESTION 56beba103aeaaa14008c92e7 = Who is the field director of the NFL?
+   
+TEXT 56beba103aeaaa14008c92e7 = NFL and Atlanta Braves field director Ed Mangan stated that the field was in "great shape" for gameday.
+   
+ANSWERS 56beba103aeaaa14008c92e7 = {'mangan', 'ed mangan'}
+   
+SET_PREDICTIONS 56beba103aeaaa14008c92e7 = ['nfl', 'atlanta braves', 'ed mangan']
+   
+FINAL_PREDICTION 56beba103aeaaa14008c92e7 = ed mangan
+ 
+  
+------------------  
+   
+  
+QUESTION 56bebad93aeaaa14008c92f9 = Who was designated as the home team in the Super Bowl?
+   
+TEXT 56bebad93aeaaa14008c92f9 = As the designated home team in the annual rotation between AFC and NFC teams, the Broncos elected to wear their road white jerseys with matching white pants.
+   
+ANSWERS 56bebad93aeaaa14008c92f9 = {'broncos'}
+   
+SET_PREDICTIONS 56bebad93aeaaa14008c92f9 = ['annual', 'afc', 'nfc', 'broncos']
+   
+FINAL_PREDICTION 56bebad93aeaaa14008c92f9 = broncos
+ 
+  
+------------------  
+   
+  
+QUESTION 56d70ccc0d65d2140019831f = Who is the only other AFC Champion team to wear road jerseys in a Super Bowl?
+   
+TEXT 56d70ccc0d65d2140019831f = The only other AFC champion team to have worn white as the designated home team in the Super Bowl was the Pittsburgh Steelers; they defeated the Seattle Seahawks 21–10 in Super Bowl XL 10 seasons prior.
+   
+ANSWERS 56d70ccc0d65d2140019831f = {'steelers', 'pittsburgh steelers'}
+   
+SET_PREDICTIONS 56d70ccc0d65d2140019831f = ['afc', 'super bowl', 'pittsburgh steelers', 'seattle', 'super bowl xl 10 seasons']
+   
+FINAL_PREDICTION 56d70ccc0d65d2140019831f = super bowl xl 10 seasons
+ 
+  
+------------------  
+   
+  
+QUESTION 56bebbbf3aeaaa14008c9317 = Who is the NFL's vice president of brand and creative?
+   
+TEXT 56bebbbf3aeaaa14008c9317 = Jaime Weston, the league's vice president of brand and creative, explained that a primary reason for the change was the difficulty of designing an aesthetically pleasing logo with the letter "L" using the standardized logo template introduced at Super Bowl XLV.
+   
+ANSWERS 56bebbbf3aeaaa14008c9317 = {'weston', 'jaime weston'}
+   
+SET_PREDICTIONS 56bebbbf3aeaaa14008c9317 = ['jaime weston', 'super bowl xlv']
+   
+FINAL_PREDICTION 56bebbbf3aeaaa14008c9317 = jaime weston
+ 
+  
+------------------  
+   
+  
+ERROR 56bebbbf3aeaaa14008c9319
+QUESTION 56bebbbf3aeaaa14008c9319 = Who is the trophy featured on the logo named for?
+   
+TEXT 56bebbbf3aeaaa14008c9319 = The logo also deviates from the template by featuring large numerals, colored in gold, behind the Vince Lombardi Trophy, instead of underneath and in silver as in the standard logo.
+   
+ANSWERS 56bebbbf3aeaaa14008c9319 = {'vince lombardi', 'lombardi', 'vince lombardi trophy'}
+   
+SET_PREDICTIONS 56bebbbf3aeaaa14008c9319 = []
+   
+FINAL_PREDICTION 56bebbbf3aeaaa14008c9319 = 
+ 
+  
+------------------  
+   
+  
+QUESTION 56bebcbe3aeaaa14008c9327 = Who is the mayor of San Francisco?
+   
+TEXT 56bebcbe3aeaaa14008c9327 = San Francisco mayor Ed Lee said of the highly visible homeless presence in this area "they are going to have to leave".
+   
+ANSWERS 56bebcbe3aeaaa14008c9327 = {'lee', 'ed lee'}
+   
+SET_PREDICTIONS 56bebcbe3aeaaa14008c9327 = ['san francisco', 'ed lee']
+   
+FINAL_PREDICTION 56bebcbe3aeaaa14008c9327 = san francisco
+ 
+  
+------------------  
+   
+  
+QUESTION 56bebcbe3aeaaa14008c9328 = Who is the city supervisor of San Francisco?
+   
+TEXT 56bebcbe3aeaaa14008c9328 = San Francisco city supervisor Jane Kim unsuccessfully lobbied for the NFL to reimburse San Francisco for city services in the amount of $5 million.
+   
+ANSWERS 56bebcbe3aeaaa14008c9328 = {'kim', 'jane kim'}
+   
+SET_PREDICTIONS 56bebcbe3aeaaa14008c9328 = ['san francisco', 'jane kim', 'nfl', 'san francisco', '5 million']
+   
+FINAL_PREDICTION 56bebcbe3aeaaa14008c9328 = san francisco
+ 
+  
+------------------  
+   
+  
+QUESTION 56bf53e73aeaaa14008c95cc = Who was the mayor of San Francisco during Super Bowl 50? 
+   
+TEXT 56bf53e73aeaaa14008c95cc = San Francisco mayor Ed Lee said of the highly visible homeless presence in this area "they are going to have to leave".
+   
+ANSWERS 56bf53e73aeaaa14008c95cc = {'lee', 'ed lee'}
+   
+SET_PREDICTIONS 56bf53e73aeaaa14008c95cc = ['san francisco', 'ed lee']
+   
+FINAL_PREDICTION 56bf53e73aeaaa14008c95cc = san francisco
+ 
+  
+------------------  
+   
+  
+QUESTION 56d7145c0d65d2140019834f = Who is the mayor of San Francisco?
+   
+TEXT 56d7145c0d65d2140019834f = San Francisco mayor Ed Lee said of the highly visible homeless presence in this area "they are going to have to leave".
+   
+ANSWERS 56d7145c0d65d2140019834f = {'lee', 'ed lee'}
+   
+SET_PREDICTIONS 56d7145c0d65d2140019834f = ['san francisco', 'ed lee']
+   
+FINAL_PREDICTION 56d7145c0d65d2140019834f = san francisco
+ 
+  
+------------------  
+   
+  
+QUESTION 56d9b389dc89441400fdb6ee = Who said the homeless in the area would have to leave?
+   
+TEXT 56d9b389dc89441400fdb6ee = San Francisco mayor Ed Lee said of the highly visible homeless presence in this area "they are going to have to leave".
+   
+ANSWERS 56d9b389dc89441400fdb6ee = {'mayor ed lee', 'ed lee'}
+   
+SET_PREDICTIONS 56d9b389dc89441400fdb6ee = ['san francisco', 'ed lee']
+   
+FINAL_PREDICTION 56d9b389dc89441400fdb6ee = san francisco
+ 
+  
+------------------  
+   
+  
+ERROR 56d714cd0d65d21400198358
+QUESTION 56d714cd0d65d21400198358 = Who helped find sponsors and donors to help with the cost?
+   
+TEXT 56d714cd0d65d21400198358 = A professional fundraiser will aid in finding business sponsors and individual donors, but still may need the city council to help fund the event.
+   
+ANSWERS 56d714cd0d65d21400198358 = {'professional fundraiser'}
+   
+SET_PREDICTIONS 56d714cd0d65d21400198358 = []
+   
+FINAL_PREDICTION 56d714cd0d65d21400198358 = 
+ 
+  
+------------------  
+   
+  
+ERROR 56d714cd0d65d21400198359
+QUESTION 56d714cd0d65d21400198359 = Who set aside seed funding for the week-long event leading up to the Super Bowl?
+   
+TEXT 56d714cd0d65d21400198359 = A professional fundraiser will aid in finding business sponsors and individual donors, but still may need the city council to help fund the event.
+   
+ANSWERS 56d714cd0d65d21400198359 = {'city council'}
+   
+SET_PREDICTIONS 56d714cd0d65d21400198359 = []
+   
+FINAL_PREDICTION 56d714cd0d65d21400198359 = 
+ 
+  
+------------------  
+   
+  
+ERROR 56d9b43edc89441400fdb701
+QUESTION 56d9b43edc89441400fdb701 = Who may have been called upon to fund the festival associated with the Super Bowl in Santa Clara?
+   
+TEXT 56d9b43edc89441400fdb701 = A professional fundraiser will aid in finding business sponsors and individual donors, but still may need the city council to help fund the event.
+   
+ANSWERS 56d9b43edc89441400fdb701 = {'city council'}
+   
+SET_PREDICTIONS 56d9b43edc89441400fdb701 = []
+   
+FINAL_PREDICTION 56d9b43edc89441400fdb701 = 
+ 
+  
+------------------  
+   
+  
+QUESTION 56bec0353aeaaa14008c934d = Who is the trophy given to the Super Bowl champion named for?
+   
+TEXT 56bec0353aeaaa14008c934d = In addition to the Vince Lombardi Trophy that all Super Bowl champions receive, the winner of Super Bowl 50 will also receive a large, 18-karat gold-plated "50".
+   
+ANSWERS 56bec0353aeaaa14008c934d = {'vince lombardi', 'lombardi'}
+   
+SET_PREDICTIONS 56bec0353aeaaa14008c934d = ['vince lombardi trophy', 'super bowl', 'super bowl', '50', '18karat', '50']
+   
+FINAL_PREDICTION 56bec0353aeaaa14008c934d = super bowl
+ 
+  
+------------------  
+   
+  
+QUESTION 56bec0353aeaaa14008c9350 = Who designed the "50"?
+   
+TEXT 56bec0353aeaaa14008c9350 = Like the Lombardi Trophy, the "50" will be designed by Tiffany & Co.
+   
+ANSWERS 56bec0353aeaaa14008c9350 = {'tiffany co'}
+   
+SET_PREDICTIONS 56bec0353aeaaa14008c9350 = ['lombardi trophy', '50', 'tiffany co']
+   
+FINAL_PREDICTION 56bec0353aeaaa14008c9350 = lombardi trophy
+ 
+  
+------------------  
+   
+  
+QUESTION 56bec0353aeaaa14008c9351 = Who designed the Vince Lombardi Trophy?
+   
+TEXT 56bec0353aeaaa14008c9351 = Like the Lombardi Trophy, the "50" will be designed by Tiffany & Co.
+   
+ANSWERS 56bec0353aeaaa14008c9351 = {'tiffany co'}
+   
+SET_PREDICTIONS 56bec0353aeaaa14008c9351 = ['lombardi trophy', '50', 'tiffany co']
+   
+FINAL_PREDICTION 56bec0353aeaaa14008c9351 = lombardi trophy
+ 
+  
+------------------  
+   
+  
+QUESTION 56bf5b933aeaaa14008c95f1 = Who is the designer of the "50?"
+   
+TEXT 56bf5b933aeaaa14008c95f1 = Like the Lombardi Trophy, the "50" will be designed by Tiffany & Co.
+   
+ANSWERS 56bf5b933aeaaa14008c95f1 = {'tiffany co'}
+   
+SET_PREDICTIONS 56bf5b933aeaaa14008c95f1 = ['lombardi trophy', '50', 'tiffany co']
+   
+FINAL_PREDICTION 56bf5b933aeaaa14008c95f1 = tiffany co
+ 
+  
+------------------  
+   
+  
+QUESTION 56d71d9d0d65d21400198377 = Who designs both the "50" as well as the Trophy?
+   
+TEXT 56d71d9d0d65d21400198377 = Like the Lombardi Trophy, the "50" will be designed by Tiffany & Co.
+   
+ANSWERS 56d71d9d0d65d21400198377 = {'tiffany co'}
+   
+SET_PREDICTIONS 56d71d9d0d65d21400198377 = ['lombardi trophy', '50', 'tiffany co']
+   
+FINAL_PREDICTION 56d71d9d0d65d21400198377 = lombardi trophy
+ 
+  
+------------------  
+   
+  
+QUESTION 56bec0dd3aeaaa14008c9358 = Who, with Jim Nantz, was a member of the game's lead broadcast team?
+   
+TEXT 56bec0dd3aeaaa14008c9358 = The network's lead broadcast team of Jim Nantz and Phil Simms called the contest, with Tracy Wolfson and Evan Washburn on the sidelines.
+   
+ANSWERS 56bec0dd3aeaaa14008c9358 = {'phil simms'}
+   
+SET_PREDICTIONS 56bec0dd3aeaaa14008c9358 = ['jim nantz', 'phil simms', 'tracy wolfson', 'evan washburn']
+   
+FINAL_PREDICTION 56bec0dd3aeaaa14008c9358 = jim nantz
+ 
+  
+------------------  
+   
+  
+QUESTION 56bec0dd3aeaaa14008c9359 = Who shared sideline duties with Evan Washburn?
+   
+TEXT 56bec0dd3aeaaa14008c9359 = The network's lead broadcast team of Jim Nantz and Phil Simms called the contest, with Tracy Wolfson and Evan Washburn on the sidelines.
+   
+ANSWERS 56bec0dd3aeaaa14008c9359 = {'tracy wolfson'}
+   
+SET_PREDICTIONS 56bec0dd3aeaaa14008c9359 = ['jim nantz', 'phil simms', 'tracy wolfson', 'evan washburn']
+   
+FINAL_PREDICTION 56bec0dd3aeaaa14008c9359 = evan washburn
+ 
+  
+------------------  
+   
+  
+ERROR 56d9b7dcdc89441400fdb741
+QUESTION 56d9b7dcdc89441400fdb741 = Who were the announcers of Super Bowl 50?
+   
+TEXT 56d9b7dcdc89441400fdb741 = The network's lead broadcast team of Jim Nantz and Phil Simms called the contest, with Tracy Wolfson and Evan Washburn on the sidelines.
+   
+ANSWERS 56d9b7dcdc89441400fdb741 = {'jim nantz and phil simms'}
+   
+SET_PREDICTIONS 56d9b7dcdc89441400fdb741 = ['jim nantz', 'phil simms', 'tracy wolfson', 'evan washburn']
+   
+FINAL_PREDICTION 56d9b7dcdc89441400fdb741 = jim nantz
+ 
+  
+------------------  
+   
+  
+ERROR 56d9b7dcdc89441400fdb742
+QUESTION 56d9b7dcdc89441400fdb742 = Who were the Super Bowl 50 sideline announcers?
+   
+TEXT 56d9b7dcdc89441400fdb742 = The network's lead broadcast team of Jim Nantz and Phil Simms called the contest, with Tracy Wolfson and Evan Washburn on the sidelines.
+   
+ANSWERS 56d9b7dcdc89441400fdb742 = {'tracy wolfson and evan washburn'}
+   
+SET_PREDICTIONS 56d9b7dcdc89441400fdb742 = ['jim nantz', 'phil simms', 'tracy wolfson', 'evan washburn']
+   
+FINAL_PREDICTION 56d9b7dcdc89441400fdb742 = phil simms
+ 
+  
+------------------  
+   
+  
+QUESTION 56bec1823aeaaa14008c9362 = Who reported on the sideline for ESPN Deportes?
+   
+TEXT 56bec1823aeaaa14008c9362 = The game was called by ESPN Deportes' Monday Night Football commentary crew of Alvaro Martin and Raul Allegre, and sideline reporter John Sutcliffe.
+   
+ANSWERS 56bec1823aeaaa14008c9362 = {'sutcliffe', 'john sutcliffe'}
+   
+SET_PREDICTIONS 56bec1823aeaaa14008c9362 = ['espn', 'deportes', 'monday', 'alvaro martin', 'raul allegre', 'john sutcliffe']
+   
+FINAL_PREDICTION 56bec1823aeaaa14008c9362 = espn
+ 
+  
+------------------  
+   
+  
+QUESTION 56bec1823aeaaa14008c9363 = Who provided Spanish-language commentary alongside Raul Allegre?
+   
+TEXT 56bec1823aeaaa14008c9363 = The game was called by ESPN Deportes' Monday Night Football commentary crew of Alvaro Martin and Raul Allegre, and sideline reporter John Sutcliffe.
+   
+ANSWERS 56bec1823aeaaa14008c9363 = {'alvaro martin'}
+   
+SET_PREDICTIONS 56bec1823aeaaa14008c9363 = ['espn', 'deportes', 'monday', 'alvaro martin', 'raul allegre', 'john sutcliffe']
+   
+FINAL_PREDICTION 56bec1823aeaaa14008c9363 = raul allegre
+ 
+  
+------------------  
+   
+  
+QUESTION 56d71fc00d65d21400198386 = Who exclusively broadcast the game in Spanish after reaching an agreement with the NFL and CBS?
+   
+TEXT 56d71fc00d65d21400198386 = On December 28, 2015, ESPN Deportes announced that they had reached an agreement with CBS and the NFL to be the exclusive Spanish-language broadcaster of the game, marking the third dedicated Spanish-language broadcast of the Super Bowl.
+   
+ANSWERS 56d71fc00d65d21400198386 = {'espn deportes'}
+   
+SET_PREDICTIONS 56d71fc00d65d21400198386 = ['december 28 2015', 'espn deportes', 'cbs', 'nfl', 'spanish', 'third', 'spanish', 'super bowl']
+   
+FINAL_PREDICTION 56d71fc00d65d21400198386 = espn deportes
+ 
+  
+------------------  
+   
+  
+QUESTION 56d71fc00d65d21400198389 = Who was the sideline reporter for ESPN Deportes?
+   
+TEXT 56d71fc00d65d21400198389 = The game was called by ESPN Deportes' Monday Night Football commentary crew of Alvaro Martin and Raul Allegre, and sideline reporter John Sutcliffe.
+   
+ANSWERS 56d71fc00d65d21400198389 = {'sutcliffe', 'john sutcliffe'}
+   
+SET_PREDICTIONS 56d71fc00d65d21400198389 = ['espn', 'deportes', 'monday', 'alvaro martin', 'raul allegre', 'john sutcliffe']
+   
+FINAL_PREDICTION 56d71fc00d65d21400198389 = espn
+ 
+  
+------------------  
+   
+  
+ERROR 56d9ba95dc89441400fdb757
+QUESTION 56d9ba95dc89441400fdb757 = Who were the ESPN Deportes commentators for Super Bowl 50?
+   
+TEXT 56d9ba95dc89441400fdb757 = The game was called by ESPN Deportes' Monday Night Football commentary crew of Alvaro Martin and Raul Allegre, and sideline reporter John Sutcliffe.
+   
+ANSWERS 56d9ba95dc89441400fdb757 = {'alvaro martin and raul allegre'}
+   
+SET_PREDICTIONS 56d9ba95dc89441400fdb757 = ['espn', 'deportes', 'monday', 'alvaro martin', 'raul allegre', 'john sutcliffe']
+   
+FINAL_PREDICTION 56d9ba95dc89441400fdb757 = espn
+ 
+  
+------------------  
+   
+  
+QUESTION 56d9ba95dc89441400fdb758 = Who was the ESPN Deportes sideline commentator for Super Bowl 50?
+   
+TEXT 56d9ba95dc89441400fdb758 = The game was called by ESPN Deportes' Monday Night Football commentary crew of Alvaro Martin and Raul Allegre, and sideline reporter John Sutcliffe.
+   
+ANSWERS 56d9ba95dc89441400fdb758 = {'sutcliffe', 'john sutcliffe'}
+   
+SET_PREDICTIONS 56d9ba95dc89441400fdb758 = ['espn', 'deportes', 'monday', 'alvaro martin', 'raul allegre', 'john sutcliffe']
+   
+FINAL_PREDICTION 56d9ba95dc89441400fdb758 = espn
+ 
+  
+------------------  
+   
+  

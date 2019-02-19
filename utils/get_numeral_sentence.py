@@ -36,7 +36,15 @@ def num_sentence(position, answer_text, text):
         time.sleep(5)
         return 0
 
-
+def get_sentence(answer, text):
+    '''
+    Fonction qui va retourner la phrase (string) qui inclu la réponse
+    :param answer: la question incluant sa position et son text
+    :param text: le paragraphe
+    :return:la phrase incluant la reponse
+    '''
+    index_sentence = num_sentence(answer['answer_start'], answer["text"], text)
+    return sent_tokenize(text)[index_sentence]
 
 
 # def num_sentence(position, text):

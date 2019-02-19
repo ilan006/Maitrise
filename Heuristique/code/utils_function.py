@@ -3,6 +3,7 @@ Classe avec toute les fonctions utilisé pour retourner le span réponse
 '''
 import spacy
 nlp_spacy = spacy.load('en_core_web_sm')
+nlp_spacy.entity.set_annotations
 
 # from interesting_entities import *
 from segtok.segmenter import split_single
@@ -15,13 +16,13 @@ tagger_pos = SequenceTagger.load('pos')
 from utils import *
 
 from random import randint
-import fastText
-model_fastText = fastText.load_model('../../../Divers_Data_Maitrise/wiki.simple/wiki.simple.bin')
+# import fastText
+# model_fastText = fastText.load_model('../../../Divers_Data_Maitrise/wiki.simple/wiki.simple.bin')
 
 class Function_prediction:
 #
     available_methods = ['first', 'embeding', 'random','Qembeding']
-    available_models = ['ner_PRG_spacy', 'ner_SENT_spacy','ner_PRG_flair', 'ner_SENT_flair' ]
+    available_models = ['ner_PRG_spacy', 'ner_SENT_spacy','ner_PRG_flair', 'ner_SENT_flair','all_ner_PRG_spacy', ]
     list_type_question_interesting = ['Where?', 'How much / many?', 'What name / is called?', 'Who?', 'When / What year?']
 
     def __init__(self, type_method: str, model : str):
@@ -54,6 +55,10 @@ class Function_prediction:
             interisting_entities_list = ("PERSON", "ORG", "NORP", "GPE", "PRODUCT")
         elif type_question == 'When / What year?':
             interisting_entities_list = ("TIME", "DATE", "EVENT")
+        else:
+            interisting_entities_list = ("PERSON","NORP","FAC","ORG","GPE","LOC","PRODUCT",
+                                         "EVENT","WORK_OF_ART","LAW","LANGUAGE","DATE","TIME","PERCENT",
+                                         "MONEY","QUANTITY","ORDINAL","CARDINAL")
         return interisting_entities_list
 
 
@@ -125,6 +130,7 @@ class Function_prediction:
         elif self.type_method == 'embeding':
             self._predict_function = Function_prediction.get_embeding
             self._description = 'On retourne la prediction la plus proche de la question (embeding cosine).'
+        self._description += 'On s\'interesse ici juste à la phrase contenant la première réponse.'
     def get_description(self):
         '''
         :return: la description textuelle de la methode utilisée
@@ -149,9 +155,6 @@ class Function_prediction:
         return self._predict_function(list_predictions,question_str)
 
     def interesting_questions(type_question):
-        '''
-        return toujours vrai
-        '''
         return type_question in Function_prediction.list_type_question_interesting
 
     def all_questions(type_question):
@@ -175,30 +178,47 @@ class Function_prediction:
         if self.model == 'ner_PRG_spacy':
             self._list_predictions_function = Function_prediction.model_ner_PRG_spacy
             self._interesting_entities_method = Function_prediction.interesting_questions
-            self.model_description = 'Prédictions realisées sur l\'ensemble du paragraphe avec spacy'
+            self.model_description = 'Prédictions realisées sur l\'ensemble du text avec spacy.'
         elif self.model == 'ner_SENT_spacy':
             self._list_predictions_function = Function_prediction.model_ner_SENT_spacy
             self._interesting_entities_method = Function_prediction.interesting_questions
-            self.model_description = 'Prédictions realisées sur chacune des phrases avec spacy'
+            self.model_description = 'Prédictions realisées sur chacune des phrases du text avec spacy.'
         elif self.model == 'ner_PRG_flair':
             self._list_predictions_function = Function_prediction.model_ner_PRG_flair
             self._interesting_entities_method = Function_prediction.interesting_questions
-            self.model_description = 'Prédictions realisées sur l\'ensemble du paragraphe avec flair'
+            self.model_description = 'Prédictions realisées sur l\'ensemble du text avec flair.'
         elif self.model == 'ner_SENT_flair':
             self._list_predictions_function = Function_prediction.model_ner_SENT_flair
             self._interesting_entities_method = Function_prediction.interesting_questions
-            self.model_description = 'Prédictions realisées sur chacune des phrases avec flair'
+            self.model_description = 'Prédictions realisées sur chacune des phrases du text avec flair.'
         elif self.model == 'NP_PRG_spacy':
             self._list_predictions_function = Function_prediction.model_NP_PRG_spacy
             self._interesting_entities_method = Function_prediction.all_questions
-            self.model_description = 'Prédictions realisées sur l\'ensemble du paragraphe avec spacy'
+            self.model_description = 'Prédictions realisées sur l\'ensemble du text avec spacy.'
         elif self.model == 'NP_ner_PRG_spacy':
             self._list_predictions_function = Function_prediction.model_NP_ner_PRG_spacy
             self._interesting_entities_method = Function_prediction.all_questions
-            self.model_description = 'Prédictions realisées sur l\'ensemble du paragraphe avec spacy'
+            self.model_description = 'Prédictions realisées sur l\'ensemble du text avec spacy.'
+        elif self.model == 'all_ner_PRG_spacy':
+            self._list_predictions_function = Function_prediction.model_all_ner_PRG_spacy
+            self._interesting_entities_method = Function_prediction.interesting_questions
+            self.model_description = 'Prédictions realisées sur l\'ensemble du text avec spacy.'
 
     def get_list_predictions(self,paragraph , type_question = None):
         return self._list_predictions_function(paragraph,type_question)
+
+    def model_all_ner_PRG_spacy(paragraph , type_question):
+        '''
+        fonciton qui va retourner l'ensemble des entité nommé detecter dans le text
+        :param type_question:
+        :return:
+        '''
+        nlp_paragraph = nlp_spacy(paragraph)
+        list_predictions_data = []
+        for entity in nlp_paragraph.ents:
+            if entity.label_ in Function_prediction.interesting_entities(type_question) and len(normalize_answer(entity.text)):
+                list_predictions_data.append(normalize_answer(entity.text))
+        return list_predictions_data
 
     def model_ner_PRG_spacy(paragraph , type_question):
         nlp_paragraph = nlp_spacy(paragraph)

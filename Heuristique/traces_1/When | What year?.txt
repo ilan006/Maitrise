@@ -1,0 +1,616 @@
+QUESTION 56bf10f43aeaaa14008c94fd = What year did the Denver Broncos secure a Super Bowl title for the third time?
+   
+TEXT 56bf10f43aeaaa14008c94fd = Super Bowl 50 was an American football game to determine the champion of the National Football League (NFL) for the 2015 season.
+   
+ANSWERS 56bf10f43aeaaa14008c94fd = {'2016', '2015'}
+   
+SET_PREDICTIONS 56bf10f43aeaaa14008c94fd = ['super bowl', '50', 'american', 'national football league', 'nfl', '2015 season']
+   
+FINAL_PREDICTION 56bf10f43aeaaa14008c94fd = super bowl
+ 
+  
+------------------  
+   
+  
+QUESTION 56d20362e7d4791d009025e8 = What year was Super Bowl 50?
+   
+TEXT 56d20362e7d4791d009025e8 = Super Bowl 50 was an American football game to determine the champion of the National Football League (NFL) for the 2015 season.
+   
+ANSWERS 56d20362e7d4791d009025e8 = {'2016', '2015'}
+   
+SET_PREDICTIONS 56d20362e7d4791d009025e8 = ['super bowl', '50', 'american', 'national football league', 'nfl', '2015 season']
+   
+FINAL_PREDICTION 56d20362e7d4791d009025e8 = super bowl
+ 
+  
+------------------  
+   
+  
+QUESTION 56be4e1facb8001400a502fa = What year was the Carolina Panthers franchise founded?
+   
+TEXT 56be4e1facb8001400a502fa = They defeated the Arizona Cardinals 49–15 in the NFC Championship Game and advanced to their second Super Bowl appearance since the franchise was founded in 1995.
+   
+ANSWERS 56be4e1facb8001400a502fa = {'1995'}
+   
+SET_PREDICTIONS 56be4e1facb8001400a502fa = ['arizona cardinals 49–15', 'nfc championship game', 'second', 'super bowl', '1995']
+   
+FINAL_PREDICTION 56be4e1facb8001400a502fa = nfc championship game
+ 
+  
+------------------  
+   
+  
+QUESTION 56d98a59dc89441400fdb52e = What year did the Carolina Panthers form?
+   
+TEXT 56d98a59dc89441400fdb52e = They defeated the Arizona Cardinals 49–15 in the NFC Championship Game and advanced to their second Super Bowl appearance since the franchise was founded in 1995.
+   
+ANSWERS 56d98a59dc89441400fdb52e = {'1995'}
+   
+SET_PREDICTIONS 56d98a59dc89441400fdb52e = ['arizona cardinals 49–15', 'nfc championship game', 'second', 'super bowl', '1995']
+   
+FINAL_PREDICTION 56d98a59dc89441400fdb52e = arizona cardinals 49–15
+ 
+  
+------------------  
+   
+  
+QUESTION 56be53b8acb8001400a50316 = In what year did Roger Goodell call Super Bowl 50 'an important game for us as a league'?
+   
+TEXT 56be53b8acb8001400a50316 = In early 2012, NFL Commissioner Roger Goodell stated that the league planned to make the 50th Super Bowl "spectacular" and that it would be "an important game for us as a league".
+   
+ANSWERS 56be53b8acb8001400a50316 = {'2012'}
+   
+SET_PREDICTIONS 56be53b8acb8001400a50316 = ['early 2012', 'nfl', 'roger goodell', '50th', 'super bowl']
+   
+FINAL_PREDICTION 56be53b8acb8001400a50316 = super bowl
+ 
+  
+------------------  
+   
+  
+QUESTION 56beafca3aeaaa14008c9208 = When did he make the quoted remarks about Super Bowl 50?
+   
+TEXT 56beafca3aeaaa14008c9208 = In early 2012, NFL Commissioner Roger Goodell stated that the league planned to make the 50th Super Bowl "spectacular" and that it would be "an important game for us as a league".
+   
+ANSWERS 56beafca3aeaaa14008c9208 = {'early 2012', '2012', 'in early 2012'}
+   
+SET_PREDICTIONS 56beafca3aeaaa14008c9208 = ['early 2012', 'nfl', 'roger goodell', '50th', 'super bowl']
+   
+FINAL_PREDICTION 56beafca3aeaaa14008c9208 = super bowl
+ 
+  
+------------------  
+   
+  
+QUESTION 56d98d0adc89441400fdb54f = What year did Roger Goodell announce that Super Bowl 50 would be "important"?
+   
+TEXT 56d98d0adc89441400fdb54f = In early 2012, NFL Commissioner Roger Goodell stated that the league planned to make the 50th Super Bowl "spectacular" and that it would be "an important game for us as a league".
+   
+ANSWERS 56d98d0adc89441400fdb54f = {'2012'}
+   
+SET_PREDICTIONS 56d98d0adc89441400fdb54f = ['early 2012', 'nfl', 'roger goodell', '50th', 'super bowl']
+   
+FINAL_PREDICTION 56d98d0adc89441400fdb54f = super bowl
+ 
+  
+------------------  
+   
+  
+QUESTION 56be54bdacb8001400a50322 = When were the two finalists for hosting Super Bowl 50 announced?
+   
+TEXT 56be54bdacb8001400a50322 = The league announced on October 16, 2012, that the two finalists were Sun Life Stadium and Levi's Stadium.
+   
+ANSWERS 56be54bdacb8001400a50322 = {'october 16 2012'}
+   
+SET_PREDICTIONS 56be54bdacb8001400a50322 = ['october 16 2012', 'two', 'sun life stadium']
+   
+FINAL_PREDICTION 56be54bdacb8001400a50322 = two
+ 
+  
+------------------  
+   
+  
+QUESTION 56be54bdacb8001400a50325 = When was the most recent Super Bowl hosted in the South Florida/Miami area?
+   
+TEXT 56be54bdacb8001400a50325 = The South Florida/Miami area has previously hosted the event 10 times (tied for most with New Orleans), with the most recent one being Super Bowl XLIV in 2010.
+   
+ANSWERS 56be54bdacb8001400a50325 = {'2010'}
+   
+SET_PREDICTIONS 56be54bdacb8001400a50325 = ['south florida', 'miami', '10', 'new orleans', 'super bowl xliv', '2010']
+   
+FINAL_PREDICTION 56be54bdacb8001400a50325 = super bowl xliv
+ 
+  
+------------------  
+   
+  
+QUESTION 56be54bdacb8001400a50326 = When did the San Francisco Bay area last host the Super Bowl?
+   
+TEXT 56be54bdacb8001400a50326 = The San Francisco Bay Area last hosted in 1985 (Super Bowl XIX), held at Stanford Stadium in Stanford, California, won by the home team 49ers.
+   
+ANSWERS 56be54bdacb8001400a50326 = {'1985'}
+   
+SET_PREDICTIONS 56be54bdacb8001400a50326 = ['san francisco bay area', '1985', 'super bowl xix', 'stanford stadium', 'stanford', 'california', '49ers']
+   
+FINAL_PREDICTION 56be54bdacb8001400a50326 = san francisco bay area
+ 
+  
+------------------  
+   
+  
+QUESTION 56beb0f43aeaaa14008c921c = When were the finalists announced?
+   
+TEXT 56beb0f43aeaaa14008c921c = The league announced on October 16, 2012, that the two finalists were Sun Life Stadium and Levi's Stadium.
+   
+ANSWERS 56beb0f43aeaaa14008c921c = {'october 16 2012'}
+   
+SET_PREDICTIONS 56beb0f43aeaaa14008c921c = ['october 16 2012', 'two', 'sun life stadium']
+   
+FINAL_PREDICTION 56beb0f43aeaaa14008c921c = two
+ 
+  
+------------------  
+   
+  
+QUESTION 56beb0f43aeaaa14008c921f = In what year was the Super Bowl last held in the Miami/South Florida area?
+   
+TEXT 56beb0f43aeaaa14008c921f = The South Florida/Miami area has previously hosted the event 10 times (tied for most with New Orleans), with the most recent one being Super Bowl XLIV in 2010.
+   
+ANSWERS 56beb0f43aeaaa14008c921f = {'2010'}
+   
+SET_PREDICTIONS 56beb0f43aeaaa14008c921f = ['south florida', 'miami', '10', 'new orleans', 'super bowl xliv', '2010']
+   
+FINAL_PREDICTION 56beb0f43aeaaa14008c921f = super bowl xliv
+ 
+  
+------------------  
+   
+  
+QUESTION 56d6ef6a0d65d21400198260 = Prior to this consideration, when did San Francisco last host a Super Bowl?
+   
+TEXT 56d6ef6a0d65d21400198260 = The San Francisco Bay Area last hosted in 1985 (Super Bowl XIX), held at Stanford Stadium in Stanford, California, won by the home team 49ers.
+   
+ANSWERS 56d6ef6a0d65d21400198260 = {'1985'}
+   
+SET_PREDICTIONS 56d6ef6a0d65d21400198260 = ['san francisco bay area', '1985', 'super bowl xix', 'stanford stadium', 'stanford', 'california', '49ers']
+   
+FINAL_PREDICTION 56d6ef6a0d65d21400198260 = san francisco bay area
+ 
+  
+------------------  
+   
+  
+QUESTION 56d98f0ddc89441400fdb55b = When was the last time San Francisco hosted a Super Bowl?
+   
+TEXT 56d98f0ddc89441400fdb55b = The San Francisco Bay Area last hosted in 1985 (Super Bowl XIX), held at Stanford Stadium in Stanford, California, won by the home team 49ers.
+   
+ANSWERS 56d98f0ddc89441400fdb55b = {'1985'}
+   
+SET_PREDICTIONS 56d98f0ddc89441400fdb55b = ['san francisco bay area', '1985', 'super bowl xix', 'stanford stadium', 'stanford', 'california', '49ers']
+   
+FINAL_PREDICTION 56d98f0ddc89441400fdb55b = san francisco bay area
+ 
+  
+------------------  
+   
+  
+QUESTION 56be5523acb8001400a5032c = When was Levi's Stadium awarded the right to host Super Bowl 50?
+   
+TEXT 56be5523acb8001400a5032c = On May 21, 2013, NFL owners at their spring meetings in Boston voted and awarded the game to Levi's Stadium.
+   
+ANSWERS 56be5523acb8001400a5032c = {'may 21 2013'}
+   
+SET_PREDICTIONS 56be5523acb8001400a5032c = ['may 21 2013', 'nfl', 'spring', 'boston', 'levis stadium']
+   
+FINAL_PREDICTION 56be5523acb8001400a5032c = levis stadium
+ 
+  
+------------------  
+   
+  
+QUESTION 56be5523acb8001400a5032e = When did Lev's Stadium open?
+   
+TEXT 56be5523acb8001400a5032e = The $1.2 billion stadium opened in 2014.
+   
+ANSWERS 56be5523acb8001400a5032e = {'in 2014', '2014'}
+   
+SET_PREDICTIONS 56be5523acb8001400a5032e = ['12 billion', '2014']
+   
+FINAL_PREDICTION 56be5523acb8001400a5032e = 12 billion
+ 
+  
+------------------  
+   
+  
+QUESTION 56bf23363aeaaa14008c952f = What year did Levi's Stadium become fully approved to host Super Bowl 50?
+   
+TEXT 56bf23363aeaaa14008c952f = On May 21, 2013, NFL owners at their spring meetings in Boston voted and awarded the game to Levi's Stadium.
+   
+ANSWERS 56bf23363aeaaa14008c952f = {'2013'}
+   
+SET_PREDICTIONS 56bf23363aeaaa14008c952f = ['may 21 2013', 'nfl', 'spring', 'boston', 'levis stadium']
+   
+FINAL_PREDICTION 56bf23363aeaaa14008c952f = levis stadium
+ 
+  
+------------------  
+   
+  
+QUESTION 56bf23363aeaaa14008c9530 = When did Levi's stadium open to the public? 
+   
+TEXT 56bf23363aeaaa14008c9530 = The $1.2 billion stadium opened in 2014.
+   
+ANSWERS 56bf23363aeaaa14008c9530 = {'2014'}
+   
+SET_PREDICTIONS 56bf23363aeaaa14008c9530 = ['12 billion', '2014']
+   
+FINAL_PREDICTION 56bf23363aeaaa14008c9530 = 12 billion
+ 
+  
+------------------  
+   
+  
+QUESTION 56bf23363aeaaa14008c9532 = What year did a Super Bowl play in the bay area around San Francisco, prior to Super Bowl 50?
+   
+TEXT 56bf23363aeaaa14008c9532 = It is the first Super Bowl held in the San Francisco Bay Area since Super Bowl XIX in 1985, and the first in California since Super Bowl XXXVII took place in San Diego in 2003.
+   
+ANSWERS 56bf23363aeaaa14008c9532 = {'1985'}
+   
+SET_PREDICTIONS 56bf23363aeaaa14008c9532 = ['first', 'super bowl', 'san francisco bay area', 'super bowl xix', '1985', 'first', 'california', 'super bowl xxxvii', 'san diego', '2003']
+   
+FINAL_PREDICTION 56bf23363aeaaa14008c9532 = super bowl
+ 
+  
+------------------  
+   
+  
+QUESTION 56d6f0770d65d21400198268 = When was San Francisco voted to be the location for Super Bowl 50?
+   
+TEXT 56d6f0770d65d21400198268 = On May 21, 2013, NFL owners at their spring meetings in Boston voted and awarded the game to Levi's Stadium.
+   
+ANSWERS 56d6f0770d65d21400198268 = {'may 21 2013'}
+   
+SET_PREDICTIONS 56d6f0770d65d21400198268 = ['may 21 2013', 'nfl', 'spring', 'boston', 'levis stadium']
+   
+FINAL_PREDICTION 56d6f0770d65d21400198268 = nfl
+ 
+  
+------------------  
+   
+  
+QUESTION 56d6f0770d65d21400198269 = When did Levi's Stadium open?
+   
+TEXT 56d6f0770d65d21400198269 = The $1.2 billion stadium opened in 2014.
+   
+ANSWERS 56d6f0770d65d21400198269 = {'in 2014', '2014'}
+   
+SET_PREDICTIONS 56d6f0770d65d21400198269 = ['12 billion', '2014']
+   
+FINAL_PREDICTION 56d6f0770d65d21400198269 = 12 billion
+ 
+  
+------------------  
+   
+  
+QUESTION 56d6f0770d65d2140019826a = When was the last Super Bowl in California?
+   
+TEXT 56d6f0770d65d2140019826a = It is the first Super Bowl held in the San Francisco Bay Area since Super Bowl XIX in 1985, and the first in California since Super Bowl XXXVII took place in San Diego in 2003.
+   
+ANSWERS 56d6f0770d65d2140019826a = {'2003', 'in 2003'}
+   
+SET_PREDICTIONS 56d6f0770d65d2140019826a = ['first', 'super bowl', 'san francisco bay area', 'super bowl xix', '1985', 'first', 'california', 'super bowl xxxvii', 'san diego', '2003']
+   
+FINAL_PREDICTION 56d6f0770d65d2140019826a = super bowl
+ 
+  
+------------------  
+   
+  
+QUESTION 56d98fbfdc89441400fdb562 = When was Levi's Stadium picked for Super bowl 50?
+   
+TEXT 56d98fbfdc89441400fdb562 = On May 21, 2013, NFL owners at their spring meetings in Boston voted and awarded the game to Levi's Stadium.
+   
+ANSWERS 56d98fbfdc89441400fdb562 = {'may 21 2013'}
+   
+SET_PREDICTIONS 56d98fbfdc89441400fdb562 = ['may 21 2013', 'nfl', 'spring', 'boston', 'levis stadium']
+   
+FINAL_PREDICTION 56d98fbfdc89441400fdb562 = levis stadium
+ 
+  
+------------------  
+   
+  
+QUESTION 56d98fbfdc89441400fdb563 = When did Levi's Stadium open?
+   
+TEXT 56d98fbfdc89441400fdb563 = The $1.2 billion stadium opened in 2014.
+   
+ANSWERS 56d98fbfdc89441400fdb563 = {'in 2014', '2014'}
+   
+SET_PREDICTIONS 56d98fbfdc89441400fdb563 = ['12 billion', '2014']
+   
+FINAL_PREDICTION 56d98fbfdc89441400fdb563 = 12 billion
+ 
+  
+------------------  
+   
+  
+QUESTION 56d98fbfdc89441400fdb565 = When was the last time California hosted a Super Bowl?
+   
+TEXT 56d98fbfdc89441400fdb565 = It is the first Super Bowl held in the San Francisco Bay Area since Super Bowl XIX in 1985, and the first in California since Super Bowl XXXVII took place in San Diego in 2003.
+   
+ANSWERS 56d98fbfdc89441400fdb565 = {'2003'}
+   
+SET_PREDICTIONS 56d98fbfdc89441400fdb565 = ['first', 'super bowl', 'san francisco bay area', 'super bowl xix', '1985', 'first', 'california', 'super bowl xxxvii', 'san diego', '2003']
+   
+FINAL_PREDICTION 56d98fbfdc89441400fdb565 = first
+ 
+  
+------------------  
+   
+  
+QUESTION 56d6f1190d65d21400198274 = Prior to Super Bowl 50, when were the Broncos last there?
+   
+TEXT 56d6f1190d65d21400198274 = The Broncos made their second Super Bowl appearance in three years, having reached Super Bowl XLVIII, while the Panthers made their second Super Bowl appearance in franchise history, their other appearance being Super Bowl XXXVIII.
+   
+ANSWERS 56d6f1190d65d21400198274 = {'super bowl xlviii'}
+   
+SET_PREDICTIONS 56d6f1190d65d21400198274 = ['broncos', 'second', 'super bowl', 'three years', 'super bowl xlviii', 'second', 'super bowl', 'super bowl xxxviii']
+   
+FINAL_PREDICTION 56d6f1190d65d21400198274 = super bowl
+ 
+  
+------------------  
+   
+  
+QUESTION 56d6f1190d65d21400198275 = Prior to Super Bowl 50, when were the Carolina Panthers last there?
+   
+TEXT 56d6f1190d65d21400198275 = The Broncos made their second Super Bowl appearance in three years, having reached Super Bowl XLVIII, while the Panthers made their second Super Bowl appearance in franchise history, their other appearance being Super Bowl XXXVIII.
+   
+ANSWERS 56d6f1190d65d21400198275 = {'super bowl xxxviii'}
+   
+SET_PREDICTIONS 56d6f1190d65d21400198275 = ['broncos', 'second', 'super bowl', 'three years', 'super bowl xlviii', 'second', 'super bowl', 'super bowl xxxviii']
+   
+FINAL_PREDICTION 56d6f1190d65d21400198275 = super bowl
+ 
+  
+------------------  
+   
+  
+QUESTION 56beb3083aeaaa14008c923d = In what year did the NFL switch to a 16-game regular season?
+   
+TEXT 56beb3083aeaaa14008c923d = Despite waiving longtime running back DeAngelo Williams and losing top wide receiver Kelvin Benjamin to a torn ACL in the preseason, the Carolina Panthers had their best regular season in franchise history, becoming the seventh team to win at least 15 regular season games since the league expanded to a 16-game schedule in 1978.
+   
+ANSWERS 56beb3083aeaaa14008c923d = {'1978'}
+   
+SET_PREDICTIONS 56beb3083aeaaa14008c923d = ['deangelo williams', 'kelvin benjamin', 'acl', 'carolina panthers', 'seventh', 'at least 15', '16game', '1978']
+   
+FINAL_PREDICTION 56beb3083aeaaa14008c923d = at least 15
+ 
+  
+------------------  
+   
+  
+QUESTION 56bf2afe3aeaaa14008c9543 = What year did the league begin having schedules with 16 games in them?
+   
+TEXT 56bf2afe3aeaaa14008c9543 = Despite waiving longtime running back DeAngelo Williams and losing top wide receiver Kelvin Benjamin to a torn ACL in the preseason, the Carolina Panthers had their best regular season in franchise history, becoming the seventh team to win at least 15 regular season games since the league expanded to a 16-game schedule in 1978.
+   
+ANSWERS 56bf2afe3aeaaa14008c9543 = {'1978'}
+   
+SET_PREDICTIONS 56bf2afe3aeaaa14008c9543 = ['deangelo williams', 'kelvin benjamin', 'acl', 'carolina panthers', 'seventh', 'at least 15', '16game', '1978']
+   
+FINAL_PREDICTION 56bf2afe3aeaaa14008c9543 = at least 15
+ 
+  
+------------------  
+   
+  
+QUESTION 56bf2afe3aeaaa14008c9544 = What year did the the Saints hit a 13-0 record?
+   
+TEXT 56bf2afe3aeaaa14008c9544 = Carolina started the season 14–0, not only setting franchise records for the best start and the longest single-season winning streak, but also posting the best start to a season by an NFC team in NFL history, breaking the 13–0 record previously shared with the 2009 New Orleans Saints and the 2011 Green Bay Packers.
+   
+ANSWERS 56bf2afe3aeaaa14008c9544 = {'2009'}
+   
+SET_PREDICTIONS 56bf2afe3aeaaa14008c9544 = ['carolina', 'season 14–0', 'season', 'nfc', 'nfl', '13–0', '2009', 'new orleans saints', '2011', 'green bay packers']
+   
+FINAL_PREDICTION 56bf2afe3aeaaa14008c9544 = new orleans saints
+ 
+  
+------------------  
+   
+  
+QUESTION 56bf2afe3aeaaa14008c9545 = When did the Packers arrive at a record of 13-0?
+   
+TEXT 56bf2afe3aeaaa14008c9545 = Carolina started the season 14–0, not only setting franchise records for the best start and the longest single-season winning streak, but also posting the best start to a season by an NFC team in NFL history, breaking the 13–0 record previously shared with the 2009 New Orleans Saints and the 2011 Green Bay Packers.
+   
+ANSWERS 56bf2afe3aeaaa14008c9545 = {'2011'}
+   
+SET_PREDICTIONS 56bf2afe3aeaaa14008c9545 = ['carolina', 'season 14–0', 'season', 'nfc', 'nfl', '13–0', '2009', 'new orleans saints', '2011', 'green bay packers']
+   
+FINAL_PREDICTION 56bf2afe3aeaaa14008c9545 = green bay packers
+ 
+  
+------------------  
+   
+  
+QUESTION 56d6f2000d65d2140019827e = When did the NFL start their 16 game seasons?
+   
+TEXT 56d6f2000d65d2140019827e = Despite waiving longtime running back DeAngelo Williams and losing top wide receiver Kelvin Benjamin to a torn ACL in the preseason, the Carolina Panthers had their best regular season in franchise history, becoming the seventh team to win at least 15 regular season games since the league expanded to a 16-game schedule in 1978.
+   
+ANSWERS 56d6f2000d65d2140019827e = {'1978'}
+   
+SET_PREDICTIONS 56d6f2000d65d2140019827e = ['deangelo williams', 'kelvin benjamin', 'acl', 'carolina panthers', 'seventh', 'at least 15', '16game', '1978']
+   
+FINAL_PREDICTION 56d6f2000d65d2140019827e = at least 15
+ 
+  
+------------------  
+   
+  
+QUESTION 56d9943fdc89441400fdb577 = When did the league go from 15 to 16 games in the regular season?
+   
+TEXT 56d9943fdc89441400fdb577 = Despite waiving longtime running back DeAngelo Williams and losing top wide receiver Kelvin Benjamin to a torn ACL in the preseason, the Carolina Panthers had their best regular season in franchise history, becoming the seventh team to win at least 15 regular season games since the league expanded to a 16-game schedule in 1978.
+   
+ANSWERS 56d9943fdc89441400fdb577 = {'1978'}
+   
+SET_PREDICTIONS 56d9943fdc89441400fdb577 = ['deangelo williams', 'kelvin benjamin', 'acl', 'carolina panthers', 'seventh', 'at least 15', '16game', '1978']
+   
+FINAL_PREDICTION 56d9943fdc89441400fdb577 = at least 15
+ 
+  
+------------------  
+   
+  
+QUESTION 56d6f4030d65d2140019829a = When John Fox left as head coach for the Broncos, who replaced him?
+   
+TEXT 56d6f4030d65d2140019829a = Following their loss in the divisional round of the previous season's playoffs, the Denver Broncos underwent numerous coaching changes, including a mutual parting with head coach John Fox (who had won four divisional championships in his four years as Broncos head coach), and the hiring of Gary Kubiak as the new head coach.
+   
+ANSWERS 56d6f4030d65d2140019829a = {'gary kubiak', 'kubiak'}
+   
+SET_PREDICTIONS 56d6f4030d65d2140019829a = ['previous seasons', 'denver broncos', 'john fox', 'four', 'his four years', 'broncos', 'gary kubiak']
+   
+FINAL_PREDICTION 56d6f4030d65d2140019829a = john fox
+ 
+  
+------------------  
+   
+  
+QUESTION 56beb90c3aeaaa14008c92c7 = When was Manning picked #1 in the NFL Draft?
+   
+TEXT 56beb90c3aeaaa14008c92c7 = Manning was the #1 selection of the 1998 NFL draft, while Newton was picked first in 2011.
+   
+ANSWERS 56beb90c3aeaaa14008c92c7 = {'1998'}
+   
+SET_PREDICTIONS 56beb90c3aeaaa14008c92c7 = ['manning', '1', '1998', 'nfl', 'newton', 'first', '2011']
+   
+FINAL_PREDICTION 56beb90c3aeaaa14008c92c7 = nfl
+ 
+  
+------------------  
+   
+  
+QUESTION 56beb90c3aeaaa14008c92c8 = When was Newton the first selection in the NFL Draft?
+   
+TEXT 56beb90c3aeaaa14008c92c8 = Manning was the #1 selection of the 1998 NFL draft, while Newton was picked first in 2011.
+   
+ANSWERS 56beb90c3aeaaa14008c92c8 = {'2011'}
+   
+SET_PREDICTIONS 56beb90c3aeaaa14008c92c8 = ['manning', '1', '1998', 'nfl', 'newton', 'first', '2011']
+   
+FINAL_PREDICTION 56beb90c3aeaaa14008c92c8 = first
+ 
+  
+------------------  
+   
+  
+QUESTION 56d9a199dc89441400fdb647 = What year did Newton hold the number one draft pick position?
+   
+TEXT 56d9a199dc89441400fdb647 = Manning was the #1 selection of the 1998 NFL draft, while Newton was picked first in 2011.
+   
+ANSWERS 56d9a199dc89441400fdb647 = {'2011'}
+   
+SET_PREDICTIONS 56d9a199dc89441400fdb647 = ['manning', '1', '1998', 'nfl', 'newton', 'first', '2011']
+   
+FINAL_PREDICTION 56d9a199dc89441400fdb647 = first
+ 
+  
+------------------  
+   
+  
+QUESTION 56bebbbf3aeaaa14008c9315 = When did the NFL announce the suspension of using Roman numerals to brand the Super Bowl?
+   
+TEXT 56bebbbf3aeaaa14008c9315 = On June 4, 2014, the NFL announced that the practice of branding Super Bowl games with Roman numerals, a practice established at Super Bowl V, would be temporarily suspended, and that the game would be named using Arabic numerals as Super Bowl 50 as opposed to Super Bowl L. The use of Roman numerals will be reinstated for Super Bowl LI.
+   
+ANSWERS 56bebbbf3aeaaa14008c9315 = {'june 4 2014', '2014', 'on june 4 2014'}
+   
+SET_PREDICTIONS 56bebbbf3aeaaa14008c9315 = ['june 4 2014', 'nfl', 'super bowl', 'roman', 'super bowl v', 'arabic', 'super bowl', '50', 'super bowl', 'roman', 'super bowl li']
+   
+FINAL_PREDICTION 56bebbbf3aeaaa14008c9315 = super bowl v
+ 
+  
+------------------  
+   
+  
+QUESTION 56bf4e1b3aeaaa14008c95bd = In what year was it declared that no Roman numerals would be used in the name of the 50th Super Bowl?
+   
+TEXT 56bf4e1b3aeaaa14008c95bd = On June 4, 2014, the NFL announced that the practice of branding Super Bowl games with Roman numerals, a practice established at Super Bowl V, would be temporarily suspended, and that the game would be named using Arabic numerals as Super Bowl 50 as opposed to Super Bowl L. The use of Roman numerals will be reinstated for Super Bowl LI.
+   
+ANSWERS 56bf4e1b3aeaaa14008c95bd = {'2014'}
+   
+SET_PREDICTIONS 56bf4e1b3aeaaa14008c95bd = ['june 4 2014', 'nfl', 'super bowl', 'roman', 'super bowl v', 'arabic', 'super bowl', '50', 'super bowl', 'roman', 'super bowl li']
+   
+FINAL_PREDICTION 56bf4e1b3aeaaa14008c95bd = super bowl li
+ 
+  
+------------------  
+   
+  
+QUESTION 56d70daa0d65d21400198332 = When did the NFL announce that it would not use Roman numbers to designate the Super Bowl number?
+   
+TEXT 56d70daa0d65d21400198332 = On June 4, 2014, the NFL announced that the practice of branding Super Bowl games with Roman numerals, a practice established at Super Bowl V, would be temporarily suspended, and that the game would be named using Arabic numerals as Super Bowl 50 as opposed to Super Bowl L. The use of Roman numerals will be reinstated for Super Bowl LI.
+   
+ANSWERS 56d70daa0d65d21400198332 = {'june 4 2014', '2014', 'on june 4 2014'}
+   
+SET_PREDICTIONS 56d70daa0d65d21400198332 = ['june 4 2014', 'nfl', 'super bowl', 'roman', 'super bowl v', 'arabic', 'super bowl', '50', 'super bowl', 'roman', 'super bowl li']
+   
+FINAL_PREDICTION 56d70daa0d65d21400198332 = super bowl li
+ 
+  
+------------------  
+   
+  
+QUESTION 56d70daa0d65d21400198336 = When will Roman numerals be used again to denote the Super Bowl number?
+   
+TEXT 56d70daa0d65d21400198336 = On June 4, 2014, the NFL announced that the practice of branding Super Bowl games with Roman numerals, a practice established at Super Bowl V, would be temporarily suspended, and that the game would be named using Arabic numerals as Super Bowl 50 as opposed to Super Bowl L. The use of Roman numerals will be reinstated for Super Bowl LI.
+   
+ANSWERS 56d70daa0d65d21400198336 = {'super bowl li'}
+   
+SET_PREDICTIONS 56d70daa0d65d21400198336 = ['june 4 2014', 'nfl', 'super bowl', 'roman', 'super bowl v', 'arabic', 'super bowl', '50', 'super bowl', 'roman', 'super bowl li']
+   
+FINAL_PREDICTION 56d70daa0d65d21400198336 = super bowl v
+ 
+  
+------------------  
+   
+  
+QUESTION 56bebc383aeaaa14008c9320 = When did sideline jackets and hats start to feature gold-trimmed logos?
+   
+TEXT 56bebc383aeaaa14008c9320 = Various gold-themed promotions and initiatives were held throughout the 2015 NFL season to tie into the "Golden Super Bowl"; gold-tinted logos were implemented across the NFL's properties and painted on fields, the numbering of the 50-yard line on fields was colored gold, and beginning on week 7, all sideline jackets and hats featured gold-trimmed logos.
+   
+ANSWERS 56bebc383aeaaa14008c9320 = {'week 7', '2015'}
+   
+SET_PREDICTIONS 56bebc383aeaaa14008c9320 = ['2015', 'nfl', 'season', 'golden super bowl', 'nfl', '50yard', 'week 7']
+   
+FINAL_PREDICTION 56bebc383aeaaa14008c9320 = golden super bowl
+ 
+  
+------------------  
+   
+  
+QUESTION 56bebcbe3aeaaa14008c9329 = When was the opening of "Super Bowl City"?
+   
+TEXT 56bebcbe3aeaaa14008c9329 = In addition, "Super Bowl City" opened on January 30 at Justin Herman Plaza on The Embarcadero, featuring games and activities that will highlight the Bay Area's technology, culinary creations, and cultural diversity.
+   
+ANSWERS 56bebcbe3aeaaa14008c9329 = {'january 30'}
+   
+SET_PREDICTIONS 56bebcbe3aeaaa14008c9329 = ['super bowl city', 'january 30', 'justin herman plaza', 'embarcadero', 'bay areas']
+   
+FINAL_PREDICTION 56bebcbe3aeaaa14008c9329 = super bowl city
+ 
+  
+------------------  
+   
+  
+QUESTION 56d71bd80d65d2140019835e = When is the game's media day usually held?
+   
+TEXT 56d71bd80d65d2140019835e = The game's media day, which was typically held on the Tuesday afternoon prior to the game, was moved to the Monday evening and re-branded as Super Bowl Opening Night.
+   
+ANSWERS 56d71bd80d65d2140019835e = {'tuesday', 'tuesday afternoon prior to game'}
+   
+SET_PREDICTIONS 56d71bd80d65d2140019835e = ['tuesday', 'afternoon', 'monday', 'evening', 'super bowl opening night']
+   
+FINAL_PREDICTION 56d71bd80d65d2140019835e = super bowl opening night
+ 
+  
+------------------  
+   
+  

@@ -42,19 +42,26 @@ class Score:
             self.dict_resultats[type_question]['inverted_size'] = 0.0 # le ratio : taille de l'ensemble de prédictions / la taille du parragraphe
             self.dict_resultats[type_question]['nb_preds'] = 0.0  # le nombre total de prédiction
             self.dict_resultats[type_question]['nb_preds_differentes'] = 0.0  # le nombre total de prédiction differentes
-        if len(list_predictions) == 0:
-            return
 
-        ground_truths = list(map(lambda x: normalize_answer(x['text']), list_answers))
+        ground_truths = list(map(lambda x: x['text'], list_answers))
         list_prediction_in_ans = list(map(lambda x: prediction in x, ground_truths))
-        list_ans_in_predictions = list(map(lambda x: max(list(map(lambda y: x in y, list_predictions))), ground_truths))
-        list_predictions_in_ans = list(map(lambda x: max(list(map(lambda y: x in y, ground_truths))), list_predictions))
+
+
+        try:
+            list_ans_in_predictions = list(map(lambda x: max(list(map(lambda y: x in y, list_predictions))), ground_truths))
+            list_predictions_in_ans = list(map(lambda x: max(list(map(lambda y: x in y, ground_truths))), list_predictions))
+        except:
+            list_ans_in_predictions = [0]
+            list_predictions_in_ans = [0]
         concatenation_predictions = ' '.join(list_predictions)
+        #
+        # if len(list_predictions) == 0:
+        #     return
 
         self.dict_resultats[type_question]['exact_match'] += metric_max_over_ground_truths(exact_match_score, prediction, ground_truths)
         self.dict_resultats[type_question]['f1'] += metric_max_over_ground_truths(f1_score, prediction, ground_truths)
         self.dict_resultats[type_question]['pred_in_ans'] += max(list_prediction_in_ans)
-        self.dict_resultats[type_question]['loss'] += 1 - max(list_ans_in_predictions)
+        self.dict_resultats[type_question]['loss'] += get_loss(ground_truths, list_predictions)
         self.dict_resultats[type_question]['one_of_pred_in_one_of_ans'] += max(list_predictions_in_ans)
         self.dict_resultats[type_question]['inverted_size'] += len(concatenation_predictions) / float(len_paragraph)
         self.dict_resultats[type_question]['nb_preds'] += len(list_predictions)
@@ -73,7 +80,8 @@ class Score:
 
     def get_average_score_for_type(self, type_question):
         freq = self.dict_resultats[type_question]['frequence']
-        list_results = [freq] + list(map(lambda key: 100.0 * self.dict_resultats[type_question][key] / freq, Score.list_keys[1:7])) + list(map(lambda key: self.dict_resultats[type_question][key] / freq, Score.list_keys[7:]))
+        # list_results = [freq] + list(map(lambda key: 100.0 * self.dict_resultats[type_question][key] / freq, Score.list_keys[1:7])) + list(map(lambda key: self.dict_resultats[type_question][key] / freq, Score.list_keys[7:]))
+        list_results = [freq] + list(map(lambda key: self.dict_resultats[type_question][key], Score.list_keys[1:7])) + list(map(lambda key: self.dict_resultats[type_question][key] / freq, Score.list_keys[7:]))
         return list_results
 
 def get_loss(list_answers, list_predictions):
@@ -82,7 +90,7 @@ def get_loss(list_answers, list_predictions):
     :param self:
     :return:
     '''
-    if not len(list_predictions) :
+    if not len(list_predictions):
         return 1
     ground_truths = list(map(lambda x: normalize_answer(x), list_answers))
     list_ans_in_predictions = list(map(lambda x: max(list(map(lambda y: x in y, list_predictions))), ground_truths))
