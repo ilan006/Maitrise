@@ -5,13 +5,15 @@ import spacy
 nlp_spacy = spacy.load('en_core_web_sm')
 nlp_spacy.entity.set_annotations
 
-# from interesting_entities import *
+from interesting_entities import *
 from segtok.segmenter import split_single
 
 from flair.models import SequenceTagger
 from flair.data import Sentence
 tagger = SequenceTagger.load('ner-ontonotes')
 tagger_pos = SequenceTagger.load('pos')
+
+from nltk import ngrams , word_tokenize
 
 from utils import *
 
@@ -22,10 +24,10 @@ from random import randint
 class Function_prediction:
 #
     available_methods = ['first', 'embeding', 'random','Qembeding']
-    available_models = ['ner_PRG_spacy', 'ner_SENT_spacy','ner_PRG_flair', 'ner_SENT_flair','all_ner_PRG_spacy', ]
+    available_models = ['ner_PRG_spacy', 'ner_SENT_spacy','ner_PRG_flair', 'ner_SENT_flair','all_ner_PRG_spacy', 'ngram' ]
     list_type_question_interesting = ['Where?', 'How much / many?', 'What name / is called?', 'Who?', 'When / What year?']
 
-    def __init__(self, type_method: str, model : str):
+    def __init__(self, type_method: str, model : str ,param_ngram = 1 ):
         try:
             type_method in Function_prediction.available_methods
             model in Function_prediction.available_models
@@ -37,29 +39,10 @@ class Function_prediction:
         self._list_predictions_function = None
         self.model_description = None
         self._interesting_entities_method = None
+        self.param_ngram = param_ngram
         self.model = model
         self.assign_funct_predict()
         self.assign_model_predict()
-
-
-    def interesting_entities(type_question):
-        interisting_entities_list = ()
-        if type_question == 'Where?':
-            interisting_entities_list = ("GPE", "LOC", "FAC", "ORG")
-        elif type_question == 'How much / many?':
-            interisting_entities_list = ("MONEY", "QUANTITY", "PERCENT", "CARDINAL", "TIME", "DATE", "ORDINAL")
-        elif type_question == 'What name / is called?':
-            interisting_entities_list = (
-            "PERSON", "ORG", "GPE", "LOC", "PRODUCT", "EVENT", "WORK_OF_ART", "LAW", "LANGUAGE", 'FAC')
-        elif type_question == 'Who?':
-            interisting_entities_list = ("PERSON", "ORG", "NORP", "GPE", "PRODUCT")
-        elif type_question == 'When / What year?':
-            interisting_entities_list = ("TIME", "DATE", "EVENT")
-        else:
-            interisting_entities_list = ("PERSON","NORP","FAC","ORG","GPE","LOC","PRODUCT",
-                                         "EVENT","WORK_OF_ART","LAW","LANGUAGE","DATE","TIME","PERCENT",
-                                         "MONEY","QUANTITY","ORDINAL","CARDINAL")
-        return interisting_entities_list
 
 
     def reduce_Question(question):
@@ -83,10 +66,7 @@ class Function_prediction:
         fonction qui va retourner le premier élément de la liste de prédiction
         @:param list_predictions :liste des prediction possible
         '''
-        if len(list_predictions) == 0:
-            return ''
-        else:
-            return list_predictions[0]
+        return list_predictions[0]
 
 
     def get_random(list_predictions, *args):
@@ -94,28 +74,22 @@ class Function_prediction:
         fonction qui va retourner aléatoirement une des prediction
         @:param list_predictions :liste des prediction possible
         '''
-        if len(list_predictions) == 0:
-            return ''
-        else:
-            random_rank = randint(0,len(list_predictions)-1)
-            return list_predictions[random_rank]
+        random_rank = randint(0,len(list_predictions)-1)
+        return list_predictions[random_rank]
 
     def get_embeding(list_predictions, question_str):
         '''
         fonction qui va retourner la prédiction la plus proche en fonction des embeding
         @:param list_predictions :liste des prediction possible
         '''
-        if len(list_predictions) == 0:
-            return ''
-        else:
-            question_embeding = get_fastText_embeding(question_str)
-            list_embedings_ent = list(map(lambda x: get_fastText_embeding(x), list_predictions))
+        question_embeding = get_fastText_embeding(question_str)
+        list_embedings_ent = list(map(lambda x: get_fastText_embeding(x), list_predictions))
 
-            # question_embeding = avg_sentence_vector(question_str, model_fastText, with_steming=False)
-            # list_embedings_ent = list(map(lambda x: avg_sentence_vector(x, model_fastText, with_steming = False), list_predictions))
-            list_cosine_embeding_question_ent = list(map(lambda x: abs(cosine_similarity(x,question_embeding )), list_embedings_ent))
-            rank_of_prediction = np.argmax(list_cosine_embeding_question_ent)
-            return list_predictions[rank_of_prediction]
+        # question_embeding = avg_sentence_vector(question_str, model_fastText, with_steming=False)
+        # list_embedings_ent = list(map(lambda x: avg_sentence_vector(x, model_fastText, with_steming = False), list_predictions))
+        list_cosine_embeding_question_ent = list(map(lambda x: abs(cosine_similarity(x,question_embeding )), list_embedings_ent))
+        rank_of_prediction = np.argmax(list_cosine_embeding_question_ent)
+        return list_predictions[rank_of_prediction]
 
     def assign_funct_predict(self):
         '''
@@ -137,8 +111,6 @@ class Function_prediction:
         '''
         return self._description
 
-
-
     def get_type_method(self):
         '''
         :return: le type textuelle de la methode utilisée
@@ -151,8 +123,10 @@ class Function_prediction:
         '''
         return self._predict_function
 
-    def predict(self,list_predictions,question_str):
-        return self._predict_function(list_predictions,question_str)
+    def predict(self, list_predictions, question_str):
+        if not list_predictions:
+            return ''
+        return self._predict_function(list_predictions, question_str)
 
     def interesting_questions(type_question):
         return type_question in Function_prediction.list_type_question_interesting
@@ -201,11 +175,31 @@ class Function_prediction:
             self.model_description = 'Prédictions realisées sur l\'ensemble du text avec spacy.'
         elif self.model == 'all_ner_PRG_spacy':
             self._list_predictions_function = Function_prediction.model_all_ner_PRG_spacy
-            self._interesting_entities_method = Function_prediction.interesting_questions
+            self._interesting_entities_method = Function_prediction.all_questions
             self.model_description = 'Prédictions realisées sur l\'ensemble du text avec spacy.'
+        elif self.model == 'ngram':
+            self._list_predictions_function = self.n_gram
+            self._interesting_entities_method = Function_prediction.all_questions
+            self.model = str(self.param_ngram)+'-gram'
+            self.model_description = 'On a recupéré les ' + self.model + ' ou inferieur sur l\'ensemble du text'
+
 
     def get_list_predictions(self,paragraph , type_question = None):
         return self._list_predictions_function(paragraph,type_question)
+
+    def n_gram(self,text,*args):
+        '''
+        fonction qui va retourner l'ensemble des ngrams inferieur au paramètre entrer
+        :return:
+        '''
+        text_tokenize = word_tokenize(text)
+        list_ngrams = []
+        ngrams_all = list(map(lambda n: ngrams(text_tokenize, n), range(1, self.param_ngram+1)))
+        for grams in ngrams_all:
+            list_ngrams += list(set(map(lambda x: ' '.join(x), grams)))#####################retire normalisation
+        list_ngrams = list(filter(None, list_ngrams))
+        return list_ngrams
+
 
     def model_all_ner_PRG_spacy(paragraph , type_question):
         '''
@@ -216,16 +210,16 @@ class Function_prediction:
         nlp_paragraph = nlp_spacy(paragraph)
         list_predictions_data = []
         for entity in nlp_paragraph.ents:
-            if entity.label_ in Function_prediction.interesting_entities(type_question) and len(normalize_answer(entity.text)):
-                list_predictions_data.append(normalize_answer(entity.text))
+            if entity.label_ in interesting_entities('all') and len(normalize_answer(entity.text)):
+                list_predictions_data.append(entity.text)
         return list_predictions_data
 
     def model_ner_PRG_spacy(paragraph , type_question):
         nlp_paragraph = nlp_spacy(paragraph)
         list_predictions_data = []
         for entity in nlp_paragraph.ents:
-            if entity.label_ in Function_prediction.interesting_entities(type_question) and len(normalize_answer(entity.text)):
-                list_predictions_data.append(normalize_answer(entity.text))
+            if entity.label_ in interesting_entities(type_question) and len(normalize_answer(entity.text)):
+                list_predictions_data.append(entity.text)
         return list_predictions_data
 
     def model_ner_SENT_spacy(paragraph , type_question):
@@ -233,8 +227,8 @@ class Function_prediction:
         list_predictions_data = []
         for sentence in sentences:
             for entity in sentence.ents:
-                if entity.label_ in Function_prediction.interesting_entities(type_question) and len(normalize_answer(entity.text)):
-                    list_predictions_data.append(normalize_answer(entity.text))
+                if entity.label_ in interesting_entities(type_question) and len(normalize_answer(entity.text)):
+                    list_predictions_data.append(entity.text)
         return list_predictions_data
 
     def model_ner_PRG_flair(paragraph , type_question):
@@ -242,8 +236,8 @@ class Function_prediction:
         tagger.predict(sentence)
         list_predictions_data = []
         for entity in sentence.get_spans('ner'):
-            if entity.tag in Function_prediction.interesting_entities(type_question) and len(normalize_answer(entity.text)):
-                list_predictions_data.append(normalize_answer(entity.text))
+            if entity.tag in interesting_entities(type_question) and len(normalize_answer(entity.text)):
+                list_predictions_data.append(entity.text)
         return list_predictions_data
 
     def model_ner_SENT_flair(paragraph , type_question):
@@ -252,8 +246,8 @@ class Function_prediction:
         list_predictions_data = []
         for sentence in sentences:
             for entity in sentence.get_spans('ner'):
-                if entity.tag in Function_prediction.interesting_entities(type_question) and len(normalize_answer(entity.text)):
-                    list_predictions_data.append(normalize_answer(entity.text))
+                if entity.tag in interesting_entities(type_question) and len(normalize_answer(entity.text)):
+                    list_predictions_data.append(entity.text)
         return list_predictions_data
 
     def model_NP_PRG_spacy(paragraph , *args):

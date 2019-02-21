@@ -1,3 +1,0 @@
-
-Traces réalisés avec un model prennant l'ensemble des NER du paragraphe et qui retourne
- le NER le plus proche (cosine) de l'ensemble de la question.

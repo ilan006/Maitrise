@@ -43,8 +43,8 @@ class Score:
             self.dict_resultats[type_question]['nb_preds'] = 0.0  # le nombre total de prédiction
             self.dict_resultats[type_question]['nb_preds_differentes'] = 0.0  # le nombre total de prédiction differentes
 
-        ground_truths = list(map(lambda x: x['text'], list_answers))
-        list_prediction_in_ans = list(map(lambda x: prediction in x, ground_truths))
+        ground_truths = list(map(lambda x:normalize_answer( x['text']), list_answers))
+        list_prediction_in_ans = list(map(lambda x: normalize_answer(prediction) in x, ground_truths))
 
 
         try:
@@ -81,7 +81,7 @@ class Score:
     def get_average_score_for_type(self, type_question):
         freq = self.dict_resultats[type_question]['frequence']
         # list_results = [freq] + list(map(lambda key: 100.0 * self.dict_resultats[type_question][key] / freq, Score.list_keys[1:7])) + list(map(lambda key: self.dict_resultats[type_question][key] / freq, Score.list_keys[7:]))
-        list_results = [freq] + list(map(lambda key: self.dict_resultats[type_question][key], Score.list_keys[1:7])) + list(map(lambda key: self.dict_resultats[type_question][key] / freq, Score.list_keys[7:]))
+        list_results = [freq] + list(map(lambda key: 100.0 * self.dict_resultats[type_question][key] / freq, Score.list_keys[1:7])) + list(map(lambda key: self.dict_resultats[type_question][key] / freq, Score.list_keys[7:]))
         return list_results
 
 def get_loss(list_answers, list_predictions):
