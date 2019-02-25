@@ -54,9 +54,7 @@ class Score:
             list_ans_in_predictions = [0]
             list_predictions_in_ans = [0]
         concatenation_predictions = ' '.join(list_predictions)
-        #
-        # if len(list_predictions) == 0:
-        #     return
+
 
         self.dict_resultats[type_question]['exact_match'] += metric_max_over_ground_truths(exact_match_score, prediction, ground_truths)
         self.dict_resultats[type_question]['f1'] += metric_max_over_ground_truths(f1_score, prediction, ground_truths)
@@ -93,5 +91,6 @@ def get_loss(list_answers, list_predictions):
     if not len(list_predictions):
         return 1
     ground_truths = list(map(lambda x: normalize_answer(x), list_answers))
-    list_ans_in_predictions = list(map(lambda x: max(list(map(lambda y: x in y, list_predictions))), ground_truths))
+    list_predictions_normalize = list(map(lambda x: normalize_answer(x), list_predictions))
+    list_ans_in_predictions = list(map(lambda x: max(list(map(lambda y: x in y, list_predictions_normalize))), ground_truths))
     return 1 - max(list_ans_in_predictions)

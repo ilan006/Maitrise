@@ -44,53 +44,6 @@ class Function_prediction:
         self.assign_funct_predict()
         self.assign_model_predict()
 
-
-    def reduce_Question(question):
-        '''
-        fonction qui va reduire la fonction au éléments les plus important l'aide de PoS
-        :param question: la question (string)
-        :return: les mots important de la question
-        '''
-        sentence = Sentence(normalize_answer(question))
-        # predict NER tags
-        tagger_pos.predict(sentence)
-        rest_of_question = ''
-        for entity in sentence.get_spans('pos'):
-            if entity.tag in ['.', 'WRB', 'WP', 'WDT', 'WP$']:
-                continue
-            rest_of_question += entity.text + ' '
-        return rest_of_question
-
-    def get_first(list_predictions, *args):
-        '''
-        fonction qui va retourner le premier élément de la liste de prédiction
-        @:param list_predictions :liste des prediction possible
-        '''
-        return list_predictions[0]
-
-
-    def get_random(list_predictions, *args):
-        '''
-        fonction qui va retourner aléatoirement une des prediction
-        @:param list_predictions :liste des prediction possible
-        '''
-        random_rank = randint(0,len(list_predictions)-1)
-        return list_predictions[random_rank]
-
-    def get_embeding(list_predictions, question_str):
-        '''
-        fonction qui va retourner la prédiction la plus proche en fonction des embeding
-        @:param list_predictions :liste des prediction possible
-        '''
-        question_embeding = get_fastText_embeding(question_str)
-        list_embedings_ent = list(map(lambda x: get_fastText_embeding(x), list_predictions))
-
-        # question_embeding = avg_sentence_vector(question_str, model_fastText, with_steming=False)
-        # list_embedings_ent = list(map(lambda x: avg_sentence_vector(x, model_fastText, with_steming = False), list_predictions))
-        list_cosine_embeding_question_ent = list(map(lambda x: abs(cosine_similarity(x,question_embeding )), list_embedings_ent))
-        rank_of_prediction = np.argmax(list_cosine_embeding_question_ent)
-        return list_predictions[rank_of_prediction]
-
     def assign_funct_predict(self):
         '''
         Function qui va assigner la methode utiliser et sa description
@@ -105,6 +58,7 @@ class Function_prediction:
             self._predict_function = Function_prediction.get_embeding
             self._description = 'On retourne la prediction la plus proche de la question (embeding cosine).'
         self._description += 'On s\'interesse ici juste à la phrase contenant la première réponse.'
+
     def get_description(self):
         '''
         :return: la description textuelle de la methode utilisée
@@ -117,16 +71,53 @@ class Function_prediction:
         '''
         return self.type_method
 
-    def get_function(self):
-        '''
-        :return: la function utilisée
-        '''
-        return self._predict_function
+    # def get_function(self):
+    #     '''
+    #     :return: la function utilisée
+    #     '''
+    #     return self._predict_function
 
-    def predict(self, list_predictions, question_str):
-        if not list_predictions:
+############## Determination du rang séléctionner
+    def get_first(*args):
+        '''
+        fonction qui va retourner 0 (le premier élément d'une liste)
+        '''
+        return 0
+
+
+    def get_random(list_predictions, *args):
+        '''
+        fonction qui va retourner aléatoirement une des prediction
+        @:param list_predictions :liste des prediction possible
+        '''
+        return randint(0,len(list_predictions)-1)
+
+    def get_embeding(list_predictions, question_str):
+        '''
+        fonction qui va retourner la prédiction la plus proche en fonction des embeding
+        @:param list_predictions :liste des prediction possible
+        '''
+        question_embeding = get_fastText_embeding(question_str)
+        list_embedings_ent = list(map(lambda x: get_fastText_embeding(x), list_predictions))
+
+        # question_embeding = avg_sentence_vector(question_str, model_fastText, with_steming=False)
+        # list_embedings_ent = list(map(lambda x: avg_sentence_vector(x, model_fastText, with_steming = False), list_predictions))
+        list_cosine_embeding_question_ent = list(map(lambda x: abs(cosine_similarity(x,question_embeding )), list_embedings_ent))
+        rank_of_prediction = np.argmax(list_cosine_embeding_question_ent)
+        return rank_of_prediction
+################
+
+
+    def predict(self, list_predictions, question_str, bool_normalise=True):
+        list_predictions_copy = list_predictions.copy()
+        question_str_copy = question_str
+        if not list_predictions_copy:
             return ''
-        return self._predict_function(list_predictions, question_str)
+        elif bool_normalise:
+            list_predictions_copy = list(map(lambda elem : normalize_answer(elem), list_predictions_copy))
+            question_str_copy = normalize_answer(question_str_copy)
+        rank_predict = self._predict_function(list_predictions_copy, question_str_copy)
+        return list_predictions[rank_predict]
 
     def interesting_questions(type_question):
         return type_question in Function_prediction.list_type_question_interesting
@@ -267,3 +258,5 @@ class Function_prediction:
         ner_list = Function_prediction.model_ner_PRG_spacy(paragraph, type_question)
         noun_phrase_list = Function_prediction.model_NP_PRG_spacy(paragraph)
         return ner_list + noun_phrase_list
+
+
